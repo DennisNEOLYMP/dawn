@@ -61,7 +61,7 @@
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping & Returns",
+            "heading": "Versand & Retoure",
             "icon": "truck",
             "content": "",
             "page": ""
@@ -69,6 +69,7 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
@@ -78,6 +79,7 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
@@ -97,6 +99,12 @@
             "text": "Text block",
             "text_style": "body"
           }
+        },
+        "b8b2f2f3-4250-42ee-8919-ea880d24b4e3": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if localization.country.iso_code == 'AT' %}\n  \/\/ show custom content only meant for France\n{% else %}\n  show generic content\n{% endif %}"
+          }
         }
       },
       "block_order": [
@@ -113,7 +121,8 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
-        "42a7ba06-f8d2-4fb5-bb10-481123a35dbf"
+        "42a7ba06-f8d2-4fb5-bb10-481123a35dbf",
+        "b8b2f2f3-4250-42ee-8919-ea880d24b4e3"
       ],
       "settings": {
         "enable_sticky_info": true,

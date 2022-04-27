@@ -119,10 +119,11 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo_width": 90,
+          "logo": "shopify:\/\/shop_images\/logo_black.png",
+          "logo_width": 120,
           "logo_position": "middle-left",
-          "menu": "main-menu",
-          "menu_type_desktop": "dropdown",
+          "menu": "main-menu-1",
+          "menu_type_desktop": "mega",
           "show_line_separator": true,
           "enable_sticky_header": true,
           "margin_bottom": 0
@@ -138,11 +139,11 @@
               "menu": "produkte"
             }
           },
-          "footer-1": {
+          "209f8172-5075-43fb-bda4-26a3aca5ef16": {
             "type": "link_list",
             "settings": {
-              "heading": "Info",
-              "menu": "footer"
+              "heading": "NEOLYMP",
+              "menu": "company"
             }
           },
           "footer-2": {
@@ -151,28 +152,20 @@
               "heading": "Our mission",
               "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
             }
-          },
-          "209f8172-5075-43fb-bda4-26a3aca5ef16": {
-            "type": "link_list",
-            "settings": {
-              "heading": "NEOLYMP",
-              "menu": "company"
-            }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1",
-          "footer-2",
-          "209f8172-5075-43fb-bda4-26a3aca5ef16"
+          "209f8172-5075-43fb-bda4-26a3aca5ef16",
+          "footer-2"
         ],
         "settings": {
-          "color_scheme": "background-1",
-          "newsletter_enable": true,
+          "color_scheme": "accent-2",
+          "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
-          "enable_country_selector": false,
-          "enable_language_selector": false,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
           "payment_enable": true,
           "margin_top": 48,
           "padding_top": 36,
