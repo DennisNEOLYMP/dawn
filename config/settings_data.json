@@ -15,7 +15,7 @@
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
     "body_scale": 100,
-    "page_width": 1200,
+    "page_width": 1600,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
@@ -134,8 +134,8 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
+              "heading": "Kategorien",
+              "menu": "produkte"
             }
           },
           "footer-1": {
@@ -151,12 +151,20 @@
               "heading": "Our mission",
               "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
             }
+          },
+          "209f8172-5075-43fb-bda4-26a3aca5ef16": {
+            "type": "link_list",
+            "settings": {
+              "heading": "NEOLYMP",
+              "menu": "company"
+            }
           }
         },
         "block_order": [
           "footer-0",
           "footer-1",
-          "footer-2"
+          "footer-2",
+          "209f8172-5075-43fb-bda4-26a3aca5ef16"
         ],
         "settings": {
           "color_scheme": "background-1",
