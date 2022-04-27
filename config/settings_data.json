@@ -139,6 +139,13 @@
               "menu": "produkte"
             }
           },
+          "d22c7417-2b64-4abe-be3c-c25b67384374": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Allgemein",
+              "menu": "allgemeines"
+            }
+          },
           "209f8172-5075-43fb-bda4-26a3aca5ef16": {
             "type": "link_list",
             "settings": {
@@ -148,6 +155,7 @@
           },
           "footer-2": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "heading": "Our mission",
               "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
@@ -156,6 +164,7 @@
         },
         "block_order": [
           "footer-0",
+          "d22c7417-2b64-4abe-be3c-c25b67384374",
           "209f8172-5075-43fb-bda4-26a3aca5ef16",
           "footer-2"
         ],
