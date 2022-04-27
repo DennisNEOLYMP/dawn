@@ -107,6 +107,11 @@
           "settings": {
             "custom_liquid": "{% if localization.country.iso_code == 'AT' %}\n  \/\/ show custom content only meant for France\n{% else %}\n  show generic content\n{% endif %}"
           }
+        },
+        "fb4bafc5-491c-411c-b24b-77d4d9c5db0c": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -124,12 +129,13 @@
         "collapsible-row-3",
         "share",
         "42a7ba06-f8d2-4fb5-bb10-481123a35dbf",
-        "b8b2f2f3-4250-42ee-8919-ea880d24b4e3"
+        "b8b2f2f3-4250-42ee-8919-ea880d24b4e3",
+        "fb4bafc5-491c-411c-b24b-77d4d9c5db0c"
       ],
       "settings": {
         "enable_sticky_info": true,
         "gallery_layout": "thumbnail",
-        "media_size": "large",
+        "media_size": "medium",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
@@ -174,6 +180,7 @@
     },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
@@ -231,12 +238,19 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "165106745065955252": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "image-with-text",
     "multicolumn",
-    "product-recommendations"
+    "product-recommendations",
+    "165106745065955252"
   ]
 }
