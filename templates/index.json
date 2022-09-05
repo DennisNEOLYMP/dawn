@@ -1,5 +1,78 @@
 {
   "sections": {
+    "16623810170907d825": {
+      "type": "slideshow",
+      "blocks": {
+        "166238101711f642f7-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NLMP_fruehling_Spring_Header_Desktop_No_logo_5360469d-1129-422e-b0e2-85fc7455a30e.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "Wir haben das richtige Zubehör für dein Workout.",
+            "button_label": "Zubehör entdecken",
+            "link": "shopify:\/\/collections\/zubehor",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "166238101711f642f7-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_desk.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "Fitnessgeräte für jeden Zweck. Egal ob Muskelaufbau, Ausdauer oder Abnehmen",
+            "button_label": "Sportgeräte entdecken",
+            "link": "shopify:\/\/collections\/sportgeraete",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "c1770566-16af-4b3c-943f-28e41dc6cca1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marcel_31.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "Unsere Lieblinge - die Fitnessbänder aus Gewebe. Lass dich von der Qualität überzeugen",
+            "button_label": "Fitnessbänder entdecken",
+            "link": "shopify:\/\/collections\/fitnessbander",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "166238101711f642f7-0",
+        "166238101711f642f7-1",
+        "c1770566-16af-4b3c-943f-28e41dc6cca1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -35,6 +108,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/NLMP_fruehling_Spring_Header_Desktop_No_logo.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -223,6 +297,7 @@
     }
   },
   "order": [
+    "16623810170907d825",
     "image_banner",
     "rich_text",
     "featured_collection",
