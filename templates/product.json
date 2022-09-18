@@ -112,6 +112,28 @@
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
+        },
+        "b2f441de-0bb3-4ffc-8be3-534b33f54ef9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.sonderinfo_name.value }}",
+            "icon": "check_mark",
+            "content": "<p>{{ product.metafields.custom.sonderinfo_inhalt.value }}<\/p>",
+            "page": ""
+          }
+        },
+        "9800607d-62c2-46df-aef5-dca4f4ed5993": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Passt gut zusammen",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
         }
       },
       "block_order": [
@@ -130,11 +152,14 @@
         "share",
         "42a7ba06-f8d2-4fb5-bb10-481123a35dbf",
         "b8b2f2f3-4250-42ee-8919-ea880d24b4e3",
-        "fb4bafc5-491c-411c-b24b-77d4d9c5db0c"
+        "fb4bafc5-491c-411c-b24b-77d4d9c5db0c",
+        "b2f441de-0bb3-4ffc-8be3-534b33f54ef9",
+        "9800607d-62c2-46df-aef5-dca4f4ed5993"
       ],
       "settings": {
         "enable_sticky_info": true,
-        "gallery_layout": "thumbnail",
+        "media_position": "left",
+        "gallery_layout": "stacked",
         "media_size": "medium",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
@@ -225,7 +250,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
+        "heading": "Das gefiel auch anderen Kunden",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
