@@ -312,8 +312,9 @@
         "1662381692af8f6d27-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Galileo_Logo.png",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -321,8 +322,9 @@
         "1662381692af8f6d27-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/womens_health_logo_b3f44c2f-b2ff-49cc-a2d0-dd25a754f98d.png",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -330,8 +332,9 @@
         "dbdf802c-558c-4c43-9e7c-5de98927af24": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/sport_bild_logo_0780e85f-a2cc-4750-815c-e351afc587b4.png",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -339,8 +342,9 @@
         "6f7041bc-fbca-4d0c-8af2-c0b03b6bb1bd": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/mens_health_logo_97c4b37d-1e4a-4fb5-8c11-d9de3479cc87.png",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -348,8 +352,9 @@
         "cb9814f1-08a6-49c4-bfeb-fc095106539a": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/rtl_de_9c2c3a88-3663-43b5-807c-24098e4a6fba.png",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
