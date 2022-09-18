@@ -162,6 +162,57 @@
         "padding_bottom": 36
       }
     },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Unsere Bestseller",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "featured",
+        "products_to_show": 6,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "166351848069a237b6": {
+      "type": "apps",
+      "blocks": {
+        "6b79c473-140d-4599-b51d-95bcab60f7de": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        },
+        "eac7f170-e6cc-4727-b11f-67c73f82e4b3": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/all_reviews_page\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "extra_wrapper_classes": "page-width page-width--narrow"
+          }
+        }
+      },
+      "block_order": [
+        "6b79c473-140d-4599-b51d-95bcab60f7de",
+        "eac7f170-e6cc-4727-b11f-67c73f82e4b3"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -192,30 +243,17 @@
         "padding_bottom": 0
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "video": {
+      "type": "video",
       "settings": {
-        "title": "Unsere Bestseller",
+        "heading": "",
         "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "featured",
-        "products_to_show": 6,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "cover_image": "shopify:\/\/shop_images\/header_desktop2.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=sxNesY3BIEo",
+        "description": "Markenvideo NEOLYMP",
+        "full_width": true,
         "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": true,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 28,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -225,20 +263,20 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "spar-set"
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "akupressurmatte",
             "second_image": false
           }
         },
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "b-ware"
           }
         }
       },
@@ -305,20 +343,6 @@
         "show_text_below": false
       }
     },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "cover_image": "shopify:\/\/shop_images\/header_desktop2.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=sxNesY3BIEo",
-        "description": "Markenvideo NEOLYMP",
-        "full_width": true,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -371,30 +395,17 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "1657797248182ebcb0": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "16623810170907d825",
     "1662381693659ef961",
-    "rich_text",
     "featured_collection",
+    "166351848069a237b6",
+    "rich_text",
+    "video",
     "collage",
     "image_banner",
-    "video",
-    "multicolumn",
-    "1657797248182ebcb0"
+    "multicolumn"
   ]
 }
