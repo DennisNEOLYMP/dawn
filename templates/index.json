@@ -67,10 +67,99 @@
         "layout": "full_bleed",
         "slide_height": "adapt_image",
         "slider_visual": "dots",
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "show_text_below": true,
         "accessibility_info": "Unsere Kategorien"
+      }
+    },
+    "1662381693659ef961": {
+      "type": "multicolumn",
+      "blocks": {
+        "1662381692af8f6d27-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tagesspiegel-Logo_c8fe55f2-a3c7-4402-9010-38eb81dd1c51.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1662381692af8f6d27-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Galileo_Logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1662381692af8f6d27-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/womens_health_logo_b3f44c2f-b2ff-49cc-a2d0-dd25a754f98d.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "dbdf802c-558c-4c43-9e7c-5de98927af24": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sport_bild_logo_0780e85f-a2cc-4750-815c-e351afc587b4.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "6f7041bc-fbca-4d0c-8af2-c0b03b6bb1bd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mens_health_logo_97c4b37d-1e4a-4fb5-8c11-d9de3479cc87.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "cb9814f1-08a6-49c4-bfeb-fc095106539a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rtl_de_9c2c3a88-3663-43b5-807c-24098e4a6fba.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1662381692af8f6d27-0",
+        "1662381692af8f6d27-1",
+        "1662381692af8f6d27-2",
+        "dbdf802c-558c-4c43-9e7c-5de98927af24",
+        "6f7041bc-fbca-4d0c-8af2-c0b03b6bb1bd",
+        "cb9814f1-08a6-49c4-bfeb-fc095106539a"
+      ],
+      "settings": {
+        "title": "Bekannt aus",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text": {
@@ -295,106 +384,17 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "1662381693659ef961": {
-      "type": "multicolumn",
-      "blocks": {
-        "1662381692af8f6d27-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Tagesspiegel-Logo_c8fe55f2-a3c7-4402-9010-38eb81dd1c51.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1662381692af8f6d27-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Galileo_Logo.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1662381692af8f6d27-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/womens_health_logo_b3f44c2f-b2ff-49cc-a2d0-dd25a754f98d.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "dbdf802c-558c-4c43-9e7c-5de98927af24": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sport_bild_logo_0780e85f-a2cc-4750-815c-e351afc587b4.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "6f7041bc-fbca-4d0c-8af2-c0b03b6bb1bd": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/mens_health_logo_97c4b37d-1e4a-4fb5-8c11-d9de3479cc87.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "cb9814f1-08a6-49c4-bfeb-fc095106539a": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/rtl_de_9c2c3a88-3663-43b5-807c-24098e4a6fba.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1662381692af8f6d27-0",
-        "1662381692af8f6d27-1",
-        "1662381692af8f6d27-2",
-        "dbdf802c-558c-4c43-9e7c-5de98927af24",
-        "6f7041bc-fbca-4d0c-8af2-c0b03b6bb1bd",
-        "cb9814f1-08a6-49c4-bfeb-fc095106539a"
-      ],
-      "settings": {
-        "title": "Bekannt aus",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 6,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "16623810170907d825",
+    "1662381693659ef961",
     "rich_text",
     "featured_collection",
     "collage",
     "image_banner",
     "video",
     "multicolumn",
-    "1657797248182ebcb0",
-    "1662381693659ef961"
+    "1657797248182ebcb0"
   ]
 }
