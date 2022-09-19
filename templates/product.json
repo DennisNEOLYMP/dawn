@@ -91,8 +91,8 @@
           "settings": {
             "heading": "Versand & Retoure",
             "icon": "truck",
-            "content": "",
-            "page": "versandkosten"
+            "content": "<p>{{ product.metafields.my_fields.versand.value }}<\/p>",
+            "page": ""
           }
         },
         "collapsible-row-0": {
