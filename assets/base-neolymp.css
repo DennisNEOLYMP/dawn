@@ -37,7 +37,7 @@
 }
 
 .Badge__Text {
-    color: var(--gradient-base-background-1);
+    color: var(--color-background);
     font-size: 1.6rem;
     font-weight: 600;
     text-transform: uppercase;
