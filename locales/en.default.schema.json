@@ -1700,6 +1700,12 @@
             }
           }
         },
+        "collapsible_measurements": {
+          "name": "Collapsible measurements"
+        },
+        "collapsible_description": {
+          "name": "Collapsible description"
+        },
         "collapsible_tab": {
           "name": "Collapsible row",
           "settings": {
