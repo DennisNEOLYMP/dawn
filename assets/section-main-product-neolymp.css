@@ -15,6 +15,6 @@
     background-color: var(--shopify-editor-setting-colors_background_2);
 }
 
-.product-form__buttons {
+.product-form__buttons, .product-form__input .select {
     max-width: 59rem;
 }
