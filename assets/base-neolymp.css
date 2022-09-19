@@ -19,7 +19,7 @@
     animation: wobble 3s ease infinite;
 }
 
-@keyframes Badge {
+@keyframes wobble {
   0% { transform: translateX(0%); }
   15% { transform: translateX(-25%) rotate(-5deg); }
   30% { transform: translateX(20%) rotate(3deg); }
