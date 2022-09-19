@@ -76,13 +76,9 @@
           "settings": {
           }
         },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
+        "02fa0ffe-2994-4134-a0be-6f8315c673d1": {
+          "type": "collapsible_measurements",
           "settings": {
-            "heading": "Versand & Retoure",
-            "icon": "truck",
-            "content": "<p>{{ product.metafields.my_fields.versand.value }} <\/p>",
-            "page": ""
           }
         },
         "collapsible-row-0": {
@@ -91,6 +87,15 @@
             "heading": "Material",
             "icon": "price_tag",
             "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Versand & Retoure",
+            "icon": "truck",
+            "content": "<p>{{ product.metafields.my_fields.versand.value }} <\/p>",
             "page": ""
           }
         },
@@ -155,11 +160,6 @@
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
-        },
-        "02fa0ffe-2994-4134-a0be-6f8315c673d1": {
-          "type": "collapsible_measurements",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -175,8 +175,9 @@
         "8632a6aa-64ab-4404-a867-4618d7f33a9d",
         "buy_buttons",
         "e0584b64-1401-474a-8ece-7534da6ccfd9",
-        "collapsible-row-1",
+        "02fa0ffe-2994-4134-a0be-6f8315c673d1",
         "collapsible-row-0",
+        "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
@@ -184,8 +185,7 @@
         "b8b2f2f3-4250-42ee-8919-ea880d24b4e3",
         "fb4bafc5-491c-411c-b24b-77d4d9c5db0c",
         "9800607d-62c2-46df-aef5-dca4f4ed5993",
-        "c4c2ad7d-90ee-400f-b2f9-58e7910b29e5",
-        "02fa0ffe-2994-4134-a0be-6f8315c673d1"
+        "c4c2ad7d-90ee-400f-b2f9-58e7910b29e5"
       ],
       "settings": {
         "enable_sticky_info": true,
