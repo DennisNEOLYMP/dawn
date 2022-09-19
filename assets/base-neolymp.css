@@ -12,3 +12,16 @@
     background-color: var(--shopify-editor-setting-colors_accent_2);
     box-shadow: 0 4px 4px hsl(0deg 0% 69% / 25%);
 }
+
+.Badge__Icon {
+    position: relative;
+    top: 1px;
+    margin-right: 4px;
+}
+
+.Badge__Text {
+    color: var(--background);
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
