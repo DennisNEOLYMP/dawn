@@ -91,7 +91,7 @@
           "settings": {
             "heading": "Versand & Retoure",
             "icon": "truck",
-            "content": "<p>{{ product.metafields.my_fields.versand.value }}<\/p>",
+            "content": "<p>{{ product.metafields.my_fields.versand.value }} <\/p>",
             "page": ""
           }
         },
