@@ -21,7 +21,7 @@
 
 .Badge__Text {
     color: var(--shopify-editor-setting-colors_solid_button_labels);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 600;
     text-transform: uppercase;
 }
