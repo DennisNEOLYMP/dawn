@@ -22,6 +22,11 @@
           "settings": {
           }
         },
+        "515d784b-44e4-4bef-b160-3e595b03d4ea": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -155,12 +160,18 @@
             "image_ratio": "square",
             "enable_quick_add": false
           }
+        },
+        "c4c2ad7d-90ee-400f-b2f9-58e7910b29e5": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "973b0129-c8d7-4db7-9e23-d7601655cdfc",
         "vendor",
         "title",
+        "515d784b-44e4-4bef-b160-3e595b03d4ea",
         "caption",
         "price",
         "variant_picker",
@@ -178,7 +189,8 @@
         "42a7ba06-f8d2-4fb5-bb10-481123a35dbf",
         "b8b2f2f3-4250-42ee-8919-ea880d24b4e3",
         "fb4bafc5-491c-411c-b24b-77d4d9c5db0c",
-        "9800607d-62c2-46df-aef5-dca4f4ed5993"
+        "9800607d-62c2-46df-aef5-dca4f4ed5993",
+        "c4c2ad7d-90ee-400f-b2f9-58e7910b29e5"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -226,6 +238,28 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "1663584029e4097d37": {
+      "type": "apps",
+      "blocks": {
+        "7753a3f2-6a13-4757-9aff-77d16fa38c0e": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "4ce5cdb7-ba85-4c31-8845-0510402109f4": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "7753a3f2-6a13-4757-9aff-77d16fa38c0e",
+        "4ce5cdb7-ba85-4c31-8845-0510402109f4"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "multicolumn": {
@@ -289,18 +323,30 @@
         "padding_bottom": 28
       }
     },
-    "165106745065955252": {
-      "type": "apps",
+    "166358294874dc8baa": {
+      "type": "featured-blog",
       "settings": {
-        "include_margins": true
+        "heading": "Blog posts",
+        "heading_size": "h2",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
     "image-with-text",
+    "1663584029e4097d37",
     "multicolumn",
     "product-recommendations",
-    "165106745065955252"
+    "166358294874dc8baa"
   ]
 }
