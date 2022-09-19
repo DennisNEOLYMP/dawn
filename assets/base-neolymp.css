@@ -22,7 +22,7 @@
 
 @keyframes wobble {
   0% { transform: translateX(0%); }
-  10% { transform: translateX(-20%); }
+  10% { transform: translateX(-10%); }
   20% { transform: translateX(15%); }
   30% { transform: translateX(-11%); }
   40% { transform: translateX(8%); }
