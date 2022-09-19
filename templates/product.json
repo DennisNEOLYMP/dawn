@@ -70,7 +70,7 @@
           "settings": {
             "heading": "Beschreibung",
             "icon": "heart",
-            "content": "<p>{{ product.metafields.custom.sonderinfo_inhalt.value }}<\/p>",
+            "content": "<p>{{ product.metafields.custom.lange_beschreibung_de | metafield_tag }}<\/p>",
             "page": ""
           }
         },
