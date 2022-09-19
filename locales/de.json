@@ -105,6 +105,7 @@
   "products": {
     "product": {
       "DeliveryHint": "Lieferbar in 1 – 3 Tagen.",
+      "DeliveryHint-preorder": "Vorbestellbar. Lieferbar am:",
       "add_to_cart": "In den Warenkorb legen",
       "description": "Beschreibung",
       "on_sale": "Sale",
