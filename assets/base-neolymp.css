@@ -1,0 +1,14 @@
+.DeliveryHint {
+    font-size: 13px;
+    margin-bottom: 11px;
+    color: #2d8b53;
+}
+
+.Badge {
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 4px 16px;
+    border-radius: 4px;
+    background-color: var(--shopify-editor-setting-colors_accent_2);
+    box-shadow: 0 4px 4px hsl(0deg 0% 69% / 25%);
+}
