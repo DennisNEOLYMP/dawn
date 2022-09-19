@@ -71,27 +71,34 @@
             "show_dynamic_checkout": false
           }
         },
+        "e0584b64-1401-474a-8ece-7534da6ccfd9": {
+          "type": "collapsible_description",
+          "settings": {
+          }
+        },
         "description": {
           "type": "description",
           "disabled": true,
           "settings": {
           }
         },
-        "af80d410-afab-404b-bcce-9d7c20c51e5d": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Maße",
-            "icon": "ruler",
-            "content": "<p>{{ product.metafields.custom.masse_de | metafield_tag }}<\/p>",
-            "page": ""
-          }
-        },
         "b2f441de-0bb3-4ffc-8be3-534b33f54ef9": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Beschreibung",
             "icon": "clipboard",
             "content": "<p>{{ product.metafields.custom.lange_beschreibung_de | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "af80d410-afab-404b-bcce-9d7c20c51e5d": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Maße",
+            "icon": "ruler",
+            "content": "<p>{{ product.metafields.custom.masse_de | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -179,11 +186,6 @@
           "type": "collapsible_measurements",
           "settings": {
           }
-        },
-        "e0584b64-1401-474a-8ece-7534da6ccfd9": {
-          "type": "collapsible_description",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -198,9 +200,10 @@
         "16c4374e-11ea-42fd-abf1-f7cd9b13c21d",
         "8632a6aa-64ab-4404-a867-4618d7f33a9d",
         "buy_buttons",
+        "e0584b64-1401-474a-8ece-7534da6ccfd9",
         "description",
-        "af80d410-afab-404b-bcce-9d7c20c51e5d",
         "b2f441de-0bb3-4ffc-8be3-534b33f54ef9",
+        "af80d410-afab-404b-bcce-9d7c20c51e5d",
         "collapsible-row-1",
         "collapsible-row-0",
         "collapsible-row-2",
@@ -211,8 +214,7 @@
         "fb4bafc5-491c-411c-b24b-77d4d9c5db0c",
         "9800607d-62c2-46df-aef5-dca4f4ed5993",
         "c4c2ad7d-90ee-400f-b2f9-58e7910b29e5",
-        "02fa0ffe-2994-4134-a0be-6f8315c673d1",
-        "e0584b64-1401-474a-8ece-7534da6ccfd9"
+        "02fa0ffe-2994-4134-a0be-6f8315c673d1"
       ],
       "settings": {
         "enable_sticky_info": true,
