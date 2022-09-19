@@ -396,9 +396,9 @@
                   </summary>
                   <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
                     <span class="measurements">
-                      {%  if product.metafields.custom.laenge != blank %}{{ 'products.product.length' | t }}: {{ product.metafields.custom.laenge }}</br>{% endif %}
-                      {%  if product.metafields.custom.breite != blank %}{{ 'products.product.width' | t }}: {{ product.metafields.custom.breite }}</br>{% endif %}
-                      {%  if product.metafields.custom.hoehe != blank %}{{ 'products.product.height' | t }}: {{ product.metafields.custom.hoehe }}{% endif %}
+{%  if product.metafields.custom.laenge != blank %}{{ 'products.product.length' | t }}: {{ product.metafields.custom.laenge }}</br>{% endif %}
+{%  if product.metafields.custom.breite != blank %}{{ 'products.product.width' | t }}: {{ product.metafields.custom.breite }}</br>{% endif %}
+{%  if product.metafields.custom.hoehe != blank %}{{ 'products.product.height' | t }}: {{ product.metafields.custom.hoehe }}{% endif %}
                   </div>
                 </details>
               </div>
@@ -565,66 +565,22 @@
                         <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">                    
                           {{ option.name }}
                         </label>
-                        <div class="VariantDropdown__Wrapper">
-                          <div class="VariantDropdown">
+                        <div class="select">
+                          <select
+                            id="Option-{{ section.id }}-{{ forloop.index0 }}"
+                            class="select__select"
+                            name="options[{{ option.name | escape }}]"
+                            form="{{ product_form_id }}"
+                          >
                             {%- for value in option.values -%}
-                              <input class="VariantDropdown__RadioInput" type="radio" id="option-{{ section.id }}-{{ forloop.parentloop.index0 }}-{{ forloop.index0 }}" name="option-{{ forloop.parentloop.index0 }}" value="{{ value | escape }}" data-option-position="{{ option.position }}" {% if value == option.selected_value %}checked="checked"{% endif %} />
-                  <label class="VariantDropdown__Label" for="option-{{ section.id }}-{{ forloop.parentloop.index0 }}-{{ forloop.index0 }}">
-                                {%- if product.handle contains 'pull-up-baender' or product.handle contains 'minibaender' -%}
-                                  {%- if value contains 'Rot' -%}
-                                    {%- assign color = '#F62400' -%}
-                                    {%- assign different_colors = 1 -%}
-                                  {%- elsif value contains 'Orange' -%}
-                                    {%- assign color = '#FA7D33' -%}
-                                    {%- assign different_colors = 1 -%}
-                                  {%- elsif value contains 'Grün' -%}
-                                    {%- assign color = '#19B300' -%}
-                                    {%- assign different_colors = 1 -%}
-                                  {%- elsif value contains 'Blau' -%}
-                                    {%- assign color = '#0071F6' -%}
-                                    {%- assign different_colors = 1 -%}
-                                  {%- elsif value contains 'Schwarz' -%}
-                                    {%- assign color = '#000' -%}
-                                    {%- assign different_colors = 1 -%}
-                                  {%- elsif value contains '2er' -%}
-                                    {%- assign color_1 = '#F62400' -%}
-                                    {%- assign color_2 = '#000' -%}
-                                    {%- assign different_colors = 2 -%}
-                                  {%- elsif value contains '3er' -%}
-                                    {%- assign color_1 = '#0071F6' -%}
-                                    {%- assign color_2 = '#19B300' -%}
-                                    {%- assign color_3 = '#FA7D33' -%}
-                                    {%- assign different_colors = 3 -%}
-                                  {%- elsif value contains '5er' -%}
-                                    {%- assign color_1 = '#000' -%}
-                                    {%- assign color_2 = '#0071F6' -%}
-                                    {%- assign color_3 = '#19B300' -%}
-                                    {%- assign color_4 = '#FA7D33' -%}
-                                    {%- assign color_5 = '#F62400' -%}
-                                    {%- assign different_colors = 5 -%}
-                                  {%- else -%}
-                                    {%- assign color = '-Transparent' -%}
-                                  {%- endif -%}
-            
-                                  {%- case different_colors -%}
-                                    {%- when 1 -%}
-                                      <div class="VariantColor" style="--color: {{ color }};"></div> 1
-                                    {%- when 2 -%}
-                                      <div class="VariantColor -GradientTwo" style="--color-1: {{ color_1 }};--color-2: {{ color_2 }};"></div> 2
-                                    {%- when 3 -%}
-                                      <div class="VariantColor -GradientThree" style="--color-1: {{ color_1 }};--color-2: {{ color_2 }};--color-3: {{ color_3 }};"></div> 3
-                                    {%- when 5 -%}
-                                      <div class="VariantColor -GradientFive" style="--color-1: {{ color_1 }};--color-2: {{ color_2 }};--color-3: {{ color_3 }};--color-4: {{ color_4 }};--color-5: {{ color_5 }};"></div> 5
-                                  {%- endcase -%}
-                                  
-                                  {%- assign formatted_value = value | split: ' - ' | last -%}
-            
-                                  {{ formatted_value }} asda
-                                
-                                {%- else -%}
-                                  {{ value }} asdf
-                                {%- endif -%}
-                              </label>
+                              <option
+                                value="{{ value | escape }}"
+                                {% if option.selected_value == value %}
+                                  selected="selected"
+                                {% endif %}
+                              >
+                      {{ value }}
+                              </option>
                             {%- endfor -%}
                           </select>
                           {% render 'icon-caret' %}
