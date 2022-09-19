@@ -562,63 +562,8 @@
                   >
                     {%- for option in product.options_with_values -%}
                       <div class="product-form__input product-form__input--dropdown">
-                        <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
-
-                        {%- if product.handle contains 'pull-up-baender' or product.handle contains 'minibaender' -%}
-                          {%- if value contains 'Rot' -%}
-                            {%- assign color = '#F62400' -%}
-                            {%- assign different_colors = 1 -%}
-                          {%- elsif value contains 'Orange' -%}
-                            {%- assign color = '#FA7D33' -%}
-                            {%- assign different_colors = 1 -%}
-                          {%- elsif value contains 'Grün' -%}
-                            {%- assign color = '#19B300' -%}
-                            {%- assign different_colors = 1 -%}
-                          {%- elsif value contains 'Blau' -%}
-                            {%- assign color = '#0071F6' -%}
-                            {%- assign different_colors = 1 -%}
-                          {%- elsif value contains 'Schwarz' -%}
-                            {%- assign color = '#000' -%}
-                            {%- assign different_colors = 1 -%}
-                          {%- elsif value contains '2er' -%}
-                            {%- assign color_1 = '#F62400' -%}
-                            {%- assign color_2 = '#000' -%}
-                            {%- assign different_colors = 2 -%}
-                          {%- elsif value contains '3er' -%}
-                            {%- assign color_1 = '#0071F6' -%}
-                            {%- assign color_2 = '#19B300' -%}
-                            {%- assign color_3 = '#FA7D33' -%}
-                            {%- assign different_colors = 3 -%}
-                          {%- elsif value contains '5er' -%}
-                            {%- assign color_1 = '#000' -%}
-                            {%- assign color_2 = '#0071F6' -%}
-                            {%- assign color_3 = '#19B300' -%}
-                            {%- assign color_4 = '#FA7D33' -%}
-                            {%- assign color_5 = '#F62400' -%}
-                            {%- assign different_colors = 5 -%}
-                          {%- else -%}
-                            {%- assign color = '-Transparent' -%}
-                          {%- endif -%}
-    
-                          {%- case different_colors -%}
-                            {%- when 1 -%}
-                              <div class="VariantColor" style="--color: {{ color }};"></div>
-                            {%- when 2 -%}
-                              <div class="VariantColor -GradientTwo" style="--color-1: {{ color_1 }};--color-2: {{ color_2 }};"></div>
-                            {%- when 3 -%}
-                              <div class="VariantColor -GradientThree" style="--color-1: {{ color_1 }};--color-2: {{ color_2 }};--color-3: {{ color_3 }};"></div>
-                            {%- when 5 -%}
-                              <div class="VariantColor -GradientFive" style="--color-1: {{ color_1 }};--color-2: {{ color_2 }};--color-3: {{ color_3 }};--color-4: {{ color_4 }};--color-5: {{ color_5 }};"></div>
-                          {%- endcase -%}
-
-                          {%- assign formatted_value = option.name | split: ' - ' | last -%}
-
-                      {{ formatted_value }} asda
-                    
-                    {%- else -%}
-                      {{ option.name }} asdf
-                    {%- endif -%}                    
-                          
+                        <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">                    
+                          {{ option.name }}
                         </label>
                         <div class="select">
                           <select
@@ -634,7 +579,60 @@
                                   selected="selected"
                                 {% endif %}
                               >
-                                {{ value }}
+                                {%- if product.handle contains 'pull-up-baender' or product.handle contains 'minibaender' -%}
+                      {%- if value contains 'Rot' -%}
+                        {%- assign color = '#F62400' -%}
+                        {%- assign different_colors = 1 -%}
+                      {%- elsif value contains 'Orange' -%}
+                        {%- assign color = '#FA7D33' -%}
+                        {%- assign different_colors = 1 -%}
+                      {%- elsif value contains 'Grün' -%}
+                        {%- assign color = '#19B300' -%}
+                        {%- assign different_colors = 1 -%}
+                      {%- elsif value contains 'Blau' -%}
+                        {%- assign color = '#0071F6' -%}
+                        {%- assign different_colors = 1 -%}
+                      {%- elsif value contains 'Schwarz' -%}
+                        {%- assign color = '#000' -%}
+                        {%- assign different_colors = 1 -%}
+                      {%- elsif value contains '2er' -%}
+                        {%- assign color_1 = '#F62400' -%}
+                        {%- assign color_2 = '#000' -%}
+                        {%- assign different_colors = 2 -%}
+                      {%- elsif value contains '3er' -%}
+                        {%- assign color_1 = '#0071F6' -%}
+                        {%- assign color_2 = '#19B300' -%}
+                        {%- assign color_3 = '#FA7D33' -%}
+                        {%- assign different_colors = 3 -%}
+                      {%- elsif value contains '5er' -%}
+                        {%- assign color_1 = '#000' -%}
+                        {%- assign color_2 = '#0071F6' -%}
+                        {%- assign color_3 = '#19B300' -%}
+                        {%- assign color_4 = '#FA7D33' -%}
+                        {%- assign color_5 = '#F62400' -%}
+                        {%- assign different_colors = 5 -%}
+                      {%- else -%}
+                        {%- assign color = '-Transparent' -%}
+                      {%- endif -%}
+
+                      {%- case different_colors -%}
+                        {%- when 1 -%}
+                          <div class="VariantColor" style="--color: {{ color }};"></div>
+                        {%- when 2 -%}
+                          <div class="VariantColor -GradientTwo" style="--color-1: {{ color_1 }};--color-2: {{ color_2 }};"></div>
+                        {%- when 3 -%}
+                          <div class="VariantColor -GradientThree" style="--color-1: {{ color_1 }};--color-2: {{ color_2 }};--color-3: {{ color_3 }};"></div>
+                        {%- when 5 -%}
+                          <div class="VariantColor -GradientFive" style="--color-1: {{ color_1 }};--color-2: {{ color_2 }};--color-3: {{ color_3 }};--color-4: {{ color_4 }};--color-5: {{ color_5 }};"></div>
+                      {%- endcase -%}
+                      
+                      {%- assign formatted_value = value | split: ' - ' | last -%}
+
+                      {{ formatted_value }}
+                    
+                    {%- else -%}
+                      {{ value }}
+                    {%- endif -%}
                               </option>
                             {%- endfor -%}
                           </select>
