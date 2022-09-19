@@ -119,7 +119,7 @@
       },
       "price": {
         "from_price_html": "Von {{ price }}",
-        "regular_price": "Normaler Preis",
+        "regular_price": "UVP",
         "sale_price": "Verkaufspreis",
         "unit_price": "Grundpreis"
       },
