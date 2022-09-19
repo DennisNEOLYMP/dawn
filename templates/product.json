@@ -83,6 +83,7 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Material",
             "icon": "price_tag",
@@ -125,15 +126,9 @@
             "share_label": "Share"
           }
         },
-        "42a7ba06-f8d2-4fb5-bb10-481123a35dbf": {
-          "type": "text",
-          "settings": {
-            "text": "Text block",
-            "text_style": "body"
-          }
-        },
         "b8b2f2f3-4250-42ee-8919-ea880d24b4e3": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% if localization.country.iso_code == 'AT' %}\n  \/\/ show custom content only meant for France\n{% else %}\n  show generic content\n{% endif %}"
           }
@@ -181,7 +176,6 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
-        "42a7ba06-f8d2-4fb5-bb10-481123a35dbf",
         "b8b2f2f3-4250-42ee-8919-ea880d24b4e3",
         "fb4bafc5-491c-411c-b24b-77d4d9c5db0c",
         "9800607d-62c2-46df-aef5-dca4f4ed5993",
