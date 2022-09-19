@@ -12,7 +12,7 @@
     width: 100%;
     max-width: 60rem;
     padding: 0.5rem;
-    background-color: var(--shopify-editor-setting-colors_background_2);
+    background-color: var(--color-base-background-2);
 }
 
 .product-form__buttons, .product-form__input .select {
