@@ -574,7 +574,7 @@
                           >
                             {%- for value in option.values -%}
                               <option
-                                value="{{ value }}"
+                                value="{{ value | escape }}"
                                 {% if option.selected_value == value %}
                                   selected="selected"
                                 {% endif %}
