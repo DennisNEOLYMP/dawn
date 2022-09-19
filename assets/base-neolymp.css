@@ -11,8 +11,7 @@
 
 .Badge {
     display: inline-block;
-    margin-top: -15px;
-    margin-left: -15px;
+    margin-left: -45px;
     padding: 4px 16px;
     border-radius: 4px;
     background-color: var(--shopify-editor-setting-colors_accent_2);
