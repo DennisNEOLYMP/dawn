@@ -396,9 +396,9 @@
                   </summary>
                   <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
                     <span class="measurements">
-{%  if product.metafields.custom.laenge != blank %}{{ 'products.product.length' | t }}: {{ product.metafields.custom.laenge }}</br>{% endif %}
-{%  if product.metafields.custom.breite != blank %}{{ 'products.product.width' | t }}: {{ product.metafields.custom.breite }}</br>{% endif %}
-{%  if product.metafields.custom.hoehe != blank %}{{ 'products.product.height' | t }}: {{ product.metafields.custom.hoehe }}{% endif %}
+                      {%  if product.metafields.custom.laenge != blank %}{{ 'products.product.length' | t }}: {{ product.metafields.custom.laenge }}</br>{% endif %}
+                      {%  if product.metafields.custom.breite != blank %}{{ 'products.product.width' | t }}: {{ product.metafields.custom.breite }}</br>{% endif %}
+                      {%  if product.metafields.custom.hoehe != blank %}{{ 'products.product.height' | t }}: {{ product.metafields.custom.hoehe }}{% endif %}
                   </div>
                 </details>
               </div>
@@ -565,20 +565,11 @@
                         <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">                    
                           {{ option.name }}
                         </label>
-                        <div class="select">
-                          <select
-                            id="Option-{{ section.id }}-{{ forloop.index0 }}"
-                            class="select__select"
-                            name="options[{{ option.name | escape }}]"
-                            form="{{ product_form_id }}"
-                          >
+                        <div class="VariantDropdown__Wrapper">
+                          <div class="VariantDropdown">
                             {%- for value in option.values -%}
-                              <option
-                                value="{{ value | escape }}"
-                                {% if option.selected_value == value %}
-                                  selected="selected"
-                                {% endif %}
-                              >
+                              <input class="VariantDropdown__RadioInput" type="radio" id="option-{{ section.id }}-{{ forloop.parentloop.index0 }}-{{ forloop.index0 }}" name="option-{{ forloop.parentloop.index0 }}" value="{{ value | escape }}" data-option-position="{{ option.position }}" {% if value == option.selected_value %}checked="checked"{% endif %} />
+                  <label class="VariantDropdown__Label" for="option-{{ section.id }}-{{ forloop.parentloop.index0 }}-{{ forloop.index0 }}">
                                 {%- if product.handle contains 'pull-up-baender' or product.handle contains 'minibaender' -%}
                                   {%- if value contains 'Rot' -%}
                                     {%- assign color = '#F62400' -%}
@@ -633,7 +624,7 @@
                                 {%- else -%}
                                   {{ value }} asdf
                                 {%- endif -%}
-                              </option>
+                              </label>
                             {%- endfor -%}
                           </select>
                           {% render 'icon-caret' %}
