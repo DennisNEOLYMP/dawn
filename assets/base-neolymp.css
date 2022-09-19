@@ -14,7 +14,7 @@
     margin-left: -45px;
     padding: 4px 16px;
     border-radius: 4px;
-    background-color: var(--shopify-editor-setting-colors_accent_2);
+    background-color: var(--color-base-accent-2);
     box-shadow: 0 4px 4px hsl(0deg 0% 69% / 50%);
     z-index: 10;
     animation: wobble 3s ease 5s 3;
@@ -37,7 +37,7 @@
 }
 
 .Badge__Text {
-    color: var(--shopify-editor-setting-colors_solid_button_labels);
+    color: var(--gradient-base-background-1);
     font-size: 1.6rem;
     font-weight: 600;
     text-transform: uppercase;
