@@ -104,7 +104,10 @@
   },
   "products": {
     "product": {
+      "measurements": "Measurements",
       "length": "Length",
+      "width": "Width",
+      "height": "Height",
       "delivery-hint-inland": "Deliverable in 1 - 3 days.",
       "delivery-hint-ausland1": "Deliverable in 2 - 5 days.",
       "delivery-hint-preorder": "Available for pre-order. Deliverable on:",
