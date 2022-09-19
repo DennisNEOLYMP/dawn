@@ -5,3 +5,10 @@
       padding: 1em;
   }
 }
+
+.social_info_bar {
+    display: inline-block;
+    width: 100%;
+    padding: 0.5 rem;
+    background-color: var(--shopify-editor-setting-colors_background_2);
+}
