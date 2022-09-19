@@ -157,7 +157,9 @@
       "measurements": "Maße",
       "length": "Länge",
       "width": "Breite",
-      "height": "Höhe"
+      "height": "Höhe",
+      "social_info_bar_1": "Mehr als",
+      "social_info_bar_2": "vertrauen auf dieses Produkt."
     },
     "modal": {
       "label": "Medien-Galerie"
