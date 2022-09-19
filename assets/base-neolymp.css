@@ -9,12 +9,11 @@
     color: #ff6d0a;
 }
 
-.Badge {
+.badge-special {
     display: inline-block;
     margin-left: -45px;
     padding: 4px 16px;
     border-radius: 4px;
-    background-color: var(--color-base-accent-2);
     box-shadow: 0 4px 4px hsl(0deg 0% 69% / 50%);
     z-index: 10;
     animation: wobble 3s ease 5s 3;
@@ -37,7 +36,6 @@
 }
 
 .Badge__Text {
-    color: var(--color-background);
     font-size: 1.6rem;
     font-weight: 600;
     text-transform: uppercase;
