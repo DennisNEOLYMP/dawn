@@ -17,16 +17,16 @@
     background-color: var(--shopify-editor-setting-colors_accent_2);
     box-shadow: 0 4px 4px hsl(0deg 0% 69% / 50%);
     z-index: 10;
-    animation: wobble 3s ease 2s 3;
+    animation: wobble 3s ease 5s 3;
 }
 
 @keyframes wobble {
   0% { transform: translateX(0%); }
   10% { transform: translateX(-20%); }
-  20% { transform: translateX(18%); }
-  30% { transform: translateX(-15%); }
-  40% { transform: translateX(10%); }
-  50% { transform: translateX(-5%); }
+  20% { transform: translateX(15%); }
+  30% { transform: translateX(-11%); }
+  40% { transform: translateX(8%); }
+  50% { transform: translateX(-6%); }
   65% { transform: translateX(0%); }
 }
 
