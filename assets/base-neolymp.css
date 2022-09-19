@@ -1,7 +1,11 @@
 .DeliveryHint {
     font-size: 13px;
-    margin-bottom: 11px;
     color: #2d8b53;
+}
+
+.DeliveryHint-preorder {
+    font-size: 13px;
+    color: #ff6d0a;
 }
 
 .Badge {
@@ -21,7 +25,7 @@
 
 .Badge__Text {
     color: var(--shopify-editor-setting-colors_solid_button_labels);
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 600;
     text-transform: uppercase;
 }
