@@ -12,7 +12,7 @@
     width: 100%;
     max-width: 60rem;
     padding: 0.5rem;
-    background-color: var(--color-base-background-2);
+    background-color: var(--gradient-base-accent-1);
 }
 
 .product-form__buttons, .product-form__input .select {
