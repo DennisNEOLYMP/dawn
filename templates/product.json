@@ -54,6 +54,7 @@
         },
         "8632a6aa-64ab-4404-a867-4618d7f33a9d": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Lieferbar in  1 – 3 Tagen",
             "text_style": "body"
