@@ -14,3 +14,7 @@
     padding: 0.5rem;
     background-color: var(--shopify-editor-setting-colors_background_2);
 }
+
+.product-form__buttons {
+    max-width: 59rem;
+}
