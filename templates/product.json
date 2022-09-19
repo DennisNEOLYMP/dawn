@@ -78,7 +78,7 @@
             "heading": "Beschreibung",
             "icon": "clipboard",
             "content": "<p>{{ product.metafields.custom.lange_beschreibung_de | metafield_tag }}<\/p>",
-            "page": ""
+            "page": "{{ product.metafields.custom.story_fitnessbaender_1.value }}"
           }
         },
         "collapsible-row-1": {
