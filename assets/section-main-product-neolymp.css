@@ -18,3 +18,12 @@
 .product-form__buttons, .product-form__input .select {
     max-width: 59rem;
 }
+
+.VariantColor {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 14px;
+    border: 1px solid #6a6a6a;
+    background: var(--color);
+}
