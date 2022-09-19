@@ -104,6 +104,8 @@
   },
   "products": {
     "product": {
+      "social_info_bar_1": "Trusted by",
+      "social_info_bar_2": "supporters",
       "measurements": "Measurements",
       "length": "Length",
       "width": "Width",
