@@ -303,15 +303,15 @@
       </media-gallery>
     </div>
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}">
+      <div class="social_info_bar">
+          {{ 'products.product.social_info_bar_1' | t }} <strong>1235</strong> {{ 'products.product.social_info_bar_2' | t }}
+        </div>
       <div
         id="ProductInfo-{{ section.id }}"
         class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}"
       >
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
-        <div class="social_info_bar">
-          {{ 'products.product.social_info_bar_1' | t }} <strong>1235</strong> {{ 'products.product.social_info_bar_2' | t }}
-        </div>
-
+        
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when '@app' -%}
