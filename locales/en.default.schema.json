@@ -802,9 +802,6 @@
         "description": {
           "name": "Description"
         },
-        "payments": {
-          "name": "Payment providers"
-        },
         "share": {
           "name": "Share",
           "settings": {
@@ -1622,6 +1619,9 @@
     "main-product": {
       "name": "Product information",
       "blocks": {
+        "payments": {
+          "name": "Payment providers"
+        },
         "text": {
           "name": "Text",
           "settings": {
