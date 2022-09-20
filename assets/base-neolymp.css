@@ -41,6 +41,6 @@
     text-transform: uppercase;
 }
 
-.icon--greyscale {
+.icon--grayscale {
     filter: grayscale(1);
 }
