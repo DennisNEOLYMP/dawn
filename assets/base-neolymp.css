@@ -44,3 +44,11 @@
 .icon--grayscale {
     filter: grayscale(1);
 }
+
+@media screen and (min-width: 750px) {
+  .list-payment-product-info {
+      justify-content: space-between;
+      margin: -0.5rem;
+      padding-top: 0;
+  }
+}
