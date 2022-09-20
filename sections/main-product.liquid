@@ -359,6 +359,17 @@
                   {{ product.description }}
                 </div>
               {%- endif -%}
+            {%- when 'payments' -%}
+               <div class="footer__payment">
+                <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
+                <ul class="list list-payment" role="list">
+                  {%- for type in shop.enabled_payment_types -%}
+                    <li class="list-payment__item">
+                      {{ type | payment_type_svg_tag: class: 'icon icon--grayscale' }}
+                    </li>
+                  {%- endfor -%}
+                </ul>
+              </div>
             {%- when 'custom_liquid' -%}
               {{ block.settings.custom_liquid }}
             {%- when 'collapsible_tab' -%}
@@ -1309,6 +1320,11 @@
     {
       "type": "description",
       "name": "t:sections.main-product.blocks.description.name",
+      "limit": 1
+    },
+    {
+      "type": "payments",
+      "name": "t:sections.main-product.blocks.payments.name",
       "limit": 1
     },
     {
