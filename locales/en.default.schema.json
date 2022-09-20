@@ -802,6 +802,9 @@
         "description": {
           "name": "Description"
         },
+        "payments": {
+          "name": "Payment providers"
+        },
         "share": {
           "name": "Share",
           "settings": {

@@ -680,6 +680,9 @@
         "description": {
           "label": "Beschreibung"
         },
+        "payments": {
+          "name": "Zahlungsanbieter"
+        },
         "show_description": {
           "label": "Kategoriebeschreibung im Adminbereich anzeigen"
         },
