@@ -362,7 +362,7 @@
             {%- when 'payments' -%}
                <div class="footer__payment">
                 <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
-                <ul class="list list-payment list-payment-product-info" role="list">
+                <ul class="list list-payment-product-info" role="list">
                   {%- for type in shop.enabled_payment_types -%}
                     <li class="list-payment__item">
                       {{ type | payment_type_svg_tag: class: 'icon icon--grayscale' }}

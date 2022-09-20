@@ -45,6 +45,15 @@
     filter: grayscale(1);
 }
 
+.list-payment-product-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -0.5rem 0;
+    padding-top: 1rem;
+    padding-left: 0;
+}
+
 @media screen and (min-width: 750px) {
   .list-payment-product-info {
       justify-content: space-between;
@@ -52,3 +61,4 @@
       padding-top: 0;
   }
 }
+
