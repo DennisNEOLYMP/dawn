@@ -71,6 +71,11 @@
             "show_dynamic_checkout": false
           }
         },
+        "2c172d26-b117-4c65-bbf9-ca331c15cd27": {
+          "type": "payments",
+          "settings": {
+          }
+        },
         "e0584b64-1401-474a-8ece-7534da6ccfd9": {
           "type": "collapsible_description",
           "settings": {
@@ -169,6 +174,7 @@
         "16c4374e-11ea-42fd-abf1-f7cd9b13c21d",
         "8632a6aa-64ab-4404-a867-4618d7f33a9d",
         "buy_buttons",
+        "2c172d26-b117-4c65-bbf9-ca331c15cd27",
         "e0584b64-1401-474a-8ece-7534da6ccfd9",
         "02fa0ffe-2994-4134-a0be-6f8315c673d1",
         "collapsible-row-0",
