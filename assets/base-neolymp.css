@@ -40,3 +40,7 @@
     font-weight: 600;
     text-transform: uppercase;
 }
+
+.icon--greyscale {
+    filter: grayscale(1);
+}
