@@ -401,9 +401,8 @@
                 <details id="Details-{{ block.id }}-{{ section.id }}">
                   <summary>
                     <div class="summary__title">
-                      {{ block.settings.image | image_url: width: 25 | image_tag:
+                      {{ block.settings.image | image_url: '25x25' | image_tag:
                         loading: 'lazy',
-                        widths: '20, 25, 50',
                         class: 'brand_usps__icon'
                       }}
                       <h3 class="h3 brand_usps__title">
