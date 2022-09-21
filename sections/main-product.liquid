@@ -401,11 +401,11 @@
                 <details id="Details-{{ block.id }}-{{ section.id }}">
                   <summary>
                     <div class="summary__title">
-                      {{ block.settings.image | image_url: width: 25 | image_tag:
+                      {{ block.settings.image | image_url: width: 30 | image_tag:
                         loading: 'lazy',
-                        sizes: "25px",
-                        widths: '20, 25, 50',
-                        class: 'multicolumn-card__image'
+                        sizes: "30px",
+                        widths: '20, 30, 60',
+                        class: 'brand_usps__icon'
                       }}
                       <h3 class="h3 brand_usps__title">
                         {{ block.settings.heading | default: block.settings.page.title }}

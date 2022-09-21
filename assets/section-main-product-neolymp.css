@@ -36,3 +36,10 @@
 .brand_usps summary {
     padding: 0;
 }
+
+.brand_usps__icon {
+    align-self: center;
+    height: calc(var(--font-heading-scale) * 3rem);
+    margin-right: calc(var(--font-heading-scale) * 1rem);
+    width: calc(var(--font-heading-scale) * 3rem);
+}
