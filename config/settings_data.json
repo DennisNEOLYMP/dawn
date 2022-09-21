@@ -3,7 +3,7 @@
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#f60000",
     "gradient_accent_1": "radial-gradient(rgba(184, 0, 0, 1) 25%, rgba(246, 0, 0, 1) 93%)",
-    "colors_accent_2": "#008fcc",
+    "colors_accent_2": "#b80000",
     "gradient_accent_2": "",
     "colors_text": "#131313",
     "colors_outline_button_labels": "#131313",
@@ -105,9 +105,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "Markenqualität | Kostenloser Versand nach DE ab 10€ | inkl. Trainingsanleitungen",
               "text_alignment": "center",
-              "color_scheme": "accent-2",
+              "color_scheme": "inverse",
               "link": ""
             }
           }
@@ -175,7 +175,7 @@
           "footer-2"
         ],
         "settings": {
-          "color_scheme": "accent-2",
+          "color_scheme": "inverse",
           "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
