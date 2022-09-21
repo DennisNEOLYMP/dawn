@@ -401,7 +401,7 @@
                 <details id="Details-{{ block.id }}-{{ section.id }}">
                   <summary>
                     <div class="summary__title">
-                      {{ block.settings.icon | image_url: width: 25 | image_tag:
+                      {{ block.settings.image | image_url: width: 25 | image_tag:
                         loading: 'lazy',
                         sizes: sizes,
                         widths: '20, 25, 50',
@@ -1409,7 +1409,7 @@
         },
         {
           "type": "image-picker",
-          "id": "icon",
+          "id": "image",
           "label": "t:sections.multicolumn.blocks.column.settings.image.label"
         },
         {
