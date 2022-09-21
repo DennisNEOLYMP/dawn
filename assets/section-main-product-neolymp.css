@@ -12,7 +12,6 @@
     width: 100%;
     max-width: 60rem;
     padding: 0.5rem;
-    background-color: var(--color-background);
 }
 
 .product-form__buttons, .product-form__input .select {
@@ -34,5 +33,5 @@
 }
 
 .brand_usps summary {
-    padding: 0.5rem;
+    padding: 0;
 }
