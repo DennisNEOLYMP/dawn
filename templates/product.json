@@ -170,7 +170,7 @@
         "8ee66e56-57fb-4aef-b532-874d154beb1a": {
           "type": "brand_usps",
           "settings": {
-            "richtext": "Versand & Retoure kostenlos",
+            "heading": "<p>Versand & Retoure kostenlos<\/p>",
             "image": "shopify:\/\/shop_images\/icon-blue_8f8418ff-26e5-462a-9ec0-8f3069a3e55d.png",
             "content": "<p>test<\/p>",
             "page": ""
