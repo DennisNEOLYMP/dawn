@@ -166,6 +166,15 @@
           "settings": {
             "share_label": "Teilen"
           }
+        },
+        "8ee66e56-57fb-4aef-b532-874d154beb1a": {
+          "type": "brand_usps",
+          "settings": {
+            "richtext": "Brand USP",
+            "image": "shopify:\/\/shop_images\/icon-blue_8f8418ff-26e5-462a-9ec0-8f3069a3e55d.png",
+            "content": "<p>test<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -192,7 +201,8 @@
         "fb4bafc5-491c-411c-b24b-77d4d9c5db0c",
         "9800607d-62c2-46df-aef5-dca4f4ed5993",
         "c4c2ad7d-90ee-400f-b2f9-58e7910b29e5",
-        "share"
+        "share",
+        "8ee66e56-57fb-4aef-b532-874d154beb1a"
       ],
       "settings": {
         "enable_sticky_info": true,
