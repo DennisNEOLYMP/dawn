@@ -105,9 +105,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "Markenqualität | Kostenloser Versand nach DE ab 10€ | inkl. Trainingsanleitungen",
               "text_alignment": "center",
-              "color_scheme": "accent-2",
+              "color_scheme": "inverse",
               "link": ""
             }
           }
@@ -175,7 +175,7 @@
           "footer-2"
         ],
         "settings": {
-          "color_scheme": "accent-2",
+          "color_scheme": "inverse",
           "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
