@@ -172,7 +172,7 @@
           "settings": {
             "heading": "Versand & Retoure kostenlos",
             "icon": "truck",
-            "content": "<p>asdasdasd<\/p>",
+            "content": "",
             "page": "versandkosten"
           }
         },
