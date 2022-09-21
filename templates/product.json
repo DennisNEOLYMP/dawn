@@ -180,7 +180,16 @@
           "type": "brand_usps",
           "settings": {
             "heading": "Zahle in 30 Tagen mit Paypal",
-            "icon": "box",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "36f69909-9faa-4bdb-bbf1-03b2906b71d9": {
+          "type": "brand_usps",
+          "settings": {
+            "heading": "Kauf auf Rechnung",
+            "icon": "star",
             "content": "",
             "page": ""
           }
@@ -212,7 +221,8 @@
         "9800607d-62c2-46df-aef5-dca4f4ed5993",
         "c4c2ad7d-90ee-400f-b2f9-58e7910b29e5",
         "d5fb8e1e-78b9-4796-b832-0423b1422c9d",
-        "456515b6-43a3-4bab-bcec-0704c35173c0"
+        "456515b6-43a3-4bab-bcec-0704c35173c0",
+        "36f69909-9faa-4bdb-bbf1-03b2906b71d9"
       ],
       "settings": {
         "enable_sticky_info": true,
