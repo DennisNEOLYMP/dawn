@@ -27,16 +27,6 @@
     background: var(--color);
 }
 
-.DeliveryHint {
-    font-size: 1.5rem;
-    color: #2d8b53;
-    margin-bottom: 0;
-}
-
-.DeliveryHint--preorder {
-    color: #ff6d0a;
-}
-
 .brand_usps {
     margin-top: 2.5rem;
     margin-bottom: 0;
