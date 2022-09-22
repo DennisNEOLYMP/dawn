@@ -28,26 +28,6 @@
   {%- endstyle -%}
 
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
-  {% comment %}*** Delivery Tag JS *** {% endcomment %}
-  <script>
-    const currentVariantId = {{ product.selected_or_first_available_variant.id }};
-    const metaData = {  {%  if localization.country.iso_code == 'DE' %}
-                              {{ 'products.product.delivery-hint-inland' | t }}
-                            {% else%}
-                                {{ 'products.product.delivery-hint-ausland1' | t }}
-                            {% endif %} };
-    const extraVariantInfo = (id) => {
-    let selector = document.querySelector('.DeliveryHint');
-    let hide = document.querySelector('.DeliveryHint')
-      if (metaData[id]) {
-       hide.style.display = 'block'
-       selector.innerHTML = metaData[id];
-      }
-      else
-       hide.style.display = 'none'
-    }
-    extraVariantInfo(currentVariantId);
-  </script>
 
   {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
   {%- if first_3d_model -%}
