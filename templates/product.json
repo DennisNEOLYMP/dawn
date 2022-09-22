@@ -175,6 +175,11 @@
             "content": "<p>test<\/p>",
             "page": ""
           }
+        },
+        "e4d2f096-0902-4051-9c02-558ac360b514": {
+          "type": "delivery_tag",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -202,7 +207,8 @@
         "9800607d-62c2-46df-aef5-dca4f4ed5993",
         "c4c2ad7d-90ee-400f-b2f9-58e7910b29e5",
         "share",
-        "8ee66e56-57fb-4aef-b532-874d154beb1a"
+        "8ee66e56-57fb-4aef-b532-874d154beb1a",
+        "e4d2f096-0902-4051-9c02-558ac360b514"
       ],
       "settings": {
         "enable_sticky_info": true,
