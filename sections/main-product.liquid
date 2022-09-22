@@ -28,7 +28,7 @@
   {%- endstyle -%}
 
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
-  {% comment %}*** Delivery Tag JS ***{% endcomment %}
+  {% comment %}*** Delivery Tag JS *** {% endcomment %}
   <script>
     const currentVariantId = {{ product.selected_or_first_available_variant.id }};
     const metaData = {  {%  if localization.country.iso_code == 'DE' %}
