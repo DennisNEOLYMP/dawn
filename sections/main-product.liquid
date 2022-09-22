@@ -492,20 +492,7 @@
             {% comment %} *** LIEFERBAR *** {% endcomment %} 
             {%- when 'delivery_tag' -%}
               {% if selected_variant.available == false or delivery_date != empty %}
-                {%- if delivery_date != null and delivery_date != "" and delivery_date > today_date -%}
-                    <div class="DeliveryHint DeliveryHint-preorder">● {{ 'products.product.delivery-hint-preorder' | t }}  <b>{{ delivery_date | date: "%d.%m.%y" }}</b></div>
-                {%- endif -%}
-                
-              {% else%}
-                {% if localization.country.iso_code == 'DE' %}
-                  <div class="DeliveryHint">● 
-                    {{ 'products.product.delivery-hint-inland' | t }}
-                  </div>
-                {% else%}
-                  <div class="DeliveryHint">●
-                    {{ 'products.product.delivery-hint-ausland1' | t }}
-                  </div>
-                {% endif %}
+
               {% endif %}
               {% comment %} *** ENDE LIEFERBAR *** {% endcomment %} 
             
