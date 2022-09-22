@@ -492,11 +492,9 @@
             {% comment %} *** LIEFERBAR *** {% endcomment %} 
             {%- when 'delivery_tag' -%}
               {% if selected_variant.available == false or delivery_date != empty %}
-                    test1 {{ selected_variant.available }}
+                    test1 {{ selected_variant.available }} {{ selected_or_first_available_variant.available }} 
               {% else %}
-                
-                
-
+                test2 {{ selected_variant.available }}            
               {% endif %}
               {% comment %} *** ENDE LIEFERBAR *** {% endcomment %} 
             
