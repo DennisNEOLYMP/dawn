@@ -471,29 +471,22 @@
 
             {% comment %} *** LIEFERBAR *** {% endcomment %} 
             {%- when 'delivery_tag' -%}
-              test1
               {% if selected_variant.available == false or delivery_date != empty %}
-                test2
                 {%- if delivery_date != null and delivery_date != "" and delivery_date > today_date -%}
-                  test3
-                    <div class="DeliveryHint DeliveryHint--preorder">● {{ 'products.product.delivery-hint-preorder' | t }}  <b>{{ delivery_date | date: "%d.%m.%y" }}</b></div>
+                    <div class="DeliveryHint--preorder">● {{ 'products.product.delivery-hint-preorder' | t }}  <b>{{ delivery_date | date: "%d.%m.%y" }}</b></div>
                 {%- endif -%}
                 
               {% else%}
-              test4
                 {% if localization.country.iso_code == 'DE' %}
                   <div class="DeliveryHint">● 
                     {{ 'products.product.delivery-hint-inland' | t }}
-                    test5
                   </div>
                 {% else%}
                   <div class="DeliveryHint">●
                     {{ 'products.product.delivery-hint-ausland1' | t }}
-                    test6
                   </div>
                 {% endif %}
               {% endif %}
-              test7
               {% comment %} *** ENDE LIEFERBAR *** {% endcomment %} 
             
             {%- when 'quantity_selector' -%}
