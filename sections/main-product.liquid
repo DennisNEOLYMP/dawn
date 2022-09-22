@@ -492,7 +492,11 @@
             {% comment %} *** LIEFERBAR *** {% endcomment %} 
             {%- when 'delivery_tag' -%}
               {% if selected_variant.available == false or delivery_date != empty %}
-                    test1
+                    test1 {{ selected_variant.available }}
+              {% else %}
+                
+                
+
               {% endif %}
               {% comment %} *** ENDE LIEFERBAR *** {% endcomment %} 
             
