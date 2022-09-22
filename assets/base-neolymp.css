@@ -1,14 +1,3 @@
-.DeliveryHint {
-    font-size: 13px;
-    color: #2d8b53;
-    margin-bottom: 0;
-}
-
-.DeliveryHint-preorder {
-    font-size: 13px;
-    color: #ff6d0a;
-}
-
 .badge-special {
     display: inline-block;
     margin-left: -45px;
