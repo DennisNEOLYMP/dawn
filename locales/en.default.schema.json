@@ -1709,6 +1709,9 @@
         "collapsible_description": {
           "name": "Collapsible description"
         },
+        "delivery_tag": {
+          "name": "Delivery tag"
+        },
         "brand_usps": {
           "name": "Brand USPs"
         },

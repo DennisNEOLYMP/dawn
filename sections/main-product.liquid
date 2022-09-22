@@ -28,6 +28,22 @@
   {%- endstyle -%}
 
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+  {% comment %}*** Delivery Tag JS ***{% endcomment %}
+  <script>
+    const currentVariantId = {{ product.selected_or_first_available_variant.id }};
+    const metaData = { {{ meta_data_1 }} };
+    const extraVariantInfo = (id) => {
+    let selector = document.querySelector('.variant_info_1');
+    let hide = document.querySelector('.DeliveryHint')
+      if (metaData[id]) {
+       hide.style.display = 'block'
+       selector.innerHTML = metaData[id];
+      }
+      else
+       hide.style.display = 'none'
+    }
+    extraVariantInfo(currentVariantId);
+  </script>
 
   {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
   {%- if first_3d_model -%}
@@ -449,7 +465,7 @@
 
             {% comment %} *** BESCHREIBUNG *** {% endcomment %} 
             {%- when 'collapsible_description' -%}
-            {%  if product.metafields.product.description != blank %}
+            {%  if product.description != blank %}
               <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
                 <details id="Details-{{ block.id }}-{{ section.id }}">
                   <summary>
@@ -467,7 +483,27 @@
                 </details>
               </div>
               {% endif %}
-            {% comment %} *** BESCHREIBUNG MASSE *** {% endcomment %} 
+            {% comment %} *** ENDE BESCHREIBUNG *** {% endcomment %} 
+
+            {% comment %} *** LIEFERBAR *** {% endcomment %} 
+            {%- when 'delivery_tag' -%}
+              {% if selected_variant.available == false or delivery_date != empty %}
+                {%- if delivery_date != null and delivery_date != "" and delivery_date > today_date -%}
+                    <div class="DeliveryHint DeliveryHint-preorder">● {{ 'products.product.delivery-hint-preorder' | t }}  <b>{{ delivery_date | date: "%d.%m.%y" }}</b></div>
+                {%- endif -%}
+                
+              {% else%}
+                {% if localization.country.iso_code == 'DE' %}
+                  <div class="DeliveryHint">● 
+                    {{ 'products.product.delivery-hint-inland' | t }}
+                  </div>
+                {% else%}
+                  <div class="DeliveryHint">●
+                    {{ 'products.product.delivery-hint-ausland1' | t }}
+                  </div>
+                {% endif %}
+              {% endif %}
+              {% comment %} *** ENDE LIEFERBAR *** {% endcomment %} 
             
             {%- when 'quantity_selector' -%}
               <div
@@ -1427,6 +1463,11 @@
     {
       "type": "collapsible_description",
       "name": "t:sections.main-product.blocks.collapsible_description.name",
+      "limit": 1
+    },
+    {
+      "type": "delivery_tag",
+      "name": "t:sections.main-product.blocks.delivery_tag.name",
       "limit": 1
     },
     {
