@@ -31,9 +31,13 @@
   {% comment %}*** Delivery Tag JS ***{% endcomment %}
   <script>
     const currentVariantId = {{ product.selected_or_first_available_variant.id }};
-    const metaData = { {{ meta_data_1 }} };
+    const metaData = {  {%  if localization.country.iso_code == 'DE' %}
+                              {{ 'products.product.delivery-hint-inland' | t }}
+                            {% else%}
+                                {{ 'products.product.delivery-hint-ausland1' | t }}
+                            {% endif %} };
     const extraVariantInfo = (id) => {
-    let selector = document.querySelector('.variant_info_1');
+    let selector = document.querySelector('.DeliveryHint');
     let hide = document.querySelector('.DeliveryHint')
       if (metaData[id]) {
        hide.style.display = 'block'
