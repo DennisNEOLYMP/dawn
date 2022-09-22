@@ -471,7 +471,7 @@
 
             {% comment %} *** LIEFERBAR *** {% endcomment %} 
             {%- when 'delivery_tag' -%}
-              {% if selected_variant.available == false or delivery_date != empty %}
+              {% if selected_or_first_available_variant.available == false or delivery_date != empty %}
                 {%- if delivery_date != null and delivery_date != "" and delivery_date > today_date -%}
                     <div class="DeliveryHint--preorder">● {{ 'products.product.delivery-hint-preorder' | t }}  <b>{{ delivery_date | date: "%d.%m.%y" }}</b></div>
                 {%- endif -%}
