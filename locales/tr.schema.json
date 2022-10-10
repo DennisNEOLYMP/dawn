@@ -1725,7 +1725,11 @@
           "name": "Tamamlayıcı ürünler",
           "settings": {
             "paragraph": {
+<<<<<<< HEAD
               "content": "Tamamlayıcı ürünleri seçmek için Search & Discovery uygulamasını ekleyin. [Daha fazla bilgi edinin](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
+=======
+              "content": "Tamamlayıcı ürünleri seçmek için Search & Discovery uygulamasını ekleyin. [Daha fazla bilgi edinin](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+>>>>>>> 6d2a6c9b946532b27d399cca1d5eee581a57d6c9
             },
             "heading": {
               "label": "Başlık"
@@ -1762,6 +1766,54 @@
             },
             "enable_quick_add": {
               "label": "Hızlı ekleme düğmesini etkinleştir"
+            }
+          }
+        },
+        "icon_with_text": {
+          "name": "Metin içeren simge",
+          "settings": {
+            "layout": {
+              "label": "Düzen",
+              "options__1": {
+                "label": "Yatay"
+              },
+              "options__2": {
+                "label": "Dikey"
+              }
+            },
+            "content": {
+              "label": "İçerik",
+              "info": "Her sütun veya satır için bir simge seçin ya da görsel ekleyin."
+            },
+            "heading": {
+              "info": "Simge sütununu gizlemek için başlık etiketini boş bırakın."
+            },
+            "icon_1": {
+              "label": "İlk simge"
+            },
+            "image_1": {
+              "label": "İlk görsel"
+            },
+            "heading_1": {
+              "label": "İlk başlık"
+            },
+            "icon_2": {
+              "label": "İkinci simge"
+            },
+            "image_2": {
+              "label": "İkinci görsel"
+            },
+            "heading_2": {
+              "label": "İkinci başlık"
+            },
+            "icon_3": {
+              "label": "Üçüncü simge"
+            },
+            "image_3": {
+              "label": "Üçüncü görsel"
+            },
+            "heading_3": {
+              "label": "Üçüncü başlık"
             }
           }
         }

@@ -1726,7 +1726,11 @@
           "name": "Kompletterande produkter",
           "settings": {
             "paragraph": {
+<<<<<<< HEAD
               "content": "Lägg till appen Search & Discovery för att välja tilläggsprodukter. [Mer information](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
+=======
+              "content": "Lägg till appen Search & Discovery för att välja tilläggsprodukter. [Mer information](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+>>>>>>> 6d2a6c9b946532b27d399cca1d5eee581a57d6c9
             },
             "heading": {
               "label": "Rubrik"
@@ -1763,6 +1767,54 @@
             },
             "enable_quick_add": {
               "label": "Aktivera knapp för snabb tilläggning"
+            }
+          }
+        },
+        "icon_with_text": {
+          "name": "Ikon med text",
+          "settings": {
+            "layout": {
+              "label": "Layout",
+              "options__1": {
+                "label": "Liggande"
+              },
+              "options__2": {
+                "label": "Stående"
+              }
+            },
+            "content": {
+              "label": "Innehåll",
+              "info": "Välj en ikon eller lägg till en bild för varje kolumn eller rad."
+            },
+            "heading": {
+              "info": "Lämna rubriketiketten tom för att dölja ikonkolumnen."
+            },
+            "icon_1": {
+              "label": "Första ikon"
+            },
+            "image_1": {
+              "label": "Första bild"
+            },
+            "heading_1": {
+              "label": "Första rubrik"
+            },
+            "icon_2": {
+              "label": "Andra ikon"
+            },
+            "image_2": {
+              "label": "Andra bild"
+            },
+            "heading_2": {
+              "label": "Andra rubrik"
+            },
+            "icon_3": {
+              "label": "Tredje ikon"
+            },
+            "image_3": {
+              "label": "Tredje bild"
+            },
+            "heading_3": {
+              "label": "Tredje rubrik"
             }
           }
         }

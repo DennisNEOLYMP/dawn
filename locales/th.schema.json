@@ -1726,7 +1726,11 @@
           "name": "สินค้าเสริม",
           "settings": {
             "paragraph": {
+<<<<<<< HEAD
               "content": "หากต้องการเลือกสินค้าเสริม ให้เพิ่มแอปค้นหาและการค้นพบ [ดูข้อมูลเพิ่มเติม](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
+=======
+              "content": "หากต้องการเลือกสินค้าเสริม ให้เพิ่มแอปค้นหาและการค้นพบ [ดูข้อมูลเพิ่มเติม](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+>>>>>>> 6d2a6c9b946532b27d399cca1d5eee581a57d6c9
             },
             "heading": {
               "label": "หัวเรื่อง"
@@ -1763,6 +1767,54 @@
             },
             "enable_quick_add": {
               "label": "เปิดใช้งานปุ่มซื้อด่วน"
+            }
+          }
+        },
+        "icon_with_text": {
+          "name": "ไอคอนที่มีข้อความ",
+          "settings": {
+            "layout": {
+              "label": "เลย์เอาต์",
+              "options__1": {
+                "label": "แนวนอน"
+              },
+              "options__2": {
+                "label": "แนวตั้ง"
+              }
+            },
+            "content": {
+              "label": "เนื้อหา",
+              "info": "เลือกไอคอนหรือเพิ่มรูปภาพให้แต่ละคอลัมน์หรือแต่ละแถว"
+            },
+            "heading": {
+              "info": "เว้นว่างป้ายส่วนหัวไว้เพื่อซ่อนคอลัมน์ไอคอน"
+            },
+            "icon_1": {
+              "label": "ไอคอนแรก"
+            },
+            "image_1": {
+              "label": "รูปภาพแรก"
+            },
+            "heading_1": {
+              "label": "ส่วนหัวแรก"
+            },
+            "icon_2": {
+              "label": "ไอคอนที่สอง"
+            },
+            "image_2": {
+              "label": "รูปภาพที่สอง"
+            },
+            "heading_2": {
+              "label": "ส่วนหัวที่สอง"
+            },
+            "icon_3": {
+              "label": "ไอคอนที่สาม"
+            },
+            "image_3": {
+              "label": "รูปภาพที่สาม"
+            },
+            "heading_3": {
+              "label": "ส่วนหัวที่สาม"
             }
           }
         }

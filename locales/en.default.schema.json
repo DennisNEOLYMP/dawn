@@ -1888,7 +1888,11 @@
           "name": "Complementary products",
           "settings": {
             "paragraph": {
+<<<<<<< HEAD
               "content": "To select complementary products, add the Search & Discovery app. [Learn more](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
+=======
+              "content": "To select complementary products, add the Search & Discovery app. [Learn more](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+>>>>>>> 6d2a6c9b946532b27d399cca1d5eee581a57d6c9
             },
             "heading": {
               "label": "Heading"
@@ -1925,6 +1929,54 @@
             },
             "enable_quick_add": {
               "label": "Enable quick add button"
+            }
+          }
+        },
+        "icon_with_text": {
+          "name": "Icon with text",
+          "settings": {
+            "layout": {
+              "label": "Layout",
+              "options__1": {
+                "label": "Horizontal"
+              },
+              "options__2": {
+                "label": "Vertical"
+              }
+            },
+            "content": {
+              "label": "Content",
+              "info": "Choose an icon or add an image for each column or row."
+            },
+            "heading": {
+              "info": "Leave the heading label blank to hide the icon column."
+            },
+            "icon_1": {
+              "label": "First icon"
+            },
+            "image_1": {
+              "label": "First image"
+            },
+            "heading_1": {
+              "label": "First heading"
+            },
+            "icon_2": {
+              "label": "Second icon"
+            },
+            "image_2": {
+              "label": "Second image"
+            },
+            "heading_2": {
+              "label": "Second heading"
+            },
+            "icon_3": {
+              "label": "Third icon"
+            },
+            "image_3": {
+              "label": "Third image"
+            },
+            "heading_3": {
+              "label": "Third heading"
             }
           }
         }
