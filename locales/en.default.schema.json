@@ -1888,11 +1888,7 @@
           "name": "Complementary products",
           "settings": {
             "paragraph": {
-<<<<<<< HEAD
-              "content": "To select complementary products, add the Search & Discovery app. [Learn more](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
-=======
               "content": "To select complementary products, add the Search & Discovery app. [Learn more](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
->>>>>>> 6d2a6c9b946532b27d399cca1d5eee581a57d6c9
             },
             "heading": {
               "label": "Heading"
