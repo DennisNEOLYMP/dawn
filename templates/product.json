@@ -171,13 +171,14 @@
           "type": "brand_usps",
           "settings": {
             "heading": "<p>Versand & Retoure kostenlos<\/p>",
-            "image": "shopify:\/\/shop_images\/icon-blue_8f8418ff-26e5-462a-9ec0-8f3069a3e55d.png",
-            "content": "<p>test<\/p>",
+            "image": "shopify:\/\/shop_images\/truck_1.png",
+            "content": "<p>Der Versand und Rücksendungen in Deutschland sind vollkommen kostenlos für dich.<\/p>",
             "page": ""
           }
         },
         "e4d2f096-0902-4051-9c02-558ac360b514": {
           "type": "delivery_tag",
+          "disabled": true,
           "settings": {
           }
         },
