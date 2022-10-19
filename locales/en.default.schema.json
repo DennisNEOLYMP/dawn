@@ -1715,6 +1715,9 @@
         "brand_usps": {
           "name": "Brand USPs"
         },
+        "muscle_groups": {
+          "name": "Muscle groups"
+        },
         "collapsible_tab": {
           "name": "Collapsible row",
           "settings": {
