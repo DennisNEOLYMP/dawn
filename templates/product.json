@@ -176,6 +176,15 @@
             "page": ""
           }
         },
+        "baccc37b-78a7-41ec-ba78-87ed443a830f": {
+          "type": "brand_usps",
+          "settings": {
+            "heading": "<p>inkl. kostenlosem E-Book<\/p>",
+            "image": "shopify:\/\/shop_images\/survey_1_1.png",
+            "content": "<p>Mit dem Kauf dieses Produktes erhältst du Zugriff auf unsere ständig wachsende E-Book-Bibliothek. <\/p>",
+            "page": ""
+          }
+        },
         "e4d2f096-0902-4051-9c02-558ac360b514": {
           "type": "delivery_tag",
           "disabled": true,
@@ -214,6 +223,7 @@
         "c4c2ad7d-90ee-400f-b2f9-58e7910b29e5",
         "share",
         "8ee66e56-57fb-4aef-b532-874d154beb1a",
+        "baccc37b-78a7-41ec-ba78-87ed443a830f",
         "e4d2f096-0902-4051-9c02-558ac360b514",
         "3cc5963c-97f8-4dff-9abc-c2fb597fac4b"
       ],
