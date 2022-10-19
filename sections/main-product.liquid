@@ -230,6 +230,43 @@
                 test2 {{ selected_variant.available }}            
               {% endif %}
               {% comment %} *** ENDE LIEFERBAR *** {% endcomment %} 
+
+            {% comment %} *** MUSCLE GROUP MUSKELGRUPPE *** {% endcomment %} 
+            {%- when 'muscle_group' -%}    
+              <div class="muscle_groups_wrapper">
+                <div class="muscle_group_lable">
+                  <h3><b>{{ 'products.product.muscle-groups' | t }}:</b> {{ product.metafields.my_fields.muskelgruppen.value }}</h3>      
+                </div>
+              <div class="muscle_groups"> 
+                <img src="{{ 'body_muscles.svg' | file_url }}">
+                
+                {%- if product.metafields.my_fields.muskelgruppen.value contains 'Schulter' -%}
+                  <img src="{{ 'upper_arms_shoulders.svg' | file_url }}" class="muscle_group-image">
+                {%- endif -%}
+                
+                {%- if product.metafields.my_fields.muskelgruppen.value contains 'Brust' -%}
+                  <img src="{{ 'chest.svg' | file_url }}" class="muscle_group-image">
+                {%- endif -%}
+                
+                {%- if product.metafields.my_fields.muskelgruppen.value contains 'Nacken' -%}
+                  <img src="{{ 'upper_back_neck.svg' | file_url }}" class="muscle_group-image">
+                {%- endif -%}
+                
+                {%- if product.metafields.my_fields.muskelgruppen.value contains 'Schultern' -%}
+                  <img src="{{ 'upper_arms_shoulders.svg' | file_url }}" class="muscle_group-image">
+                {%- endif -%}
+                
+                {%- if product.metafields.my_fields.muskelgruppen.value contains 'Unterarm' -%}
+                  <img src="{{ 'forearms.svg' | file_url }}" class="muscle_group-image">
+                {%- endif -%}
+                
+                {%- if product.metafields.my_fields.muskelgruppen.value contains 'Innere Bauchmuskeln' -%}
+                  <img src="{{ 'abs.svg' | file_url }}" class="muscle_group-image">
+                {%- endif -%}   
+                
+              </div>
+            </div>  
+            
             
             {%- when 'quantity_selector' -%}
               <div
@@ -1033,6 +1070,11 @@
           "label": "t:sections.main-product.blocks.collapsible_tab.settings.page.label"
         }
       ]
+    },
+    {
+      "type": "muscle_groups",
+      "name": "t:products.product.muscle-groups",
+      "limit": 1
     },
     {
       "type": "collapsible_description",

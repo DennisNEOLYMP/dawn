@@ -1321,3 +1321,17 @@ a.product__text {
 .icon-with-text--vertical .icon-with-text__item {
   margin-bottom: var(--icon-size);
 }
+
+.muscle_groups {
+  position: relative;
+  width:100%;
+  background-repeat:none;
+}
+
+.muscle_group-image {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
