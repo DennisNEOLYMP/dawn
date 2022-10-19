@@ -180,6 +180,11 @@
           "type": "delivery_tag",
           "settings": {
           }
+        },
+        "3cc5963c-97f8-4dff-9abc-c2fb597fac4b": {
+          "type": "muscle_groups",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -208,7 +213,8 @@
         "c4c2ad7d-90ee-400f-b2f9-58e7910b29e5",
         "share",
         "8ee66e56-57fb-4aef-b532-874d154beb1a",
-        "e4d2f096-0902-4051-9c02-558ac360b514"
+        "e4d2f096-0902-4051-9c02-558ac360b514",
+        "3cc5963c-97f8-4dff-9abc-c2fb597fac4b"
       ],
       "settings": {
         "enable_sticky_info": true,
