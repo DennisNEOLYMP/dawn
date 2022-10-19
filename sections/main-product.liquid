@@ -232,10 +232,10 @@
               {% comment %} *** ENDE LIEFERBAR *** {% endcomment %} 
 
             {% comment %} *** MUSCLE GROUP MUSKELGRUPPE *** {% endcomment %} 
-            {%- when 'muscle_group' -%}    
+            {%- when 'muscle_groups' -%}    
               <div class="muscle_groups_wrapper">
                 <div class="muscle_group_lable">
-                  <h3><b>{{ 'products.product.muscle-groups' | t }}:</b> {{ product.metafields.my_fields.muskelgruppen.value }}</h3>      
+                  <h3><b>{{ 'products.product.muscle_groups' | t }}:</b> {{ product.metafields.my_fields.muskelgruppen.value }}</h3>      
                 </div>
               <div class="muscle_groups"> 
                 <img src="{{ 'body_muscles.svg' | file_url }}">
@@ -1073,7 +1073,7 @@
     },
     {
       "type": "muscle_groups",
-      "name": "t:sections.main-product.blocks.muscle-groups.name",
+      "name": "t:sections.main-product.blocks.muscle_groups.name",
       "limit": 1
     },
     {
