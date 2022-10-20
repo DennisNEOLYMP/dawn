@@ -1323,7 +1323,7 @@ a.product__text {
 }
 
 .muscle_groups {
-  position: relative;
+  display: flex;
   width:100%;
   background-repeat:none;
 }
