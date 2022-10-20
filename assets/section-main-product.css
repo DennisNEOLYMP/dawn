@@ -1324,8 +1324,8 @@ a.product__text {
 
 .muscle_groups {
   position: relative;
-  width:100%;
-  background-repeat:none;
+  width: 80%;
+  margin: auto;
 }
 
 .muscle_group-image {
