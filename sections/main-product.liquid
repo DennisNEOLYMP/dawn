@@ -236,7 +236,7 @@
               {% if product.metafields.my_fields.muskelgruppen.value != empty %}
                 <div class="muscle_groups_wrapper">
                   <div class="muscle_group_lable">
-                    <h3><b>{{ 'products.product.muscle_groups' | t }}:</b> {{ product.metafields.my_fields.muskelgruppen.value }}</h3>      
+                    <h3><b>{{ 'products.product.muscle_groups' | t }}:</b> {{ product.metafields.my_fields.muskelgruppen.value }} {{ product.metafields.custom.test_list.value }}</h3>      
                   </div>
                   <div class="muscle_groups"> 
                     <img src="{{ 'body_muscles.svg' | file_url }}">
