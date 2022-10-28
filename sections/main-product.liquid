@@ -238,7 +238,8 @@
                   <div class="muscle_group_lable">
                     <h3><b>{{ 'products.product.muscle_groups' | t }}:</b> </h3>      
                     {% for field in product.metafields.my_fields.musclegroups.value %}
-                      {{ field }}, 
+                      {{ field }}{{ forloop.index }},
+                      {% unless forloop.last %}.{% endunless %}
                     {% endfor %}
                   </div>
                   <div class="muscle_groups"> 
