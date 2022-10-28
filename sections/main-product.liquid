@@ -233,13 +233,13 @@
 
             {% comment %} *** MUSCLE GROUP MUSKELGRUPPE *** {% endcomment %} 
             {%- when 'muscle_groups' -%}    
-              {% if product.metafields.my_fields.musclegroups.value != empty and product.metafields.my_fields.musclegroups.value != "" %}
+              {% if product.metafields.my_fields.musclegroups.value != empty and product.metafields.my_fields.musclegroups.value != "" and product.metafields.my_fields.musclegroups.value != " " %}
                 <div class="muscle_groups_wrapper">
                   <div class="muscle_group_lable">
-                    <h3><b>{{ 'products.product.muscle_groups' | t }}:</b> </h3>      
-                    {% for field in product.metafields.my_fields.musclegroups.value %}
+                    <h3><b>{{ 'products.product.muscle_groups' | t }}:</b> {% for field in product.metafields.my_fields.musclegroups.value %}
                       {{ field }}{% unless forloop.last %}, {% else %}.{% endunless %}
-                    {% endfor %}
+                    {% endfor %}</h3>      
+                    
                   </div>
                   <div class="muscle_groups"> 
                     <img src="{{ 'body_muscles.svg' | file_url }}">
