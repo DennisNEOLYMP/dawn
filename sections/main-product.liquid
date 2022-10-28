@@ -236,7 +236,10 @@
               {% if product.metafields.my_fields.muskelgruppen.value != empty %}
                 <div class="muscle_groups_wrapper">
                   <div class="muscle_group_lable">
-                    <h3><b>{{ 'products.product.muscle_groups' | t }}:</b> {{ product.metafields.my_fields.muskelgruppen.value }} {{ product.metafields.my_fields.musclegroups }}</h3>      
+                    <h3><b>{{ 'products.product.muscle_groups' | t }}:</b> ova: {{ product.metafields.my_fields.musclegroups }} va:{{ product.metafields.my_fields.musclegroups.value }} </h3>      
+                    {% for field in product.metafields.my_fields.muskelgruppen.value %}
+                      {{ field }}, 
+                    {% endfor %}
                   </div>
                   <div class="muscle_groups"> 
                     <img src="{{ 'body_muscles.svg' | file_url }}">
@@ -257,11 +260,11 @@
                       <img src="{{ 'upper_arms_shoulders.svg' | file_url }}" class="muscle_group-image">
                     {%- endif -%}
                     
-                    {%- if product.metafields.my_fields.muskelgruppen.value contains 'Unterarm' -%}
+                    {%- if product.metafields.my_fields.muskelgruppen.value contains 'Arme' -%}
                       <img src="{{ 'forearms.svg' | file_url }}" class="muscle_group-image">
                     {%- endif -%}
                     
-                    {%- if product.metafields.my_fields.muskelgruppen.value contains 'Innere Bauchmuskeln' -%}
+                    {%- if product.metafields.my_fields.muskelgruppen.value contains 'Bauch' -%}
                       <img src="{{ 'abs.svg' | file_url }}" class="muscle_group-image">
                     {%- endif -%}   
                   
