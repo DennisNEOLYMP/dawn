@@ -233,7 +233,7 @@
 
             {% comment %} *** MUSCLE GROUP MUSKELGRUPPE *** {% endcomment %} 
             {%- when 'muscle_groups' -%}    
-              {% if product.metafields.my_fields.musclegroups.value != empty %}
+              {% if product.metafields.my_fields.musclegroups.value != empty and product.metafields.my_fields.musclegroups.value != "" %}
                 <div class="muscle_groups_wrapper">
                   <div class="muscle_group_lable">
                     <h3><b>{{ 'products.product.muscle_groups' | t }}:</b> </h3>      
