@@ -233,38 +233,38 @@
 
             {% comment %} *** MUSCLE GROUP MUSKELGRUPPE *** {% endcomment %} 
             {%- when 'muscle_groups' -%}    
-              {% if product.metafields.my_fields.muskelgruppen.value != empty %}
+              {% if product.metafields.my_fields.musclegroups.value != empty %}
                 <div class="muscle_groups_wrapper">
                   <div class="muscle_group_lable">
-                    <h3><b>{{ 'products.product.muscle_groups' | t }}:</b> ova: {{ product.metafields.my_fields.musclegroups }} va:{{ product.metafields.my_fields.musclegroups.value }} </h3>      
-                    {% for field in product.metafields.my_fields.muskelgruppen.value %}
+                    <h3><b>{{ 'products.product.muscle_groups' | t }}:</b> </h3>      
+                    {% for field in product.metafields.my_fields.musclegroups.value %}
                       {{ field }}, 
                     {% endfor %}
                   </div>
                   <div class="muscle_groups"> 
                     <img src="{{ 'body_muscles.svg' | file_url }}">
                     
-                    {%- if product.metafields.my_fields.muskelgruppen.value contains 'Schulter' -%}
+                    {%- if product.metafields.my_fields.musclegroups.value contains 'Schulter' -%}
                       <img src="{{ 'upper_arms_shoulders.svg' | file_url }}" class="muscle_group-image">
                     {%- endif -%}
                     
-                    {%- if product.metafields.my_fields.muskelgruppen.value contains 'Brust' -%}
+                    {%- if product.metafields.my_fields.musclegroups.value contains 'Brust' -%}
                       <img src="{{ 'chest.svg' | file_url }}" class="muscle_group-image">
                     {%- endif -%}
                     
-                    {%- if product.metafields.my_fields.muskelgruppen.value contains 'Nacken' -%}
+                    {%- if product.metafields.my_fields.musclegroups.value contains 'Nacken' -%}
                       <img src="{{ 'upper_back_neck.svg' | file_url }}" class="muscle_group-image">
                     {%- endif -%}
                     
-                    {%- if product.metafields.my_fields.muskelgruppen.value contains 'Schultern' -%}
+                    {%- if product.metafields.my_fields.musclegroups.value contains 'Schultern' -%}
                       <img src="{{ 'upper_arms_shoulders.svg' | file_url }}" class="muscle_group-image">
                     {%- endif -%}
                     
-                    {%- if product.metafields.my_fields.muskelgruppen.value contains 'Arme' -%}
+                    {%- if product.metafields.my_fields.musclegroups.value contains 'Arme' -%}
                       <img src="{{ 'forearms.svg' | file_url }}" class="muscle_group-image">
                     {%- endif -%}
                     
-                    {%- if product.metafields.my_fields.muskelgruppen.value contains 'Bauch' -%}
+                    {%- if product.metafields.my_fields.musclegroups.value contains 'Bauch' -%}
                       <img src="{{ 'abs.svg' | file_url }}" class="muscle_group-image">
                     {%- endif -%}   
                   
