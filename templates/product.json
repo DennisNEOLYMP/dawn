@@ -133,19 +133,6 @@
             "custom_liquid": "{% if localization.country.iso_code == 'AT' %}\n  \/\/ show custom content only meant for France\n{% else %}\n  show generic content\n{% endif %}"
           }
         },
-        "9800607d-62c2-46df-aef5-dca4f4ed5993": {
-          "type": "complementary",
-          "settings": {
-            "block_heading": "Passt gut zusammen",
-            "make_collapsible_row": false,
-            "icon": "price_tag",
-            "product_list_limit": 10,
-            "products_per_page": 3,
-            "pagination_style": "counter",
-            "image_ratio": "square",
-            "enable_quick_add": false
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -190,6 +177,19 @@
           "settings": {
           }
         },
+        "9800607d-62c2-46df-aef5-dca4f4ed5993": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Passt gut zusammen",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        },
         "fb4bafc5-491c-411c-b24b-77d4d9c5db0c": {
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
@@ -216,13 +216,13 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "b8b2f2f3-4250-42ee-8919-ea880d24b4e3",
-        "9800607d-62c2-46df-aef5-dca4f4ed5993",
         "share",
         "8ee66e56-57fb-4aef-b532-874d154beb1a",
         "baccc37b-78a7-41ec-ba78-87ed443a830f",
         "2c1d1139-4f2c-4c56-88fa-c9847b0b37d0",
         "e4d2f096-0902-4051-9c02-558ac360b514",
         "3cc5963c-97f8-4dff-9abc-c2fb597fac4b",
+        "9800607d-62c2-46df-aef5-dca4f4ed5993",
         "fb4bafc5-491c-411c-b24b-77d4d9c5db0c"
       ],
       "settings": {
