@@ -53,6 +53,7 @@
         },
         "16c4374e-11ea-42fd-abf1-f7cd9b13c21d": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<div id=\"delivery_tag-{{ section.id }}\">{%- if product.selected_or_first_available_variant.inventory_quantity < 1 -%}\n  {%- if delivery_date != null and delivery_date != \"\" and delivery_date > today_date -%}\n      <div class=\"DeliveryHint-preorder\">● {{ 'products.product.delivery-hint-preorder' | t }}  <b>{{ delivery_date | date: \"%d.%m.%y\" }}<\/b><\/div>\n  {%- endif -%}\n\t\n{% else%}\n\t{% if localization.country.iso_code == 'DE' %}\n\t\t<div class=\"DeliveryHint\">● \n\t\t\t{{ 'products.product.delivery-hint-inland' | t }}\n\t\t<\/div>\n\t{% else%}\n\t\t<div class=\"DeliveryHint\">●\n\t\t\t{{ 'products.product.delivery-hint-ausland1' | t }}\n\t\t<\/div>\n\t{% endif %}\n{% endif %}\n<\/div>"
           }
