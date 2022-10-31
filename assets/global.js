@@ -882,7 +882,6 @@ class VariantSelects extends HTMLElement {
         const skuDestination = document.getElementById(`Sku-${this.dataset.section}`);
         const inventorySource = html.getElementById(`Inventory-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
         const inventoryDestination = document.getElementById(`Inventory-${this.dataset.section}`);
-
         const deliverytagSource = html.getElementById(`delivery_tag-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
         const deliverytagDestination = document.getElementById(`delivery_tag-${this.dataset.section}`);
 
