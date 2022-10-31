@@ -56,7 +56,8 @@
     </div>
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}">
       <div class="social_info_bar color-background-2">
-          {{ 'products.product.social_info_bar_1' | t }} <strong>1235</strong> {{ 'products.product.social_info_bar_2' | t }}
+
+          {{ 'products.product.social_info_bar_1' | t }} <strong>{{ product.meta_rating_count:reviews:number_integer }}</strong> {{ 'products.product.social_info_bar_2' | t }}
         </div>
       <div
         id="ProductInfo-{{ section.id }}"
