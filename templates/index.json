@@ -195,19 +195,12 @@
         "6b79c473-140d-4599-b51d-95bcab60f7de": {
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "maxwidth": 1080
-          }
-        },
-        "eac7f170-e6cc-4727-b11f-67c73f82e4b3": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/all_reviews_page\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "extra_wrapper_classes": "page-width page-width--narrow"
+            "maxwidth": 1200
           }
         }
       },
       "block_order": [
-        "6b79c473-140d-4599-b51d-95bcab60f7de",
-        "eac7f170-e6cc-4727-b11f-67c73f82e4b3"
+        "6b79c473-140d-4599-b51d-95bcab60f7de"
       ],
       "settings": {
         "include_margins": true
@@ -290,6 +283,7 @@
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -395,6 +389,23 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16672341752980360d": {
+      "type": "apps",
+      "blocks": {
+        "a945d20d-7056-462b-aece-3bd83c5c712f": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": ""
+          }
+        }
+      },
+      "block_order": [
+        "a945d20d-7056-462b-aece-3bd83c5c712f"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -406,6 +417,7 @@
     "video",
     "collage",
     "image_banner",
-    "multicolumn"
+    "multicolumn",
+    "16672341752980360d"
   ]
 }
