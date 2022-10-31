@@ -367,7 +367,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/pay_1.png",
             "title": "Schnell und sicher zahlen",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Wir unterstützen alle gängigen Zahlungsanbieter über unser verschlüsseltes Zahlungsportal. Darunter auch Raten- und Rechnungskauf über Klarna.<\/p>",
             "link_label": "",
             "link": ""
           }
