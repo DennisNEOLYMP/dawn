@@ -253,28 +253,29 @@
     "collage": {
       "type": "collage",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "5ca86dff-19b7-4a92-b8c9-32a78ab69de0": {
+          "type": "image",
           "settings": {
-            "collection": "spar-set"
+            "image": "shopify:\/\/shop_images\/kat-baender-hoch.png",
+            "image_padding": false
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "akupressurmatte",
+            "product": "minibaender",
             "second_image": false
           }
         },
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "b-ware"
+            "collection": "fitnessbaender"
           }
         }
       },
       "block_order": [
-        "collection-0",
+        "5ca86dff-19b7-4a92-b8c9-32a78ab69de0",
         "product",
         "collection-1"
       ],
