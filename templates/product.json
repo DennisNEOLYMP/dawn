@@ -54,7 +54,7 @@
         "16c4374e-11ea-42fd-abf1-f7cd9b13c21d": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if selected_variant.available == false or product.template_suffix == 'pre-order' or product.tags contains 'pre-order' %}\n  {%- if delivery_date != null and delivery_date != \"\" and delivery_date > today_date -%}\n      <div class=\"DeliveryHint-preorder\">● {{ 'products.product.delivery-hint-preorder' | t }}  <b>{{ delivery_date | date: \"%d.%m.%y\" }}<\/b><\/div>\n  {%- endif -%}\n\t\n{% else%}\n\t{% if localization.country.iso_code == 'DE' %}\n\t\t<div class=\"DeliveryHint\">● \n\t\t\t{{ 'products.product.delivery-hint-inland' | t }}\n\t\t<\/div>\n\t{% else%}\n\t\t<div class=\"DeliveryHint\">●\n\t\t\t{{ 'products.product.delivery-hint-ausland1' | t }}\n\t\t<\/div>\n\t{% endif %}\n{% endif %}"
+            "custom_liquid": "{%- if variant.available == false %}\n  {%- if delivery_date != null and delivery_date != \"\" and delivery_date > today_date -%}\n      <div class=\"DeliveryHint-preorder\">● {{ 'products.product.delivery-hint-preorder' | t }}  <b>{{ delivery_date | date: \"%d.%m.%y\" }}<\/b><\/div>\n  {%- endif -%}\n\t\n{% else%}\n\t{% if localization.country.iso_code == 'DE' %}\n\t\t<div class=\"DeliveryHint\">● \n\t\t\t{{ 'products.product.delivery-hint-inland' | t }}\n\t\t<\/div>\n\t{% else%}\n\t\t<div class=\"DeliveryHint\">●\n\t\t\t{{ 'products.product.delivery-hint-ausland1' | t }}\n\t\t<\/div>\n\t{% endif %}\n{% endif %}"
           }
         },
         "8632a6aa-64ab-4404-a867-4618d7f33a9d": {
@@ -184,11 +184,6 @@
             "enable_quick_add": false
           }
         },
-        "fb4bafc5-491c-411c-b24b-77d4d9c5db0c": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -222,7 +217,6 @@
         "2c1d1139-4f2c-4c56-88fa-c9847b0b37d0",
         "e4d2f096-0902-4051-9c02-558ac360b514",
         "9800607d-62c2-46df-aef5-dca4f4ed5993",
-        "fb4bafc5-491c-411c-b24b-77d4d9c5db0c",
         "share"
       ],
       "settings": {
@@ -270,50 +264,6 @@
         "include_margins": true
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "disabled": true,
-      "blocks": {
-        "column-0": {
-          "type": "column",
-          "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-0",
-        "column-1"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -354,7 +304,6 @@
     "main",
     "0264df53-9505-4860-badb-29dfa704319d",
     "1663584029e4097d37",
-    "multicolumn",
     "product-recommendations",
     "166358294874dc8baa"
   ]
