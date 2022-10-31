@@ -118,7 +118,7 @@
         "decrease": "Verringere die Menge für {{ product }}"
       },
       "price": {
-        "from_price_html": "Von {{ price }}",
+        "from_price_html": "ab {{ price }}",
         "regular_price": "UVP",
         "sale_price": "Verkaufspreis",
         "unit_price": "Grundpreis"

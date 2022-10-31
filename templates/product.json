@@ -348,23 +348,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "1667235117ca34bdb6": {
-      "type": "apps",
-      "blocks": {
-        "ad5613bb-74e1-4ef8-91f2-6242f9593338": {
-          "type": "shopify:\/\/apps\/shop\/blocks\/shop-pay-installments-banner\/7cab7c4a-1dfc-4b7e-8e53-31f104f2fa4e",
-          "settings": {
-            "product": "{{product}}"
-          }
-        }
-      },
-      "block_order": [
-        "ad5613bb-74e1-4ef8-91f2-6242f9593338"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -373,7 +356,6 @@
     "1663584029e4097d37",
     "multicolumn",
     "product-recommendations",
-    "166358294874dc8baa",
-    "1667235117ca34bdb6"
+    "166358294874dc8baa"
   ]
 }
