@@ -1325,6 +1325,20 @@ a.product__text {
   padding-top: 2rem;
 }
 
+.muscle_groups {
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+.muscle_group-image {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
 .icon-with-text--vertical {
   --icon-size: calc(var(--font-heading-scale) * 2rem);
   padding-top: 1.5rem;

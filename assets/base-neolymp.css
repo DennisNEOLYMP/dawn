@@ -62,3 +62,6 @@
   }
 }
 
+.hover70:hover, .hover70:active {
+    opacity: 70%;
+}
