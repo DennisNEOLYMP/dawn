@@ -307,7 +307,7 @@
               {% if count > 0 %}
                 <div class="muscle_groups_wrapper">
                   <div class="muscle_group_lable">
-                    <h3><b>{{ 'products.product.muscle_groups' | t }}:</b> {% for field in product.metafields.my_fields.musclegroups.value %}
+                    <h4 class="h4"><b>{{ 'products.product.muscle_groups' | t }}:</b> {% for field in product.metafields.my_fields.musclegroups.value %}
                       {{ field }}{% unless forloop.last %}, {% else %}.{% endunless %}
                     {% endfor %}</h3>      
                     
