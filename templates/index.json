@@ -292,6 +292,7 @@
     },
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -344,8 +345,9 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/truck_1.png",
+            "title": "Kostenloser Versand",
+            "text": "<p>Wir versenden oft noch am selben Tag und das kostenlos für alle Bestellungen nach Deutschland.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -353,16 +355,18 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/survey_1_1.png",
+            "title": "E-Book Downloads",
+            "text": "<p>Mit dem Kauf unserer Produkte erhältst du exklusiven Zugang zu unserer stetig wachsenden E-Book-Bibliothek<\/p>",
+            "link_label": "Zur Code-Eingabe",
+            "link": "shopify:\/\/pages\/ebooks-code-entry"
           }
         },
-        "column3": {
+        "724f45a8-8934-46e5-91bc-0eca48df6569": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/pay_1.png",
+            "title": "Schnell und sicher zahlen",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -372,7 +376,7 @@
       "block_order": [
         "column1",
         "column2",
-        "column3"
+        "724f45a8-8934-46e5-91bc-0eca48df6569"
       ],
       "settings": {
         "title": "",
