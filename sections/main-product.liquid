@@ -90,6 +90,9 @@
                     {{ product.title | escape }}
                   </h2>
                 </a>
+                {%- if product.metafields.custom.sonderinfo_name or product.metafields.custom.sonderinfo_inhalt != blank -%}
+                  <p class="product__sku rte"><strong>{{ product.metafields.custom.sonderinfo_name }}:</strong> <span class="ProductMeta__SkuNumber">{{ product.metafields.custom.sonderinfo_inhalt }}</span></p>
+                {%- endif -%}
               </div>
             {%- when 'price' -%}
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
