@@ -133,10 +133,9 @@
             "custom_liquid": "{% if localization.country.iso_code == 'AT' %}\n  \/\/ show custom content only meant for France\n{% else %}\n  show generic content\n{% endif %}"
           }
         },
-        "share": {
-          "type": "share",
+        "3cc5963c-97f8-4dff-9abc-c2fb597fac4b": {
+          "type": "muscle_groups",
           "settings": {
-            "share_label": "Teilen"
           }
         },
         "8ee66e56-57fb-4aef-b532-874d154beb1a": {
@@ -172,11 +171,6 @@
           "settings": {
           }
         },
-        "3cc5963c-97f8-4dff-9abc-c2fb597fac4b": {
-          "type": "muscle_groups",
-          "settings": {
-          }
-        },
         "9800607d-62c2-46df-aef5-dca4f4ed5993": {
           "type": "complementary",
           "settings": {
@@ -193,6 +187,12 @@
         "fb4bafc5-491c-411c-b24b-77d4d9c5db0c": {
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Teilen"
           }
         }
       },
@@ -216,14 +216,14 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "b8b2f2f3-4250-42ee-8919-ea880d24b4e3",
-        "share",
+        "3cc5963c-97f8-4dff-9abc-c2fb597fac4b",
         "8ee66e56-57fb-4aef-b532-874d154beb1a",
         "baccc37b-78a7-41ec-ba78-87ed443a830f",
         "2c1d1139-4f2c-4c56-88fa-c9847b0b37d0",
         "e4d2f096-0902-4051-9c02-558ac360b514",
-        "3cc5963c-97f8-4dff-9abc-c2fb597fac4b",
         "9800607d-62c2-46df-aef5-dca4f4ed5993",
-        "fb4bafc5-491c-411c-b24b-77d4d9c5db0c"
+        "fb4bafc5-491c-411c-b24b-77d4d9c5db0c",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
