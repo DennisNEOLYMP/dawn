@@ -195,19 +195,12 @@
         "6b79c473-140d-4599-b51d-95bcab60f7de": {
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "maxwidth": 1080
-          }
-        },
-        "eac7f170-e6cc-4727-b11f-67c73f82e4b3": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/all_reviews_page\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "extra_wrapper_classes": "page-width page-width--narrow"
+            "maxwidth": 1200
           }
         }
       },
       "block_order": [
-        "6b79c473-140d-4599-b51d-95bcab60f7de",
-        "eac7f170-e6cc-4727-b11f-67c73f82e4b3"
+        "6b79c473-140d-4599-b51d-95bcab60f7de"
       ],
       "settings": {
         "include_margins": true
@@ -257,31 +250,49 @@
         "padding_bottom": 36
       }
     },
+    "16672341752980360d": {
+      "type": "apps",
+      "blocks": {
+        "a945d20d-7056-462b-aece-3bd83c5c712f": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "XgKeQn"
+          }
+        }
+      },
+      "block_order": [
+        "a945d20d-7056-462b-aece-3bd83c5c712f"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "5ca86dff-19b7-4a92-b8c9-32a78ab69de0": {
+          "type": "image",
           "settings": {
-            "collection": "spar-set"
+            "image": "shopify:\/\/shop_images\/kat-baender-hoch.png",
+            "image_padding": false
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "akupressurmatte",
+            "product": "minibaender",
             "second_image": false
           }
         },
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "b-ware"
+            "collection": "fitnessbaender"
           }
         }
       },
       "block_order": [
-        "collection-0",
+        "5ca86dff-19b7-4a92-b8c9-32a78ab69de0",
         "product",
         "collection-1"
       ],
@@ -290,6 +301,7 @@
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -297,6 +309,7 @@
     },
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -349,8 +362,9 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/truck_1.png",
+            "title": "Kostenloser Versand",
+            "text": "<p>Wir versenden oft noch am selben Tag und das kostenlos für alle Bestellungen nach Deutschland.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -358,17 +372,19 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/survey_1_1.png",
+            "title": "E-Book Downloads",
+            "text": "<p>Mit dem Kauf unserer Produkte erhältst du exklusiven Zugang zu unserer stetig wachsenden E-Book-Bibliothek<\/p>",
+            "link_label": "Zur Code-Eingabe",
+            "link": "shopify:\/\/pages\/ebooks-code-entry"
           }
         },
-        "column3": {
+        "724f45a8-8934-46e5-91bc-0eca48df6569": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/pay_1.png",
+            "title": "Schnell und sicher zahlen",
+            "text": "<p>Wir unterstützen alle gängigen Zahlungsanbieter über unser verschlüsseltes Zahlungsportal. Darunter auch Raten- und Rechnungskauf über Klarna.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -377,7 +393,7 @@
       "block_order": [
         "column1",
         "column2",
-        "column3"
+        "724f45a8-8934-46e5-91bc-0eca48df6569"
       ],
       "settings": {
         "title": "",
@@ -404,6 +420,7 @@
     "166351848069a237b6",
     "rich_text",
     "video",
+    "16672341752980360d",
     "collage",
     "image_banner",
     "multicolumn"
