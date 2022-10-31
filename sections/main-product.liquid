@@ -290,7 +290,7 @@
             {% comment %} *** ENDE BESCHREIBUNG *** {% endcomment %} 
 
             {% comment %} *** LIEFERBAR *** {% endcomment %} 
-            {%- when 'collapsible_description' -%}
+            {%- when 'delivery_tag' -%}
               <div id="delivery_tag-{{ section.id }}">
                 {%- if product.selected_or_first_available_variant.inventory_quantity < 1 -%}
                   Vorbestellbar
