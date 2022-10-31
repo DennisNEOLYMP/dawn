@@ -300,7 +300,7 @@
                 
               {% else%}
                 {% if localization.country.iso_code == 'DE' %}
-                  <div class="DeliveryHint">● 
+                  <div class="DeliveryHint no-js-hidden {{ block.shopify_attributes }}">● 
                     {{ 'products.product.delivery-hint-inland' | t }}
                   </div>
                 {% else%}
