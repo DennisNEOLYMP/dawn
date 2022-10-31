@@ -29,7 +29,7 @@
     "8c62f97f-b70f-4b49-a8de-0466b51a4506": {
       "type": "page",
       "settings": {
-        "page": "",
+        "page": "{{ collection.metafields.custom.kategorieseite.value }}",
         "heading_size": "h1",
         "color_scheme": "background-1",
         "padding_top": 36,
