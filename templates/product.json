@@ -27,11 +27,6 @@
           "settings": {
           }
         },
-        "515d784b-44e4-4bef-b160-3e595b03d4ea": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        },
         "caption": {
           "type": "text",
           "settings": {
@@ -138,11 +133,6 @@
             "custom_liquid": "{% if localization.country.iso_code == 'AT' %}\n  \/\/ show custom content only meant for France\n{% else %}\n  show generic content\n{% endif %}"
           }
         },
-        "fb4bafc5-491c-411c-b24b-77d4d9c5db0c": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        },
         "9800607d-62c2-46df-aef5-dca4f4ed5993": {
           "type": "complementary",
           "settings": {
@@ -154,11 +144,6 @@
             "pagination_style": "counter",
             "image_ratio": "square",
             "enable_quick_add": false
-          }
-        },
-        "c4c2ad7d-90ee-400f-b2f9-58e7910b29e5": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
           }
         },
         "share": {
@@ -204,6 +189,11 @@
           "type": "muscle_groups",
           "settings": {
           }
+        },
+        "fb4bafc5-491c-411c-b24b-77d4d9c5db0c": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -211,7 +201,6 @@
         "vendor",
         "title",
         "48a38d8a-bfd3-496a-9875-86dcb03e94c0",
-        "515d784b-44e4-4bef-b160-3e595b03d4ea",
         "caption",
         "price",
         "variant_picker",
@@ -227,15 +216,14 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "b8b2f2f3-4250-42ee-8919-ea880d24b4e3",
-        "fb4bafc5-491c-411c-b24b-77d4d9c5db0c",
         "9800607d-62c2-46df-aef5-dca4f4ed5993",
-        "c4c2ad7d-90ee-400f-b2f9-58e7910b29e5",
         "share",
         "8ee66e56-57fb-4aef-b532-874d154beb1a",
         "baccc37b-78a7-41ec-ba78-87ed443a830f",
         "2c1d1139-4f2c-4c56-88fa-c9847b0b37d0",
         "e4d2f096-0902-4051-9c02-558ac360b514",
-        "3cc5963c-97f8-4dff-9abc-c2fb597fac4b"
+        "3cc5963c-97f8-4dff-9abc-c2fb597fac4b",
+        "fb4bafc5-491c-411c-b24b-77d4d9c5db0c"
       ],
       "settings": {
         "enable_sticky_info": true,
