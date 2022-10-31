@@ -47,3 +47,17 @@
 .brand_usps__title {
     margin: 0;
 }
+
+.muscle_groups {
+    position: relative;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .muscle_group-image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }

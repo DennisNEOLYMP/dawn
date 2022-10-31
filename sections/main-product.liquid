@@ -174,11 +174,12 @@
                <div class="footer__payment">
                 <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
                 <ul class="list list-payment-product-info" role="list">
-                  {%- for type in shop.enabled_payment_types -%}
-                    <li class="list-payment__item">
-                      {{ type | payment_type_svg_tag: class: 'icon icon--grayscale' }}
-                    </li>
-                  {%- endfor -%}
+                  {% assign enabled_payment_types = 'paypal,klarna-pay-later,visa,master,amazon,sofort' | remove: ' ' | split: ',' %}
+                    {% for type in enabled_payment_types %}                      
+                      <li class="list-payment__item">
+                        {{ type | payment_type_svg_tag: class: 'icon icon--grayscale' }}
+                      </li>
+                    {%- endfor -%}
                 </ul>
               </div>
             {%- when 'sku' -%}
