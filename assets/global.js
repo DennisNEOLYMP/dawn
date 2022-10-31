@@ -883,11 +883,19 @@ class VariantSelects extends HTMLElement {
         const inventorySource = html.getElementById(`Inventory-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
         const inventoryDestination = document.getElementById(`Inventory-${this.dataset.section}`);
 
+        const deliverytagSource = html.getElementById(`delivery_tag-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
+        const deliverytagDestination = document.getElementById(`delivery_tag-${this.dataset.section}`);
+
         if (source && destination) destination.innerHTML = source.innerHTML;
         if (inventorySource && inventoryDestination) inventoryDestination.innerHTML = inventorySource.innerHTML;
         if (skuSource && skuDestination) {
           skuDestination.innerHTML = skuSource.innerHTML;
           skuDestination.classList.toggle('visibility-hidden', skuSource.classList.contains('visibility-hidden'));
+        }
+
+        if (deliverytagSource && deliverytagDestination) {
+          deliverytagDestination.innerHTML = skuSource.innerHTML;
+          deliverytagDestination.classList.toggle('visibility-hidden', deliverytagSource.classList.contains('visibility-hidden'));
         }
 
         const price = document.getElementById(`price-${this.dataset.section}`);
