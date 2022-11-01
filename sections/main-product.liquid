@@ -291,25 +291,34 @@
 
             {% comment %} *** LIEFERBAR *** {% endcomment %} 
             {%- when 'delivery_tag' -%}
-              <div id="delivery_tag-{{ section.id }}">
+              <div id="delivery_tag-{{ section.id }}" role="status" class="no-js-hidden {{ block.shopify_attributes }}">
                 {%- if product.selected_or_first_available_variant.inventory_quantity < 1 -%}
                   Vorbestellbar
                   {%- if delivery_date != null and delivery_date != "" and delivery_date > today_date -%}
-                      <div class="DeliveryHint-preorder">● {{ 'products.product.delivery-hint-preorder' | t }}  <b>{{ delivery_date | date: "%d.%m.%y" }}</b></div>
+                      <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-preorder' | t }}  <b>{{ delivery_date | date: "%d.%m.%y" }}</b></div>
                   {%- endif -%}
                 
               {% else%}
                 {% if localization.country.iso_code == 'DE' %}
-                  <div class="DeliveryHint no-js-hidden {{ block.shopify_attributes }}">● 
+                  <span class="DeliveryHint no-js-hidden {{ block.shopify_attributes }}">● 
                     {{ 'products.product.delivery-hint-inland' | t }}
                   </div>
                 {% else%}
-                  <div class="DeliveryHint">●
+                  <span class="DeliveryHint">●
                     {{ 'products.product.delivery-hint-ausland1' | t }}
                   </div>
                 {% endif %}
               {% endif %}
               </div>
+
+              <p
+                class="product__sku no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
+                id="delivery_tag-{{ section.id }}"
+                role="status"
+                {{ block.shopify_attributes }}
+              >
+                <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span> {{- product.selected_or_first_available_variant.sku -}}
+              </p>
               {% comment %} *** ENDE LIEFERBAR *** {% endcomment %} 
 
             {% comment %} *** MUSCLE GROUP MUSKELGRUPPE *** {% endcomment %} 
