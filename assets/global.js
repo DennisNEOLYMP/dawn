@@ -896,12 +896,20 @@ class VariantSelects extends HTMLElement {
         
         const deliverytag = document.getElementById(`delivery_tag-${this.dataset.section}`);
         
-        if (deliverytag) deliverytag.classList.remove('visibility-hidden');
+        if (deliverytag) deliverytag.classList.remove('visibility-hidden'), this.updateDeliverytag(html);
 
         if (inventoryDestination) inventoryDestination.classList.toggle('visibility-hidden', inventorySource.innerText === '');
 
         this.toggleAddButton(!this.currentVariant.available, window.variantStrings.soldOut);
       });
+  }
+
+  updateDeliverytag(html) {
+    const id = `delivery_tag-${this.dataset.section}`;
+    const destination = document.getElementById(id);
+    const source = html.getElementById(id);
+  
+    if (source && destination) destination.innerHTML = source.innerHTML;
   }
 
   toggleAddButton(disable = true, text, modifyClass = true) {

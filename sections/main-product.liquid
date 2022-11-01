@@ -291,7 +291,7 @@
 
             {% comment %} *** LIEFERBAR *** {% endcomment %} 
             {%- when 'delivery_tag' -%}
-              <div id="delivery_tag-{{ section.id }}" role="status" class="no-js-hidden {{ block.shopify_attributes }}">
+              <div id="delivery_tag-{{ section.id }}" role="status" class="no-js-hidden" {{ block.shopify_attributes }}>
                 {%- if product.selected_or_first_available_variant.inventory_quantity < 1 -%}
                   Vorbestellbar
                   {%- if delivery_date != null and delivery_date != "" and delivery_date > today_date -%}
@@ -300,7 +300,7 @@
                 
               {% else%}
                 {% if localization.country.iso_code == 'DE' %}
-                  <span class="DeliveryHint no-js-hidden {{ block.shopify_attributes }}">● 
+                  <span class="DeliveryHint">● 
                     {{ 'products.product.delivery-hint-inland' | t }}
                 </span>
                 {% else%}
