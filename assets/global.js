@@ -882,8 +882,6 @@ class VariantSelects extends HTMLElement {
         const skuDestination = document.getElementById(`Sku-${this.dataset.section}`);
         const inventorySource = html.getElementById(`Inventory-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
         const inventoryDestination = document.getElementById(`Inventory-${this.dataset.section}`);
-        const deliverytagSource = html.getElementById(`delivery_tag-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
-        const deliverytagDestination = document.getElementById(`delivery_tag-${this.dataset.section}`);
 
         if (source && destination) destination.innerHTML = source.innerHTML;
         if (inventorySource && inventoryDestination) inventoryDestination.innerHTML = inventorySource.innerHTML;
@@ -892,14 +890,13 @@ class VariantSelects extends HTMLElement {
           skuDestination.classList.toggle('visibility-hidden', skuSource.classList.contains('visibility-hidden'));
         }
 
-        if (deliverytagSource && deliverytagDestination) {
-          deliverytagDestination.innerHTML = skuSource.innerHTML;
-          deliverytagDestination.classList.toggle('visibility-hidden', deliverytagSource.classList.contains('visibility-hidden'));
-        }
-
         const price = document.getElementById(`price-${this.dataset.section}`);
 
         if (price) price.classList.remove('visibility-hidden');
+        
+        const deliverytag = document.getElementById(`delivery_tag-${this.dataset.section}`);
+        
+        if (deliverytag) deliverytag.classList.remove('visibility-hidden');
 
         if (inventoryDestination) inventoryDestination.classList.toggle('visibility-hidden', inventorySource.innerText === '');
 
@@ -930,12 +927,14 @@ class VariantSelects extends HTMLElement {
     const addButton = button.querySelector('[name="add"]');
     const addButtonText = button.querySelector('[name="add"] > span');
     const price = document.getElementById(`price-${this.dataset.section}`);
+    const deliverytag = document.getElementById(`delivery_tag-${this.dataset.section}`);
     const inventory = document.getElementById(`Inventory-${this.dataset.section}`);
     const sku = document.getElementById(`Sku-${this.dataset.section}`);
 
     if (!addButton) return;
     addButtonText.textContent = window.variantStrings.unavailable;
     if (price) price.classList.add('visibility-hidden');
+    if (deliverytag) deliverytag.classList.add('visibility-hidden');
     if (inventory) inventory.classList.add('visibility-hidden');
     if (sku) sku.classList.add('visibility-hidden');
   }
