@@ -57,8 +57,14 @@
           "settings": {
           }
         },
+        "e4d2f096-0902-4051-9c02-558ac360b514": {
+          "type": "delivery_tag",
+          "settings": {
+          }
+        },
         "16c4374e-11ea-42fd-abf1-f7cd9b13c21d": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<div id=\"delivery_tag-{{ section.id }}\">\n                {%- if product.selected_or_first_available_variant.inventory_quantity < 1 -%}\n                  Vorbestellbar\n                  {%- if delivery_date != null and delivery_date != \"\" and delivery_date > today_date -%}\n                      <div class=\"DeliveryHint-preorder\">● {{ 'products.product.delivery-hint-preorder' | t }}  <b>{{ delivery_date | date: \"%d.%m.%y\" }}<\/b><\/div>\n                  {%- endif -%}\n                \n              {% else%}\n                {% if localization.country.iso_code == 'DE' %}\n                  <div class=\"DeliveryHint no-js-hidden {{ block.shopify_attributes }}\">● \n                    {{ 'products.product.delivery-hint-inland' | t }}\n                  <\/div>\n                {% else%}\n                  <div class=\"DeliveryHint\">●\n                    {{ 'products.product.delivery-hint-ausland1' | t }}\n                  <\/div>\n                {% endif %}\n              {% endif %}\n              <\/div>"
           }
@@ -163,12 +169,6 @@
             "page": ""
           }
         },
-        "e4d2f096-0902-4051-9c02-558ac360b514": {
-          "type": "delivery_tag",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "9800607d-62c2-46df-aef5-dca4f4ed5993": {
           "type": "complementary",
           "settings": {
@@ -199,6 +199,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "e4d2f096-0902-4051-9c02-558ac360b514",
         "16c4374e-11ea-42fd-abf1-f7cd9b13c21d",
         "e0584b64-1401-474a-8ece-7534da6ccfd9",
         "02fa0ffe-2994-4134-a0be-6f8315c673d1",
@@ -213,7 +214,6 @@
         "8ee66e56-57fb-4aef-b532-874d154beb1a",
         "baccc37b-78a7-41ec-ba78-87ed443a830f",
         "2c1d1139-4f2c-4c56-88fa-c9847b0b37d0",
-        "e4d2f096-0902-4051-9c02-558ac360b514",
         "9800607d-62c2-46df-aef5-dca4f4ed5993",
         "share"
       ],
