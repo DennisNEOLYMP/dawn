@@ -302,23 +302,14 @@
                 {% if localization.country.iso_code == 'DE' %}
                   <span class="DeliveryHint no-js-hidden {{ block.shopify_attributes }}">● 
                     {{ 'products.product.delivery-hint-inland' | t }}
-                  </div>
+                </span>
                 {% else%}
                   <span class="DeliveryHint">●
                     {{ 'products.product.delivery-hint-ausland1' | t }}
-                  </div>
+                  </span>
                 {% endif %}
               {% endif %}
               </div>
-
-              <p
-                class="product__sku no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
-                id="delivery_tag-{{ section.id }}"
-                role="status"
-                {{ block.shopify_attributes }}
-              >
-                <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span> {{- product.selected_or_first_available_variant.sku -}}
-              </p>
               {% comment %} *** ENDE LIEFERBAR *** {% endcomment %} 
 
             {% comment %} *** MUSCLE GROUP MUSKELGRUPPE *** {% endcomment %} 
