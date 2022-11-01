@@ -114,6 +114,7 @@
       "delivery-hint-inland": "Deliverable in 1 - 3 days.",
       "delivery-hint-ausland1": "Deliverable in 2 - 5 days.",
       "delivery-hint-preorder": "Available for pre-order. Deliverable on:",
+      "delivery-hint-oos": "Not in Stock.",
       "add_to_cart": "Add to cart",
       "choose_options": "Choose options",
       "choose_product_options": "Choose options for {{ product_name }}",
