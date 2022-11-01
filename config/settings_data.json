@@ -11,7 +11,7 @@
     "gradient_background_1": "",
     "colors_background_2": "#eaeaea",
     "gradient_background_2": "",
-    "type_header_font": "assistant_n4",
+    "type_header_font": "poppins_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
     "body_scale": 100,
@@ -100,6 +100,11 @@
     "currency_code_enabled": true,
     "cart_type": "drawer",
     "cart_drawer_collection": "sale",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_checkout_2_2ffa7090-edd5-47ed-9c6a-aaf43a9b1b23.png",
+    "checkout_logo_position": "center",
+    "checkout_sidebar_background_color": "#eaeaea",
+    "checkout_accent_color": "#131313",
+    "checkout_button_color": "#131313",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
