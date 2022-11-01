@@ -270,7 +270,7 @@
     "069b0d6a-1a8f-4ec8-886f-b2b3df15b486": {
       "type": "featured-blog",
       "settings": {
-        "heading": "Blog posts",
+        "heading": "Aus unserem Blog",
         "heading_size": "h1",
         "blog": "news",
         "post_limit": 4,
