@@ -306,11 +306,10 @@
     "collage": {
       "type": "collage",
       "blocks": {
-        "5ca86dff-19b7-4a92-b8c9-32a78ab69de0": {
-          "type": "image",
+        "collection-1": {
+          "type": "collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/kat-baender-hoch.png",
-            "image_padding": false
+            "collection": "fitnessbaender"
           }
         },
         "product": {
@@ -320,17 +319,18 @@
             "second_image": false
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "34c6de8d-4edf-4687-9248-64f278a7856c": {
+          "type": "product",
           "settings": {
-            "collection": "fitnessbaender"
+            "product": "heavy-resistance-bands",
+            "second_image": false
           }
         }
       },
       "block_order": [
-        "5ca86dff-19b7-4a92-b8c9-32a78ab69de0",
+        "collection-1",
         "product",
-        "collection-1"
+        "34c6de8d-4edf-4687-9248-64f278a7856c"
       ],
       "settings": {
         "heading": "Multimedia collage",
