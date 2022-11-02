@@ -56,12 +56,31 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "c9c8af4f-7e9c-45ad-8f41-c18a0e128aa6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide_new_landscape.jpg",
+            "heading": "NEOLYMP 2.0",
+            "heading_size": "h1",
+            "subheading": "Neues Design und neue Funktionen im schnelleren Shop!",
+            "button_label": "Jetzt ausprobieren!",
+            "link": "shopify:\/\/collections\/alles",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "166238101711f642f7-0",
         "166238101711f642f7-1",
-        "c1770566-16af-4b3c-943f-28e41dc6cca1"
+        "c1770566-16af-4b3c-943f-28e41dc6cca1",
+        "c9c8af4f-7e9c-45ad-8f41-c18a0e128aa6"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -287,11 +306,10 @@
     "collage": {
       "type": "collage",
       "blocks": {
-        "5ca86dff-19b7-4a92-b8c9-32a78ab69de0": {
-          "type": "image",
+        "collection-1": {
+          "type": "collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/kat-baender-hoch.png",
-            "image_padding": false
+            "collection": "fitnessbaender"
           }
         },
         "product": {
@@ -301,17 +319,18 @@
             "second_image": false
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "34c6de8d-4edf-4687-9248-64f278a7856c": {
+          "type": "product",
           "settings": {
-            "collection": "fitnessbaender"
+            "product": "heavy-resistance-bands",
+            "second_image": false
           }
         }
       },
       "block_order": [
-        "5ca86dff-19b7-4a92-b8c9-32a78ab69de0",
+        "collection-1",
         "product",
-        "collection-1"
+        "34c6de8d-4edf-4687-9248-64f278a7856c"
       ],
       "settings": {
         "heading": "Multimedia collage",
