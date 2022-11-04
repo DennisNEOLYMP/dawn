@@ -187,6 +187,11 @@
           "settings": {
             "share_label": "Teilen"
           }
+        },
+        "a8f627ba-4689-4422-ba7a-7bce307d0d25": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/verified_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -215,7 +220,8 @@
         "baccc37b-78a7-41ec-ba78-87ed443a830f",
         "2c1d1139-4f2c-4c56-88fa-c9847b0b37d0",
         "9800607d-62c2-46df-aef5-dca4f4ed5993",
-        "share"
+        "share",
+        "a8f627ba-4689-4422-ba7a-7bce307d0d25"
       ],
       "settings": {
         "enable_sticky_info": true,
