@@ -115,7 +115,7 @@
             "settings": {
               "text": "Markenqualität | Kostenloser Versand nach DE | inkl. Trainingsanleitungen",
               "text_alignment": "center",
-              "color_scheme": "accent-2",
+              "color_scheme": "inverse",
               "link": ""
             }
           }
