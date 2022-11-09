@@ -113,7 +113,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Markenqualität | Kostenloser Versand | inkl. Trainingsanleitungen",
+              "text": "Markenqualität | Kostenloser Versand nach DE | inkl. Trainingsanleitungen",
               "text_alignment": "center",
               "color_scheme": "accent-2",
               "link": ""
@@ -129,7 +129,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "inverse",
+          "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/logo_black.png",
           "logo_width": 120,
           "logo_position": "middle-left",
