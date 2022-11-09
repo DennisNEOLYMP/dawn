@@ -115,7 +115,7 @@
             "settings": {
               "text": "Markenqualität | Kostenloser Versand nach DE ab 10€ | inkl. Trainingsanleitungen",
               "text_alignment": "center",
-              "color_scheme": "inverse",
+              "color_scheme": "accent-2",
               "link": ""
             }
           }
@@ -129,7 +129,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "inverse",
           "logo": "shopify:\/\/shop_images\/logo_black.png",
           "logo_width": 120,
           "logo_position": "middle-left",
