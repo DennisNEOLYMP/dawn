@@ -61,7 +61,7 @@
     "77bfe488-6df6-419f-b67a-798c335212d8": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "Unsere {{ section.settings.collection.title }}",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -73,7 +73,7 @@
         "show_view_all": true,
         "view_all_style": "outline",
         "enable_desktop_slider": false,
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "show_vendor": false,
