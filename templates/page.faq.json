@@ -7,10 +7,193 @@
         "padding_bottom": 36
       }
     },
+    "ad44eb10-10f0-4851-8f21-af34476605ac": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16203709350156__ad44eb10-10f0-4851-8f21-af34476605ac-16680248172ad0a0d2-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie erhalte ich mein E-Book?",
+            "icon": "question_mark",
+            "row_content": "<p>Deinen Download-Code kannst du <a href=\"https:\/\/neolymp.com\/pages\/ebooks-code-entry\" title=\"E-Books Codeabfrage\">hier<\/a> einlösen.<\/p><p>Mit den meisten unserer Produkte erhältst du Zugriff auf unsere E-Book Sammlung. Den Code dafür erhältst du mit deiner Bestellung. Entweder beigelegt als Flyer oder z.B. auf dem Label der Matten.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16203709350156__ad44eb10-10f0-4851-8f21-af34476605ac-16680248172ad0a0d2-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ich möchte etwas zurücksenden!",
+            "icon": "question_mark",
+            "row_content": "<p>Wenn du einmal nicht 100% zufrieden mit einem unserer Produkte bist, kannst du jederzeit Kontakt unserem Support-Team aufnehmen.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16203709350156__ad44eb10-10f0-4851-8f21-af34476605ac-16680248172ad0a0d2-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ich habe eine Mail nicht erhalten.",
+            "icon": "question_mark",
+            "row_content": "<p>Bitte prüfe zunächst den Spam-Ordner, \"Junk-Mail\"- oder \"Sonstige Nachrichten\"-Ordner! Manche Anbieter sortieren die Mails leider automatisch um.<\/p><p>Sollte die Mail dort auch nicht zu finden sein, sende uns bitte eine Nachricht, in der du uns sagst, welche Mail du nicht erhalten hast.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16203709350156__ad44eb10-10f0-4851-8f21-af34476605ac-16680248172ad0a0d2-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie erhalte ich einen Gutscheincode?",
+            "icon": "question_mark",
+            "row_content": "<p>Du kannst von uns auf unterschiedlichen Wegen einen Gutscheincode erhalten:<\/p><p><strong>Newsletter-Anmeldung:<\/strong> Melde dich für unseren Newsletter an! Du erhältst nach der Bestätigung deiner Email-Adresse einen Gutschein über 10% auf deine komplette, nächste Bestellung.<br\/><br\/><strong>Feedback zur Seite: <\/strong>Sieh dir unsere Seite genau an! Findest du irgendwo einen Fehler oder hast einen Verbesserungsvorschlag? Schicke uns eine Nachricht über unser Kontaktformular oder hier. Wenn du uns geholfen hast, erhältst du einen Gutschein über 20 % auf eine komplette Bestellung!<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16203709350156__ad44eb10-10f0-4851-8f21-af34476605ac-16680248172ad0a0d2-0",
+        "template--16203709350156__ad44eb10-10f0-4851-8f21-af34476605ac-16680248172ad0a0d2-1",
+        "template--16203709350156__ad44eb10-10f0-4851-8f21-af34476605ac-16680248172ad0a0d2-2",
+        "template--16203709350156__ad44eb10-10f0-4851-8f21-af34476605ac-16680248172ad0a0d2-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQ",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "bfb2c7d8-7d26-4c08-87ed-e40c0ee636a3": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16203709350156__bfb2c7d8-7d26-4c08-87ed-e40c0ee636a3-16680248172ad0a0d2-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie kann ich bezahlen?",
+            "icon": "question_mark",
+            "row_content": "<p>Die Bezahlung kann durch eine breite Auswahl an Online-Bezahlungsplattformen (Paypal, Klarna, Google Pay, Apple Pay, SOFORT, eps, Shop Pay sowie Kreditkarte (Amex, VISA, Maestro, Mastercard) durchgeführt werden. Banküberweisungen können über die Anbieter SOFORT und eps mittels deines Online-Bankings vorgenommen werden.<\/p><p>Klarna bietet Zahlung auf Rechnung an.<\/p><p>Sobald dein Geldeingang bestätigt wurde, wird die Ware versandt.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16203709350156__bfb2c7d8-7d26-4c08-87ed-e40c0ee636a3-16680248172ad0a0d2-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wo kann ich meinen Rabattcode einlösen?",
+            "icon": "question_mark",
+            "row_content": "<p>Den Gutscheincode kannst du bei der Eingabe deiner Lieferadresse bzw. Auswahl der Zahlungsart eingeben. Nach Klick auf den dazugehörigen Button wird dein Rabatt sofort abgezogen.<br\/>Während einer Aktion sind Rabattcodes ausgeschlossen.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16203709350156__bfb2c7d8-7d26-4c08-87ed-e40c0ee636a3-16680248172ad0a0d2-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Gibt es Nachlass für Geschäftskunden?",
+            "icon": "question_mark",
+            "row_content": "<p>Wir freuen uns sehr über Kunden aus dem Sportbereich und Großabnehmer. <a href=\"https:\/\/neolymp.com\/pages\/partnerschaft-mit-neolymp-b2b-und-affiliates\" title=\"Partnerschaft mit NEOLYMP - B2B und Affiliates\">Hier<\/a> kannst du uns kontaktieren und ein individuelles Angebot einholen.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16203709350156__bfb2c7d8-7d26-4c08-87ed-e40c0ee636a3-16680248172ad0a0d2-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Was ist B-Ware?",
+            "icon": "question_mark",
+            "row_content": "<p>Bei B-Ware handelt es sich um ein Produkt, das nicht all unseren hohen Qualitätsansprüchen genügt, aber dennoch einwandfrei funktioniert. Typische Beschädigung sind kleine, unscheinbare Kratzer oder eine ausgewechselte oder beschädigte Verpackung. Alle Produkte werden von uns auf einwandfreie Funktion geprüft.<\/p>",
+            "page": ""
+          }
+        },
+        "91423874-c6ab-4a9b-8ce2-a86644762c12": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie kann ich stornieren?",
+            "icon": "question_mark",
+            "row_content": "<p>Wenn dein Paket noch nicht abgeschickt wurde (keine Trackingnummer in der Bestellübersicht), schreib uns bitte eine Mail an <a href=\"mailto:support@neolymp.com\" target=\"_blank\" title=\"mailto:support@neolymp.com\">support@neolymp.com<\/a>.<\/p><p><br\/>Falls dein Paket schon versandt wurde, ist es am Besten, wenn du die Annahme ablehnst und uns kontaktierst.<\/p><p>Sobald die Ware bei uns eingegangen ist erhältst du deine Rückerstattung auf dem selben Wege, wie du gezahlt hast.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16203709350156__bfb2c7d8-7d26-4c08-87ed-e40c0ee636a3-16680248172ad0a0d2-0",
+        "template--16203709350156__bfb2c7d8-7d26-4c08-87ed-e40c0ee636a3-16680248172ad0a0d2-1",
+        "template--16203709350156__bfb2c7d8-7d26-4c08-87ed-e40c0ee636a3-16680248172ad0a0d2-2",
+        "template--16203709350156__bfb2c7d8-7d26-4c08-87ed-e40c0ee636a3-16680248172ad0a0d2-3",
+        "91423874-c6ab-4a9b-8ce2-a86644762c12"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Bestellung",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "004cfca6-8de1-4877-a5dd-07d830321ab9": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16203709350156__004cfca6-8de1-4877-a5dd-07d830321ab9-16680248172ad0a0d2-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "In welche Länder versendet NEOLYMP?",
+            "icon": "question_mark",
+            "row_content": "<p>Derzeit versenden wir unsere Waren nach Deutschland, Österreich, Belgien, Frankreich, Luxemburg, Niederlande, Polen, Italien, Portugal, Schweden, Spanien und Ungarn. Weitere Informationen zum Versand erhältst du <a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">hier<\/a>.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16203709350156__004cfca6-8de1-4877-a5dd-07d830321ab9-16680248172ad0a0d2-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Gibt es Versandkosten?",
+            "icon": "question_mark",
+            "row_content": "<p>Nach Deutschland versenden wir kostenlos. Die genauen Kosten, auch für andere Länder, findest du <a href=\"https:\/\/neolymp.com\/policies\/shipping-policy\" title=\"Shipping Policy\">hier<\/a>.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16203709350156__004cfca6-8de1-4877-a5dd-07d830321ab9-16680248172ad0a0d2-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie lange dauert der Versand?",
+            "icon": "question_mark",
+            "row_content": "<p>Die meisten Kunden erhalten ihre Bestellung schon nach 1 – 2 Werktagen. Manchmal kann es auch bis zu 5 Werktage dauern (insbesondere an Aktions- oder Feiertagen).<\/p><p>Den Versandstatus kannst du jederzeit in deiner Bestellübersicht prüfen. Den Link dazu erhältst du per Mail.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16203709350156__004cfca6-8de1-4877-a5dd-07d830321ab9-16680248172ad0a0d2-0",
+        "template--16203709350156__004cfca6-8de1-4877-a5dd-07d830321ab9-16680248172ad0a0d2-1",
+        "template--16203709350156__004cfca6-8de1-4877-a5dd-07d830321ab9-16680248172ad0a0d2-2"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Versand",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
-        "heading": "",
+        "heading": "Uns eine Nachricht schreiben",
         "heading_size": "h1",
         "color_scheme": "background-1",
         "padding_top": 36,
@@ -20,6 +203,9 @@
   },
   "order": [
     "main",
+    "ad44eb10-10f0-4851-8f21-af34476605ac",
+    "bfb2c7d8-7d26-4c08-87ed-e40c0ee636a3",
+    "004cfca6-8de1-4877-a5dd-07d830321ab9",
     "form"
   ]
 }
