@@ -38,7 +38,7 @@
         "template--16203316887820__fdb5ad93-3560-46ed-bc3e-68b38bb16a2b-16679963353381f01e-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/singles_day_40_header_shop.jpg",
+        "image": "{{ page.metafields.custom.header_image.value }}",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
