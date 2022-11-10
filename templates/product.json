@@ -137,11 +137,6 @@
             "custom_liquid": "{% if localization.country.iso_code == 'AT' %}\n  \/\/ show custom content only meant for France\n{% else %}\n  show generic content\n{% endif %}"
           }
         },
-        "3cc5963c-97f8-4dff-9abc-c2fb597fac4b": {
-          "type": "muscle_groups",
-          "settings": {
-          }
-        },
         "8ee66e56-57fb-4aef-b532-874d154beb1a": {
           "type": "brand_usps",
           "settings": {
@@ -167,6 +162,11 @@
             "image": "shopify:\/\/shop_images\/pay_1.png",
             "content": "<p>Wir unterstützen alle gängigen Zahlungsanbieter über unser verschlüsseltes Zahlungsportal. Darunter auch Raten- und Rechnungskauf über Klarna.<\/p>",
             "page": ""
+          }
+        },
+        "3cc5963c-97f8-4dff-9abc-c2fb597fac4b": {
+          "type": "muscle_groups",
+          "settings": {
           }
         },
         "9800607d-62c2-46df-aef5-dca4f4ed5993": {
@@ -210,10 +210,10 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "b8b2f2f3-4250-42ee-8919-ea880d24b4e3",
-        "3cc5963c-97f8-4dff-9abc-c2fb597fac4b",
         "8ee66e56-57fb-4aef-b532-874d154beb1a",
         "baccc37b-78a7-41ec-ba78-87ed443a830f",
         "2c1d1139-4f2c-4c56-88fa-c9847b0b37d0",
+        "3cc5963c-97f8-4dff-9abc-c2fb597fac4b",
         "9800607d-62c2-46df-aef5-dca4f4ed5993",
         "share"
       ],
