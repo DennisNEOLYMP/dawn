@@ -5,7 +5,6 @@
       "blocks": {
         "72948d5c-8adc-4dad-8564-de8135998842": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/singles_day_40_header_shop.jpg",
             "heading": "Spare bis zu 40%",
@@ -78,6 +77,7 @@
         },
         "c9c8af4f-7e9c-45ad-8f41-c18a0e128aa6": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/slide_new_landscape.jpg",
             "heading": "NEOLYMP 2.0",
@@ -104,7 +104,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "adapt_image",
+        "slide_height": "large",
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 5,
