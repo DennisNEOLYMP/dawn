@@ -11,7 +11,7 @@
             "heading_size": "h1",
             "subheading": "",
             "button_label": "Zu den Deals",
-            "link": "shopify:\/\/pages\/singles-day",
+            "link": "shopify:\/\/pages\/black-weeks",
             "button_style_secondary": false,
             "box_align": "bottom-center",
             "show_text_box": false,
@@ -104,7 +104,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "large",
+        "slide_height": "medium",
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 5,
