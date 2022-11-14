@@ -107,7 +107,7 @@
       "delivery-hint-inland": "Lieferbar in 1 – 3 Tagen.",
       "delivery-hint-ausland1": "Lieferbar in 2 – 5 Tagen.",
       "delivery-hint-preorder": "Vorbestellbar. Lieferbar am:",
-      "delivery-hint-preorder-wodate": "Vorbestellbar.",
+      "delivery-hint-preorder-woddate": "Vorbestellbar.",
       "delivery-hint-oos": "Nicht auf Lager",
       "add_to_cart": "In den Warenkorb legen",
       "description": "Beschreibung anzeigen",
@@ -171,7 +171,8 @@
       "inventory_low_stock_show_count": "Niedriger Lagerbestand: {{ quantity }} verbleibend",
       "inventory_out_of_stock": "Nicht vorrätig",
       "inventory_out_of_stock_continue_selling": "Auf Lager",
-      "sku": "SKU"
+      "sku": "SKU",
+      "delivery-hint-preorder-wodate": "Vorbestellbar."
     },
     "modal": {
       "label": "Medien-Galerie"
