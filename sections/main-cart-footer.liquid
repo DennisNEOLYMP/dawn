@@ -19,10 +19,17 @@
             {%- when '@app' -%}
               {% render block %}
             {%- when 'subtotal' -%}
+              {% assign total_saving = 0 %}
+              {% for item in cart.items %}
+                {% if item.variant.compare_at_price > item.variant.price %}
+                  {% assign saving = item.variant.compare_at_price | minus: item.final_price | times: item.quantity %}
+                  {% assign total_saving = saving | plus: total_saving %}
+                {% endif %}
+              {% endfor %}
               <div class="js-contents" {{ block.shopify_attributes }}>
                 <div class="totals">
                   <h2 class="totals__subtotal">Original:</h2>
-                  <p class="totals__subtotal-value">{{ totalsavings | money_with_currency }}</p>
+                  <p class="totals__subtotal-value">{{ total_saving | money_with_currency }}</p>
                 </div>
                 <div class="totals">
                   <h2 class="totals__subtotal">{{ 'sections.cart.subtotal' | t }}</h2>
