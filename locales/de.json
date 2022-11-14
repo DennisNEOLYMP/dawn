@@ -444,5 +444,14 @@
       "copy_code_success": "Code erfolgreich kopiert",
       "print_gift_card": "Drucken"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "field_errors": {
+        "reduction_code_code_not_found": "Während Aktionen sind Gutscheincodes deaktiviert.",
+        "reduction_code_gift_card_code_invalid": "Während Aktionen sind Gutscheincodes deaktiviert.",
+        "gift_card_expired": "Während Aktionen sind Gutscheincodes deaktiviert."
+      }
+    }
   }
 }
