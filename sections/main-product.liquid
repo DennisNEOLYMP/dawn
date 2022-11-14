@@ -63,7 +63,7 @@
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}">
       <div class="social_info_bar color-background-2">
 
-         ❤️ {{ 'products.product.social_info_bar_1' | t }} <strong>{% if product.metafields.reviews.rating_count.value > 10 %}{{ product.metafields.reviews.rating_count.value }} {% else %}17{% endif %}</strong> {{ 'products.product.social_info_bar_2' | t }}
+          {{ 'products.product.social_info_bar_1' | t }} <strong>{% if product.metafields.reviews.rating_count.value > 10 %}{{ product.metafields.reviews.rating_count.value }} {% else %}17{% endif %}</strong> {{ 'products.product.social_info_bar_2' | t }}
         </div>
       <div
         id="ProductInfo-{{ section.id }}"
@@ -293,20 +293,21 @@
             {%- when 'delivery_tag' -%}
               <div id="delivery_tag-{{ section.id }}" role="status" class="no-js-hidden" {{ block.shopify_attributes }}>
                 {%- if product.selected_or_first_available_variant.inventory_quantity < 1 -%}
-                  {%- if delivery_date -%}
+                  {%- if delivery_date != null and delivery_date != "" and delivery_date > today_date -%}
                       <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-preorder' | t }}  <b>{{ delivery_date | date: "%d.%m.%y" }}</b></span>
                   {%- else -%}
-                  <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-preorder' | t }}</b></span>
+                  <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-oos' | t }} Vorbestellbar</b></span>
                   {%- endif -%}
                 
               {% else%}
                 {% if localization.country.iso_code == 'DE' %}
-                  <span class="DeliveryHint">● {{ 'products.product.delivery-hint-inland' | t }}</span>
+                  <span class="DeliveryHint">● {{ 'products.product.delivery-hint-inland' | t }}
+                </span>
                 {% else%}
-                  <span class="DeliveryHint">● {{ 'products.product.delivery-hint-ausland1' | t }}</span>
+                  <span class="DeliveryHint">● {{ 'products.product.delivery-hint-ausland1' | t }}
+                  </span>
                 {% endif %}
               {% endif %}
-              <!-- Endliefertag -->
               </div>
               {% comment %} *** ENDE LIEFERBAR *** {% endcomment %} 
 
