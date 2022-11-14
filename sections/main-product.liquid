@@ -294,18 +294,16 @@
               <div id="delivery_tag-{{ section.id }}" role="status" class="no-js-hidden" {{ block.shopify_attributes }}>
                 {%- if product.selected_or_first_available_variant.inventory_quantity < 1 -%}
                   {%- if if delivery_date -%}
-                      <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-preorder' | t }}  <b>{{ delivery_date | date: "%d.%m.%y" }}</b></div>
+                      <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-preorder' | t }}  <b>{{ delivery_date | date: "%d.%m.%y" }}</b></span>
                   {%- else -%}
-                  <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-preorder' | t }}</b></div>
+                  <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-preorder' | t }}</b></span>
                   {%- endif -%}
                 
               {% else%}
                 {% if localization.country.iso_code == 'DE' %}
-                  <span class="DeliveryHint">● {{ 'products.product.delivery-hint-inland' | t }}
-                </span>
+                  <span class="DeliveryHint">● {{ 'products.product.delivery-hint-inland' | t }}</span>
                 {% else%}
-                  <span class="DeliveryHint">● {{ 'products.product.delivery-hint-ausland1' | t }}
-                  </span>
+                  <span class="DeliveryHint">● {{ 'products.product.delivery-hint-ausland1' | t }}</span>
                 {% endif %}
               {% endif %}
               </div>
