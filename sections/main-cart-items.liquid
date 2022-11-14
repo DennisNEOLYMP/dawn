@@ -86,13 +86,14 @@
 
                     {%- if item.variant.compare_at_price > item.final_price -%}
                       {% assign savings = item.variant.compare_at_price | minus: item.final_price %}
+                      {% assign totalsavings = savings | plus: savings %}
                       <div class="cart-item__discounted-prices">
                         <span class="visually-hidden">
                           {{ 'products.product.price.regular_price' | t }}
                         </span>
                         <s class="cart-item__old-price product-option">
                           {{- item.variant.compare_at_price | money -}}
-                        </s> - You're saving {{ savings | money }}!
+                        </s>
                         <span class="cart-item__old-price product-option">
                           -{{ savings | money }}!
                         </span> 
