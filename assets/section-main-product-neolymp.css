@@ -47,3 +47,21 @@
 .brand_usps__title {
     margin: 0;
 }
+
+.DeliveryHint {
+    font-size: 13px;
+    color: #2d8b53;
+    margin-bottom: 0;
+}
+
+.DeliveryHint-oos {
+    font-size: 13px;
+    color: #d87300;
+    margin-bottom: 0;
+}
+
+.DeliveryHint-oos {
+    font-size: 13px;
+    color: #6d1600;
+    margin-bottom: 0;
+}

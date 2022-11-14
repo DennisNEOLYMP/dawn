@@ -295,10 +295,10 @@
                 {%- if product.selected_or_first_available_variant.inventory_quantity < 1 -%}
                   {%- if delivery_date != null and delivery_date != "" and delivery_date > today_date -%}
                       <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-preorder' | t }}  <b>{{ delivery_date | date: "%d.%m.%y" }}</b></span>
-                  {%- elsif product.selected_or_first_available_variant.inventory_quantity < 1 AND product.available -%}
-                      <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-oos' | t }}. </b>Vorbestellbar</b></span>
+                  {%- elsif product.available -%}
+                      <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-preoder-wodate' | t }}.</span>
                   {%- else -%}
-                  <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-preoder-wodate' | t }}. </b>Vorbestellbar</b></span>
+                  <span class="DeliveryHint-oos ">● {{ 'products.product.delivery-hint-oos' | t }}.</span>
                   {%- endif -%}
                 
               {% else%}
