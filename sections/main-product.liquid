@@ -296,7 +296,7 @@
                   {%- if delivery_date != null and delivery_date != "" and delivery_date > today_date -%}
                       <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-preorder' | t }}  <b>{{ delivery_date | date: "%d.%m.%y" }}</b></span>
                   {%- elsif product.available -%}
-                      <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-preoder-wodate' | t }}.</span>
+                      <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-preorder-wodate' | t }}.</span>
                   {%- else -%}
                   <span class="DeliveryHint-oos ">● {{ 'products.product.delivery-hint-oos' | t }}.</span>
                   {%- endif -%}
