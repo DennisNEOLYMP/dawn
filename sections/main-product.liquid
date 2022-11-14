@@ -293,10 +293,10 @@
             {%- when 'delivery_tag' -%}
               <div id="delivery_tag-{{ section.id }}" role="status" class="no-js-hidden" {{ block.shopify_attributes }}>
                 {%- if product.selected_or_first_available_variant.inventory_quantity < 1 -%}
-                  {%- if delivery_date != null and delivery_date != "" and delivery_date > today_date -%}
+                  {%- if if delivery_date -%}
                       <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-preorder' | t }}  <b>{{ delivery_date | date: "%d.%m.%y" }}</b></div>
                   {%- else -%}
-                  <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-oos' | t }}</b></div>
+                  <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-preorder' | t }}</b></div>
                   {%- endif -%}
                 
               {% else%}
