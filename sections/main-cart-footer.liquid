@@ -30,17 +30,17 @@
               <div class="js-contents" {{ block.shopify_attributes }}>
                 <div class="totals">
                   <h2 class="totals__subtotal">Original:</h2>
-                  <p class="totals__subtotal-value">{{ total_compare_at | money_with_currency }}</p>
-                </div>
-                <div class="totals">
-                  <h2 class="totals__subtotal">{{ 'sections.cart.subtotal' | t }}</h2>
-                  <p class="totals__subtotal-value">{{ cart.total_price | money_with_currency }}</p>
+                  <s class="totals__subtotal-value">{{ total_compare_at | money_with_currency }}</s>
                 </div>
                 <div class="totals">
                   <h2 class="totals__subtotal">Gespart:</h2>
-                  <s class="totals__subtotal-value">{{ cart.total_price | minus: total_compare_at | money_with_currency }}</s>
+                  <p class="totals__subtotal-value">{{ cart.total_price | minus: total_compare_at | money_with_currency }}</p>
                 </div>
 
+                <div class="totals">
+                  <h2 class="totals__subtotal">{{ 'sections.cart.subtotal' | t }}</h2>
+                  <b class="totals__subtotal-value">{{ cart.total_price | money_with_currency }}</b>
+                </div>
                 <div>
                   {%- if cart.cart_level_discount_applications.size > 0 -%}
                     <ul class="discounts list-unstyled" role="list" aria-label="{{ 'customer.order.discount' | t }}">
