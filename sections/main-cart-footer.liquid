@@ -35,7 +35,7 @@
                   </div>
                   <div class="totals">
                     <h2 class="totals__subtotal">{{ 'customer.order.discount' | t }}:</h2>
-                    <p class="totals__subtotal-value">{{ cart.total_price | minus: total_compare_at | money_with_currency }}</p>
+                    <p class="totals__subtotal-value color-green">{{ cart.total_price | minus: total_compare_at | money_with_currency }}</p>
                   </div>
                 {% endif %}
                 <div class="totals">
