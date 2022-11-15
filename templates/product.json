@@ -140,8 +140,8 @@
         "8ee66e56-57fb-4aef-b532-874d154beb1a": {
           "type": "brand_usps",
           "settings": {
-            "heading": "<p>Versand & Retoure kostenlos<\/p>",
-            "image": "shopify:\/\/shop_images\/truck_1.png",
+            "heading": "<p>Versand & Retoure <strong>kostenlos<\/strong><\/p>",
+            "image": "shopify:\/\/shop_images\/truck_2.png",
             "content": "<p>Der Versand und Rücksendungen in Deutschland sind vollkommen kostenlos für dich.<\/p>",
             "page": ""
           }
@@ -149,8 +149,8 @@
         "baccc37b-78a7-41ec-ba78-87ed443a830f": {
           "type": "brand_usps",
           "settings": {
-            "heading": "<p>inkl. kostenlosem E-Book<\/p>",
-            "image": "shopify:\/\/shop_images\/survey_1_1.png",
+            "heading": "<p><strong>inkl. E-Book<\/strong>-Download<\/p>",
+            "image": "shopify:\/\/shop_images\/survey_1_2.png",
             "content": "<p>Mit dem Kauf dieses Produktes erhältst du Zugriff auf unsere ständig wachsende E-Book-Bibliothek. Deinen persönlichen Download-Coder erhältst du mit deinem Paket.<\/p>",
             "page": ""
           }
@@ -158,8 +158,8 @@
         "2c1d1139-4f2c-4c56-88fa-c9847b0b37d0": {
           "type": "brand_usps",
           "settings": {
-            "heading": "<p>Schnell und sicher zahlen<\/p>",
-            "image": "shopify:\/\/shop_images\/pay_1.png",
+            "heading": "<p><strong>Schnell und sicher<\/strong> zahlen<\/p>",
+            "image": "shopify:\/\/shop_images\/pay_2.png",
             "content": "<p>Wir unterstützen alle gängigen Zahlungsanbieter über unser verschlüsseltes Zahlungsportal. Darunter auch Raten- und Rechnungskauf über Klarna.<\/p>",
             "page": ""
           }
