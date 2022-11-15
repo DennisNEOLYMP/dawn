@@ -459,6 +459,18 @@
       },
       "contact": {
         "title": "Adresse"
+      },
+      "order_summary": {
+        "expand_order_summary": "Zusammenfassung & Gutschein",
+        "collapse_order_summary": "Zusammenfassung & Gutschein schließen"
+      }
+    }
+  },
+  "customer_accounts": {
+    "order_details": {
+      "mobile_summary_toggle_button": {
+        "open": "Zusammenfassung & Gutschein",
+        "closed": "Zusammenfassung & Gutschein schließen"
       }
     }
   }
