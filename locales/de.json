@@ -456,6 +456,9 @@
       },
       "alternative_payment_method_banner": {
         "or": "oder Rechnungskauf, Klarna, Kreditkarte"
+      },
+      "contact": {
+        "title": "Adresse"
       }
     }
   }
