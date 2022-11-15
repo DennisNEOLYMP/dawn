@@ -266,7 +266,7 @@
                     </div>
 
                     <div class="cart-item__price-wrapper">
-                      {%- if item.variant.compare_at_price > item.original_line_price -%}
+                      {%- if item.variant.compare_at_price | times: item.quantity > item.original_line_price -%}
                         <dl class="cart-item__discounted-prices">
                           <dt class="visually-hidden">
                             {{ 'products.product.price.regular_price' | t }}
@@ -285,7 +285,7 @@
                         </dl>
                       {%- else -%}
                         <span class="price price--end 2">
-                          {{ item.original_line_price | money }}
+                          {{ item.final_line_price | money }}
                         </span>
                       {%- endif -%}
 
