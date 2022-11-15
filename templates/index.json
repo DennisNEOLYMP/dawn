@@ -275,6 +275,62 @@
         "padding_bottom": 0
       }
     },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/truck_1.png",
+            "title": "Kostenloser Versand",
+            "text": "<p>Wir versenden oft noch am selben Tag und das kostenlos für alle Bestellungen nach Deutschland.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/survey_1_1.png",
+            "title": "E-Book Downloads",
+            "text": "<p>Mit dem Kauf unserer Produkte erhältst du exklusiven Zugang zu unserer stetig wachsenden E-Book-Bibliothek<\/p>",
+            "link_label": "Zur Code-Eingabe",
+            "link": "shopify:\/\/pages\/ebooks-code-entry"
+          }
+        },
+        "724f45a8-8934-46e5-91bc-0eca48df6569": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pay_1.png",
+            "title": "Schnell und sicher zahlen",
+            "text": "<p>Wir unterstützen alle gängigen Zahlungsanbieter über unser verschlüsseltes Zahlungsportal. Darunter auch Raten- und Rechnungskauf über Klarna.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "724f45a8-8934-46e5-91bc-0eca48df6569"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "video": {
       "type": "video",
       "settings": {
@@ -412,62 +468,6 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/truck_1.png",
-            "title": "Kostenloser Versand",
-            "text": "<p>Wir versenden oft noch am selben Tag und das kostenlos für alle Bestellungen nach Deutschland.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/survey_1_1.png",
-            "title": "E-Book Downloads",
-            "text": "<p>Mit dem Kauf unserer Produkte erhältst du exklusiven Zugang zu unserer stetig wachsenden E-Book-Bibliothek<\/p>",
-            "link_label": "Zur Code-Eingabe",
-            "link": "shopify:\/\/pages\/ebooks-code-entry"
-          }
-        },
-        "724f45a8-8934-46e5-91bc-0eca48df6569": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pay_1.png",
-            "title": "Schnell und sicher zahlen",
-            "text": "<p>Wir unterstützen alle gängigen Zahlungsanbieter über unser verschlüsseltes Zahlungsportal. Darunter auch Raten- und Rechnungskauf über Klarna.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "724f45a8-8934-46e5-91bc-0eca48df6569"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -476,11 +476,11 @@
     "featured_collection",
     "166351848069a237b6",
     "rich_text",
+    "multicolumn",
     "video",
     "16672341752980360d",
     "069b0d6a-1a8f-4ec8-886f-b2b3df15b486",
     "collage",
-    "image_banner",
-    "multicolumn"
+    "image_banner"
   ]
 }
