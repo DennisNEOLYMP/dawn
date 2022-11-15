@@ -1,4 +1,5 @@
 .badge-card {
+    font-size: 1.2rem;
     display: inline-block;
     width: fit-content;
     padding: 2px 8px;
@@ -7,6 +8,7 @@
 }
 
 .badge-special {
+    font-size: 1.6rem;
     display: inline-block;
     margin-left: -45px;
     padding: 4px 16px;
@@ -33,7 +35,6 @@
 }
 
 .Badge__Text {
-    font-size: 1.6rem;
     font-weight: 600;
     text-transform: uppercase;
 }
