@@ -28,15 +28,16 @@
                 {% endif %}
               {% endfor %}
               <div class="js-contents" {{ block.shopify_attributes }}>
-                <div class="totals">
-                  <h2 class="totals__subtotal">Original:</h2>
-                  <s class="totals__subtotal-value">{{ total_compare_at | money_with_currency }}</s>
-                </div>
-                <div class="totals">
-                  <h2 class="totals__subtotal">Gespart:</h2>
-                  <p class="totals__subtotal-value">{{ cart.total_price | minus: total_compare_at | money_with_currency }}</p>
-                </div>
-
+                {% if total_compare_at > cart.total_price %}
+                  <div class="totals">
+                    <h2 class="totals__subtotal">{{ 'products.product.price.regular_price' | t }}:</h2>
+                    <s class="totals__subtotal-value">{{ total_compare_at | money_with_currency }}</s>
+                  </div>
+                  <div class="totals">
+                    <h2 class="totals__subtotal">{{ 'customer.order.discount' | t }}:</h2>
+                    <p class="totals__subtotal-value">{{ cart.total_price | minus: total_compare_at | money_with_currency }}</p>
+                  </div>
+                {% endif %}
                 <div class="totals">
                   <h2 class="totals__subtotal">{{ 'sections.cart.subtotal' | t }}</h2>
                   <b class="totals__subtotal-value">{{ cart.total_price | money_with_currency }}</b>

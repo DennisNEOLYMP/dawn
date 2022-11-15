@@ -168,13 +168,13 @@
                           </div>
 
                           <div class="cart-item__price-wrapper">
-                            {%- if item.original_line_price != item.final_line_price -%}
+                            {%- if item.variant.compare_at_price  > item.final_price -%}
                               <div class="cart-item__discounted-prices">
                                 <span class="visually-hidden">
                                   {{ 'products.product.price.regular_price' | t }}
                                 </span>
                                 <s class="cart-item__old-price price price--end">
-                                  {{ item.original_line_price | money }}
+                                  {{ item.variant.compare_at_price | times: item.quantity | money }}
                                 </s>
                                 <span class="visually-hidden">
                                   {{ 'products.product.price.sale_price' | t }}
@@ -279,8 +279,26 @@
         <!-- Start blocks-->
         <!-- Subtotals-->
 
+        {% for item in cart.items %}
+          {% if item.variant.compare_at_price > item.original_price %}
+            {% assign total_compare_at = item.variant.compare_at_price | times: item.quantity | plus: total_compare_at %}
+          {% else %}
+            {% assign total_compare_at = item.original_price | times: item.quantity |  plus: total_compare_at  %}
+          {% endif %}
+        {% endfor %}
+
         <div class="cart-drawer__footer" {{ block.shopify_attributes }}>
-          <div class="totals" role="status">
+          {% if total_compare_at > cart.total_price %}
+            <div class="totals" role="status">
+              <h2 class="totals__subtotal">{{ 'products.product.price.regular_price' | t }}:</h2>
+              <s class="totals__subtotal-value">{{ total_compare_at | money_with_currency }}</s>
+            </div>
+            <div class="totals" role="status">
+              <h2 class="totals__subtotal">{{ 'customer.order.discount' | t }}:</h2>
+              <p class="totals__subtotal-value">{{ cart.total_price | minus: total_compare_at | money_with_currency }}</p>
+            </div>
+          {% endif %}
+          <div class="totals" role="status">           
             <h2 class="totals__subtotal">{{ 'sections.cart.subtotal' | t }}</h2>
             <p class="totals__subtotal-value">{{ cart.total_price | money_with_currency }}</p>
           </div>
