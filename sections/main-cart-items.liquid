@@ -163,7 +163,7 @@
                       </div>
                     </div>
                     <div class="cart-item__price-wrapper">
-                      {%- if item.variant.compare_at_price | times: item.quantity > item.original_line_price -%}
+                      {%- if item.variant.compare_at_price  > item.final_price -%}
                         <dl class="cart-item__discounted-prices">
                           <dt class="visually-hidden">
                             {{ 'products.product.price.regular_price' | t }}
@@ -266,7 +266,7 @@
                     </div>
 
                     <div class="cart-item__price-wrapper">
-                      {%- if item.variant.compare_at_price | times: item.quantity > item.original_line_price -%}
+                      {%- if item.variant.compare_at_price  > item.final_price -%}
                         <dl class="cart-item__discounted-prices">
                           <dt class="visually-hidden">
                             {{ 'products.product.price.regular_price' | t }}
@@ -279,12 +279,12 @@
                           <dt class="visually-hidden">
                             {{ 'products.product.price.sale_price' | t }}
                           </dt>
-                          <dd class="price price--end 1">
+                          <dd class="price price--end 3">
                             {{ item.final_line_price | money }}
                           </dd>
                         </dl>
                       {%- else -%}
-                        <span class="price price--end 2">
+                        <span class="price price--end 4">
                           {{ item.final_line_price | money }}
                         </span>
                       {%- endif -%}
