@@ -453,6 +453,9 @@
         "reduction_code_code_not_found": "Während Aktionen sind Gutscheincodes deaktiviert.",
         "reduction_code_gift_card_code_invalid": "Während Aktionen sind Gutscheincodes deaktiviert.",
         "gift_card_expired": "Während Aktionen sind Gutscheincodes deaktiviert."
+      },
+      "alternative_payment_method_banner": {
+        "or": "oder Rechnungskauf, Klarna, Kreditkarte"
       }
     }
   }

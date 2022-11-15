@@ -326,10 +326,11 @@
     "collage": {
       "type": "collage",
       "blocks": {
-        "collection-1": {
-          "type": "collection",
+        "1387738f-a503-47db-a9bc-5f4e3490e48e": {
+          "type": "product",
           "settings": {
-            "collection": "fitnessbaender"
+            "product": "neolymp-geschenkgutschein",
+            "second_image": false
           }
         },
         "product": {
@@ -348,7 +349,7 @@
         }
       },
       "block_order": [
-        "collection-1",
+        "1387738f-a503-47db-a9bc-5f4e3490e48e",
         "product",
         "34c6de8d-4edf-4687-9248-64f278a7856c"
       ],
