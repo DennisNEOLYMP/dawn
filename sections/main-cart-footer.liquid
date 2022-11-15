@@ -19,13 +19,12 @@
             {%- when '@app' -%}
               {% render block %}
             {%- when 'subtotal' -%}
-              {% assign total_saving = 0 %}
               {% assign total_compare_at = 0 %}
               {% for item in cart.items %}
                 {% if item.variant.compare_at_price > item.original_price %}
-                  {% assign total_compare_at = total_compare_at | plus: item.variant.compare_at_price | times: item.quantity %}
+                  {% assign total_compare_at = item.variant.compare_at_price | times: item.quantity | plus: total_compare_at %}
                 {% else %}
-                  {% assign total_compare_at = total_compare_at | plus: item.original_price | times: item.quantity %}
+                  {% assign total_compare_at = item.original_price | times: item.quantity |  plus: total_compare_at  %}
                 {% endif %}
               {% endfor %}
               <div class="js-contents" {{ block.shopify_attributes }}>
