@@ -22,11 +22,10 @@
               {% assign total_saving = 0 %}
               {% assign total_compare_at = 0 %}
               {% for item in cart.items %}
-                {% if item.variant.compare_at_price > item.final_price %}
+                {% if item.variant.compare_at_price > item.original_price %}
                   {% assign total_compare_at = total_compare_at | plus: item.variant.compare_at_price | times: item.quantity %}
-                  {% assign saving = item.variant.compare_at_price | minus: item.final_price | times: item.quantity %}
                 {% else %}
-                  {% assign total_compare_at = total_compare_at | plus: item.final_price | times: item.quantity %}
+                  {% assign total_compare_at = total_compare_at | plus: item.original_price | times: item.quantity %}
                 {% endif %}
               {% endfor %}
               <div class="js-contents" {{ block.shopify_attributes }}>
