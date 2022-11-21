@@ -288,6 +288,16 @@
             "link": ""
           }
         },
+        "7f9f5638-0135-4657-a41c-b3be4403eacc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ico-garantie.png",
+            "title": "5 Jahre Garantie",
+            "text": "<p>Unsere Produkte sollen höchsten Qualitätsansprüchen genügen. Deshalb bieten wir dir eine erweitere Garantie.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column2": {
           "type": "column",
           "settings": {
@@ -307,23 +317,13 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "7f9f5638-0135-4657-a41c-b3be4403eacc": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ico-garantie.png",
-            "title": "5 Jahre Garantie",
-            "text": "<p>Unsere Produkte sollen höchsten Qualitätsansprüchen genügen. Deshalb bieten wir dir eine erweitere Garantie.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "column1",
+        "7f9f5638-0135-4657-a41c-b3be4403eacc",
         "column2",
-        "724f45a8-8934-46e5-91bc-0eca48df6569",
-        "7f9f5638-0135-4657-a41c-b3be4403eacc"
+        "724f45a8-8934-46e5-91bc-0eca48df6569"
       ],
       "settings": {
         "title": "",
