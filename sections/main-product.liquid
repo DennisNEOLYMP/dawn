@@ -294,7 +294,7 @@
                 {%- if product.selected_or_first_available_variant.inventory_quantity < 1 -%}
                   {%- if delivery_date != null and delivery_date != "" and delivery_date > today_date -%}
                       <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-preorder' | t }}  <b>{{ delivery_date | date: "%d.%m.%y" }}</b></span>
-                  {%- elsif product.variant.available -%}
+                  {%- elsif product.variant.inventory_policy == "continue" -%}
                       <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-wodate' | t }}</span>
                   {%- else -%}
                   <span class="DeliveryHint-oos ">● {{ 'products.product.delivery-hint-oos' | t }}.</span>
