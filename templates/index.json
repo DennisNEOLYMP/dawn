@@ -307,19 +307,30 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "7f9f5638-0135-4657-a41c-b3be4403eacc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ico-garantie.png",
+            "title": "5 Jahre Garantie",
+            "text": "<p>Unsere Produkte sollen höchsten Qualitätsansprüchen genügen. Deshalb bieten wir dir eine erweitere Garantie.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column1",
         "column2",
-        "724f45a8-8934-46e5-91bc-0eca48df6569"
+        "724f45a8-8934-46e5-91bc-0eca48df6569",
+        "7f9f5638-0135-4657-a41c-b3be4403eacc"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
