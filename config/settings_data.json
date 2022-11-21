@@ -175,7 +175,7 @@
         ],
         "settings": {
           "color_scheme": "accent-2",
-          "newsletter_enable": true,
+          "newsletter_enable": false,
           "newsletter_heading": "Spare 10% mit Newsletteranmeldung",
           "show_social": true,
           "enable_country_selector": true,
