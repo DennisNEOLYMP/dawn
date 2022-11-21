@@ -141,7 +141,7 @@
           "type": "brand_usps",
           "settings": {
             "heading": "<p>Versand & Retoure <strong>kostenlos<\/strong><\/p>",
-            "image": "shopify:\/\/shop_images\/truck_2.png",
+            "image": "shopify:\/\/shop_images\/ico-versandkostenlos.png",
             "content": "<p>Der Versand und Rücksendungen in Deutschland sind vollkommen kostenlos für dich.<\/p>",
             "page": ""
           }
@@ -150,7 +150,7 @@
           "type": "brand_usps",
           "settings": {
             "heading": "<p>5 Jahre Garantie<\/p>",
-            "image": "shopify:\/\/shop_images\/medal_5.png",
+            "image": "shopify:\/\/shop_images\/medal_5_3c2d78e1-4533-4347-bc63-108100b7f5c3.png",
             "content": "<p>Unsere Produkte sollen höchsten Qualitätsansprüchen genügen. Deshalb bieten wir dir eine erweitere Garantie.<\/p>",
             "page": ""
           }
