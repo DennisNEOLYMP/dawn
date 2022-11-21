@@ -146,6 +146,15 @@
             "page": ""
           }
         },
+        "52903918-6cd2-4969-bd0e-181b5e43f80e": {
+          "type": "brand_usps",
+          "settings": {
+            "heading": "<p>5 Jahre Garantie<\/p>",
+            "image": "shopify:\/\/shop_images\/medal_5.png",
+            "content": "<p>Unsere Produkte sollen höchsten Qualitätsansprüchen genügen. Deshalb bieten wir dir eine erweitere Garantie.<\/p>",
+            "page": ""
+          }
+        },
         "baccc37b-78a7-41ec-ba78-87ed443a830f": {
           "type": "brand_usps",
           "settings": {
@@ -211,6 +220,7 @@
         "collapsible-row-3",
         "b8b2f2f3-4250-42ee-8919-ea880d24b4e3",
         "8ee66e56-57fb-4aef-b532-874d154beb1a",
+        "52903918-6cd2-4969-bd0e-181b5e43f80e",
         "baccc37b-78a7-41ec-ba78-87ed443a830f",
         "2c1d1139-4f2c-4c56-88fa-c9847b0b37d0",
         "9800607d-62c2-46df-aef5-dca4f4ed5993",
