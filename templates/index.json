@@ -233,6 +233,7 @@
     },
     "fcd25ea0-c462-44dd-be83-deb8fc6eb194": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--15568644440255__fcd25ea0-c462-44dd-be83-deb8fc6eb194-16691505614255d494-0": {
           "type": "heading",
