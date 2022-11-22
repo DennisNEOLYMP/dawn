@@ -23,7 +23,9 @@
           }
         },
         "content": {
-          "type": "content"
+          "type": "content",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -31,10 +33,67 @@
         "title",
         "share",
         "content"
-      ]
+      ],
+      "settings": {
+      }
+    },
+    "d0f13f3a-6dd7-4c38-9716-8bbeb4218a23": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15568643915967__d0f13f3a-6dd7-4c38-9716-8bbeb4218a23-1669150280ad076b8b-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fitnessbaender"
+          }
+        },
+        "template--15568643915967__d0f13f3a-6dd7-4c38-9716-8bbeb4218a23-1669150280ad076b8b-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hanteln-gewichte"
+          }
+        },
+        "template--15568643915967__d0f13f3a-6dd7-4c38-9716-8bbeb4218a23-1669150280ad076b8b-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sportgeraete"
+          }
+        },
+        "7d99ee23-b701-4046-9c6a-d9138fc36cb0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sportmatten"
+          }
+        },
+        "0d3c7245-d6bf-4a59-aa39-5ed3b007abb1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "yoga"
+          }
+        }
+      },
+      "block_order": [
+        "template--15568643915967__d0f13f3a-6dd7-4c38-9716-8bbeb4218a23-1669150280ad076b8b-0",
+        "template--15568643915967__d0f13f3a-6dd7-4c38-9716-8bbeb4218a23-1669150280ad076b8b-1",
+        "template--15568643915967__d0f13f3a-6dd7-4c38-9716-8bbeb4218a23-1669150280ad076b8b-2",
+        "7d99ee23-b701-4046-9c6a-d9138fc36cb0",
+        "0d3c7245-d6bf-4a59-aa39-5ed3b007abb1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "d0f13f3a-6dd7-4c38-9716-8bbeb4218a23"
   ]
 }
