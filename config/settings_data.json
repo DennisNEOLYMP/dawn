@@ -113,7 +113,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Black Friday Sale | Kostenloser Versand nach DE | inkl. Trainingsanleitungen",
+              "text": "Markenqualität | Kostenloser Versand nach DE | inkl. Trainingsanleitungen",
               "text_alignment": "center",
               "color_scheme": "accent-2",
               "link": ""
@@ -230,6 +230,22 @@
           "pb": 1,
           "mt": 0,
           "mb": 0
+        }
+      },
+      "eg-sticky-atc": {
+        "type": "eg-sticky-atc",
+        "settings": {
+          "enable_section": true,
+          "color_scheme": "background-1",
+          "title_size": "h4",
+          "show_img": true,
+          "img_width": "80",
+          "img_height": "80",
+          "show_quantity_input": true,
+          "btn_style": "primary",
+          "offset": 500,
+          "pt": 0.5,
+          "pb": 0.5
         }
       }
     },
