@@ -6,7 +6,7 @@
         "72948d5c-8adc-4dad-8564-de8135998842": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/black_weeks_40_header_shop_9cc39a96-75b5-49be-b39e-e298425db082.jpg",
+            "image": "shopify:\/\/shop_images\/v3_Black_friday_shop_slider.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -23,6 +23,7 @@
         },
         "166238101711f642f7-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/NLMP_fruehling_Spring_Header_Desktop_No_logo_5360469d-1129-422e-b0e2-85fc7455a30e.jpg",
             "heading": "",
@@ -41,6 +42,7 @@
         },
         "166238101711f642f7-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/5_desk.jpg",
             "heading": "",
@@ -59,6 +61,7 @@
         },
         "c1770566-16af-4b3c-943f-28e41dc6cca1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Marcel_31.jpg",
             "heading": "",
@@ -228,13 +231,37 @@
         "padding_bottom": 36
       }
     },
+    "fcd25ea0-c462-44dd-be83-deb8fc6eb194": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--15568644440255__fcd25ea0-c462-44dd-be83-deb8fc6eb194-16691505614255d494-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Die neusten Bewertungen<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15568644440255__fcd25ea0-c462-44dd-be83-deb8fc6eb194-16691505614255d494-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "166351848069a237b6": {
       "type": "apps",
       "blocks": {
         "6b79c473-140d-4599-b51d-95bcab60f7de": {
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "maxwidth": 1200
+            "maxwidth": 1400
           }
         }
       },
@@ -242,7 +269,7 @@
         "6b79c473-140d-4599-b51d-95bcab60f7de"
       ],
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     },
     "rich_text": {
@@ -485,6 +512,7 @@
     "16623810170907d825",
     "1662381693659ef961",
     "featured_collection",
+    "fcd25ea0-c462-44dd-be83-deb8fc6eb194",
     "166351848069a237b6",
     "rich_text",
     "multicolumn",
