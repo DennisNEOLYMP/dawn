@@ -198,6 +198,39 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "eg-bar": {
+        "type": "eg-bar",
+        "blocks": {
+          "0a4a53d0-b4f9-472e-9f3a-d3bbd66c3e64": {
+            "type": "Announcement",
+            "settings": {
+              "description": "<p>Black Saturday<\/p>",
+              "url": "shopify:\/\/pages\/black-weeks"
+            }
+          }
+        },
+        "block_order": [
+          "0a4a53d0-b4f9-472e-9f3a-d3bbd66c3e64"
+        ],
+        "settings": {
+          "show": true,
+          "homepage": true,
+          "bg_color": "#121212",
+          "text_color": "#ffffff",
+          "font_size": "text-sm",
+          "font_weight": "fw-bold",
+          "text_transform": "",
+          "arrows": true,
+          "autoplay": true,
+          "speed": 0.6,
+          "flipdown_time": "1669503600",
+          "theme": "light",
+          "pt": 1,
+          "pb": 1,
+          "mt": 0,
+          "mb": 0
+        }
       }
     },
     "content_for_index": [
