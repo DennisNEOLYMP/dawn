@@ -15,7 +15,7 @@
     border-radius: 4px;
     box-shadow: 0 4px 4px hsl(0deg 0% 69% / 50%);
     z-index: 10;
-    animation: wobble 3s ease 5s 3;
+    animation: wobble 3s ease 5s 2;
 }
 
 @keyframes wobble {
