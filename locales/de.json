@@ -458,7 +458,9 @@
         "or": "oder Rechnungskauf, Klarna, Kreditkarte"
       },
       "contact": {
-        "title": "Adresse"
+        "title": "Adresse",
+        "address1_label": "Straße + Hausnummer (oder Packstation + Nummer)",
+        "optional_address2_label": "Adresszusatz (oder Postnummer) (optional)"
       },
       "order_summary": {
         "expand_order_summary": "Zusammenfassung & Gutschein",
