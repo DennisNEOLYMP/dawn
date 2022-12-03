@@ -5,6 +5,7 @@
       "blocks": {
         "72948d5c-8adc-4dad-8564-de8135998842": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/black_weeks_40_header_shop.jpg",
             "heading": "",
@@ -23,7 +24,6 @@
         },
         "166238101711f642f7-0": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/NLMP_fruehling_Spring_Header_Desktop_No_logo_5360469d-1129-422e-b0e2-85fc7455a30e.jpg",
             "heading": "",
@@ -42,7 +42,6 @@
         },
         "166238101711f642f7-1": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/5_desk.jpg",
             "heading": "",
@@ -61,7 +60,6 @@
         },
         "c1770566-16af-4b3c-943f-28e41dc6cca1": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Marcel_31.jpg",
             "heading": "",
