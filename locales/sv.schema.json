@@ -1890,7 +1890,7 @@
           }
         },
         "media_size": {
-          "label": "Mediastorlek på desktop",
+          "label": "Mediabredd för dator",
           "options__1": {
             "label": "Liten"
           },
@@ -1935,6 +1935,18 @@
           },
           "options__3": {
             "label": "Ingen zoom"
+          }
+        },
+        "constrain_to_viewport": {
+          "label": "Begränsa media till skärmhöjd"
+        },
+        "media_fit": {
+          "label": "Mediaanpassning",
+          "options__1": {
+            "label": "Original"
+          },
+          "options__2": {
+            "label": "Fyll"
           }
         }
       }

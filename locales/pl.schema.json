@@ -1890,7 +1890,7 @@
           }
         },
         "media_size": {
-          "label": "Rozmiar plików multimedialnych dla komputera",
+          "label": "Szerokość multimediów dla komputera",
           "options__1": {
             "label": "Mały"
           },
@@ -1935,6 +1935,18 @@
           },
           "options__3": {
             "label": "Bez powiększenia"
+          }
+        },
+        "constrain_to_viewport": {
+          "label": "Ograniczenie multimediów do wysokości ekranu"
+        },
+        "media_fit": {
+          "label": "Dopasowanie multimediów",
+          "options__1": {
+            "label": "Oryginalny"
+          },
+          "options__2": {
+            "label": "Wypełnienie"
           }
         }
       }
