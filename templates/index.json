@@ -504,6 +504,54 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "b70dc90a-934a-444e-9b07-dea7f9e309bb": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15568644440255__b70dc90a-934a-444e-9b07-dea7f9e309bb-1670936802afe643a9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--15568644440255__b70dc90a-934a-444e-9b07-dea7f9e309bb-1670936802afe643a9-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--15568644440255__b70dc90a-934a-444e-9b07-dea7f9e309bb-1670936802afe643a9-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15568644440255__b70dc90a-934a-444e-9b07-dea7f9e309bb-1670936802afe643a9-0",
+        "template--15568644440255__b70dc90a-934a-444e-9b07-dea7f9e309bb-1670936802afe643a9-1",
+        "template--15568644440255__b70dc90a-934a-444e-9b07-dea7f9e309bb-1670936802afe643a9-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hoodie_desk_97a24670-8a8c-4293-bf02-6cb143823d83.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -518,6 +566,7 @@
     "16672341752980360d",
     "069b0d6a-1a8f-4ec8-886f-b2b3df15b486",
     "collage",
-    "image_banner"
+    "image_banner",
+    "b70dc90a-934a-444e-9b07-dea7f9e309bb"
   ]
 }
