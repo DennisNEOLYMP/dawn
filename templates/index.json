@@ -511,26 +511,26 @@
         "template--15568644440255__b70dc90a-934a-444e-9b07-dea7f9e309bb-1670936802afe643a9-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Noch Fragen? Feedback?",
             "heading_size": "h1"
           }
         },
         "template--15568644440255__b70dc90a-934a-444e-9b07-dea7f9e309bb-1670936802afe643a9-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Schreib uns per Mail oder Formular! Wir freuen uns über deine Nachricht!",
             "text_style": "body"
           }
         },
         "template--15568644440255__b70dc90a-934a-444e-9b07-dea7f9e309bb-1670936802afe643a9-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "Kontaktformular",
+            "button_link_1": "shopify:\/\/pages\/kontakt",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_2": "E-Mail",
+            "button_link_2": "mailto:support@neolymp.com",
+            "button_style_secondary_2": true
           }
         }
       },
