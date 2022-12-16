@@ -781,7 +781,7 @@
           "content": "Sélecteur de pays\/région"
         },
         "header__4": {
-          "info": "Pour ajouter un pays/une région, accédez à vos [paramètres de marché.](/admin/settings/markets)"
+          "info": "Pour ajouter un pays\/une région, accédez à vos [paramètres de marché.](\/admin\/settings\/markets)"
         },
         "enable_country_selector": {
           "label": "Activer le sélecteur de pays\/région"
@@ -806,7 +806,7 @@
         },
         "header__8": {
           "content": "Liens des politiques",
-          "info": "Pour ajouter des politiques concernant votre boutique, accédez à vos [paramètres de politique ](/admin/settings/legal)."
+          "info": "Pour ajouter des politiques concernant votre boutique, accédez à vos [paramètres de politique ](\/admin\/settings\/legal)."
         },
         "show_policy": {
           "label": "Afficher les liens des politiques"
@@ -870,7 +870,7 @@
           "content": "Logo"
         },
         "logo_help": {
-          "content": "Modifiez votre logo dans les [paramètres du thème](/editor?context=theme&category=logo)."
+          "content": "Modifiez votre logo dans les [paramètres du thème](\/editor?context=theme&category=logo)."
         }
       }
     },
@@ -1729,7 +1729,7 @@
           "name": "Produits complémentaires",
           "settings": {
             "paragraph": {
-              "content": "Pour sélectionner des produits complémentaires, ajoutez l'application Search & Discovery. [En savoir plus](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "Pour sélectionner des produits complémentaires, ajoutez l'application Search & Discovery. [En savoir plus](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "En-tête"

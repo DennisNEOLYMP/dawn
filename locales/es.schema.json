@@ -781,7 +781,7 @@
           "content": "Selector de país\/región"
         },
         "header__4": {
-          "info": "Para agregar un país o una región, ve a la [configuración del mercado.](/admin/settings/markets)"
+          "info": "Para agregar un país o una región, ve a la [configuración del mercado.](\/admin\/settings\/markets)"
         },
         "enable_country_selector": {
           "label": "Activar selector de país\/región"
@@ -806,7 +806,7 @@
         },
         "header__8": {
           "content": "Enlaces a las políticas",
-          "info": "Para agregar las políticas de la tienda, ve a tu [configuración de políticas](/admin/settings/legal)."
+          "info": "Para agregar las políticas de la tienda, ve a tu [configuración de políticas](\/admin\/settings\/legal)."
         },
         "show_policy": {
           "label": "Mostrar enlaces a las políticas"
@@ -870,7 +870,7 @@
           "content": "Logo"
         },
         "logo_help": {
-          "content": "Edita tu logotipo en [configuración del tema](/editor?context=theme&category=logo)."
+          "content": "Edita tu logotipo en [configuración del tema](\/editor?context=theme&category=logo)."
         }
       }
     },
@@ -1730,7 +1730,7 @@
           "name": "Productos complementarios",
           "settings": {
             "paragraph": {
-              "content": "Para seleccionar productos complementarios, agrega la aplicación Search & Discovery. [Más información](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "Para seleccionar productos complementarios, agrega la aplicación Search & Discovery. [Más información](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "Encabezado"

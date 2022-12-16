@@ -462,6 +462,9 @@
         "expand_order_summary": "Zusammenfassung & Gutschein",
         "collapse_order_summary": "Zusammenfassung & Gutschein schließen"
       }
+    },
+    "links": {
+      "powered_by_shopify": "🔥"
     }
   },
   "customer_accounts": {

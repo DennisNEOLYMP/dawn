@@ -781,7 +781,7 @@
           "content": "Selektor země\/oblasti"
         },
         "header__4": {
-          "info": "Pokud chcete přidat zemi nebo oblast, přejděte na [nastavení trhu.](/admin/settings/markets)"
+          "info": "Pokud chcete přidat zemi nebo oblast, přejděte na [nastavení trhu.](\/admin\/settings\/markets)"
         },
         "enable_country_selector": {
           "label": "Povolit selektor země\/oblasti"
@@ -806,7 +806,7 @@
         },
         "header__8": {
           "content": "Odkazy na zásady",
-          "info": "Pokud chcete přidat zásady obchodu, přejděte do [nastavení zásad](/admin/settings/legal)."
+          "info": "Pokud chcete přidat zásady obchodu, přejděte do [nastavení zásad](\/admin\/settings\/legal)."
         },
         "show_policy": {
           "label": "Zobrazit odkazy na zásady"
@@ -870,7 +870,7 @@
           "content": "Logo"
         },
         "logo_help": {
-          "content": "Logo upravíte v [nastavení motivu](/editor?context=theme&category=logo)."
+          "content": "Logo upravíte v [nastavení motivu](\/editor?context=theme&category=logo)."
         }
       }
     },

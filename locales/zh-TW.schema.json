@@ -781,7 +781,7 @@
           "content": "國家\/地區選擇器"
         },
         "header__4": {
-          "info": "若要新增國家/地區，請前往 [市場設定](/admin/settings/markets)。"
+          "info": "若要新增國家\/地區，請前往 [市場設定](\/admin\/settings\/markets)。"
         },
         "enable_country_selector": {
           "label": "啟用國家\/地區選擇器"
@@ -806,7 +806,7 @@
         },
         "header__8": {
           "content": "政策連結",
-          "info": "若要新增商店政策，請前往 [政策設定](/admin/settings/legal)]。"
+          "info": "若要新增商店政策，請前往 [政策設定](\/admin\/settings\/legal)]。"
         },
         "show_policy": {
           "label": "顯示政策連結"
@@ -870,7 +870,7 @@
           "content": "標誌"
         },
         "logo_help": {
-          "content": "在 [編輯佈景主題設定](/editor?context=theme&category=logo) 中編輯標誌。"
+          "content": "在 [編輯佈景主題設定](\/editor?context=theme&category=logo) 中編輯標誌。"
         }
       }
     },
@@ -1730,7 +1730,7 @@
           "name": "配套商品",
           "settings": {
             "paragraph": {
-              "content": "若要選取配套商品，請新增 Search & Discovery 應用程式。[瞭解詳情](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "若要選取配套商品，請新增 Search & Discovery 應用程式。[瞭解詳情](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "標題"

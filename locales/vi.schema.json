@@ -781,7 +781,7 @@
           "content": "Hộp chọn quốc gia\/vùng"
         },
         "header__4": {
-          "info": "Để thêm quốc gia/khu vực, vào [cài đặt thị trường.](/admin/settings/markets)"
+          "info": "Để thêm quốc gia\/khu vực, vào [cài đặt thị trường.](\/admin\/settings\/markets)"
         },
         "enable_country_selector": {
           "label": "Bật hộp chọn quốc gia\/vùng"
@@ -806,7 +806,7 @@
         },
         "header__8": {
           "content": "Liên kết chính sách",
-          "info": "Để thêm chính sách cửa hàng, truy cập [cài đặt chính sách](/admin/settings/legal)."
+          "info": "Để thêm chính sách cửa hàng, truy cập [cài đặt chính sách](\/admin\/settings\/legal)."
         },
         "show_policy": {
           "label": "Hiển thị liên kết chính sách"
@@ -870,7 +870,7 @@
           "content": "Logo"
         },
         "logo_help": {
-          "content": "Chỉnh sửa logo trong [cài đặt chủ đề](/editor?context=theme&category=logo)."
+          "content": "Chỉnh sửa logo trong [cài đặt chủ đề](\/editor?context=theme&category=logo)."
         }
       }
     },
@@ -1730,7 +1730,7 @@
           "name": "Sản phẩm bổ sung",
           "settings": {
             "paragraph": {
-              "content": "Để chọn sản phẩm bổ sung, hãy thêm ứng dụng Search & Discovery. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "Để chọn sản phẩm bổ sung, hãy thêm ứng dụng Search & Discovery. [Tìm hiểu thêm](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "Tiêu đề"
