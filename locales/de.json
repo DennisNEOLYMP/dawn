@@ -461,6 +461,9 @@
       "order_summary": {
         "expand_order_summary": "Zusammenfassung & Gutschein",
         "collapse_order_summary": "Zusammenfassung & Gutschein schließen"
+      },
+      "field_errors": {
+        "reduction_code_gift_card_code_invalid": "Rabattcodes sind während Aktionen deaktiviert."
       }
     },
     "links": {
