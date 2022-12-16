@@ -141,15 +141,6 @@
         "paragraph": "Priser i varukorgen och kassan visar alltid valutakoder. T.ex. 1,00 USD."
       }
     },
-    "favicon": {
-      "name": "Favicon",
-      "settings": {
-        "favicon": {
-          "label": "Favicon-bild",
-          "info": "Kommer skalas ned till 32 x 32 px"
-        }
-      }
-    },
     "layout": {
       "name": "Layout",
       "settings": {
@@ -157,7 +148,7 @@
           "label": "Sidbredd"
         },
         "spacing_sections": {
-          "label": "Vertikalt utrymme mellan avsnitt"
+          "label": "Mellanrum mellan mallavsnitt"
         },
         "header__grid": {
           "content": "Rutnät"
@@ -355,6 +346,22 @@
           "label": "Stil"
         }
       }
+    },
+    "logo": {
+      "name": "Logotyp",
+      "settings": {
+        "logo_image": {
+          "label": "Logotyp"
+        },
+        "logo_width": {
+          "label": "Logotypbredd för dator",
+          "info": "Logotypbredd optimeras automatiskt för mobilen."
+        },
+        "favicon": {
+          "label": "Favicon-bild",
+          "info": "Kommer skalas ned till 32 x 32 px"
+        }
+      }
     }
   },
   "sections": {
@@ -468,10 +475,6 @@
           "settings": {
             "image": {
               "label": "Bild"
-            },
-            "image_padding": {
-              "label": "Använd ursprungliga bildförhållanden",
-              "info": "Välj om du inte vill att din bild beskärs."
             }
           },
           "name": "Bild"
@@ -507,10 +510,6 @@
               "label": "URL",
               "info": "Video spelas i en pop-up om avsnittet innehåller andra block.",
               "placeholder": "Använd en YouTube- eller en Vimeo-URL"
-            },
-            "image_padding": {
-              "label": "Använd ursprungliga bildförhållanden",
-              "info": "Välj om du inte vill att din bild beskärs."
             },
             "description": {
               "label": "Alternativtext för video",
@@ -782,7 +781,7 @@
           "content": "Land\/region-väljare"
         },
         "header__4": {
-          "info": "Om du vill lägga till land\/region går du till dina [betalningsinställningar.](\/admin\/settings\/payments)"
+          "info": "Om du vill lägga till land/region går du till dina [marknadsinställningar.](/admin/settings/markets)"
         },
         "enable_country_selector": {
           "label": "Aktivera land\/region-väljare"
@@ -804,19 +803,19 @@
         },
         "margin_top": {
           "label": "Övre marginal"
+        },
+        "header__8": {
+          "content": "Policylänkar",
+          "info": "Gå till dina [policyinställningar ](/admin/settings/legal) för att lägga till butikspolicyer."
+        },
+        "show_policy": {
+          "label": "Visa policylänkar"
         }
       }
     },
     "header": {
       "name": "Rubrik",
       "settings": {
-        "logo": {
-          "label": "Logotypbild"
-        },
-        "logo_width": {
-          "unit": "px",
-          "label": "Anpassad logotypsbredd"
-        },
         "logo_position": {
           "label": "Desktoplogotypens position",
           "options__1": {
@@ -866,6 +865,12 @@
           "options__2": {
             "label": "Vänster"
           }
+        },
+        "logo_header": {
+          "content": "Logotyp"
+        },
+        "logo_help": {
+          "content": "Redigera din logotyp i [temainställningarna](/editor?context=theme&category=logo)."
         }
       }
     },
@@ -1460,12 +1465,11 @@
     "main-password-header": {
       "name": "Lösenord sidhuvud",
       "settings": {
-        "logo": {
-          "label": "Logotypbild"
+        "logo_header": {
+          "content": "Logotyp"
         },
-        "logo_max_width": {
-          "label": "Anpassad logotypsbredd",
-          "unit": "px"
+        "logo_help": {
+          "content": "Redigera din logotyp i temainställningarna."
         }
       }
     },
@@ -1726,11 +1730,7 @@
           "name": "Kompletterande produkter",
           "settings": {
             "paragraph": {
-<<<<<<< HEAD
-              "content": "Lägg till appen Search & Discovery för att välja tilläggsprodukter. [Mer information](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
-=======
               "content": "Lägg till appen Search & Discovery för att välja tilläggsprodukter. [Mer information](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
->>>>>>> 6d2a6c9b946532b27d399cca1d5eee581a57d6c9
             },
             "heading": {
               "label": "Rubrik"

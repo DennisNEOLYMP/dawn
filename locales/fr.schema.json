@@ -141,15 +141,6 @@
         "paragraph": "Le panier et les prix au moment du paiement indiquent toujours les codes de devise. Exemple : 1 EUR."
       }
     },
-    "favicon": {
-      "name": "Favicon",
-      "settings": {
-        "favicon": {
-          "label": "Image favicon",
-          "info": "Sera réduite à 32 x 32 px"
-        }
-      }
-    },
     "layout": {
       "name": "Mise en page",
       "settings": {
@@ -157,7 +148,7 @@
           "label": "Largeur de la page"
         },
         "spacing_sections": {
-          "label": "Espace vertical entre les sections"
+          "label": "Espace entre les sections de modèle"
         },
         "header__grid": {
           "content": "Grille"
@@ -355,6 +346,22 @@
           "label": "Style"
         }
       }
+    },
+    "logo": {
+      "name": "Logo",
+      "settings": {
+        "logo_image": {
+          "label": "Logo"
+        },
+        "logo_width": {
+          "label": "Largeur du logo sur ordinateur",
+          "info": "La largeur du logo est automatiquement optimisée pour les mobiles."
+        },
+        "favicon": {
+          "label": "Image favicon",
+          "info": "Sera réduite à 32 x 32 px"
+        }
+      }
     }
   },
   "sections": {
@@ -469,10 +476,6 @@
           "settings": {
             "image": {
               "label": "Image"
-            },
-            "image_padding": {
-              "label": "Utilisez le ratio original de l'image",
-              "info": "Sélectionnez cette option pour éviter que votre image ne soit rognée."
             }
           }
         },
@@ -508,10 +511,6 @@
               "label": "URL",
               "info": "Si la section contient d'autres blocs, la vidéo est lue dans une fenêtre pop-up.",
               "placeholder": "Utiliser une URL YouTube ou Vimeo"
-            },
-            "image_padding": {
-              "label": "Utilisez le ratio original de l'image",
-              "info": "Sélectionnez cette option pour éviter que votre image ne soit rognée."
             },
             "description": {
               "label": "Texte alternatif de la vidéo",
@@ -782,7 +781,7 @@
           "content": "Sélecteur de pays\/région"
         },
         "header__4": {
-          "info": "Pour ajouter un pays\/une région, allez à vos [paramètres de paiement.](\/admin\/settings\/payments)"
+          "info": "Pour ajouter un pays/une région, accédez à vos [paramètres de marché.](/admin/settings/markets)"
         },
         "enable_country_selector": {
           "label": "Activer le sélecteur de pays\/région"
@@ -804,19 +803,19 @@
         },
         "margin_top": {
           "label": "Marge supérieure"
+        },
+        "header__8": {
+          "content": "Liens des politiques",
+          "info": "Pour ajouter des politiques concernant votre boutique, accédez à vos [paramètres de politique ](/admin/settings/legal)."
+        },
+        "show_policy": {
+          "label": "Afficher les liens des politiques"
         }
       }
     },
     "header": {
       "name": "En-tête",
       "settings": {
-        "logo": {
-          "label": "Image du logo"
-        },
-        "logo_width": {
-          "unit": "px",
-          "label": "Largeur personnalisée du logo"
-        },
         "logo_position": {
           "label": "Emplacement du logo du bureau",
           "options__1": {
@@ -866,6 +865,12 @@
           "options__2": {
             "label": "Gauche"
           }
+        },
+        "logo_header": {
+          "content": "Logo"
+        },
+        "logo_help": {
+          "content": "Modifiez votre logo dans les [paramètres du thème](/editor?context=theme&category=logo)."
         }
       }
     },
@@ -886,7 +891,7 @@
         },
         "adapt_height_first_image": {
           "label": "Adapter la hauteur de la section à la taille de la première image",
-          "info": "Remplace le paramètre de hauteur de la bannière d'image lorsqu'il est activé."
+          "info": "Remplace le paramètre de hauteur de la bannière avec image lorsqu'il est activé."
         },
         "show_text_box": {
           "label": "Afficher le conteneur sur le bureau"
@@ -1460,12 +1465,11 @@
     "main-password-header": {
       "name": "En-tête du mot de passe",
       "settings": {
-        "logo": {
-          "label": "Image du logo"
+        "logo_header": {
+          "content": "Logo"
         },
-        "logo_max_width": {
-          "label": "Largeur personnalisée du logo",
-          "unit": "px"
+        "logo_help": {
+          "content": "Modifiez votre logo dans les paramètres du thème."
         }
       }
     },

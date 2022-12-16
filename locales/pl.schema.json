@@ -141,15 +141,6 @@
         "paragraph": "Ceny w koszyku i kasie zawsze zawierają kody walut. Przykład: 1,00 USD."
       }
     },
-    "favicon": {
-      "name": "Ikona Favicon",
-      "settings": {
-        "favicon": {
-          "label": "Obraz ikony Favicon",
-          "info": "Zostanie zmniejszony do rozmiaru 32 x 32 piksele."
-        }
-      }
-    },
     "layout": {
       "name": "Układ",
       "settings": {
@@ -157,7 +148,7 @@
           "label": "Szerokość strony"
         },
         "spacing_sections": {
-          "label": "Pionowa przestrzeń między sekcjami"
+          "label": "Odstęp między sekcjami szablonu"
         },
         "header__grid": {
           "content": "Siatka"
@@ -355,6 +346,22 @@
           "label": "Styl"
         }
       }
+    },
+    "logo": {
+      "name": "Logo",
+      "settings": {
+        "logo_image": {
+          "label": "Logo"
+        },
+        "logo_width": {
+          "label": "Szerokość logo na komputerze",
+          "info": "Szerokość logo jest automatycznie optymalizowana dla urządzeń mobilnych."
+        },
+        "favicon": {
+          "label": "Obraz ikony Favicon",
+          "info": "Zostanie zmniejszony do rozmiaru 32 x 32 piksele"
+        }
+      }
     }
   },
   "sections": {
@@ -469,10 +476,6 @@
           "settings": {
             "image": {
               "label": "Obraz"
-            },
-            "image_padding": {
-              "label": "Użyj oryginalnych proporcji obrazu",
-              "info": "Wybierz, jeśli nie chcesz, aby obraz został przycięty."
             }
           }
         },
@@ -508,10 +511,6 @@
               "label": "URL",
               "info": "Film jest odtwarzany w wyskakującym okienku, jeśli sekcja zawiera inne bloki.",
               "placeholder": "Użyj adresu URL do YouTube lub Vimeo"
-            },
-            "image_padding": {
-              "label": "Użyj oryginalnych proporcji obrazu",
-              "info": "Wybierz, jeśli nie chcesz, aby obraz został przycięty."
             },
             "description": {
               "label": "Alternatywny tekst filmu",
@@ -782,7 +781,7 @@
           "content": "Selektor kraju\/regionu"
         },
         "header__4": {
-          "info": "Aby dodać kraj\/region, przejdź do swoich [ustawień płatności.](\/admin\/settings\/payments)"
+          "info": "Aby dodać kraj/region, przejdź do swoich [ustawień rynku.](/admin/settings/markets)"
         },
         "enable_country_selector": {
           "label": "Włącz selektor kraju\/regionu"
@@ -804,19 +803,19 @@
         },
         "margin_top": {
           "label": "Górna granica"
+        },
+        "header__8": {
+          "content": "Linki do polityki",
+          "info": "Aby dodać polityki sklepu, przejdź do [ustawień polityki](/admin/settings/legal)."
+        },
+        "show_policy": {
+          "label": "Pokaż linki do polityki"
         }
       }
     },
     "header": {
       "name": "Nagłówek",
       "settings": {
-        "logo": {
-          "label": "Obraz logo"
-        },
-        "logo_width": {
-          "unit": "px",
-          "label": "Niestandardowa szerokość logo"
-        },
         "logo_position": {
           "label": "Pozycja logo na komputerze",
           "options__1": {
@@ -866,6 +865,12 @@
           "options__2": {
             "label": "Lewa strona"
           }
+        },
+        "logo_header": {
+          "content": "Logo"
+        },
+        "logo_help": {
+          "content": "Edytuj logo w [theme settings](/editor?context=theme&category=logo)."
         }
       }
     },
@@ -1460,12 +1465,11 @@
     "main-password-header": {
       "name": "Nagłówek hasła",
       "settings": {
-        "logo": {
-          "label": "Obraz logo"
+        "logo_header": {
+          "content": "Logo"
         },
-        "logo_max_width": {
-          "label": "Niestandardowa szerokość logo",
-          "unit": "px"
+        "logo_help": {
+          "content": "Edytuj logo w ustawieniach szablonu."
         }
       }
     },
@@ -1726,11 +1730,7 @@
           "name": "Produkty uzupełniające",
           "settings": {
             "paragraph": {
-<<<<<<< HEAD
-              "content": "Aby wybrać produkty uzupełniające, dodaj aplikację Search & Discovery. [Dowiedz się więcej](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
-=======
               "content": "Aby wybrać produkty uzupełniające, dodaj aplikację Search & Discovery. [Dowiedz się więcej](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
->>>>>>> 6d2a6c9b946532b27d399cca1d5eee581a57d6c9
             },
             "heading": {
               "label": "Nagłówek"

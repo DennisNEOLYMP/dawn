@@ -141,15 +141,6 @@
         "paragraph": "Sepet ve ödeme ücretleri her zaman para birimi kodlarını gösterir. Örnek: 1,00 USD."
       }
     },
-    "favicon": {
-      "name": "Favicon",
-      "settings": {
-        "favicon": {
-          "label": "Favicon görseli",
-          "info": "Ölçeği 32 x 32 piksele düşürülür"
-        }
-      }
-    },
     "layout": {
       "name": "Düzen",
       "settings": {
@@ -157,7 +148,7 @@
           "label": "Sayfa genişliği"
         },
         "spacing_sections": {
-          "label": "Bölümler arasında dikey boşluk"
+          "label": "Şablon bölümleri arasındaki alan"
         },
         "header__grid": {
           "content": "Izgara"
@@ -355,6 +346,22 @@
           "label": "Stil"
         }
       }
+    },
+    "logo": {
+      "name": "Logo",
+      "settings": {
+        "logo_image": {
+          "label": "Logo"
+        },
+        "logo_width": {
+          "label": "Masaüstü logo genişliği",
+          "info": "Logo genişliği, mobil için otomatik olarak optimize edilir."
+        },
+        "favicon": {
+          "label": "Favicon görseli",
+          "info": "Ölçeği 32 x 32 piksele düşürülür"
+        }
+      }
     }
   },
   "sections": {
@@ -469,10 +476,6 @@
           "settings": {
             "image": {
               "label": "Görsel"
-            },
-            "image_padding": {
-              "label": "Orijinal görsel oranını kullan",
-              "info": "Görselinizin kırpılmasını istemiyorsanız bu seçeneği belirleyin."
             }
           }
         },
@@ -508,10 +511,6 @@
               "label": "URL",
               "info": "Bölümde başka bloklar varsa video açılır pencerede oynatılır.",
               "placeholder": "YouTube veya Vimeo URL'si kullanın"
-            },
-            "image_padding": {
-              "label": "Orijinal görsel oranını kullan",
-              "info": "Görselinizin kırpılmasını istemiyorsanız bu seçeneği belirleyin."
             },
             "description": {
               "label": "Video alternatif metni",
@@ -782,7 +781,7 @@
           "content": "Ülke\/bölge seçici"
         },
         "header__4": {
-          "info": "Ülke\/bölge eklemek için [ödeme ayarlarınıza ](\/admin\/settings\/payments) gidin."
+          "info": "Ülke/bölge eklemek için [pazar ayarlarınıza ](/admin/settings/markets) gidin."
         },
         "enable_country_selector": {
           "label": "Ülke\/bölge seçiciyi etkinleştir"
@@ -804,19 +803,19 @@
         },
         "margin_top": {
           "label": "Üst kenar boşluğu"
+        },
+        "header__8": {
+          "content": "Politika bağlantıları",
+          "info": "Mağaza politikası eklemek için [politika ayarlarınıza](/admin/settings/legal) gidin."
+        },
+        "show_policy": {
+          "label": "Politika bağlantılarını göster"
         }
       }
     },
     "header": {
       "name": "Üstbilgi",
       "settings": {
-        "logo": {
-          "label": "Logo görseli"
-        },
-        "logo_width": {
-          "unit": "piksel",
-          "label": "Özel logo genişliği"
-        },
         "logo_position": {
           "label": "Masaüstü logo konumu",
           "options__1": {
@@ -866,6 +865,12 @@
           "options__2": {
             "label": "Sol"
           }
+        },
+        "logo_header": {
+          "content": "Logo"
+        },
+        "logo_help": {
+          "content": "Logonuzu şurada düzenleyin: [tema ayarları](/editor?context=theme&category=logo)."
         }
       }
     },
@@ -1460,12 +1465,11 @@
     "main-password-header": {
       "name": "Parola üstbilgisi",
       "settings": {
-        "logo": {
-          "label": "Logo görseli"
+        "logo_header": {
+          "content": "Logo"
         },
-        "logo_max_width": {
-          "label": "Özel logo genişliği",
-          "unit": "piksel"
+        "logo_help": {
+          "content": "Logonuzu tema ayarlarında düzenleyin."
         }
       }
     },
@@ -1725,11 +1729,7 @@
           "name": "Tamamlayıcı ürünler",
           "settings": {
             "paragraph": {
-<<<<<<< HEAD
-              "content": "Tamamlayıcı ürünleri seçmek için Search & Discovery uygulamasını ekleyin. [Daha fazla bilgi edinin](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
-=======
               "content": "Tamamlayıcı ürünleri seçmek için Search & Discovery uygulamasını ekleyin. [Daha fazla bilgi edinin](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
->>>>>>> 6d2a6c9b946532b27d399cca1d5eee581a57d6c9
             },
             "heading": {
               "label": "Başlık"

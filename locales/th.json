@@ -36,7 +36,8 @@
       "previous": "หน้าก่อนหน้านี้"
     },
     "search": {
-      "search": "ค้นหา"
+      "search": "ค้นหา",
+      "reset": "ล้างคำที่ใช้ค้นหา"
     },
     "cart": {
       "view": "ดูรถตะกร้าสินค้าของฉัน ({{ count }})",
@@ -106,7 +107,7 @@
     "product": {
       "add_to_cart": "เพิ่มลงในตะกร้าสินค้า",
       "description": "คำอธิบาย",
-      "on_sale": "การลดราคา",
+      "on_sale": "ลดราคา",
       "product_variants": "ตัวเลือกสินค้า",
       "quantity": {
         "label": "ปริมาณ",

@@ -141,15 +141,6 @@
         "paragraph": "Os preços de finalização da compra e carrinho mostram sempre os códigos de moeda. Exemplo: 1,00 USD."
       }
     },
-    "favicon": {
-      "name": "Favicon",
-      "settings": {
-        "favicon": {
-          "label": "Imagem Favicon",
-          "info": "Será reduzida para 32 x 32 px"
-        }
-      }
-    },
     "layout": {
       "name": "Esquema",
       "settings": {
@@ -157,7 +148,7 @@
           "label": "Largura da página"
         },
         "spacing_sections": {
-          "label": "Espaço vertical entre secções"
+          "label": "Espaço entre as secções do modelo"
         },
         "header__grid": {
           "content": "Grelha"
@@ -355,6 +346,22 @@
           "label": "Estilo"
         }
       }
+    },
+    "logo": {
+      "name": "Logótipo",
+      "settings": {
+        "logo_image": {
+          "label": "Logótipo"
+        },
+        "logo_width": {
+          "label": "Largura do logótipo em computador",
+          "info": "A largura do logótipo é automaticamente otimizada para dispositivos móveis."
+        },
+        "favicon": {
+          "label": "Imagem Favicon",
+          "info": "Será reduzida para 32 x 32 px"
+        }
+      }
     }
   },
   "sections": {
@@ -468,10 +475,6 @@
           "settings": {
             "image": {
               "label": "Imagem"
-            },
-            "image_padding": {
-              "label": "Utilizar proporção da imagem original",
-              "info": "Selecione caso não pretenda que a sua imagem seja cortada."
             }
           },
           "name": "Imagem"
@@ -507,10 +510,6 @@
               "label": "URL",
               "info": "O video será reproduzido numa janela pop-up se a secção contiver outros blocos.",
               "placeholder": "Usar um URL de YouTube ou Vimeo"
-            },
-            "image_padding": {
-              "label": "Utilizar proporção da imagem original",
-              "info": "Selecione caso não pretenda que a sua imagem seja cortada."
             },
             "description": {
               "label": "Texto alternativo do vídeo",
@@ -782,7 +781,7 @@
           "content": "Seletor de país\/região"
         },
         "header__4": {
-          "info": "Para adicionar um país\/região, vá a [definições de pagamento.](\/admin\/settings\/payments)"
+          "info": "Para adicionar um país/região, vá a [definições de mercado.](/admin/settings/markets)"
         },
         "enable_country_selector": {
           "label": "Ativar seletor de país\/região"
@@ -804,19 +803,19 @@
         },
         "margin_top": {
           "label": "Margem superior"
+        },
+        "header__8": {
+          "content": "Ligações das políticas",
+          "info": "Para adicionar políticas de loja, aceda às suas [definições de políticas](/admin/settings/legal)."
+        },
+        "show_policy": {
+          "label": "Mostrar ligações das políticas"
         }
       }
     },
     "header": {
       "name": "Cabeçalho",
       "settings": {
-        "logo": {
-          "label": "Imagem do logótipo"
-        },
-        "logo_width": {
-          "unit": "px",
-          "label": "Largura de logótipo personalizada"
-        },
         "logo_position": {
           "label": "Posição do logótipo de desktop",
           "options__1": {
@@ -866,6 +865,12 @@
           "options__2": {
             "label": "Esquerda"
           }
+        },
+        "logo_header": {
+          "content": "Logótipo"
+        },
+        "logo_help": {
+          "content": "Edite o seu logótipo em [definições de tema](/editor?context=theme&category=logo)."
         }
       }
     },
@@ -1460,12 +1465,11 @@
     "main-password-header": {
       "name": "Cabeçalho de palavra-passe",
       "settings": {
-        "logo": {
-          "label": "Imagem do logótipo"
+        "logo_header": {
+          "content": "Logótipo"
         },
-        "logo_max_width": {
-          "label": "Largura de logótipo personalizada",
-          "unit": "px"
+        "logo_help": {
+          "content": "Edite o seu logótipo nas definições de tema."
         }
       }
     },
@@ -1726,11 +1730,7 @@
           "name": "Produtos complementares",
           "settings": {
             "paragraph": {
-<<<<<<< HEAD
-              "content": "Para selecionar produtos complementares, adicione a aplicação Search & Discovery. [Saber mais](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
-=======
               "content": "Para selecionar produtos complementares, adicione a aplicação Search & Discovery. [Saber mais](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
->>>>>>> 6d2a6c9b946532b27d399cca1d5eee581a57d6c9
             },
             "heading": {
               "label": "Título"

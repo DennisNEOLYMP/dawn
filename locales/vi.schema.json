@@ -141,15 +141,6 @@
         "paragraph": "Giá giỏ hàng và giá thanh toán luôn hiển thị mã đơn vị tiền tệ. Ví dụ: 1,00 USD."
       }
     },
-    "favicon": {
-      "name": "Biểu tượng trang web",
-      "settings": {
-        "favicon": {
-          "label": "Hình ảnh biểu tượng trang web",
-          "info": "Sẽ được thu nhỏ xuống 32 x 32 px"
-        }
-      }
-    },
     "layout": {
       "name": "Bố cục",
       "settings": {
@@ -157,7 +148,7 @@
           "label": "Chiều rộng trang"
         },
         "spacing_sections": {
-          "label": "Không gian dọc giữa các mục"
+          "label": "Khoảng cách giữa các mục mẫu"
         },
         "header__grid": {
           "content": "Lưới"
@@ -355,6 +346,22 @@
           "label": "Kiểu"
         }
       }
+    },
+    "logo": {
+      "name": "Logo",
+      "settings": {
+        "logo_image": {
+          "label": "Logo"
+        },
+        "logo_width": {
+          "label": "Chiều rộng logo trên màn hình nền",
+          "info": "Chiều rộng logo được tự động tối ưu hóa cho thiết bị di động."
+        },
+        "favicon": {
+          "label": "Hình ảnh biểu tượng trang web",
+          "info": "Sẽ được thu nhỏ xuống 32 x 32 px"
+        }
+      }
     }
   },
   "sections": {
@@ -469,10 +476,6 @@
           "settings": {
             "image": {
               "label": "Hình ảnh"
-            },
-            "image_padding": {
-              "label": "Sử dụng tỷ lệ hình ảnh gốc",
-              "info": "Chọn nếu bạn không muốn hình ảnh bị cắt."
             }
           }
         },
@@ -508,10 +511,6 @@
               "label": "URL",
               "info": "Video chạy trong cửa sổ bật lên nếu mục này chứa các khối khác.",
               "placeholder": "Sử dụng URL Youtube hoặc Vimeo"
-            },
-            "image_padding": {
-              "label": "Sử dụng tỷ lệ hình ảnh gốc",
-              "info": "Chọn nếu bạn không muốn hình ảnh bị cắt."
             },
             "description": {
               "label": "Văn bản thay thế cho video",
@@ -782,7 +781,7 @@
           "content": "Hộp chọn quốc gia\/vùng"
         },
         "header__4": {
-          "info": "Để thêm quốc gia\/vùng, vào [cài đặt thanh toán](\/admin\/settings\/payments)."
+          "info": "Để thêm quốc gia/khu vực, vào [cài đặt thị trường.](/admin/settings/markets)"
         },
         "enable_country_selector": {
           "label": "Bật hộp chọn quốc gia\/vùng"
@@ -804,19 +803,19 @@
         },
         "margin_top": {
           "label": "Lề trên"
+        },
+        "header__8": {
+          "content": "Liên kết chính sách",
+          "info": "Để thêm chính sách cửa hàng, truy cập [cài đặt chính sách](/admin/settings/legal)."
+        },
+        "show_policy": {
+          "label": "Hiển thị liên kết chính sách"
         }
       }
     },
     "header": {
       "name": "Đầu trang",
       "settings": {
-        "logo": {
-          "label": "Hình ảnh logo"
-        },
-        "logo_width": {
-          "unit": "px",
-          "label": "Chiều rộng logo tùy chỉnh"
-        },
         "logo_position": {
           "label": "Vị trí logo trên màn hình nền",
           "options__1": {
@@ -866,6 +865,12 @@
           "options__2": {
             "label": "Bên trái"
           }
+        },
+        "logo_header": {
+          "content": "Logo"
+        },
+        "logo_help": {
+          "content": "Chỉnh sửa logo trong [cài đặt chủ đề](/editor?context=theme&category=logo)."
         }
       }
     },
@@ -1460,12 +1465,11 @@
     "main-password-header": {
       "name": "Đầu trang mật khẩu",
       "settings": {
-        "logo": {
-          "label": "Hình ảnh logo"
+        "logo_header": {
+          "content": "Logo"
         },
-        "logo_max_width": {
-          "label": "Chiều rộng logo tùy chỉnh",
-          "unit": "px"
+        "logo_help": {
+          "content": "Chỉnh sửa logo trong cài đặt chủ đề."
         }
       }
     },
@@ -1726,11 +1730,7 @@
           "name": "Sản phẩm bổ sung",
           "settings": {
             "paragraph": {
-<<<<<<< HEAD
-              "content": "Để chọn sản phẩm bổ sung, hãy thêm ứng dụng Search & Discovery. [Tìm hiểu thêm](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
-=======
               "content": "Để chọn sản phẩm bổ sung, hãy thêm ứng dụng Search & Discovery. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
->>>>>>> 6d2a6c9b946532b27d399cca1d5eee581a57d6c9
             },
             "heading": {
               "label": "Tiêu đề"
