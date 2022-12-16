@@ -176,9 +176,9 @@
         "9800607d-62c2-46df-aef5-dca4f4ed5993": {
           "type": "complementary",
           "settings": {
-            "block_heading": "Passt gut zusammen",
+            "block_heading": "Passt gut dazu",
             "make_collapsible_row": false,
-            "icon": "price_tag",
+            "icon": "leaf",
             "product_list_limit": 3,
             "products_per_page": 3,
             "pagination_style": "counter",
@@ -229,9 +229,11 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "media_position": "left",
-        "gallery_layout": "thumbnail_slider",
         "media_size": "medium",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
         "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
