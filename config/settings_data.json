@@ -205,8 +205,8 @@
           "0a4a53d0-b4f9-472e-9f3a-d3bbd66c3e64": {
             "type": "Announcement",
             "settings": {
-              "description": "<p>Weihnachts Sale - Bis Weihnachten geliefert!<\/p>",
-              "url": "shopify:\/\/pages\/last-minute-shopping-weihnachtssale-bis-50-sparen"
+              "description": "<p>NEW YEAR SALE - Spare bis 50%<\/p>",
+              "url": "shopify:\/\/pages\/new-year-sale"
             }
           }
         },
@@ -214,7 +214,7 @@
           "0a4a53d0-b4f9-472e-9f3a-d3bbd66c3e64"
         ],
         "settings": {
-          "show": false,
+          "show": true,
           "homepage": true,
           "bg_color": "#121212",
           "text_color": "#ffffff",
@@ -224,7 +224,7 @@
           "arrows": false,
           "autoplay": false,
           "speed": 0.6,
-          "flipdown_time": "1671469200",
+          "flipdown_time": "",
           "theme": "light",
           "pt": 1,
           "pb": 1,
