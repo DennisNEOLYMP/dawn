@@ -5,6 +5,7 @@
       "blocks": {
         "c9c8af4f-7e9c-45ad-8f41-c18a0e128aa6": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/neolymp_street.jpg",
             "heading": "Fitnessprodukte für jeden!",
@@ -80,7 +81,6 @@
         },
         "24aa8b50-c61a-47ce-bc17-0ab9aa726188": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/desk_db0f9da7-618e-49c9-bcd5-3d709ddb933d.jpg",
             "heading": "Frohes neues JA!",
