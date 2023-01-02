@@ -781,7 +781,7 @@
           "content": "国家\/地区选择器"
         },
         "header__4": {
-          "info": "若要添加国家/地区，请转到 [营销设置](/admin/settings/markets)。"
+          "info": "若要添加国家\/地区，请转到 [营销设置](\/admin\/settings\/markets)。"
         },
         "enable_country_selector": {
           "label": "启用国家\/地区选择器"
@@ -806,7 +806,7 @@
         },
         "header__8": {
           "content": "政策链接",
-          "info": "若要添加商店政策，请前往 [政策设置](/admin/settings/legal)。"
+          "info": "若要添加商店政策，请前往 [政策设置](\/admin\/settings\/legal)。"
         },
         "show_policy": {
           "label": "显示政策链接"
@@ -866,22 +866,7 @@
           "content": "logo"
         },
         "logo_help": {
-          "content": "在[模板设置]](/editor?context=theme&category=logo)中编辑您的 logo。"
-        },
-        "sticky_header_type": {
-          "label": "粘性标头",
-          "options__1": {
-            "label": "无"
-          },
-          "options__2": {
-            "label": "向上滚动时"
-          },
-          "options__3": {
-            "label": "始终"
-          },
-          "options__4": {
-            "label": "始终，缩小 logo 尺寸"
-          }
+          "content": "在[模板设置]](\/editor?context=theme&category=logo)中编辑您的 logo。"
         }
       }
     },
@@ -1747,7 +1732,7 @@
           "name": "互补产品",
           "settings": {
             "paragraph": {
-              "content": "若要选择互补产品，请添加 Search & Discovery 应用。[了解详细信息](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "若要选择互补产品，请添加 Search & Discovery 应用。[了解详细信息](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "标题"

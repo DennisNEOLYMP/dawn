@@ -781,7 +781,7 @@
           "content": "Kiezer voor land\/regio"
         },
         "header__4": {
-          "info": "Ga naar de [marktinstellingen](/admin/settings/markets) om een land/regio toe te voegen."
+          "info": "Ga naar de [marktinstellingen](\/admin\/settings\/markets) om een land\/regio toe te voegen."
         },
         "enable_country_selector": {
           "label": "Kiezer voor land\/regio inschakelen"
@@ -806,7 +806,7 @@
         },
         "header__8": {
           "content": "Links naar beleid",
-          "info": "Ga naar je [beleidsinstellingen ](/admin/settings/legal) om winkelbeleid toe te voegen."
+          "info": "Ga naar je [beleidsinstellingen ](\/admin\/settings\/legal) om winkelbeleid toe te voegen."
         },
         "show_policy": {
           "label": "Links naar beleid tonen"
@@ -866,22 +866,7 @@
           "content": "Logo"
         },
         "logo_help": {
-          "content": "Bewerk je logo in [thema-instellingen](/editor?context=theme&category=logo)."
-        },
-        "sticky_header_type": {
-          "label": "Sticky header",
-          "options__1": {
-            "label": "Geen"
-          },
-          "options__2": {
-            "label": "Bij omhoog scrollen"
-          },
-          "options__3": {
-            "label": "Altijd"
-          },
-          "options__4": {
-            "label": "Altijd; verklein logo"
-          }
+          "content": "Bewerk je logo in [thema-instellingen](\/editor?context=theme&category=logo)."
         }
       }
     },
@@ -1747,7 +1732,7 @@
           "name": "Aanvullende producten",
           "settings": {
             "paragraph": {
-              "content": "Als je aanvullende producten wilt selecteren, voeg je de Search en Zichtbaarheid-app toe. [Meer informatie](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "Als je aanvullende producten wilt selecteren, voeg je de Search en Zichtbaarheid-app toe. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "Koptekst"

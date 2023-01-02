@@ -781,7 +781,7 @@
           "content": "Auswahl für Land\/Region"
         },
         "header__4": {
-          "info": "Gehe zu den [Markteinstellungen](/admin/settings/markets), um ein Land / eine Region hinzuzufügen."
+          "info": "Gehe zu den [Markteinstellungen](\/admin\/settings\/markets), um ein Land \/ eine Region hinzuzufügen."
         },
         "enable_country_selector": {
           "label": "Auswahl für Land\/Region aktivieren"
@@ -806,7 +806,7 @@
         },
         "header__8": {
           "content": "Links zu Richtlinien",
-          "info": "Um Richtlinien für den Shop hinzuzufügen, gehe zu deinen [Richtlinien-Einstellungen](/admin/settings/legal)."
+          "info": "Um Richtlinien für den Shop hinzuzufügen, gehe zu deinen [Richtlinien-Einstellungen](\/admin\/settings\/legal)."
         },
         "show_policy": {
           "label": "Links zu Richtlinien anzeigen"
@@ -866,22 +866,7 @@
           "content": "Logo"
         },
         "logo_help": {
-          "content": "Bearbeite dein Logo in den [theme settings](/editor?context=theme&category=logo)."
-        },
-        "sticky_header_type": {
-          "label": "Fixierter Header",
-          "options__1": {
-            "label": "Keine"
-          },
-          "options__2": {
-            "label": "Beim Hochscrollen"
-          },
-          "options__3": {
-            "label": "Immer"
-          },
-          "options__4": {
-            "label": "Immer, Größe des Logos reduzieren"
-          }
+          "content": "Bearbeite dein Logo in den [theme settings](\/editor?context=theme&category=logo)."
         }
       }
     },
@@ -1749,7 +1734,7 @@
           "name": "Ergänzende Produkte",
           "settings": {
             "paragraph": {
-              "content": "Um ergänzende Produkte auszuwählen, füge die Search & Discovery-App hinzu. [Mehr Informationen](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "Um ergänzende Produkte auszuwählen, füge die Search & Discovery-App hinzu. [Mehr Informationen](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "Überschrift"

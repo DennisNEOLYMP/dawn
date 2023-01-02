@@ -781,7 +781,7 @@
           "content": "Maa-\/aluevalitsin"
         },
         "header__4": {
-          "info": "Lisää maa/alue siirtymällä [markkina-asetuksiisi.](/admin/settings/markets)"
+          "info": "Lisää maa\/alue siirtymällä [markkina-asetuksiisi.](\/admin\/settings\/markets)"
         },
         "enable_country_selector": {
           "label": "Näytä maa-\/aluevalitsin"
@@ -806,7 +806,7 @@
         },
         "header__8": {
           "content": "Käytäntöjen linkit",
-          "info": "Jos haluat lisätä kaupan käytännöt, siirry [käytäntöjen asetuksiin](/admin/settings/legal)."
+          "info": "Jos haluat lisätä kaupan käytännöt, siirry [käytäntöjen asetuksiin](\/admin\/settings\/legal)."
         },
         "show_policy": {
           "label": "Näytä käytäntöjen linkit"
@@ -866,22 +866,7 @@
           "content": "Logo"
         },
         "logo_help": {
-          "content": "Muokkaa logoa [teeman asetuksissa](/editor?context=theme&category=logo)."
-        },
-        "sticky_header_type": {
-          "label": "Paikallaan pysyvä ylätunniste",
-          "options__1": {
-            "label": "Ei mitään"
-          },
-          "options__2": {
-            "label": "Ylöspäin vieritettäessä"
-          },
-          "options__3": {
-            "label": "Aina"
-          },
-          "options__4": {
-            "label": "Aina, pienennä logon kokoa"
-          }
+          "content": "Muokkaa logoa [teeman asetuksissa](\/editor?context=theme&category=logo)."
         }
       }
     },
@@ -1746,7 +1731,7 @@
           "name": "Täydentävät tuotteet",
           "settings": {
             "paragraph": {
-              "content": "Lisää Search & Discovery -sovellus, jotta voit valita täydentäviä tuotteita. [Lisätietoja](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "Lisää Search & Discovery -sovellus, jotta voit valita täydentäviä tuotteita. [Lisätietoja](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "Otsikko"

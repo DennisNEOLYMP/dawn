@@ -781,7 +781,7 @@
           "content": "国\/地域セレクター"
         },
         "header__4": {
-          "info": "国/地域を追加するには、[マーケット設定](/admin/settings/markets)に移動します"
+          "info": "国\/地域を追加するには、[マーケット設定](\/admin\/settings\/markets)に移動します"
         },
         "enable_country_selector": {
           "label": "国\/地域セレクターを有効にする"
@@ -806,7 +806,7 @@
         },
         "header__8": {
           "content": "ポリシーリンク",
-          "info": "ストアポリシーを追加するには、[ポリシー設定](/admin/settings/legal) を表示してください。"
+          "info": "ストアポリシーを追加するには、[ポリシー設定](\/admin\/settings\/legal) を表示してください。"
         },
         "show_policy": {
           "label": "ポリシーリンクを表示"
@@ -866,22 +866,7 @@
           "content": "ロゴ"
         },
         "logo_help": {
-          "content": "[テーマ設定]](/editor?context=theme&category=logo) でロゴを編集する"
-        },
-        "sticky_header_type": {
-          "label": "常時表示のヘッダー",
-          "options__1": {
-            "label": "なし"
-          },
-          "options__2": {
-            "label": "スクロールアップ時"
-          },
-          "options__3": {
-            "label": "常時"
-          },
-          "options__4": {
-            "label": "常にロゴのサイズを小さくする"
-          }
+          "content": "[テーマ設定]](\/editor?context=theme&category=logo) でロゴを編集する"
         }
       }
     },
@@ -1747,7 +1732,7 @@
           "name": "付属商品",
           "settings": {
             "paragraph": {
-              "content": "補完する商品を選択するには、Search & Discoveryアプリを追加してください。[詳しくはこちら](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "補完する商品を選択するには、Search & Discoveryアプリを追加してください。[詳しくはこちら](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "見出し"

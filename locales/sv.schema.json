@@ -781,7 +781,7 @@
           "content": "Land\/region-väljare"
         },
         "header__4": {
-          "info": "Om du vill lägga till land/region går du till dina [marknadsinställningar.](/admin/settings/markets)"
+          "info": "Om du vill lägga till land\/region går du till dina [marknadsinställningar.](\/admin\/settings\/markets)"
         },
         "enable_country_selector": {
           "label": "Aktivera land\/region-väljare"
@@ -806,7 +806,7 @@
         },
         "header__8": {
           "content": "Policylänkar",
-          "info": "Gå till dina [policyinställningar ](/admin/settings/legal) för att lägga till butikspolicyer."
+          "info": "Gå till dina [policyinställningar ](\/admin\/settings\/legal) för att lägga till butikspolicyer."
         },
         "show_policy": {
           "label": "Visa policylänkar"
@@ -866,22 +866,7 @@
           "content": "Logotyp"
         },
         "logo_help": {
-          "content": "Redigera din logotyp i [temainställningarna](/editor?context=theme&category=logo)."
-        },
-        "sticky_header_type": {
-          "label": "Fast sidhuvud",
-          "options__1": {
-            "label": "Inga"
-          },
-          "options__2": {
-            "label": "Vid bläddring uppåt"
-          },
-          "options__3": {
-            "label": "Alltid"
-          },
-          "options__4": {
-            "label": "Alltid, minska logotypstorlek"
-          }
+          "content": "Redigera din logotyp i [temainställningarna](\/editor?context=theme&category=logo)."
         }
       }
     },
@@ -1747,7 +1732,7 @@
           "name": "Kompletterande produkter",
           "settings": {
             "paragraph": {
-              "content": "Lägg till appen Search & Discovery för att välja tilläggsprodukter. [Mer information](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "Lägg till appen Search & Discovery för att välja tilläggsprodukter. [Mer information](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "Rubrik"

@@ -781,7 +781,7 @@
           "content": "Seletor de país\/região"
         },
         "header__4": {
-          "info": "Adicione um país/uma região às [configurações de mercado.](/admin/settings/markets)"
+          "info": "Adicione um país\/uma região às [configurações de mercado.](\/admin\/settings\/markets)"
         },
         "enable_country_selector": {
           "label": "Habilitar seletor de país\/região"
@@ -806,7 +806,7 @@
         },
         "header__8": {
           "content": "Links para políticas",
-          "info": "Para adicionar as políticas da loja, acesse [policy settings](/admin/settings/legal)."
+          "info": "Para adicionar as políticas da loja, acesse [policy settings](\/admin\/settings\/legal)."
         },
         "show_policy": {
           "label": "Mostrar links para políticas"
@@ -866,22 +866,7 @@
           "content": "Logo"
         },
         "logo_help": {
-          "content": "Edite seu logo nas [configurações do tema](/editor?context=theme&category=logo)."
-        },
-        "sticky_header_type": {
-          "label": "Cabeçalho fixo",
-          "options__1": {
-            "label": "Nenhum"
-          },
-          "options__2": {
-            "label": "Na rolagem da página para cima"
-          },
-          "options__3": {
-            "label": "Sempre"
-          },
-          "options__4": {
-            "label": "Sempre, reduzir o tamanho do logo"
-          }
+          "content": "Edite seu logo nas [configurações do tema](\/editor?context=theme&category=logo)."
         }
       }
     },
@@ -1746,7 +1731,7 @@
           "name": "Produtos complementares",
           "settings": {
             "paragraph": {
-              "content": "Para selecionar produtos complementares, adicione o app Search & Discovery. [Saiba mais](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "Para selecionar produtos complementares, adicione o app Search & Discovery. [Saiba mais](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "Título"

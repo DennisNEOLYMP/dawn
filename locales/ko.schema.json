@@ -781,7 +781,7 @@
           "content": "국가\/지역 선택기"
         },
         "header__4": {
-          "info": "국가/지역을 추가하려면 [마켓 설정](/admin/settings/markets)으로 이동하십시오."
+          "info": "국가\/지역을 추가하려면 [마켓 설정](\/admin\/settings\/markets)으로 이동하십시오."
         },
         "enable_country_selector": {
           "label": "국가\/지역 선택기 사용"
@@ -806,7 +806,7 @@
         },
         "header__8": {
           "content": "정책 링크",
-          "info": "스토어 정책을 추가하려면 [정책 설정](/admin/settings/legal)으로 이동하십시오."
+          "info": "스토어 정책을 추가하려면 [정책 설정](\/admin\/settings\/legal)으로 이동하십시오."
         },
         "show_policy": {
           "label": "정책 링크 표시"
@@ -866,22 +866,7 @@
           "content": "로고"
         },
         "logo_help": {
-          "content": "[테마 설정](/editor?context=theme&category=logo)에서 로고를 편집합니다."
-        },
-        "sticky_header_type": {
-          "label": "고정 머리글",
-          "options__1": {
-            "label": "없음"
-          },
-          "options__2": {
-            "label": "위로 스크롤"
-          },
-          "options__3": {
-            "label": "항상"
-          },
-          "options__4": {
-            "label": "항상, 로고 크기 축소"
-          }
+          "content": "[테마 설정](\/editor?context=theme&category=logo)에서 로고를 편집합니다."
         }
       }
     },
@@ -1747,7 +1732,7 @@
           "name": "보완 제품",
           "settings": {
             "paragraph": {
-              "content": "보완 제품을 선택하려면 Search & Discovery 앱을 추가하십시오. [자세히 알아보기](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "보완 제품을 선택하려면 Search & Discovery 앱을 추가하십시오. [자세히 알아보기](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "제목"
@@ -1942,7 +1927,7 @@
           }
         },
         "image_zoom": {
-          "label": "이미지 확대/축소",
+          "label": "이미지 확대\/축소",
           "info": "클릭 및 커서 올리기는 모바일에서 라이트박스 열기로 기본값이 설정됩니다.",
           "options__1": {
             "label": "라이트박스 열기"
@@ -1951,7 +1936,7 @@
             "label": "클릭 및 커서 올리기"
           },
           "options__3": {
-            "label": "확대/축소 안 함"
+            "label": "확대\/축소 안 함"
           }
         },
         "constrain_to_viewport": {

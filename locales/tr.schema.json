@@ -781,7 +781,7 @@
           "content": "Ülke\/bölge seçici"
         },
         "header__4": {
-          "info": "Ülke/bölge eklemek için [pazar ayarlarınıza ](/admin/settings/markets) gidin."
+          "info": "Ülke\/bölge eklemek için [pazar ayarlarınıza ](\/admin\/settings\/markets) gidin."
         },
         "enable_country_selector": {
           "label": "Ülke\/bölge seçiciyi etkinleştir"
@@ -806,7 +806,7 @@
         },
         "header__8": {
           "content": "Politika bağlantıları",
-          "info": "Mağaza politikası eklemek için [politika ayarlarınıza](/admin/settings/legal) gidin."
+          "info": "Mağaza politikası eklemek için [politika ayarlarınıza](\/admin\/settings\/legal) gidin."
         },
         "show_policy": {
           "label": "Politika bağlantılarını göster"
@@ -866,22 +866,7 @@
           "content": "Logo"
         },
         "logo_help": {
-          "content": "Logonuzu şurada düzenleyin: [tema ayarları](/editor?context=theme&category=logo)."
-        },
-        "sticky_header_type": {
-          "label": "Sabit üstbilgi",
-          "options__1": {
-            "label": "Yok"
-          },
-          "options__2": {
-            "label": "Yukarı kaydırıldığında"
-          },
-          "options__3": {
-            "label": "Her zaman"
-          },
-          "options__4": {
-            "label": "Her zaman, logo boyutunu küçült"
-          }
+          "content": "Logonuzu şurada düzenleyin: [tema ayarları](\/editor?context=theme&category=logo)."
         }
       }
     },
@@ -1746,7 +1731,7 @@
           "name": "Tamamlayıcı ürünler",
           "settings": {
             "paragraph": {
-              "content": "Tamamlayıcı ürünleri seçmek için Search & Discovery uygulamasını ekleyin. [Daha fazla bilgi edinin](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "Tamamlayıcı ürünleri seçmek için Search & Discovery uygulamasını ekleyin. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "Başlık"

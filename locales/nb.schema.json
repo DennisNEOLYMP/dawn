@@ -781,7 +781,7 @@
           "content": "Land-\/regionvelger"
         },
         "header__4": {
-          "info": "Gå til [markedsinnstillingene](/admin/settings/markets) for å legge til et land/område."
+          "info": "Gå til [markedsinnstillingene](\/admin\/settings\/markets) for å legge til et land\/område."
         },
         "enable_country_selector": {
           "label": "Ativer land-\/regionvelger"
@@ -806,7 +806,7 @@
         },
         "header__8": {
           "content": "Koblinger til retningslinjer",
-          "info": "Gå til [innstillingene for retningslinjer](/admin/settings/legal) for å legge til retningslinjer i butikken."
+          "info": "Gå til [innstillingene for retningslinjer](\/admin\/settings\/legal) for å legge til retningslinjer i butikken."
         },
         "show_policy": {
           "label": "Vis koblinger til retningslinjer"
@@ -866,22 +866,7 @@
           "content": "Logo"
         },
         "logo_help": {
-          "content": "Rediger logoen i [temainnstillingene](/editor?context=theme&category=logo)."
-        },
-        "sticky_header_type": {
-          "label": "Festet overskrift",
-          "options__1": {
-            "label": "Ingen"
-          },
-          "options__2": {
-            "label": "Ved rulling oppover"
-          },
-          "options__3": {
-            "label": "Alltid"
-          },
-          "options__4": {
-            "label": "Alltid, reduser logostørrelsen"
-          }
+          "content": "Rediger logoen i [temainnstillingene](\/editor?context=theme&category=logo)."
         }
       }
     },
@@ -1746,7 +1731,7 @@
           "name": "Komplimentære produkter",
           "settings": {
             "paragraph": {
-              "content": "Legg til Search & Discovery-appen for å velge komplimentære produkter. [Finn ut mer](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "Legg til Search & Discovery-appen for å velge komplimentære produkter. [Finn ut mer](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "Overskrift"
