@@ -280,8 +280,8 @@
         "include_margins": true
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
+    "related-products": {
+      "type": "related-products",
       "settings": {
         "heading": "Das gefiel auch anderen Kunden",
         "heading_size": "h2",
@@ -318,9 +318,8 @@
   },
   "order": [
     "main",
-    "0264df53-9505-4860-badb-29dfa704319d",
-    "1663584029e4097d37",
-    "product-recommendations",
-    "166358294874dc8baa"
+    "image-with-text",
+    "multicolumn",
+    "related-products"
   ]
 }
