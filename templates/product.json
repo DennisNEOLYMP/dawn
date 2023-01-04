@@ -184,7 +184,6 @@
         },
         "9800607d-62c2-46df-aef5-dca4f4ed5993": {
           "type": "complementary",
-          "disabled": true,
           "settings": {
             "block_heading": "Passt gut dazu",
             "make_collapsible_row": false,
