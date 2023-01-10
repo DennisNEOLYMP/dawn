@@ -106,6 +106,7 @@
   },
   "products": {
     "product": {
+      "pre_order": "Pre-order",
       "muscle_groups": "Muscle groups",
       "social_info_bar_1": "Trusted by more than",
       "social_info_bar_2": "supporters",
