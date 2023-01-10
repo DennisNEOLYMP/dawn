@@ -912,7 +912,7 @@
           "options__3": {
             "label": "Mellem"
           },
-          "info": "Brug et billede med et højde-bredde-forhold på 3:2 for at opnå det bedste resultat. [Få mere at vide](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
+          "info": "Brug et billede med et højde-bredde-forhold på 3:2 for at opnå det bedste resultat. [Få mere at vide](https:\/\/help.shopify.com\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)",
           "options__4": {
             "label": "Stor"
           }
@@ -1348,11 +1348,11 @@
         },
         "enable_tags": {
           "label": "Aktivér filtrering",
-          "info": "Tilpas filtrene med appen Search & Discovery. [Få mere at vide](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Tilpas filtrene med appen Search & Discovery. [Få mere at vide](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "enable_filtering": {
           "label": "Aktivér filtrering",
-          "info": "Tilpas filtrene med appen Search & Discovery. [Få mere at vide](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Tilpas filtrene med appen Search & Discovery. [Få mere at vide](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "enable_sorting": {
           "label": "Aktivér sortering"
@@ -2986,7 +2986,7 @@
           "label": "Antallet af kolonner på computer"
         },
         "paragraph__1": {
-          "content": "Dynamiske anbefalinger bruger ordre- og produktoplysninger til at foretage ændringer og forbedringer med tiden. [Få mere at vide](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "Dynamiske anbefalinger bruger ordre- og produktoplysninger til at foretage ændringer og forbedringer med tiden. [Få mere at vide](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         },
         "header__2": {
           "content": "Produktkort"
@@ -3011,7 +3011,7 @@
         },
         "show_rating": {
           "label": "Vis produktbedømmelser",
-          "info": "Hvis du vil vise bedømmelser, skal du tilføje en app til produktbedømmelse. [Få mere at vide](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#product-recommendations-section-settings)"
+          "info": "Hvis du vil vise bedømmelser, skal du tilføje en app til produktbedømmelse. [Få mere at vide](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-recommendations-section-settings)"
         },
         "header_mobile": {
           "content": "Mobillayout"

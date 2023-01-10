@@ -912,7 +912,7 @@
           "options__3": {
             "label": "Střední"
           },
-          "info": "Nejlepších výsledků dosáhnete použitím obrázku s poměrem stran 3:2. [Zjistit více](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
+          "info": "Nejlepších výsledků dosáhnete použitím obrázku s poměrem stran 3:2. [Zjistit více](https:\/\/help.shopify.com\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)",
           "options__4": {
             "label": "Velký"
           }
@@ -1348,11 +1348,11 @@
         },
         "enable_tags": {
           "label": "Povolit filtrování",
-          "info": "Přizpůsobte si filtry pomocí aplikace Search & Discovery. [Zjistit více](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Přizpůsobte si filtry pomocí aplikace Search & Discovery. [Zjistit více](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "enable_filtering": {
           "label": "Povolit filtrování",
-          "info": "Přizpůsobte si filtry pomocí aplikace Search & Discovery. [Zjistit více](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Přizpůsobte si filtry pomocí aplikace Search & Discovery. [Zjistit více](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "enable_sorting": {
           "label": "Povolit řazení"
@@ -2986,7 +2986,7 @@
           "label": "Počet sloupců v počítači"
         },
         "paragraph__1": {
-          "content": "Dynamická doporučení využívají informace o objednávkách a produktech, aby se postupem času měnila a vylepšovala. [Zjistit více](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "Dynamická doporučení využívají informace o objednávkách a produktech, aby se postupem času měnila a vylepšovala. [Zjistit více](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         },
         "header__2": {
           "content": "Karta produktu"
@@ -3004,14 +3004,14 @@
           }
         },
         "show_secondary_image": {
-          "label": "Zobrazit druhý obrázek po najetí myší/prstem"
+          "label": "Zobrazit druhý obrázek po najetí myší\/prstem"
         },
         "show_vendor": {
           "label": "Zobrazit dodavatele"
         },
         "show_rating": {
           "label": "Zobrazit hodnocení produktů",
-          "info": "Pokud chcete zobrazovat hodnocení, přidejte si aplikaci pro hodnocení produktů. [Zjistit více](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#product-recommendations-section-settings)"
+          "info": "Pokud chcete zobrazovat hodnocení, přidejte si aplikaci pro hodnocení produktů. [Zjistit více](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-recommendations-section-settings)"
         },
         "header_mobile": {
           "content": "Mobilní rozvržení"

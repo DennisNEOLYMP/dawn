@@ -912,7 +912,7 @@
           "options__3": {
             "label": "Gemiddeld"
           },
-          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 3:2. [Meer informatie](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
+          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 3:2. [Meer informatie](https:\/\/help.shopify.com\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)",
           "options__4": {
             "label": "Groot"
           }
@@ -1348,11 +1348,11 @@
         },
         "enable_tags": {
           "label": "Filteren inschakelen",
-          "info": "Pas filters aan met de Search & Discovery-app. [Meer informatie](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Pas filters aan met de Search & Discovery-app. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "enable_filtering": {
           "label": "Filteren inschakelen",
-          "info": "Pas filters aan met de Search & Discovery-app. [Meer informatie](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Pas filters aan met de Search & Discovery-app. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "enable_sorting": {
           "label": "Sortering inschakelen"
@@ -2986,13 +2986,13 @@
           "label": "Aantal kolommen op desktopcomputers"
         },
         "paragraph__1": {
-          "content": "In de loop van de tijd worden veranderingen en verbeteringen doorgevoerd dankzij dynamische aanbevelingen, waarbij gebruik wordt gemaakt van informatie over bestellingen en producten. [Meer informatie](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "In de loop van de tijd worden veranderingen en verbeteringen doorgevoerd dankzij dynamische aanbevelingen, waarbij gebruik wordt gemaakt van informatie over bestellingen en producten. [Meer informatie](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         },
         "header__2": {
           "content": "Productkaart"
         },
         "image_ratio": {
-          "label": "Breedte-/hoogteverhouding van afbeeldingen",
+          "label": "Breedte-\/hoogteverhouding van afbeeldingen",
           "options__1": {
             "label": "Aanpassen aan afbeelding"
           },
@@ -3011,7 +3011,7 @@
         },
         "show_rating": {
           "label": "Productbeoordeling weergeven",
-          "info": "Voeg een app voor productbeoordelingen toe om een beoordeling weer te geven. [Meer informatie](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#product-recommendations-section-settings)"
+          "info": "Voeg een app voor productbeoordelingen toe om een beoordeling weer te geven. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-recommendations-section-settings)"
         },
         "header_mobile": {
           "content": "Opmaak op mobiele apparaten"

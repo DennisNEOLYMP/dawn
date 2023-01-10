@@ -912,7 +912,7 @@
           "options__3": {
             "label": "中"
           },
-          "info": "画像のアスペクト比が3:2のものを使用すると最適です。[詳しくはこちら](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
+          "info": "画像のアスペクト比が3:2のものを使用すると最適です。[詳しくはこちら](https:\/\/help.shopify.com\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)",
           "options__4": {
             "label": "大"
           }
@@ -1351,11 +1351,11 @@
         },
         "enable_tags": {
           "label": "絞り込みを有効にする",
-          "info": "Search & Discoveryアプリを使用すると、絞り込みをカスタマイズできます。[詳しくはこちら](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Search & Discoveryアプリを使用すると、絞り込みをカスタマイズできます。[詳しくはこちら](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "enable_filtering": {
           "label": "絞り込みを有効にする",
-          "info": "Search & Discoveryアプリを使用すると、絞り込みをカスタマイズできます。[詳しくはこちら](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Search & Discoveryアプリを使用すると、絞り込みをカスタマイズできます。[詳しくはこちら](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "enable_sorting": {
           "label": "並べ替えを有効にする"
@@ -2986,7 +2986,7 @@
           "label": "デスクトップでの列数"
         },
         "paragraph__1": {
-          "content": "動的レコメンデーションでは、注文や商品の情報を利用して、時間の経過とともに変化し改善していきます。[詳しくはこちら](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "動的レコメンデーションでは、注文や商品の情報を利用して、時間の経過とともに変化し改善していきます。[詳しくはこちら](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         },
         "header__2": {
           "content": "商品カード"
@@ -3011,7 +3011,7 @@
         },
         "show_rating": {
           "label": "商品の評価を表示",
-          "info": "評価を表示するには、商品評価アプリを追加します。[詳しくはこちら](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#product-recommendations-section-settings)"
+          "info": "評価を表示するには、商品評価アプリを追加します。[詳しくはこちら](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-recommendations-section-settings)"
         },
         "header_mobile": {
           "content": "モバイルのレイアウト"
