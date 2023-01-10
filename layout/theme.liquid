@@ -255,15 +255,13 @@
       {%- render 'cart-drawer' -%}
     {%- endif -%}
 
-    {% section 'eg-bar' %}
-    {% section 'announcement-bar' %}
-    {% section 'header' %}
+    {% sections 'header-group' %}
+
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
 
-    {% section 'footer' %}
-    {% section 'eg-sticky-atc' %}      
+    {% sections 'footer-group' %}
 
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
