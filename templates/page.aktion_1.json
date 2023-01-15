@@ -41,7 +41,6 @@
         "image": "{{ page.metafields.custom.header_image.value }}",
         "image_overlay_opacity": 0,
         "image_height": "small",
-        "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -87,6 +86,7 @@
     },
     "93ac2eef-e54b-43de-8303-1a4b176a9180": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-0": {
           "type": "text",
