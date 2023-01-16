@@ -140,7 +140,7 @@
         "8ee66e56-57fb-4aef-b532-874d154beb1a": {
           "type": "brand_usps",
           "settings": {
-            "heading": "<p>Versand & Retoure <strong>kostenlos<\/strong><\/p>",
+            "heading": "<p>Versand & Retoure <strong>kostenlos nach DE<\/strong><\/p>",
             "image": "shopify:\/\/shop_images\/ico-versandkostenlos.png",
             "content": "<p>Der Versand und Rücksendungen in Deutschland sind vollkommen kostenlos für dich.<\/p>",
             "page": ""
