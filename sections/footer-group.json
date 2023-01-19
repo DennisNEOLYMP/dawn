@@ -29,7 +29,7 @@
         "2fd809c1-870e-4216-b58d-2214fa9dbf25": {
           "type": "brand_information",
           "settings": {
-            "show_social": true
+            "show_social": false
           }
         }
       },
