@@ -261,7 +261,7 @@
       }
     },
     "404": {
-      "title": "Seite nicht gefunden",
+      "title": "Seite nicht gefunden. Eventuell hast du einen alten Link gefunden oder dich vertippt?",
       "subtext": "404"
     }
   },

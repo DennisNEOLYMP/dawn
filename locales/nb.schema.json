@@ -951,7 +951,7 @@
           "options__3": {
             "label": "Middels"
           },
-          "info": "Bruk et bilde med størrelsesforhold 3:2 for best resultat. [Finn ut mer](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
+          "info": "Bruk et bilde med størrelsesforhold 3:2 for best resultat. [Finn ut mer](https:\/\/help.shopify.com\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)",
           "options__4": {
             "label": "Stor"
           }
@@ -1369,7 +1369,7 @@
         },
         "enable_filtering": {
           "label": "Aktiver filtrering",
-          "info": "Tilpass filtre med Search & Discovery-appen. [Finn ut mer](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Tilpass filtre med Search & Discovery-appen. [Finn ut mer](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "enable_sorting": {
           "label": "Aktiver sortering"
@@ -1400,7 +1400,7 @@
         },
         "enable_tags": {
           "label": "Aktiver filtrering",
-          "info": "Tilpass filtre med Search & Discovery-appen. [Finn ut mer](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Tilpass filtre med Search & Discovery-appen. [Finn ut mer](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "show_rating": {
           "label": "Vis produktvurdering",
@@ -3025,7 +3025,7 @@
           "label": "Antall kolonner på datamaskin"
         },
         "paragraph__1": {
-          "content": "Dynamiske anbefalinger bruker bestillings- og produktinformasjon til å endres og forbedres over tid. [Finn ut mer](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "Dynamiske anbefalinger bruker bestillings- og produktinformasjon til å endres og forbedres over tid. [Finn ut mer](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         },
         "header__2": {
           "content": "Produktkort"
@@ -3050,7 +3050,7 @@
         },
         "show_rating": {
           "label": "Vis produktvurdering",
-          "info": "Legg til en produktvurderingsapp for å vise en vurdering. [Finn ut mer](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#product-recommendations-section-settings)"
+          "info": "Legg til en produktvurderingsapp for å vise en vurdering. [Finn ut mer](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-recommendations-section-settings)"
         },
         "header_mobile": {
           "content": "Mobillayout"

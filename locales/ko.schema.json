@@ -951,7 +951,7 @@
           "options__3": {
             "label": "보통"
           },
-          "info": "최고의 결과를 얻으려면 이미지의 가로 세로 비율을 3:2로 사용하십시오. [자세히 알아보기](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
+          "info": "최고의 결과를 얻으려면 이미지의 가로 세로 비율을 3:2로 사용하십시오. [자세히 알아보기](https:\/\/help.shopify.com\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)",
           "options__4": {
             "label": "크게"
           }
@@ -1390,11 +1390,11 @@
         },
         "enable_tags": {
           "label": "필터 사용",
-          "info": "Search & Discovery 앱으로 필터를 사용자 지정합니다. [자세히 알아보기](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Search & Discovery 앱으로 필터를 사용자 지정합니다. [자세히 알아보기](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "enable_filtering": {
           "label": "필터 사용",
-          "info": "Search & Discovery 앱으로 필터를 사용자 지정합니다. [자세히 알아보기](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Search & Discovery 앱으로 필터를 사용자 지정합니다. [자세히 알아보기](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "enable_sorting": {
           "label": "정렬 사용"
@@ -3025,7 +3025,7 @@
           "label": "데스크톱의 열 수"
         },
         "paragraph__1": {
-          "content": "동적 추천은 주문 및 제품 정보를 사용하여 시간에 따라 변경되고 개선됩니다. [자세히 알아보기](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "동적 추천은 주문 및 제품 정보를 사용하여 시간에 따라 변경되고 개선됩니다. [자세히 알아보기](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         },
         "header__2": {
           "content": "제품 카드"
@@ -3050,7 +3050,7 @@
         },
         "show_rating": {
           "label": "제품 평점 표시",
-          "info": "평점을 표시하려면 제품 평점 앱을 추가하십시오. [자세히 알아보기](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#product-recommendations-section-settings)"
+          "info": "평점을 표시하려면 제품 평점 앱을 추가하십시오. [자세히 알아보기](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-recommendations-section-settings)"
         },
         "header_mobile": {
           "content": "모바일 레이아웃"

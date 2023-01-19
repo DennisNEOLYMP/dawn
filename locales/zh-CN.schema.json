@@ -951,7 +951,7 @@
           "options__3": {
             "label": "中"
           },
-          "info": "若要获得最佳效果，请使用纵横比为 3:2 的图片。[了解详细信息](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
+          "info": "若要获得最佳效果，请使用纵横比为 3:2 的图片。[了解详细信息](https:\/\/help.shopify.com\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)",
           "options__4": {
             "label": "大"
           }
@@ -1390,11 +1390,11 @@
         },
         "enable_tags": {
           "label": "启用筛选",
-          "info": "使用 Search & Discovery 应用自定义筛选条件。[了解详细信息](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "使用 Search & Discovery 应用自定义筛选条件。[了解详细信息](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "enable_filtering": {
           "label": "启用筛选",
-          "info": "使用 Search & Discovery 应用自定义筛选条件。[了解详细信息](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "使用 Search & Discovery 应用自定义筛选条件。[了解详细信息](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "enable_sorting": {
           "label": "启用排序"
@@ -3025,7 +3025,7 @@
           "label": "台式设备上的列数"
         },
         "paragraph__1": {
-          "content": "动态推荐使用订单和产品信息来随着时间而变化和改进。[了解详细信息](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "动态推荐使用订单和产品信息来随着时间而变化和改进。[了解详细信息](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         },
         "header__2": {
           "content": "产品卡"
@@ -3050,7 +3050,7 @@
         },
         "show_rating": {
           "label": "显示产品评分",
-          "info": "若要显示评分，请添加产品评分应用。[了解详细信息](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#product-recommendations-section-settings)"
+          "info": "若要显示评分，请添加产品评分应用。[了解详细信息](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-recommendations-section-settings)"
         },
         "header_mobile": {
           "content": "移动设备布局"

@@ -951,7 +951,7 @@
           "options__3": {
             "label": "Orta"
           },
-          "info": "En iyi sonuçlar için 3:2 en-boy oranına sahip bir görsel kullanın. [Daha fazla bilgi edinin](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
+          "info": "En iyi sonuçlar için 3:2 en-boy oranına sahip bir görsel kullanın. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)",
           "options__4": {
             "label": "Büyük"
           }
@@ -1369,7 +1369,7 @@
         },
         "enable_filtering": {
           "label": "Filtrelemeyi etkinleştir",
-          "info": "Search & Discovery uygulamasıyla filtreleri özelleştirin. [Daha fazla bilgi edinin](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Search & Discovery uygulamasıyla filtreleri özelleştirin. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "enable_sorting": {
           "label": "Sıralamayı etkinleştir"
@@ -1400,7 +1400,7 @@
         },
         "enable_tags": {
           "label": "Filtrelemeyi etkinleştir",
-          "info": "Search & Discovery uygulamasıyla filtreleri özelleştirin. [Daha fazla bilgi edinin](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Search & Discovery uygulamasıyla filtreleri özelleştirin. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "show_rating": {
           "label": "Ürün puanlarını göster",
@@ -3025,7 +3025,7 @@
           "label": "Masaüstündeki sütun sayısı"
         },
         "paragraph__1": {
-          "content": "Dinamik önerilerin zamanla değişmesi ve gelişmesi için sipariş ve ürün bilgileri kullanılır. [Daha fazla bilgi edinin](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "Dinamik önerilerin zamanla değişmesi ve gelişmesi için sipariş ve ürün bilgileri kullanılır. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         },
         "header__2": {
           "content": "Ürün kartı"
@@ -3050,7 +3050,7 @@
         },
         "show_rating": {
           "label": "Ürün puanlarını göster",
-          "info": "Puan göstermek için bir ürün puanlandırma uygulaması ekleyin. [Daha fazla bilgi edinin](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#product-recommendations-section-settings)"
+          "info": "Puan göstermek için bir ürün puanlandırma uygulaması ekleyin. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-recommendations-section-settings)"
         },
         "header_mobile": {
           "content": "Mobil Düzen"

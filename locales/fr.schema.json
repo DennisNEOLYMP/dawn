@@ -951,7 +951,7 @@
           "options__3": {
             "label": "Moyen"
           },
-          "info": "Pour optimiser vos résultats, utilisez une image ayant un rapport d'aspect de 3:2. [En savoir plus](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
+          "info": "Pour optimiser vos résultats, utilisez une image ayant un rapport d'aspect de 3:2. [En savoir plus](https:\/\/help.shopify.com\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)",
           "options__4": {
             "label": "Grand"
           }
@@ -1369,7 +1369,7 @@
         },
         "enable_filtering": {
           "label": "Activer le filtrage",
-          "info": "Personnalisez les filtres avec l’application Search & Discovery. [En savoir plus](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Personnalisez les filtres avec l’application Search & Discovery. [En savoir plus](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "enable_sorting": {
           "label": "Activer le tri"
@@ -1400,7 +1400,7 @@
         },
         "enable_tags": {
           "label": "Activer le filtrage",
-          "info": "Personnalisez les filtres avec l’application Search & Discovery. [En savoir plus](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Personnalisez les filtres avec l’application Search & Discovery. [En savoir plus](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "show_rating": {
           "label": "Afficher la note du produit",
@@ -3025,7 +3025,7 @@
           "label": "Nombre de colonnes sur ordinateur"
         },
         "paragraph__1": {
-          "content": "Les recommandations dynamiques utilisent les informations relatives aux commandes et aux produits pour changer et s’améliorer au fil du temps. [En savoir plus](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "Les recommandations dynamiques utilisent les informations relatives aux commandes et aux produits pour changer et s’améliorer au fil du temps. [En savoir plus](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         },
         "header__2": {
           "content": "Carte de produit"
@@ -3050,7 +3050,7 @@
         },
         "show_rating": {
           "label": "Afficher la note du produit",
-          "info": "Pour afficher une note, ajoutez une application d’évaluation des produits. [En savoir plus](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#product-recommendations-section-settings)"
+          "info": "Pour afficher une note, ajoutez une application d’évaluation des produits. [En savoir plus](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-recommendations-section-settings)"
         },
         "header_mobile": {
           "content": "Mise en page sur mobile"

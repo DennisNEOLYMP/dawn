@@ -951,7 +951,7 @@
           "options__3": {
             "label": "Trung bình"
           },
-          "info": "Để có kết quả tốt nhất, hãy sử dụng hình ảnh có tỷ lệ khung hình 3:2. [Tìm hiểu thêm](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
+          "info": "Để có kết quả tốt nhất, hãy sử dụng hình ảnh có tỷ lệ khung hình 3:2. [Tìm hiểu thêm](https:\/\/help.shopify.com\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)",
           "options__4": {
             "label": "Lớn"
           }
@@ -1387,11 +1387,11 @@
         },
         "enable_tags": {
           "label": "Bật lọc",
-          "info": "Tùy chỉnh bộ lọc bằng ứng dụng Search & Discovery. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Tùy chỉnh bộ lọc bằng ứng dụng Search & Discovery. [Tìm hiểu thêm](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "enable_filtering": {
           "label": "Bật lọc",
-          "info": "Tùy chỉnh bộ lọc bằng ứng dụng Search & Discovery. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Tùy chỉnh bộ lọc bằng ứng dụng Search & Discovery. [Tìm hiểu thêm](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "enable_sorting": {
           "label": "Bật sắp xếp"
@@ -3025,7 +3025,7 @@
           "label": "Số cột trên máy tính để bàn"
         },
         "paragraph__1": {
-          "content": "Đề xuất động sử dụng thông tin về đơn hàng và sản phẩm để thay đổi và cải thiện theo thời gian. [Tìm hiểu thêm](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "Đề xuất động sử dụng thông tin về đơn hàng và sản phẩm để thay đổi và cải thiện theo thời gian. [Tìm hiểu thêm](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         },
         "header__2": {
           "content": "Thẻ sản phẩm"
@@ -3050,7 +3050,7 @@
         },
         "show_rating": {
           "label": "Hiển thị thứ hạng sản phẩm",
-          "info": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#product-recommendations-section-settings)"
+          "info": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-recommendations-section-settings)"
         },
         "header_mobile": {
           "content": "Bố cục trên thiết bị di động"

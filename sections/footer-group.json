@@ -8,33 +8,33 @@
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "Produkte",
+            "menu": "produkte"
           }
         },
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
+            "heading": "Allgemein",
+            "menu": "allgemeines"
           }
         },
-        "footer-2": {
-          "type": "text",
+        "bdc85f00-40d6-45d1-8dba-9ca686eb474e": {
+          "type": "link_list",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "Über uns",
+            "menu": "company"
           }
         }
       },
       "block_order": [
         "footer-0",
         "footer-1",
-        "footer-2"
+        "bdc85f00-40d6-45d1-8dba-9ca686eb474e"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "newsletter_enable": true,
+        "color_scheme": "accent-2",
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "show_social": true,
         "enable_country_selector": false,
