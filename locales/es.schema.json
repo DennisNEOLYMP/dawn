@@ -779,14 +779,14 @@
           "name": "Información de marca",
           "settings": {
             "paragraph": {
-              "content": "Este bloque mostrará la información de tu marca. [Editar información de marca.](/editor?context=theme&category=brand%20information)"
+              "content": "Este bloque mostrará la información de tu marca. [Editar información de marca.](\/editor?context=theme&category=brand%20information)"
             },
             "header__1": {
               "content": "Íconos de redes sociales"
             },
             "show_social": {
               "label": "Mostrar íconos de redes sociales",
-              "info": "Para mostrar tus cuentas de redes sociales, vincúlalas en la [configuración de tu tema](/editor?context=theme&category=social%20media)."
+              "info": "Para mostrar tus cuentas de redes sociales, vincúlalas en la [configuración de tu tema](\/editor?context=theme&category=social%20media)."
             }
           }
         }
@@ -804,7 +804,7 @@
         },
         "header__2": {
           "content": "Íconos de redes sociales",
-          "info": "Para mostrar tus cuentas de redes sociales, vincúlalas en la [configuración de tu tema](/editor?context=theme&category=social%20media)."
+          "info": "Para mostrar tus cuentas de redes sociales, vincúlalas en la [configuración de tu tema](\/editor?context=theme&category=social%20media)."
         },
         "show_social": {
           "label": "Mostrar íconos de redes sociales"
@@ -845,7 +845,7 @@
         },
         "header__9": {
           "content": "Seguir en Shop",
-          "info": "Muestra el botón de seguimiento de tu tienda en la aplicación Shop. [Más información](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+          "info": "Muestra el botón de seguimiento de tu tienda en la aplicación Shop. [Más información](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
         },
         "enable_follow_on_shop": {
           "label": "Activar Seguir en Shop"

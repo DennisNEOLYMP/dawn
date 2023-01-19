@@ -24,7 +24,7 @@
     "header": {
       "type": "header",
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "logo_position": "middle-left",
         "menu": "main-menu-1",
         "menu_type_desktop": "dropdown",

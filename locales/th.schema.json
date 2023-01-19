@@ -779,14 +779,14 @@
           "name": "ข้อมูลแบรนด์",
           "settings": {
             "paragraph": {
-              "content": "บล็อกนี้จะแสดงข้อมูลแบรนด์ของคุณ [แก้ไขข้อมูลแบรนด์](/editor?context=theme&category=brand%20information)"
+              "content": "บล็อกนี้จะแสดงข้อมูลแบรนด์ของคุณ [แก้ไขข้อมูลแบรนด์](\/editor?context=theme&category=brand%20information)"
             },
             "header__1": {
               "content": "ไอคอนโซเชียลมีเดีย"
             },
             "show_social": {
               "label": "แสดงไอคอนโซเชียลมีเดีย",
-              "info": "หากต้องการแสดงบัญชีผู้ใช้โซเชียลมีเดียของคุณ ให้ลิงก์บัญชีไว้ใน [การตั้งค่าธีม](/editor?context=theme&category=social%20media) ของคุณ"
+              "info": "หากต้องการแสดงบัญชีผู้ใช้โซเชียลมีเดียของคุณ ให้ลิงก์บัญชีไว้ใน [การตั้งค่าธีม](\/editor?context=theme&category=social%20media) ของคุณ"
             }
           }
         }
@@ -804,7 +804,7 @@
         },
         "header__2": {
           "content": "ไอคอนโซเชียลมีเดีย",
-          "info": "หากต้องการแสดงบัญชีผู้ใช้โซเชียลมีเดียของคุณ ให้ลิงก์บัญชีไว้ใน [การตั้งค่าธีม](/editor?context=theme&category=social%20media) ของคุณ"
+          "info": "หากต้องการแสดงบัญชีผู้ใช้โซเชียลมีเดียของคุณ ให้ลิงก์บัญชีไว้ใน [การตั้งค่าธีม](\/editor?context=theme&category=social%20media) ของคุณ"
         },
         "show_social": {
           "label": "แสดงไอคอนโซเชียลมีเดีย"
@@ -845,7 +845,7 @@
         },
         "header__9": {
           "content": "ติดตามบน Shop",
-          "info": "แสดงปุ่มติดตามบนหน้าร้านของคุณในแอป Shop [ดูข้อมูลเพิ่มเติม](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+          "info": "แสดงปุ่มติดตามบนหน้าร้านของคุณในแอป Shop [ดูข้อมูลเพิ่มเติม](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
         },
         "enable_follow_on_shop": {
           "label": "เปิดใช้งานการติดตามบน Shop"

@@ -779,14 +779,14 @@
           "name": "Brandoplysninger",
           "settings": {
             "paragraph": {
-              "content": "Denne blok vil vise dine brandoplysninger. (Rediger brandoplysninger.](/editor?context=theme&category=brand%20information)"
+              "content": "Denne blok vil vise dine brandoplysninger. (Rediger brandoplysninger.](\/editor?context=theme&category=brand%20information)"
             },
             "header__1": {
               "content": "Ikoner for sociale medier"
             },
             "show_social": {
               "label": "Vis ikoner for sociale medier",
-              "info": "Hvis du vil vise dine konti på sociale medier, skal du linke dem i dine [temaindstillinger](/editor?context=theme&category=social%20media)."
+              "info": "Hvis du vil vise dine konti på sociale medier, skal du linke dem i dine [temaindstillinger](\/editor?context=theme&category=social%20media)."
             }
           }
         }
@@ -804,7 +804,7 @@
         },
         "header__2": {
           "content": "Ikoner for sociale medier",
-          "info": "Hvis du vil vise dine konti på sociale medier, skal du linke dem i dine [temaindstillinger](/editor?context=theme&category=social%20media)."
+          "info": "Hvis du vil vise dine konti på sociale medier, skal du linke dem i dine [temaindstillinger](\/editor?context=theme&category=social%20media)."
         },
         "show_social": {
           "label": "Vis ikoner for sociale medier"
@@ -845,7 +845,7 @@
         },
         "header__9": {
           "content": "Følg på Shop",
-          "info": "Vis følgknappen for din butiksfacade i Shop-appen. [Få mere at vide](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+          "info": "Vis følgknappen for din butiksfacade i Shop-appen. [Få mere at vide](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
         },
         "enable_follow_on_shop": {
           "label": "Aktivér Følg på Shop"

@@ -779,14 +779,14 @@
           "name": "Markeninformationen",
           "settings": {
             "paragraph": {
-              "content": "In diesem Block werden deine Markeninformationen angezeigt. [Bearbeite deine Markeninformationen.](/editor?context=theme&category=brand%20information)"
+              "content": "In diesem Block werden deine Markeninformationen angezeigt. [Bearbeite deine Markeninformationen.](\/editor?context=theme&category=brand%20information)"
             },
             "header__1": {
               "content": "Social-Media-Symbole"
             },
             "show_social": {
               "label": "Social-Media-Symbole anzeigen",
-              "info": "Um deine Social-Media-Konten anzuzeigen, verlinke sie in deinen [Theme-Einstellungen](/editor?context=theme&category=social%20media)."
+              "info": "Um deine Social-Media-Konten anzuzeigen, verlinke sie in deinen [Theme-Einstellungen](\/editor?context=theme&category=social%20media)."
             }
           }
         }
@@ -804,7 +804,7 @@
         },
         "header__2": {
           "content": "Social Media-Symbole",
-          "info": "Um deine Social-Media-Konten anzuzeigen, verlinke sie in deinen [Theme-Einstellungen](/editor?context=theme&category=social%20media)."
+          "info": "Um deine Social-Media-Konten anzuzeigen, verlinke sie in deinen [Theme-Einstellungen](\/editor?context=theme&category=social%20media)."
         },
         "show_social": {
           "label": "Social-Media-Symbole anzeigen"
@@ -845,7 +845,7 @@
         },
         "header__9": {
           "content": "In Shop folgen",
-          "info": "Zeige die Schaltfläche zum Folgen für deine Storefront in der Shop-App an. [Mehr Informationen](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+          "info": "Zeige die Schaltfläche zum Folgen für deine Storefront in der Shop-App an. [Mehr Informationen](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
         },
         "enable_follow_on_shop": {
           "label": "\"In Shop folgen\" aktivieren"

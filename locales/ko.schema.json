@@ -779,14 +779,14 @@
           "name": "브랜드 정보",
           "settings": {
             "paragraph": {
-              "content": "이 블록에는 브랜드 정보가 표시됩니다. [브랜드 정보를 편집하십시오.](/editor?context=theme&category=brand%20information)"
+              "content": "이 블록에는 브랜드 정보가 표시됩니다. [브랜드 정보를 편집하십시오.](\/editor?context=theme&category=brand%20information)"
             },
             "header__1": {
               "content": "소셜 미디어 아이콘"
             },
             "show_social": {
               "label": "소셜 미디어 아이콘 표시",
-              "info": "소셜 미디어 계정을 표시하려면 [테마 설정](/editor?context=theme&category=social%20media)에서 계정을 연결하십시오."
+              "info": "소셜 미디어 계정을 표시하려면 [테마 설정](\/editor?context=theme&category=social%20media)에서 계정을 연결하십시오."
             }
           }
         }
@@ -804,7 +804,7 @@
         },
         "header__2": {
           "content": "소셜 미디어 아이콘",
-          "info": "소셜 미디어 계정을 표시하려면 [테마 설정](/editor?context=theme&category=social%20media)에서 계정을 연결하십시오."
+          "info": "소셜 미디어 계정을 표시하려면 [테마 설정](\/editor?context=theme&category=social%20media)에서 계정을 연결하십시오."
         },
         "show_social": {
           "label": "소셜 미디어 아이콘 표시"
@@ -845,7 +845,7 @@
         },
         "header__9": {
           "content": "Shop에서 팔로우",
-          "info": "Shop 앱에서 상점 팔로우 버튼을 표시합니다. [자세히 알아보기](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+          "info": "Shop 앱에서 상점 팔로우 버튼을 표시합니다. [자세히 알아보기](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
         },
         "enable_follow_on_shop": {
           "label": "Shop에서 팔로우 사용"

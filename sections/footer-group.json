@@ -25,23 +25,31 @@
             "heading": "Über uns",
             "menu": "company"
           }
+        },
+        "2fd809c1-870e-4216-b58d-2214fa9dbf25": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": false
+          }
         }
       },
       "block_order": [
         "footer-0",
         "footer-1",
-        "bdc85f00-40d6-45d1-8dba-9ca686eb474e"
+        "bdc85f00-40d6-45d1-8dba-9ca686eb474e",
+        "2fd809c1-870e-4216-b58d-2214fa9dbf25"
       ],
       "settings": {
         "color_scheme": "accent-2",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": true,
         "show_policy": false,
-        "margin_top": 48,
+        "margin_top": 0,
         "padding_top": 36,
         "padding_bottom": 36
       }
