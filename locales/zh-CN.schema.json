@@ -779,14 +779,14 @@
           "name": "品牌信息",
           "settings": {
             "paragraph": {
-              "content": "此块将显示您的品牌信息。[编辑品牌信息。](/editor?context=theme&category=brand%20information)"
+              "content": "此块将显示您的品牌信息。[编辑品牌信息。](\/editor?context=theme&category=brand%20information)"
             },
             "header__1": {
               "content": "社交媒体图标"
             },
             "show_social": {
               "label": "显示社交媒体图标",
-              "info": "若要显示您的社交媒体账户，请在 [模板设置](/editor?context=theme&category=social%20media) 中添加其链接。"
+              "info": "若要显示您的社交媒体账户，请在 [模板设置](\/editor?context=theme&category=social%20media) 中添加其链接。"
             }
           }
         }
@@ -804,7 +804,7 @@
         },
         "header__2": {
           "content": "社交媒体图标",
-          "info": "若要显示您的社交媒体账户，请在 [模板设置](/editor?context=theme&category=social%20media) 中添加其链接。"
+          "info": "若要显示您的社交媒体账户，请在 [模板设置](\/editor?context=theme&category=social%20media) 中添加其链接。"
         },
         "show_social": {
           "label": "显示社交媒体图标"
@@ -845,7 +845,7 @@
         },
         "header__9": {
           "content": "在 Shop 中关注",
-          "info": "在 Shop 应用中显示您店面的关注按钮。[了解详细信息](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+          "info": "在 Shop 应用中显示您店面的关注按钮。[了解详细信息](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
         },
         "enable_follow_on_shop": {
           "label": "启用在 Shop 中关注"

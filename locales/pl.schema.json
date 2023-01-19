@@ -779,14 +779,14 @@
           "name": "Informacje o marce",
           "settings": {
             "paragraph": {
-              "content": "W tym bloku będą wyświetlane informacje o marce. [Edytuj informacje o marce.](/editor?context=theme&category=brand%20information)"
+              "content": "W tym bloku będą wyświetlane informacje o marce. [Edytuj informacje o marce.](\/editor?context=theme&category=brand%20information)"
             },
             "header__1": {
               "content": "Ikony mediów społecznościowych"
             },
             "show_social": {
               "label": "Pokaż ikony mediów społecznościowych",
-              "info": "Aby wyświetlić swoje konta w mediach społecznościowych, podlinkuj je w [ustawienia szablonu](/editor?context=theme&category=social%20media)."
+              "info": "Aby wyświetlić swoje konta w mediach społecznościowych, podlinkuj je w [ustawienia szablonu](\/editor?context=theme&category=social%20media)."
             }
           }
         }
@@ -804,7 +804,7 @@
         },
         "header__2": {
           "content": "Ikony mediów społecznościowych",
-          "info": "Aby wyświetlić swoje konta w mediach społecznościowych, podlinkuj je w [ustawienia szablonu](/editor?context=theme&category=social%20media)."
+          "info": "Aby wyświetlić swoje konta w mediach społecznościowych, podlinkuj je w [ustawienia szablonu](\/editor?context=theme&category=social%20media)."
         },
         "show_social": {
           "label": "Pokaż ikony mediów społecznościowych"
@@ -845,7 +845,7 @@
         },
         "header__9": {
           "content": "Obserwuj w Shop",
-          "info": "Wyświetl przycisk obserwowania dla swojej witryny sklepu w aplikacji Shop. [Dowiedz się więcej](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+          "info": "Wyświetl przycisk obserwowania dla swojej witryny sklepu w aplikacji Shop. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
         },
         "enable_follow_on_shop": {
           "label": "Włącz opcję Obserwuj w Shop"

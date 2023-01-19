@@ -779,14 +779,14 @@
           "name": "Informations sur la marque",
           "settings": {
             "paragraph": {
-              "content": "Ce bloc affichera les informations sur votre marque. [Modifier les informations sur la marque.](/editor?context=theme&category=brand%20information)"
+              "content": "Ce bloc affichera les informations sur votre marque. [Modifier les informations sur la marque.](\/editor?context=theme&category=brand%20information)"
             },
             "header__1": {
               "content": "Icônes de réseaux sociaux"
             },
             "show_social": {
               "label": "Afficher les icônes des réseaux sociaux",
-              "info": "Pour afficher vos comptes de médias sociaux, ajoutez les liens correspondants dans les [paramètres de votre thème](/editor?context=theme&category=social%20media)."
+              "info": "Pour afficher vos comptes de médias sociaux, ajoutez les liens correspondants dans les [paramètres de votre thème](\/editor?context=theme&category=social%20media)."
             }
           }
         }
@@ -804,7 +804,7 @@
         },
         "header__2": {
           "content": "Icônes de médias sociaux",
-          "info": "Pour afficher vos comptes de médias sociaux, ajoutez les liens correspondants dans les [paramètres de votre thème](/editor?context=theme&category=social%20media)."
+          "info": "Pour afficher vos comptes de médias sociaux, ajoutez les liens correspondants dans les [paramètres de votre thème](\/editor?context=theme&category=social%20media)."
         },
         "show_social": {
           "label": "Afficher les icônes des médias sociaux"
@@ -845,7 +845,7 @@
         },
         "header__9": {
           "content": "Suivre sur Shop",
-          "info": "Affichez le bouton de suivi de votre boutique en ligne sur l'application Shop. [En savoir plus](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+          "info": "Affichez le bouton de suivi de votre boutique en ligne sur l'application Shop. [En savoir plus](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
         },
         "enable_follow_on_shop": {
           "label": "Activer Suivre sur Shop"
