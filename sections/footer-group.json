@@ -25,12 +25,19 @@
             "heading": "Über uns",
             "menu": "company"
           }
+        },
+        "2fd809c1-870e-4216-b58d-2214fa9dbf25": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
         }
       },
       "block_order": [
         "footer-0",
         "footer-1",
-        "bdc85f00-40d6-45d1-8dba-9ca686eb474e"
+        "bdc85f00-40d6-45d1-8dba-9ca686eb474e",
+        "2fd809c1-870e-4216-b58d-2214fa9dbf25"
       ],
       "settings": {
         "color_scheme": "accent-2",
