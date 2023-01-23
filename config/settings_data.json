@@ -245,7 +245,7 @@
           "img_height": "80",
           "show_quantity_input": false,
           "btn_style": "primary",
-          "offset": 500,
+          "offset": 400,
           "pt": 0.5,
           "pb": 0.5
         }
