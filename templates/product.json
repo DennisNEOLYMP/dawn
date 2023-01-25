@@ -60,26 +60,16 @@
         },
         "e4d2f096-0902-4051-9c02-558ac360b514": {
           "type": "delivery_tag",
-          "disabled": true,
           "settings": {
-          }
-        },
-        "16c4374e-11ea-42fd-abf1-f7cd9b13c21d": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<div id=\"delivery_tag-{{ section.id }}\">\n                {%- if product.selected_or_first_available_variant.inventory_quantity < 1 -%}\n                  Vorbestellbar\n                  {%- if delivery_date != null and delivery_date != \"\" and delivery_date > today_date -%}\n                      <div class=\"DeliveryHint-preorder\">● {{ 'products.product.delivery-hint-preorder' | t }}  <b>{{ delivery_date | date: \"%d.%m.%y\" }}<\/b><\/div>\n                  {%- endif -%}\n                \n              {% else%}\n                {% if localization.country.iso_code == 'DE' %}\n                  <div class=\"DeliveryHint no-js-hidden {{ block.shopify_attributes }}\">● \n                    {{ 'products.product.delivery-hint-inland' | t }}\n                  <\/div>\n                {% else%}\n                  <div class=\"DeliveryHint\">●\n                    {{ 'products.product.delivery-hint-ausland1' | t }}\n                  <\/div>\n                {% endif %}\n              {% endif %}\n              <\/div>"
           }
         },
         "e0584b64-1401-474a-8ece-7534da6ccfd9": {
           "type": "collapsible_description",
-          "disabled": true,
           "settings": {
           }
         },
         "02fa0ffe-2994-4134-a0be-6f8315c673d1": {
           "type": "collapsible_measurements",
-          "disabled": true,
           "settings": {
           }
         },
@@ -91,7 +81,6 @@
         },
         "2c172d26-b117-4c65-bbf9-ca331c15cd27": {
           "type": "payments",
-          "disabled": true,
           "settings": {
           }
         },
@@ -102,16 +91,6 @@
             "heading": "Material",
             "icon": "price_tag",
             "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Versand & Retoure",
-            "icon": "truck",
-            "content": "<p>{{ product.metafields.my_fields.versand.value }} <\/p>",
             "page": ""
           }
         },
@@ -144,7 +123,6 @@
         },
         "8ee66e56-57fb-4aef-b532-874d154beb1a": {
           "type": "brand_usps",
-          "disabled": true,
           "settings": {
             "heading": "<p>Versand & Retoure <strong>kostenlos nach DE<\/strong><\/p>",
             "image": "shopify:\/\/shop_images\/ico-versandkostenlos.png",
@@ -154,7 +132,6 @@
         },
         "52903918-6cd2-4969-bd0e-181b5e43f80e": {
           "type": "brand_usps",
-          "disabled": true,
           "settings": {
             "heading": "<p>5 Jahre Garantie<\/p>",
             "image": "shopify:\/\/shop_images\/medal_5_3c2d78e1-4533-4347-bc63-108100b7f5c3.png",
@@ -164,7 +141,6 @@
         },
         "baccc37b-78a7-41ec-ba78-87ed443a830f": {
           "type": "brand_usps",
-          "disabled": true,
           "settings": {
             "heading": "<p><strong>inkl. E-Book<\/strong>-Download<\/p>",
             "image": "shopify:\/\/shop_images\/survey_1_2.png",
@@ -174,7 +150,6 @@
         },
         "2c1d1139-4f2c-4c56-88fa-c9847b0b37d0": {
           "type": "brand_usps",
-          "disabled": true,
           "settings": {
             "heading": "<p><strong>Schnell und sicher<\/strong> zahlen<\/p>",
             "image": "shopify:\/\/shop_images\/pay_2.png",
@@ -184,7 +159,6 @@
         },
         "62177ea8-098d-40ed-87c3-a9ebe541f116": {
           "type": "brand_usps",
-          "disabled": true,
           "settings": {
             "heading": "<p><strong>Später zahlen<\/strong> mit Klarna o. Paypal<\/p>",
             "image": "shopify:\/\/shop_images\/img_95431_30pxw.png",
@@ -207,7 +181,6 @@
         },
         "3cc5963c-97f8-4dff-9abc-c2fb597fac4b": {
           "type": "muscle_groups",
-          "disabled": true,
           "settings": {
           }
         },
@@ -229,13 +202,11 @@
         "variant_picker",
         "quantity_selector",
         "e4d2f096-0902-4051-9c02-558ac360b514",
-        "16c4374e-11ea-42fd-abf1-f7cd9b13c21d",
         "e0584b64-1401-474a-8ece-7534da6ccfd9",
         "02fa0ffe-2994-4134-a0be-6f8315c673d1",
         "buy_buttons",
         "2c172d26-b117-4c65-bbf9-ca331c15cd27",
         "collapsible-row-0",
-        "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
         "b8b2f2f3-4250-42ee-8919-ea880d24b4e3",
