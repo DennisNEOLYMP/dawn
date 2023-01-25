@@ -184,6 +184,7 @@
         },
         "62177ea8-098d-40ed-87c3-a9ebe541f116": {
           "type": "brand_usps",
+          "disabled": true,
           "settings": {
             "heading": "<p><strong>Später zahlen<\/strong> mit Klarna o. Paypal<\/p>",
             "image": "shopify:\/\/shop_images\/img_95431_30pxw.png",
