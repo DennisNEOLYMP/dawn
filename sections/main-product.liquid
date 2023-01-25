@@ -11,6 +11,7 @@
   {{ 'component-rating.css' | asset_url | stylesheet_tag }}
   {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+  {{ 'section-main-product-neolymp.css' | asset_url | stylesheet_tag }}
 
   {%- style -%}
     .section-{{ section.id }}-padding {
@@ -61,6 +62,9 @@
       {% render 'product-media-gallery', variant_images: variant_images %}
     </div>
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}">
+      <div class="social_info_bar color-background-2">
+        ❤️ {{ 'products.product.social_info_bar_1' | t }} <strong>{% if product.metafields.reviews.rating_count.value > 10 %}{{ product.metafields.reviews.rating_count.value }} {% else %}17{% endif %}</strong> {{ 'products.product.social_info_bar_2' | t }}
+        </div>
       <product-info
         id="ProductInfo-{{ section.id }}"
         data-section="{{ section.id }}"
@@ -88,6 +92,9 @@
                     {{ product.title | escape }}
                   </h2>
                 </a>
+                {%- if product.metafields.custom.sonderinfo_name or product.metafields.custom.sonderinfo_inhalt != blank -%}
+                  <p class="product__sku rte"><strong>{{ product.metafields.custom.sonderinfo_name }}:</strong> <span class="ProductMeta__SkuNumber">{{ product.metafields.custom.sonderinfo_inhalt }}</span></p>
+                {%- endif -%}
               </div>
             {%- when 'price' -%}
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
@@ -168,6 +175,18 @@
                   {{ product.description }}
                 </div>
               {%- endif -%}
+            {%- when 'payments' -%}
+               <div class="footer__payment">
+                <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
+                <ul class="list list-payment-product-info" role="list">
+                  {% assign enabled_payment_types = 'paypal,klarna-pay-later,visa,master,amazon,sofort' | remove: ' ' | split: ',' %}
+                    {% for type in enabled_payment_types %}                      
+                      <li class="list-payment__item">
+                        {{ type | payment_type_svg_tag: class: 'icon icon--grayscale' }}
+                      </li>
+                    {%- endfor -%}
+                </ul>
+              </div>
             {%- when 'sku' -%}
               <p
                 class="product__sku no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
@@ -197,6 +216,159 @@
                   </div>
                 </details>
               </div>
+
+            {% comment %} *** BRAND USPS *** {% endcomment %} 
+            {%- when 'brand_usps' -%}
+              <div class="accordion brand_usps" {{ block.shopify_attributes }}>
+                <details id="Details-{{ block.id }}-{{ section.id }}">
+                  <summary>
+                    <div class="summary__title">
+                      {{ block.settings.image | image_url: width: 30 | image_tag:
+                        loading: 'lazy',
+                        sizes: "30px",
+                        widths: '20, 30, 60',
+                        class: 'brand_usps__icon'
+                      }}
+                      <h3 class="h3 brand_usps__title">
+                        {{ block.settings.heading | default: block.settings.page.title }}
+                      </h3>
+                    </div>
+                  </summary>
+                  {% if block.settings.content != blank or block.settings.page.content != blank %}
+                    <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
+                      {{ block.settings.content }}
+                      {{ block.settings.page.content }}
+                    </div>
+                  {% endif %}
+                </details>
+              </div>
+            {% comment %} *** ENDE BRAND USPS *** {% endcomment %} 
+
+
+            {% comment %} *** MASSE *** {% endcomment %} 
+            {%- when 'collapsible_measurements' -%}
+              {%  if product.metafields.custom.laenge != blank or product.metafields.custom.breite != blank or product.metafields.custom.hoehe != blank %}
+              <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
+                <details id="Details-{{ block.id }}-{{ section.id }}">
+                  <summary>
+                    <div class="summary__title">
+                      {% render 'icon-accordion', icon: 'ruler' %}
+                      <h3 class="h4 accordion__title">
+                        {{ 'products.product.measurements' | t }}
+                      </h3>
+                    </div>
+                    {% render 'icon-caret' %}
+                  </summary>
+                  <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
+                      {%  if product.metafields.custom.laenge != blank %}{{ 'products.product.length' | t }}: {{ product.metafields.custom.laenge }}</br>{% endif %}
+                      {%  if product.metafields.custom.breite != blank %}{{ 'products.product.width' | t }}: {{ product.metafields.custom.breite }}</br>{% endif %}
+                      {%  if product.metafields.custom.hoehe != blank %}{{ 'products.product.height' | t }}: {{ product.metafields.custom.hoehe }}{% endif %}
+                  </div>
+                </details>
+              </div>
+            {% endif %}
+            {% comment %} *** ENDE MASSE *** {% endcomment %} 
+
+            {% comment %} *** BESCHREIBUNG *** {% endcomment %} 
+            {%- when 'collapsible_description' -%}
+            {%  if product.description != blank %}
+              <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
+                <details id="Details-{{ block.id }}-{{ section.id }}">
+                  <summary>
+                    <div class="summary__title">
+                      {% render 'icon-accordion', icon: 'clipboard' %}
+                      <h2 class="h4 accordion__title">
+                        {{ 'products.product.description' | t }}
+                      </h2>
+                    </div>
+                    {% render 'icon-caret' %}
+                  </summary>
+                  <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
+                    {{ product.description }}
+                  </div>
+                </details>
+              </div>
+              {% endif %}
+            {% comment %} *** ENDE BESCHREIBUNG *** {% endcomment %} 
+
+            {% comment %} *** LIEFERBAR *** {% endcomment %} 
+            {%- when 'delivery_tag' -%}
+              <div id="delivery_tag-{{ section.id }}" role="status" class="no-js-hidden" {{ block.shopify_attributes }}>
+                {%- if product.selected_or_first_available_variant.inventory_quantity < 1 -%}
+                  {%- if delivery_date != null and delivery_date != "" and delivery_date > today_date -%}
+                      <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-preorder' | t }}  <b>{{ delivery_date | date: "%d.%m.%y" }}</b></span>
+                  {%- elsif product.selected_or_first_available_variant.inventory_policy == "continue" -%}
+                      <span class="DeliveryHint-preorder ">● {{ 'products.product.delivery-hint-wodate' | t }}</span>
+                  {%- else -%}
+                  <span class="DeliveryHint-oos ">● {{ 'products.product.delivery-hint-oos' | t }}.</span>
+                  {%- endif -%}
+                
+              {% else%}
+                {% if localization.country.iso_code == 'DE' %}
+                  <span class="DeliveryHint">● {{ 'products.product.delivery-hint-inland' | t }}</span>
+                {% else%}
+                  <span class="DeliveryHint">● {{ 'products.product.delivery-hint-ausland1' | t }}</span>
+                {% endif %}
+              {% endif %}
+              </div>
+              {% comment %} *** ENDE LIEFERBAR *** {% endcomment %} 
+
+            {% comment %} *** MUSCLE GROUP MUSKELGRUPPE *** {% endcomment %} 
+            {%- when 'muscle_groups' -%}
+              {% assign count = 0 %}
+              {% for check in product.metafields.my_fields.musclegroups.value %} 
+                {% assign count = count | plus: 1 %}
+              {% endfor %}   
+              {% if count > 0 %}
+                <div class="muscle_groups_wrapper">
+                  <div class="muscle_group_lable">
+                    <h4 class="h4"><b>{{ 'products.product.muscle_groups' | t }}:</b> {% for field in product.metafields.my_fields.musclegroups.value %}
+                      {{ field }}{% unless forloop.last %}, {% else %}.{% endunless %}
+                    {% endfor %}</h3>      
+                    
+                  </div>
+                  <div class="muscle_groups"> 
+                    <img src="{{ 'body_muscles.svg' | file_url }}">                    
+                    {%- if product.metafields.my_fields.musclegroups.value contains 'Brust' -%}
+                      <img src="{{ 'brust.svg' | file_url }}" class="muscle_group-image">
+                    {%- endif -%}                    
+                    {%- if product.metafields.my_fields.musclegroups.value contains 'Rücken' -%}
+                      <img src="{{ 'ruecken.svg' | file_url }}" class="muscle_group-image">
+                    {%- endif -%}                    
+                    {%- if product.metafields.my_fields.musclegroups.value contains 'Oberschenkel' -%}
+                      <img src="{{ 'oberschenkel.svg' | file_url }}" class="muscle_group-image">
+                    {%- endif -%}                    
+                    {%- if product.metafields.my_fields.musclegroups.value contains 'Po' -%}
+                      <img src="{{ 'po.svg' | file_url }}" class="muscle_group-image">
+                    {%- endif -%}                   
+                    {%- if product.metafields.my_fields.musclegroups.value contains 'Bizeps' -%}
+                      <img src="{{ 'bizeps.svg' | file_url }}" class="muscle_group-image">
+                    {%- endif -%}
+                    {%- if product.metafields.my_fields.musclegroups.value contains 'Abduktoren' -%}
+                      <img src="{{ 'abduktoren.svg' | file_url }}" class="muscle_group-image">
+                    {%- endif -%}   
+                    {%- if product.metafields.my_fields.musclegroups.value contains 'Abduktoren' -%}
+                      <img src="{{ 'abduktoren.svg' | file_url }}" class="muscle_group-image">
+                    {%- endif -%}
+                    {%- if product.metafields.my_fields.musclegroups.value contains 'Adduktoren' -%}
+                      <img src="{{ 'adduktoren.svg' | file_url }}" class="muscle_group-image">
+                    {%- endif -%}   
+                    {%- if product.metafields.my_fields.musclegroups.value contains 'Beine' -%}
+                      <img src="{{ 'beine.svg' | file_url }}" class="muscle_group-image">
+                    {%- endif -%}      
+                    {%- if product.metafields.my_fields.musclegroups.value contains 'Bauch' -%}
+                      <img src="{{ 'bauch.svg' | file_url }}" class="muscle_group-image">
+                    {%- endif -%}
+                    {%- if product.metafields.my_fields.musclegroups.value contains 'Schulter' -%}
+                      <img src="{{ 'schulter.svg' | file_url }}" class="muscle_group-image">
+                    {%- endif -%}   
+                    {%- if product.metafields.my_fields.musclegroups.value contains 'Arme' -%}
+                      <img src="{{ 'arme.svg' | file_url }}" class="muscle_group-image">
+                    {%- endif -%}   
+                  </div>
+                </div>  
+              {%- endif -%}   
+            
             {%- when 'quantity_selector' -%}
               <div
                 class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}"
@@ -738,6 +910,11 @@
       "limit": 1
     },
     {
+      "type": "payments",
+      "name": "t:sections.main-product.blocks.payments.name",
+      "limit": 1
+    },
+    {
       "type": "share",
       "name": "t:sections.main-product.blocks.share.name",
       "limit": 1,
@@ -769,6 +946,54 @@
           "info": "t:sections.main-product.blocks.custom_liquid.settings.custom_liquid.info"
         }
       ]
+    },
+    {
+      "type": "collapsible_measurements",
+      "name": "t:sections.main-product.blocks.collapsible_measurements.name",
+      "limit": 1
+    },
+    {
+      "type": "brand_usps",
+      "name": "t:sections.main-product.blocks.brand_usps.name",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "heading",
+          "default": "<p>Brand USP</p>",
+          "info": "t:sections.main-product.blocks.collapsible_tab.settings.heading.info",
+          "label": "t:sections.main-product.blocks.collapsible_tab.settings.heading.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "t:sections.main-product.blocks.collapsible_tab.settings.content.label"
+        },
+        {
+          "type": "page",
+          "id": "page",
+          "label": "t:sections.main-product.blocks.collapsible_tab.settings.page.label"
+        }
+      ]
+    },
+    {
+      "type": "muscle_groups",
+      "name": "t:sections.main-product.blocks.muscle_groups.name",
+      "limit": 1
+    },
+    {
+      "type": "collapsible_description",
+      "name": "t:sections.main-product.blocks.collapsible_description.name",
+      "limit": 1
+    },
+    {
+      "type": "delivery_tag",
+      "name": "t:sections.main-product.blocks.delivery_tag.name",
+      "limit": 1
     },
     {
       "type": "collapsible_tab",
