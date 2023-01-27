@@ -103,15 +103,6 @@
             "page": ""
           }
         },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Versand & Retoure",
-            "icon": "truck",
-            "content": "<p>{{ product.metafields.my_fields.versand.value }} <\/p>",
-            "page": ""
-          }
-        },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -226,7 +217,6 @@
         "buy_buttons",
         "2c172d26-b117-4c65-bbf9-ca331c15cd27",
         "collapsible-row-0",
-        "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
         "b8b2f2f3-4250-42ee-8919-ea880d24b4e3",
