@@ -60,7 +60,6 @@
         },
         "e4d2f096-0902-4051-9c02-558ac360b514": {
           "type": "delivery_tag",
-          "disabled": true,
           "settings": {
           }
         },
@@ -91,7 +90,6 @@
         },
         "2c172d26-b117-4c65-bbf9-ca331c15cd27": {
           "type": "payments",
-          "disabled": true,
           "settings": {
           }
         },
@@ -107,7 +105,6 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Versand & Retoure",
             "icon": "truck",
@@ -144,7 +141,6 @@
         },
         "8ee66e56-57fb-4aef-b532-874d154beb1a": {
           "type": "brand_usps",
-          "disabled": true,
           "settings": {
             "heading": "<p>Versand & Retoure <strong>kostenlos nach DE<\/strong><\/p>",
             "image": "shopify:\/\/shop_images\/ico-versandkostenlos.png",
@@ -154,7 +150,6 @@
         },
         "52903918-6cd2-4969-bd0e-181b5e43f80e": {
           "type": "brand_usps",
-          "disabled": true,
           "settings": {
             "heading": "<p>5 Jahre Garantie<\/p>",
             "image": "shopify:\/\/shop_images\/medal_5_3c2d78e1-4533-4347-bc63-108100b7f5c3.png",
@@ -164,7 +159,6 @@
         },
         "baccc37b-78a7-41ec-ba78-87ed443a830f": {
           "type": "brand_usps",
-          "disabled": true,
           "settings": {
             "heading": "<p><strong>inkl. E-Book<\/strong>-Download<\/p>",
             "image": "shopify:\/\/shop_images\/survey_1_2.png",
@@ -174,7 +168,6 @@
         },
         "2c1d1139-4f2c-4c56-88fa-c9847b0b37d0": {
           "type": "brand_usps",
-          "disabled": true,
           "settings": {
             "heading": "<p><strong>Schnell und sicher<\/strong> zahlen<\/p>",
             "image": "shopify:\/\/shop_images\/pay_2.png",
@@ -184,7 +177,6 @@
         },
         "62177ea8-098d-40ed-87c3-a9ebe541f116": {
           "type": "brand_usps",
-          "disabled": true,
           "settings": {
             "heading": "<p><strong>Später zahlen<\/strong> mit Klarna o. Paypal<\/p>",
             "image": "shopify:\/\/shop_images\/img_95431_30pxw.png",
@@ -207,7 +199,6 @@
         },
         "3cc5963c-97f8-4dff-9abc-c2fb597fac4b": {
           "type": "muscle_groups",
-          "disabled": true,
           "settings": {
           }
         },
