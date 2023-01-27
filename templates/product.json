@@ -72,13 +72,11 @@
         },
         "e0584b64-1401-474a-8ece-7534da6ccfd9": {
           "type": "collapsible_description",
-          "disabled": true,
           "settings": {
           }
         },
         "02fa0ffe-2994-4134-a0be-6f8315c673d1": {
           "type": "collapsible_measurements",
-          "disabled": true,
           "settings": {
           }
         },
@@ -91,36 +89,6 @@
         "2c172d26-b117-4c65-bbf9-ca331c15cd27": {
           "type": "payments",
           "settings": {
-          }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Material",
-            "icon": "price_tag",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
-            "page": ""
           }
         },
         "b8b2f2f3-4250-42ee-8919-ea880d24b4e3": {
@@ -216,9 +184,6 @@
         "02fa0ffe-2994-4134-a0be-6f8315c673d1",
         "buy_buttons",
         "2c172d26-b117-4c65-bbf9-ca331c15cd27",
-        "collapsible-row-0",
-        "collapsible-row-2",
-        "collapsible-row-3",
         "b8b2f2f3-4250-42ee-8919-ea880d24b4e3",
         "8ee66e56-57fb-4aef-b532-874d154beb1a",
         "52903918-6cd2-4969-bd0e-181b5e43f80e",
