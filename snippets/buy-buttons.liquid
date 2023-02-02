@@ -55,13 +55,17 @@
             type="submit"
             name="add"
             class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
-            {% if product.selected_or_first_available_variant.available == false or quantity_rule_soldout %}
+            {% if product.selected_or_first_available_variant.available == false or quantity_rule_soldout and product.selected_or_first_available_variant.metafields.my_fields.deliverydate.value == "" %}
               disabled
             {% endif %}
           >
             <span>
               {%- if product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
-                {{ 'products.product.sold_out' | t }}
+                {% if product.selected_or_first_available_variant.inventory_policy == "continue" and product.selected_or_first_available_variant.metafields.my_fields.deliverydate.value != "" %}
+                  {{ 'products.product.pre-order' | t }}
+                {%- else -%}
+                  {{ 'products.product.sold_out' | t }}
+                {%- endif -%}  
               {%- else -%}
                 {{ 'products.product.add_to_cart' | t }}
               {%- endif -%}
