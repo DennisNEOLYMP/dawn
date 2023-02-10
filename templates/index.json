@@ -118,22 +118,32 @@
     "1662381693659ef961": {
       "type": "multicolumn",
       "blocks": {
-        "1662381692af8f6d27-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Tagesspiegel-Logo_c8fe55f2-a3c7-4402-9010-38eb81dd1c51.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "1662381692af8f6d27-1": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Galileo_Logo.png",
             "title": "",
             "text": "<p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "6f7041bc-fbca-4d0c-8af2-c0b03b6bb1bd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mens_health_logo_97c4b37d-1e4a-4fb5-8c11-d9de3479cc87.png",
+            "title": "",
+            "text": "<p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1662381692af8f6d27-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tagesspiegel-Logo_c8fe55f2-a3c7-4402-9010-38eb81dd1c51.png",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -158,16 +168,6 @@
             "link": ""
           }
         },
-        "6f7041bc-fbca-4d0c-8af2-c0b03b6bb1bd": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/mens_health_logo_97c4b37d-1e4a-4fb5-8c11-d9de3479cc87.png",
-            "title": "",
-            "text": "<p><\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "cb9814f1-08a6-49c4-bfeb-fc095106539a": {
           "type": "column",
           "settings": {
@@ -180,11 +180,11 @@
         }
       },
       "block_order": [
-        "1662381692af8f6d27-0",
         "1662381692af8f6d27-1",
+        "6f7041bc-fbca-4d0c-8af2-c0b03b6bb1bd",
+        "1662381692af8f6d27-0",
         "1662381692af8f6d27-2",
         "dbdf802c-558c-4c43-9e7c-5de98927af24",
-        "6f7041bc-fbca-4d0c-8af2-c0b03b6bb1bd",
         "cb9814f1-08a6-49c4-bfeb-fc095106539a"
       ],
       "custom_css": [
@@ -212,7 +212,7 @@
       "settings": {
         "title": "Unsere Bestseller",
         "heading_size": "h1",
-        "description": "<p><\/p>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "featured",
