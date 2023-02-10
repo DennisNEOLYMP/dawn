@@ -57,11 +57,6 @@
           "settings": {
           }
         },
-        "e4d2f096-0902-4051-9c02-558ac360b514": {
-          "type": "delivery_tag",
-          "settings": {
-          }
-        },
         "e0584b64-1401-474a-8ece-7534da6ccfd9": {
           "type": "collapsible_description",
           "settings": {
@@ -170,7 +165,6 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "e4d2f096-0902-4051-9c02-558ac360b514",
         "e0584b64-1401-474a-8ece-7534da6ccfd9",
         "02fa0ffe-2994-4134-a0be-6f8315c673d1",
         "buy_buttons",
