@@ -123,7 +123,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Tagesspiegel-Logo_c8fe55f2-a3c7-4402-9010-38eb81dd1c51.png",
             "title": "",
-            "text": "<p><\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -187,10 +187,13 @@
         "6f7041bc-fbca-4d0c-8af2-c0b03b6bb1bd",
         "cb9814f1-08a6-49c4-bfeb-fc095106539a"
       ],
+      "custom_css": [
+        ".page-width {max-width: calc(var(--page-width) * 0.66);}"
+      ],
       "settings": {
         "title": "Bekannt aus",
         "heading_size": "h2",
-        "image_width": "half",
+        "image_width": "full",
         "image_ratio": "square",
         "columns_desktop": 6,
         "column_alignment": "center",
