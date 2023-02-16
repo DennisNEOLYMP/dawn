@@ -156,7 +156,7 @@
           "settings": {
             "heading": "Gibt es Versandkosten?",
             "icon": "question_mark",
-            "row_content": "<p>Nach Deutschland versenden wir kostenlos. Die genauen Kosten, auch für andere Länder, findest du <a href=\"https:\/\/neolymp.com\/policies\/shipping-policy\" title=\"Shipping Policy\">hier<\/a>.<\/p>",
+            "row_content": "<p>Nach Deutschland versenden wir kostenlos ab 30 € Mindestbestellwert. Die genauen Kosten, auch für andere Länder, findest du <a href=\"https:\/\/neolymp.com\/policies\/shipping-policy\" title=\"Shipping Policy\">hier<\/a>.<\/p>",
             "page": ""
           }
         },
