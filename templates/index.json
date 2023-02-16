@@ -312,8 +312,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/truck_1.png",
-            "title": "Kostenloser Versand",
-            "text": "<p>Wir versenden oft noch am selben Tag und das kostenlos für alle Bestellungen nach Deutschland.<\/p>",
+            "title": "Kostenloser Versand ab 30 €",
+            "text": "<p>Wir versenden oft noch am selben Tag und das ab 30 € kostenlos für alle Bestellungen nach Deutschland.<\/p>",
             "link_label": "",
             "link": ""
           }
