@@ -890,6 +890,9 @@
           },
           "options__2": {
             "label": "Megamenu"
+          },
+          "options__3": {
+            "label": "Deslizante"
           }
         },
         "mobile_layout": {
@@ -904,11 +907,44 @@
             "label": "Esquerda"
           }
         },
-        "logo_header": {
-          "content": "Logo"
-        },
         "logo_help": {
           "content": "Edite seu logo nas [configurações do tema](\/editor?context=theme&category=logo)."
+        }
+      }
+          "content": "Edite seu logo nas [configurações do tema](/editor?context=theme&category=logo)."
+        },
+        "sticky_header_type": {
+          "label": "Cabeçalho fixo",
+          "options__1": {
+            "label": "Nenhum"
+          },
+          "options__2": {
+            "label": "Na rolagem da página para cima"
+          },
+          "options__3": {
+            "label": "Sempre"
+          },
+          "options__4": {
+            "label": "Sempre, reduzir o tamanho do logo"
+          }
+        },
+        "header__3": {
+          "content": "Seletor de país/região"
+        },
+        "header__4": {
+          "info": "Adicione um país/uma região às [configurações de mercado.](/admin/settings/markets)"
+        },
+        "enable_country_selector": {
+          "label": "Habilitar seletor de país/região"
+        },
+        "header__5": {
+          "content": "Seletor de idioma"
+        },
+        "header__6": {
+          "info": "Adicione um idioma em [configurações de idioma.](/admin/settings/languages)"
+        },
+        "enable_language_selector": {
+          "label": "Habilitar seletor de idioma"
         }
       }
     },
@@ -2328,8 +2364,7 @@
         },
         "video_url": {
           "label": "URL",
-          "placeholder": "Usar um URL do YouTube ou do Vimeo",
-          "info": "O vídeo é reproduzido na página."
+          "info": "Usar um URL do YouTube ou do Vimeo"
         },
         "description": {
           "label": "Texto alternativo do vídeo",
@@ -2341,6 +2376,24 @@
         },
         "full_width": {
           "label": "Definir seção com largura total"
+        },
+        "video": {
+          "label": "Vídeo"
+        },
+        "enable_video_looping": {
+          "label": "Reproduzir vídeo em loop"
+        },
+        "header__1": {
+          "content": "Vídeo hospedado na Shopify"
+        },
+        "header__2": {
+          "content": "Ou incorporar vídeo de URL"
+        },
+        "header__3": {
+          "content": "Estilo"
+        },
+        "paragraph": {
+          "content": "Mostra quando nenhum vídeo hospedado na Shopify é selecionado."
         }
       },
       "presets": {

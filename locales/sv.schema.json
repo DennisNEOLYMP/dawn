@@ -890,6 +890,9 @@
           },
           "options__2": {
             "label": "Megameny"
+          },
+          "options__3": {
+            "label": "Låda"
           }
         },
         "mobile_layout": {
@@ -904,11 +907,44 @@
             "label": "Vänster"
           }
         },
-        "logo_header": {
-          "content": "Logotyp"
-        },
         "logo_help": {
           "content": "Redigera din logotyp i [temainställningarna](\/editor?context=theme&category=logo)."
+        }
+      }
+          "content": "Redigera din logotyp i [temainställningarna](/editor?context=theme&category=logo)."
+        },
+        "sticky_header_type": {
+          "label": "Fast sidhuvud",
+          "options__1": {
+            "label": "Inga"
+          },
+          "options__2": {
+            "label": "Vid bläddring uppåt"
+          },
+          "options__3": {
+            "label": "Alltid"
+          },
+          "options__4": {
+            "label": "Alltid, minska logotypstorlek"
+          }
+        },
+        "header__3": {
+          "content": "Land/region-väljare"
+        },
+        "header__4": {
+          "info": "Om du vill lägga till land/region går du till dina [marknadsinställningar.](/admin/settings/markets)"
+        },
+        "enable_country_selector": {
+          "label": "Aktivera land/region-väljare"
+        },
+        "header__5": {
+          "content": "Språkväljare"
+        },
+        "header__6": {
+          "info": "Om du vill lägga till ett språk går du till dina [språkinställningar.](/admin/settings/languages)"
+        },
+        "enable_language_selector": {
+          "label": "Aktivera språkväljare"
         }
       }
     },
@@ -2328,8 +2364,7 @@
         },
         "video_url": {
           "label": "URL",
-          "placeholder": "Använd en YouTube- eller en Vimeo-URL",
-          "info": "Video spelas upp på sidan."
+          "info": "Använd en YouTube- eller en Vimeo-URL"
         },
         "description": {
           "label": "Alternativtext för video",
@@ -2341,6 +2376,24 @@
         },
         "full_width": {
           "label": "Ge avsnittet full bredd"
+        },
+        "video": {
+          "label": "Video"
+        },
+        "enable_video_looping": {
+          "label": "Spela video i en slinga"
+        },
+        "header__1": {
+          "content": "Video på Shopify"
+        },
+        "header__2": {
+          "content": "Eller bädda in video från URL"
+        },
+        "header__3": {
+          "content": "Stil"
+        },
+        "paragraph": {
+          "content": "Visas när ingen video på Shopify har valts."
         }
       },
       "presets": {

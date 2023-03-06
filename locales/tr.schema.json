@@ -890,6 +890,9 @@
           },
           "options__2": {
             "label": "Mega menü"
+          },
+          "options__3": {
+            "label": "Çekmece"
           }
         },
         "mobile_layout": {
@@ -904,11 +907,44 @@
             "label": "Sol"
           }
         },
-        "logo_header": {
-          "content": "Logo"
-        },
         "logo_help": {
           "content": "Logonuzu şurada düzenleyin: [tema ayarları](\/editor?context=theme&category=logo)."
+        }
+      }
+          "content": "Logonuzu şurada düzenleyin: [tema ayarları](/editor?context=theme&category=logo)."
+        },
+        "sticky_header_type": {
+          "label": "Sabit üstbilgi",
+          "options__1": {
+            "label": "Yok"
+          },
+          "options__2": {
+            "label": "Yukarı kaydırıldığında"
+          },
+          "options__3": {
+            "label": "Her zaman"
+          },
+          "options__4": {
+            "label": "Her zaman, logo boyutunu küçült"
+          }
+        },
+        "header__3": {
+          "content": "Ülke/bölge seçici"
+        },
+        "header__4": {
+          "info": "Ülke/bölge eklemek için [pazar ayarlarınıza ](/admin/settings/markets) gidin."
+        },
+        "enable_country_selector": {
+          "label": "Ülke/bölge seçiciyi etkinleştir"
+        },
+        "header__5": {
+          "content": "Dil seçici"
+        },
+        "header__6": {
+          "info": "Dil eklemek için [dil ayarlarınıza](/admin/settings/languages) gidin."
+        },
+        "enable_language_selector": {
+          "label": "Dil seçiciyi etkinleştir"
         }
       }
     },
@@ -2328,8 +2364,7 @@
         },
         "video_url": {
           "label": "URL",
-          "placeholder": "YouTube veya Vimeo URL'si kullanın",
-          "info": "Video sayfada oynatılır."
+          "info": "YouTube veya Vimeo URL'si kullan"
         },
         "description": {
           "label": "Video alternatif metni",
@@ -2341,6 +2376,24 @@
         },
         "full_width": {
           "label": "Bölümü tam genişlikli yap"
+        },
+        "video": {
+          "label": "Video"
+        },
+        "enable_video_looping": {
+          "label": "Videoyu döngü halinde oynat"
+        },
+        "header__1": {
+          "content": "Shopify'da barındırılan videolar"
+        },
+        "header__2": {
+          "content": "URL'den video ekle"
+        },
+        "header__3": {
+          "content": "Stil"
+        },
+        "paragraph": {
+          "content": "Shopify'da barındırılan bir video seçilmediğinde görünür."
         }
       },
       "presets": {

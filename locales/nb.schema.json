@@ -544,7 +544,7 @@
       }
     },
     "collection-list": {
-      "name": "Samlingsliste",
+      "name": "Liste over samlinger",
       "settings": {
         "title": {
           "label": "Overskrift"
@@ -595,7 +595,7 @@
         }
       },
       "presets": {
-        "name": "Samlingsliste"
+        "name": "Liste over samlinger"
       }
     },
     "contact-form": {
@@ -650,7 +650,7 @@
       }
     },
     "featured-collection": {
-      "name": "Utvalgt samling",
+      "name": "Fremhevet samling",
       "settings": {
         "title": {
           "label": "Overskrift"
@@ -749,7 +749,7 @@
         }
       },
       "presets": {
-        "name": "Utvalgt samling"
+        "name": "Fremhevet samling"
       }
     },
     "footer": {
@@ -890,6 +890,9 @@
           },
           "options__2": {
             "label": "Megameny"
+          },
+          "options__3": {
+            "label": "Skuff"
           }
         },
         "mobile_layout": {
@@ -904,11 +907,44 @@
             "label": "Venstre"
           }
         },
-        "logo_header": {
-          "content": "Logo"
-        },
         "logo_help": {
           "content": "Rediger logoen i [temainnstillingene](\/editor?context=theme&category=logo)."
+        }
+      }
+          "content": "Rediger logoen i [temainnstillingene](/editor?context=theme&category=logo)."
+        },
+        "sticky_header_type": {
+          "label": "Festet overskrift",
+          "options__1": {
+            "label": "Ingen"
+          },
+          "options__2": {
+            "label": "Ved rulling oppover"
+          },
+          "options__3": {
+            "label": "Alltid"
+          },
+          "options__4": {
+            "label": "Alltid, reduser logostørrelsen"
+          }
+        },
+        "header__3": {
+          "content": "Land-/regionvelger"
+        },
+        "header__4": {
+          "info": "Gå til [markedsinnstillingene](/admin/settings/markets) for å legge til et land/område."
+        },
+        "enable_country_selector": {
+          "label": "Ativer land-/regionvelger"
+        },
+        "header__5": {
+          "content": "Språkvelger"
+        },
+        "header__6": {
+          "info": "Gå til [språkinnstillingene](/admin/settings/languages) for å legge til et språk."
+        },
+        "enable_language_selector": {
+          "label": "Aktiver språkvelger"
         }
       }
     },
@@ -2328,8 +2364,7 @@
         },
         "video_url": {
           "label": "URL-adresse",
-          "placeholder": "Bruk en YouTube- eller Vimeo-URL-adresse",
-          "info": "Videoen spilles av på siden."
+          "info": "Bruk en YouTube- eller Vimeo-URL-adresse"
         },
         "description": {
           "label": "Alt. tekst for video",
@@ -2341,6 +2376,24 @@
         },
         "full_width": {
           "label": "Gjør seksjonen til full bredde"
+        },
+        "video": {
+          "label": "Video"
+        },
+        "enable_video_looping": {
+          "label": "Spill video i loop"
+        },
+        "header__1": {
+          "content": "Shopify-driftet video"
+        },
+        "header__2": {
+          "content": "Eller integrer en video fra en URL-adresse"
+        },
+        "header__3": {
+          "content": "Stil"
+        },
+        "paragraph": {
+          "content": "Vises når ingen Shopify-driftet video er valgt."
         }
       },
       "presets": {

@@ -890,6 +890,9 @@
           },
           "options__2": {
             "label": "超级菜单"
+          },
+          "options__3": {
+            "label": "抽屉"
           }
         },
         "mobile_layout": {
@@ -904,11 +907,44 @@
             "label": "左"
           }
         },
-        "logo_header": {
-          "content": "logo"
-        },
         "logo_help": {
           "content": "在[模板设置]](\/editor?context=theme&category=logo)中编辑您的 logo。"
+        }
+      }
+          "content": "在[模板设置]](/editor?context=theme&category=logo)中编辑您的 logo。"
+        },
+        "sticky_header_type": {
+          "label": "粘性标头",
+          "options__1": {
+            "label": "无"
+          },
+          "options__2": {
+            "label": "向上滚动时"
+          },
+          "options__3": {
+            "label": "始终"
+          },
+          "options__4": {
+            "label": "始终，缩小 logo 尺寸"
+          }
+        },
+        "header__3": {
+          "content": "国家/地区选择器"
+        },
+        "header__4": {
+          "info": "若要添加国家/地区，请转到 [营销设置](/admin/settings/markets)。"
+        },
+        "enable_country_selector": {
+          "label": "启用国家/地区选择器"
+        },
+        "header__5": {
+          "content": "语言选择器"
+        },
+        "header__6": {
+          "info": "若要添加语言，请转到您的 [语言设置](/admin/settings/languages)。"
+        },
+        "enable_language_selector": {
+          "label": "启用语言选择器"
         }
       }
     },
@@ -2328,8 +2364,7 @@
         },
         "video_url": {
           "label": "URL",
-          "placeholder": "使用 YouTube 或 Vimeo URL",
-          "info": "视频在页面中播放。"
+          "info": "使用 YouTube 或 Vimeo URL"
         },
         "description": {
           "label": "视频替代文本",
@@ -2341,6 +2376,24 @@
         },
         "full_width": {
           "label": "使分区展示全宽"
+        },
+        "video": {
+          "label": "视频"
+        },
+        "enable_video_looping": {
+          "label": "循环播放视频"
+        },
+        "header__1": {
+          "content": "Shopify 托管视频"
+        },
+        "header__2": {
+          "content": "或通过 URL 嵌入视频"
+        },
+        "header__3": {
+          "content": "样式"
+        },
+        "paragraph": {
+          "content": "在未选择 Shopify 托管视频时显示。"
         }
       },
       "presets": {
