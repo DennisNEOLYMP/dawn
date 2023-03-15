@@ -1,5 +1,59 @@
 {
   "sections": {
+    "2e4c116c-0725-42fa-ae80-5c02d3742ff2": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-vlad-bagacian-1228396_55c1b6ec-3576-4e82-90d6-aed8cb0c99bb.jpg",
+            "heading": "Fitnessprodukte für jedes Niveau",
+            "heading_size": "h1",
+            "subheading": "Finde deinen neuen Favoriten, der genau richtig für dich ist!",
+            "button_label": "JETZT ENTDECKEN!",
+            "link": "shopify:\/\/collections\/alles",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-0",
+        "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Markenslideshow"
+      }
+    },
     "1662381693659ef961": {
       "type": "multicolumn",
       "blocks": {
@@ -393,62 +447,10 @@
         "stack_images_on_mobile": false,
         "show_text_below": true
       }
-    },
-    "2e4c116c-0725-42fa-ae80-5c02d3742ff2": {
-      "type": "slideshow",
-      "blocks": {
-        "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-vlad-bagacian-1228396_55c1b6ec-3576-4e82-90d6-aed8cb0c99bb.jpg",
-            "heading": "Fitnessprodukte für jedes Niveau",
-            "heading_size": "h1",
-            "subheading": "Finde deinen neuen Favoriten, der genau richtig für dich ist!",
-            "button_label": "JETZT ENTDECKEN!",
-            "link": "shopify:\/\/collections\/alles",
-            "button_style_secondary": false,
-            "box_align": "middle-right",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-1": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-0",
-        "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-1"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "large",
-        "slider_visual": "dots",
-        "auto_rotate": true,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Markenslideshow"
-      }
     }
   },
   "order": [
+    "2e4c116c-0725-42fa-ae80-5c02d3742ff2",
     "1662381693659ef961",
     "featured_collection",
     "fcd25ea0-c462-44dd-be83-deb8fc6eb194",
@@ -459,7 +461,6 @@
     "16672341752980360d",
     "069b0d6a-1a8f-4ec8-886f-b2b3df15b486",
     "collage",
-    "b70dc90a-934a-444e-9b07-dea7f9e309bb",
-    "2e4c116c-0725-42fa-ae80-5c02d3742ff2"
+    "b70dc90a-934a-444e-9b07-dea7f9e309bb"
   ]
 }
