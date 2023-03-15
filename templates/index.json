@@ -1,83 +1,5 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/NLMP_fruehling_Spring_Header_Desktop_No_logo.jpg",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Warum NEOLYMP?",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Wir machen keine Kompromisse. In jedem unserer Produkte steckt Liebe, Zeit und Recherche. Unsere Mission sind hochwertige Fitnessprodukte für dein tägliches Training zu erschwinglichen Preisen.<\/p><p>Die stetige Optimierung ist unser Bestreben. Wir reagieren auf das erhaltene Kundenfeedback und entwickeln unsere Produkte kontinuierlich weiter. Hast du Anregungen, Wünsche und Vorschläge für uns, schreib uns bitte einfach eine Nachricht. Nichts ist uns wichtiger, als uns mit dir auszutauschen.<\/p><p>Ideen und Produktentwicklungen all unserer Artikel entstehen und erfolgen in Deutschland | Oberkrämer. Viele neue, spannende Projekte befinden sich aktuell für dich in der Entwicklung.<br\/><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "1662381693659ef961": {
       "type": "multicolumn",
       "blocks": {
@@ -238,6 +160,36 @@
         "include_margins": false
       }
     },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Warum NEOLYMP?",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir machen keine Kompromisse. In jedem unserer Produkte steckt Liebe, Zeit und Recherche. Unsere Mission sind hochwertige Fitnessprodukte für dein tägliches Training zu erschwinglichen Preisen.<\/p><p>Die stetige Optimierung ist unser Bestreben. Wir reagieren auf das erhaltene Kundenfeedback und entwickeln unsere Produkte kontinuierlich weiter. Hast du Anregungen, Wünsche und Vorschläge für uns, schreib uns bitte einfach eine Nachricht. Nichts ist uns wichtiger, als uns mit dir auszutauschen.<\/p><p>Ideen und Produktentwicklungen all unserer Artikel entstehen und erfolgen in Deutschland | Oberkrämer. Viele neue, spannende Projekte befinden sich aktuell für dich in der Entwicklung.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -310,6 +262,7 @@
       "settings": {
         "heading": "",
         "heading_size": "h2",
+        "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=sxNesY3BIEo",
         "cover_image": "shopify:\/\/shop_images\/header_desktop2.jpg",
         "description": "Markenvideo NEOLYMP",
@@ -440,10 +393,62 @@
         "stack_images_on_mobile": false,
         "show_text_below": true
       }
+    },
+    "2e4c116c-0725-42fa-ae80-5c02d3742ff2": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-vlad-bagacian-1228396_55c1b6ec-3576-4e82-90d6-aed8cb0c99bb.jpg",
+            "heading": "Fitnessprodukte für jedes Niveau",
+            "heading_size": "h1",
+            "subheading": "Finde deinen neuen Favoriten, der genau richtig für dich ist!",
+            "button_label": "JETZT ENTDECKEN!",
+            "link": "shopify:\/\/collections\/alles",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-0",
+        "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Markenslideshow"
+      }
     }
   },
   "order": [
-    "image_banner",
     "1662381693659ef961",
     "featured_collection",
     "fcd25ea0-c462-44dd-be83-deb8fc6eb194",
@@ -454,6 +459,7 @@
     "16672341752980360d",
     "069b0d6a-1a8f-4ec8-886f-b2b3df15b486",
     "collage",
-    "b70dc90a-934a-444e-9b07-dea7f9e309bb"
+    "b70dc90a-934a-444e-9b07-dea7f9e309bb",
+    "2e4c116c-0725-42fa-ae80-5c02d3742ff2"
   ]
 }
