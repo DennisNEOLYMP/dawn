@@ -40,6 +40,11 @@
             "text_style": "subtitle"
           }
         },
+        "aafc3b20-7075-4973-9795-48f7a48ff4ed": {
+          "type": "delivery_tag",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -88,9 +93,9 @@
         "8ee66e56-57fb-4aef-b532-874d154beb1a": {
           "type": "brand_usps",
           "settings": {
-            "heading": "<p>Versand & Retoure <strong>kostenlos möglich<\/strong><\/p>",
+            "heading": "<p>Versand & Retoure <strong>ab 30 € kostenlos<\/strong><\/p>",
             "image": "shopify:\/\/shop_images\/ico-versandkostenlos.png",
-            "content": "<p>Der Versand ist ab einem bestimmten <a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Mindestbestellwert<\/a> kostenlos für dich.<\/p>",
+            "content": "<p>Der Versand ist in Deutschland ab 30 € Mindestbestellwert kostenlos für dich.<\/p>",
             "page": ""
           }
         },
@@ -153,6 +158,13 @@
           "settings": {
             "share_label": "Teilen"
           }
+        },
+        "b5b65a3e-deea-43b6-b223-96f787004e2e": {
+          "type": "text",
+          "settings": {
+            "text": "Text block",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -162,6 +174,7 @@
         "2bfb9bb3-e04e-4d16-9a85-30f6282c0064",
         "48a38d8a-bfd3-496a-9875-86dcb03e94c0",
         "caption",
+        "aafc3b20-7075-4973-9795-48f7a48ff4ed",
         "price",
         "variant_picker",
         "quantity_selector",
@@ -177,7 +190,8 @@
         "62177ea8-098d-40ed-87c3-a9ebe541f116",
         "9800607d-62c2-46df-aef5-dca4f4ed5993",
         "3cc5963c-97f8-4dff-9abc-c2fb597fac4b",
-        "share"
+        "share",
+        "b5b65a3e-deea-43b6-b223-96f787004e2e"
       ],
       "settings": {
         "enable_sticky_info": true,
