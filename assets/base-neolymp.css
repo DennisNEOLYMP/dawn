@@ -78,3 +78,7 @@
     color: white;
     background: #b80000;
   }
+
+  h4.accordion__title {
+    font-weight: bold;
+  }
