@@ -246,7 +246,7 @@
           "show_quantity_input": true,
           "btn_style": "primary",
           "offset": 350,
-          "pt": 0.5,
+          "pt": 5,
           "pb": 0.5
         }
       }
