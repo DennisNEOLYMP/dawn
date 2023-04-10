@@ -6,10 +6,10 @@
         "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-vlad-bagacian-1228396_55c1b6ec-3576-4e82-90d6-aed8cb0c99bb.jpg",
-            "heading": "Fitnessprodukte für jedes Niveau",
+            "image": "shopify:\/\/shop_images\/header_matte_portugal.jpg",
+            "heading": "Marken Fitnessprodukte",
             "heading_size": "h1",
-            "subheading": "Finde deinen neuen Favoriten, der genau richtig für dich ist!",
+            "subheading": "Trainiere überall mit unseren qualitativen Fitnessprodukten inkl. E-Book und 5 Jahre Garantie.",
             "button_label": "JETZT ENTDECKEN!",
             "link": "shopify:\/\/collections\/alles",
             "button_style_secondary": false,
@@ -23,6 +23,7 @@
         },
         "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/rm376-a04_988c3125-0e7b-42ea-9f86-312608c55c88.jpg",
             "heading": "Alles muss raus!",
