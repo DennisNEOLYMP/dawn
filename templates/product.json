@@ -158,13 +158,6 @@
           "settings": {
             "share_label": "Teilen"
           }
-        },
-        "b5b65a3e-deea-43b6-b223-96f787004e2e": {
-          "type": "text",
-          "settings": {
-            "text": "Text block",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
@@ -190,8 +183,7 @@
         "62177ea8-098d-40ed-87c3-a9ebe541f116",
         "9800607d-62c2-46df-aef5-dca4f4ed5993",
         "3cc5963c-97f8-4dff-9abc-c2fb597fac4b",
-        "share",
-        "b5b65a3e-deea-43b6-b223-96f787004e2e"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
