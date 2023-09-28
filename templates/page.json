@@ -71,6 +71,21 @@
         "padding_bottom": 52
       }
     },
+    "9374510f-d60a-4f81-98bb-5606700b08ef": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Gewinne.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "71bc25d1-d0b4-4354-9f18-9154992f207d": {
       "type": "image-with-text",
       "blocks": {
@@ -121,6 +136,7 @@
     "1925f2cf-072b-4558-86a5-f52124fee58a",
     "9621becc-5cc1-4092-952e-61f0b916f148",
     "5942ed86-ff0b-4ad1-a616-be5921234161",
+    "9374510f-d60a-4f81-98bb-5606700b08ef",
     "71bc25d1-d0b4-4354-9f18-9154992f207d"
   ]
 }
