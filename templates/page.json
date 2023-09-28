@@ -2,13 +2,124 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1925f2cf-072b-4558-86a5-f52124fee58a": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TEst_3.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "9621becc-5cc1-4092-952e-61f0b916f148": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "5942ed86-ff0b-4ad1-a616-be5921234161": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15568644243647__5942ed86-ff0b-4ad1-a616-be5921234161-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "template--15568644243647__5942ed86-ff0b-4ad1-a616-be5921234161-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "template--15568644243647__5942ed86-ff0b-4ad1-a616-be5921234161-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--15568644243647__5942ed86-ff0b-4ad1-a616-be5921234161-heading-1",
+        "template--15568644243647__5942ed86-ff0b-4ad1-a616-be5921234161-paragraph-1",
+        "template--15568644243647__5942ed86-ff0b-4ad1-a616-be5921234161-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "71bc25d1-d0b4-4354-9f18-9154992f207d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15568644243647__71bc25d1-d0b4-4354-9f18-9154992f207d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--15568644243647__71bc25d1-d0b4-4354-9f18-9154992f207d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15568644243647__71bc25d1-d0b4-4354-9f18-9154992f207d-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15568644243647__71bc25d1-d0b4-4354-9f18-9154992f207d-heading-1",
+        "template--15568644243647__71bc25d1-d0b4-4354-9f18-9154992f207d-text-1",
+        "template--15568644243647__71bc25d1-d0b4-4354-9f18-9154992f207d-button-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1925f2cf-072b-4558-86a5-f52124fee58a",
+    "9621becc-5cc1-4092-952e-61f0b916f148",
+    "5942ed86-ff0b-4ad1-a616-be5921234161",
+    "71bc25d1-d0b4-4354-9f18-9154992f207d"
   ]
 }
