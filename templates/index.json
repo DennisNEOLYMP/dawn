@@ -3,6 +3,24 @@
     "2e4c116c-0725-42fa-ae80-5c02d3742ff2": {
       "type": "slideshow",
       "blocks": {
+        "4f7e1143-5ad3-4efb-8f68-32873c7e6c00": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner_74be92d0-5a50-4d84-a1fa-9bc113581c8a.jpg",
+            "heading": "Birthday SALE AKTION",
+            "heading_size": "h1",
+            "subheading": "\"Feier 5 aufregende Jahre mit NEOLYMP und entdecke unvergleichliche Angebote in unserem Jubiläums-Sale! Sicher dir bis zu 50% Rabatt auf ausgewählte Fitnessprodukte.",
+            "button_label": "ZUR AKTION",
+            "link": "shopify:\/\/pages\/aktion",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-0": {
           "type": "slide",
           "settings": {
@@ -39,30 +57,12 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "4f7e1143-5ad3-4efb-8f68-32873c7e6c00": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_74be92d0-5a50-4d84-a1fa-9bc113581c8a.jpg",
-            "heading": "Birthday SALE AKTION",
-            "heading_size": "h1",
-            "subheading": "\"Feier 5 aufregende Jahre mit NEOLYMP und entdecke unvergleichliche Angebote in unserem Jubiläums-Sale! Sicher dir bis zu 50% Rabatt auf ausgewählte Fitnessprodukte.",
-            "button_label": "ZUR AKTION",
-            "link": "shopify:\/\/pages\/aktion",
-            "button_style_secondary": false,
-            "box_align": "middle-right",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "4f7e1143-5ad3-4efb-8f68-32873c7e6c00",
         "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-0",
-        "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-1",
-        "4f7e1143-5ad3-4efb-8f68-32873c7e6c00"
+        "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-1"
       ],
       "settings": {
         "layout": "full_bleed",
