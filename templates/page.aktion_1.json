@@ -39,8 +39,9 @@
       ],
       "settings": {
         "image": "{{ page.metafields.custom.header_image.value }}",
+        "image_2": "shopify:\/\/shop_images\/Banner_74be92d0-5a50-4d84-a1fa-9bc113581c8a.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
