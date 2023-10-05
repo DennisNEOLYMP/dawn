@@ -39,7 +39,7 @@
       ],
       "settings": {
         "image": "{{ page.metafields.custom.header_image.value }}",
-        "image_2": "shopify:\/\/shop_images\/Banner_74be92d0-5a50-4d84-a1fa-9bc113581c8a.jpg",
+        "image_2": "shopify:\/\/shop_images\/Banner_60dcda3c-407e-45c2-bddc-04fce236cb75.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
