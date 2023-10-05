@@ -39,7 +39,7 @@
       ],
       "settings": {
         "image": "{{ page.metafields.custom.header_image.value }}",
-        "image_2": "shopify:\/\/shop_images\/Geburtstgassale.jpg",
+        "image_2": "shopify:\/\/shop_images\/Zeichenflache_1_Kopie_2_4154ad5c-382c-4588-9a27-5447587bdadd.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
