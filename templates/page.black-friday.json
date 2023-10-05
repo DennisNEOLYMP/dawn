@@ -178,6 +178,52 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "b64e110d-7351-49f9-a793-8de81e55ec36": {
+      "type": "multirow",
+      "blocks": {
+        "9c928607-94fc-44a3-9c7c-203408cad27a": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Klimmzugstange.jpg",
+            "caption": "",
+            "heading": "SPORTGERÄTE",
+            "text": "<p>Lassen Sie sich von erstklassiger Qualität überzeugen und entdecken Sie, wie unsere Produkte Ihnen dabei helfen, Ihre Performance zu steigern, Ihre Ziele zu erreichen und dabei stets sicher und geschützt zu trainieren.<\/p>",
+            "button_label": "ZU DEN SPORTGERÄTEN",
+            "button_link": "shopify:\/\/collections\/sportgeraete"
+          }
+        },
+        "284f8dec-f10c-4b3a-a8a3-bb8ac332f1eb": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gewinnspiel_Header.jpg",
+            "caption": "",
+            "heading": "GEWINNSPIEL",
+            "text": "<p>Treten Sie ein in eine Welt, in der wir Ihnen nicht nur Dankeschön sagen, sondern Sie mit fantastischen Preisen belohnen möchten. In unserem Jubiläums-Gewinnspiel warten exklusive Preise und attraktive Gutscheine darauf, von Ihnen gewonnen zu werden!<\/p>",
+            "button_label": "ZUR TEILNAHME",
+            "button_link": "shopify:\/\/pages\/gewinnspiel"
+          }
+        }
+      },
+      "block_order": [
+        "9c928607-94fc-44a3-9c7c-203408cad27a",
+        "284f8dec-f10c-4b3a-a8a3-bb8ac332f1eb"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -185,6 +231,7 @@
     "6a169f4e-de68-4883-b8b6-0f9ea980d24a",
     "main",
     "77bfe488-6df6-419f-b67a-798c335212d8",
-    "3a5a0d31-4a82-4f6d-ab7d-2139bd88e8d8"
+    "3a5a0d31-4a82-4f6d-ab7d-2139bd88e8d8",
+    "b64e110d-7351-49f9-a793-8de81e55ec36"
   ]
 }
