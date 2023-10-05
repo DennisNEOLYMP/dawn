@@ -39,11 +39,30 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "4f7e1143-5ad3-4efb-8f68-32873c7e6c00": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner_74be92d0-5a50-4d84-a1fa-9bc113581c8a.jpg",
+            "heading": "Birthday SALE AKTION",
+            "heading_size": "h1",
+            "subheading": "\"Feier 5 aufregende Jahre mit NEOLYMP und entdecke unvergleichliche Angebote in unserem Jubiläums-Sale! Sicher dir bis zu 50% Rabatt auf ausgewählte Fitnessprodukte.",
+            "button_label": "ZUR AKTION",
+            "link": "shopify:\/\/pages\/aktion",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-0",
-        "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-1"
+        "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-1",
+        "4f7e1143-5ad3-4efb-8f68-32873c7e6c00"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -176,7 +195,6 @@
     },
     "fcd25ea0-c462-44dd-be83-deb8fc6eb194": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--15568644440255__fcd25ea0-c462-44dd-be83-deb8fc6eb194-16691505614255d494-0": {
           "type": "heading",
@@ -189,6 +207,7 @@
       "block_order": [
         "template--15568644440255__fcd25ea0-c462-44dd-be83-deb8fc6eb194-16691505614255d494-0"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -202,7 +221,7 @@
       "type": "apps",
       "blocks": {
         "6b79c473-140d-4599-b51d-95bcab60f7de": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1400
           }
