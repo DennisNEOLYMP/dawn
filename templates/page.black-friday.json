@@ -39,9 +39,9 @@
       ],
       "settings": {
         "image": "{{ page.metafields.custom.header_image.value }}",
+        "image_2": "shopify:\/\/shop_images\/Geburtstgassale.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
-        "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -51,8 +51,44 @@
         "show_text_below": true
       }
     },
+    "6a169f4e-de68-4883-b8b6-0f9ea980d24a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16203356635404__6a169f4e-de68-4883-b8b6-0f9ea980d24a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Herzlich willkommen zum 5-jährigen Jubiläums-Sale von NEOLYMP<\/strong> – Wo Ihre Fitness-Träume Wirklichkeit werden! Wir sind überglücklich und dankbar, dass wir diese erstaunliche Reise der letzten fünf Jahre mit Ihnen teilen durften. Gemeinsam haben wir Meilensteine erreicht, Herausforderungen gemeistert und atemberaubende Fitness-Erfolge gefeiert. <\/p><p>Um unsere Dankbarkeit auszudrücken und diesen besonderen Anlass gebührend zu feiern, laden wir Sie herzlich ein, Teil unserer grandiosen Geburtstagsverkaufsaktion zu werden.<\/p>"
+          }
+        },
+        "template--16203356635404__6a169f4e-de68-4883-b8b6-0f9ea980d24a-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16203356635404__6a169f4e-de68-4883-b8b6-0f9ea980d24a-text-1",
+        "template--16203356635404__6a169f4e-de68-4883-b8b6-0f9ea980d24a-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -73,7 +109,7 @@
         "show_view_all": true,
         "view_all_style": "outline",
         "enable_desktop_slider": false,
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "show_vendor": false,
@@ -84,11 +120,71 @@
         "padding_top": 36,
         "padding_bottom": 52
       }
+    },
+    "3a5a0d31-4a82-4f6d-ab7d-2139bd88e8d8": {
+      "type": "multirow",
+      "blocks": {
+        "template--16203356635404__3a5a0d31-4a82-4f6d-ab7d-2139bd88e8d8-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Neolymp_0330.jpg",
+            "caption": "",
+            "heading": "FITNESSBÄNDER",
+            "text": "<p>Entdecken Sie die Welt der grenzenlosen Fitness mit unseren erstklassigen Fitnessbändern! In unserem Shop bieten wir Ihnen eine breite Palette von Widerstandsbändern, die als Ihre persönlichen Fitnessassistenten dienen, um Ihre Workouts auf das nächste Level zu heben. Unsere Fitnessbänder sind nicht nur äußerst vielseitig und für jede Fitnessstufe geeignet, sondern auch perfekt für effektive Ganzkörper-Workouts, sei es zu Hause, im Freien oder auf Reisen.<\/p>",
+            "button_label": "ZU DEN BÄNDERN",
+            "button_link": "shopify:\/\/collections\/fitnessbander"
+          }
+        },
+        "template--16203356635404__3a5a0d31-4a82-4f6d-ab7d-2139bd88e8d8-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Zeichenflache_1_Kopie_2.jpg",
+            "caption": "",
+            "heading": "YOGABEREICH",
+            "text": "<p>Namaste und herzlich willkommen in unserem Yogabereich! Tauchen Sie ein in eine Welt, in der Körper und Geist in harmonischen Einklang gebracht werden. Unsere sorgfältig ausgewählten Yoga-Artikel unterstützen Sie dabei, Ihre Praxis zu vertiefen und ein vollkommenes Wohlbefinden zu erlangen. Entdecken Sie unsere Premium-Yogamatten, die Ihnen nicht nur die nötige Rutschfestigkeit, sondern auch optimalen Komfort während Ihrer Übungen bieten.<\/p>",
+            "button_label": "ZU DEN YOGAMATTEN",
+            "button_link": "shopify:\/\/collections\/yoga"
+          }
+        },
+        "template--16203356635404__3a5a0d31-4a82-4f6d-ab7d-2139bd88e8d8-row-3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Neolymp_9876.jpg",
+            "caption": "",
+            "heading": "FITNESSMATTEN",
+            "text": "<p>Entdecken Sie unsere hochwertigen Fitnessmatten, die speziell dafür entwickelt wurden, um Ihr Training effektiv und komfortabel zu gestalten. Unsere Matten sind nicht nur rutschfest und langlebig, sondern bieten auch eine hervorragende Unterstützung und Polsterung für alle Arten von Übungen – sei es Yoga, Pilates, oder intensive Workouts.<\/p>",
+            "button_label": "ZUM BESTSELLER",
+            "button_link": "shopify:\/\/products\/fitnessmatte"
+          }
+        }
+      },
+      "block_order": [
+        "template--16203356635404__3a5a0d31-4a82-4f6d-ab7d-2139bd88e8d8-row-1",
+        "template--16203356635404__3a5a0d31-4a82-4f6d-ab7d-2139bd88e8d8-row-2",
+        "template--16203356635404__3a5a0d31-4a82-4f6d-ab7d-2139bd88e8d8-row-3"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "fdb5ad93-3560-46ed-bc3e-68b38bb16a2b",
+    "6a169f4e-de68-4883-b8b6-0f9ea980d24a",
     "main",
-    "77bfe488-6df6-419f-b67a-798c335212d8"
+    "77bfe488-6df6-419f-b67a-798c335212d8",
+    "3a5a0d31-4a82-4f6d-ab7d-2139bd88e8d8"
   ]
 }
