@@ -231,8 +231,8 @@
             "caption": "",
             "heading": "GEWINNSPIEL",
             "text": "<p>Tritt ein in eine Welt, in der wir Dir nicht nur Dankeschön sagen, sondern Dich mit fantastischen Preisen belohnen möchten. In unserem Jubiläums-Gewinnspiel warten exklusive Preise und attraktive Gutscheine darauf, von Dir gewonnen zu werden!<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "ZUR TEILNAHME",
+            "button_link": "shopify:\/\/pages\/gewinnspiel"
           }
         }
       },
