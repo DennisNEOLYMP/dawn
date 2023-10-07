@@ -227,6 +227,7 @@
         },
         "ff22fb66-4202-4790-8b76-dc97e1ebc668": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Gewinnspiel_Header.jpg",
             "caption": "",
