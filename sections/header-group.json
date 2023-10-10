@@ -7,9 +7,8 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "Feiere mit uns 5 Jahre NEOLYMP – Sichere dir jetzt bis zu 50% Rabatt auf deine Fitness-Favoriten!",
+            "text": "NEOLYMP – Bringe deine Fitness überall auf das nächste Level!",
             "text_alignment": "center",
             "color_scheme": "accent-2",
             "link": ""
