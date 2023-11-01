@@ -24,7 +24,6 @@
         },
         "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-0": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/header_matte_portugal.jpg",
             "heading": "Marken Fitnessprodukte",
@@ -62,6 +61,7 @@
         },
         "ca12df02-2599-46fe-b242-68d807347991": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Newsletter_0.2.jpg",
             "heading": "Marken Fitnessprodukte",
