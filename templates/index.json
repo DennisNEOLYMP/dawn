@@ -414,7 +414,7 @@
         "product": {
           "type": "product",
           "settings": {
-            "product": "https-neolymp-com-products-minibaender",
+            "product": "minibaender",
             "second_image": false
           }
         },
