@@ -3126,3 +3126,8 @@ details-disclosure > details {
       max-width: 100%;
   }
 } 
+
+.password-image-banner {
+  width: 850px;
+  max-width: 100vw;
+}
