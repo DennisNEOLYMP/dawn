@@ -3121,7 +3121,8 @@ details-disclosure > details {
   margin: -0.5rem 0 -0.5rem 0;
 }
 
-@media screen and (max-width: 400px){} 
-.password-image-banner {
-
-}
+@media screen and (max-width: 400px){
+    .password-image-banner {
+      max-width: 100%;
+  }
+} 
