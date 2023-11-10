@@ -3120,3 +3120,8 @@ details-disclosure > details {
 .rte blockquote > * {
   margin: -0.5rem 0 -0.5rem 0;
 }
+
+@media screen and (max-width: 400px){} 
+.password-image-banner {
+
+}
