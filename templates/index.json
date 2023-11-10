@@ -434,14 +434,14 @@
         "product": {
           "type": "product",
           "settings": {
-            "product": "https-neolymp-com-products-minibaender",
+            "product": "minibaender",
             "second_image": false
           }
         },
         "34c6de8d-4edf-4687-9248-64f278a7856c": {
           "type": "product",
           "settings": {
-            "product": "resistance-bands-sets",
+            "product": "https-neolymp-com-products-heavy-resistance-bands",
             "second_image": false
           }
         }
