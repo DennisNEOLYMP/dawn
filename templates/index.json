@@ -24,7 +24,6 @@
         },
         "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-0": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/header_matte_portugal.jpg",
             "heading": "Marken Fitnessprodukte",
@@ -81,6 +80,7 @@
         },
         "36be13e6-e3ff-48b5-b67a-9a63985a486e": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Singles_Day_Banner_b5c58c7f-dc88-4ee2-aba4-015329dbc434.png",
             "heading": "Nutze am \"Singles Day\"die Gelegenheit, um bis zu 55% Rabatt auf ausgewählte Fitnessprodukte zu erhalten.",
