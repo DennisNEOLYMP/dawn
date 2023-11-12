@@ -161,8 +161,9 @@
         },
         "9add9be3-d2fa-4d71-8ce1-a3d72ed870ee": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "text",
+            "text": "",
             "text_style": "subtitle"
           }
         }
