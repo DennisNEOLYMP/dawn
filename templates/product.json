@@ -23,7 +23,7 @@
           }
         },
         "2bfb9bb3-e04e-4d16-9a85-30f6282c0064": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -158,6 +158,13 @@
           "settings": {
             "share_label": "Teilen"
           }
+        },
+        "9add9be3-d2fa-4d71-8ce1-a3d72ed870ee": {
+          "type": "text",
+          "settings": {
+            "text": "text",
+            "text_style": "subtitle"
+          }
         }
       },
       "block_order": [
@@ -183,7 +190,8 @@
         "62177ea8-098d-40ed-87c3-a9ebe541f116",
         "9800607d-62c2-46df-aef5-dca4f4ed5993",
         "3cc5963c-97f8-4dff-9abc-c2fb597fac4b",
-        "share"
+        "share",
+        "9add9be3-d2fa-4d71-8ce1-a3d72ed870ee"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -214,17 +222,17 @@
       "type": "apps",
       "blocks": {
         "4d7495dd-498e-4da8-8919-04b7dc0cc392": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
         "7753a3f2-6a13-4757-9aff-77d16fa38c0e": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
         "4ce5cdb7-ba85-4c31-8845-0510402109f4": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
