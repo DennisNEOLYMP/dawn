@@ -27,6 +27,12 @@
           "settings": {
           }
         },
+        "9ab2f008-637c-45dd-a09b-a422d580bc6e": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p><\/p>\n{{product.metafields.my_fields.subtitle}}"
+          }
+        },
         "48a38d8a-bfd3-496a-9875-86dcb03e94c0": {
           "type": "rating",
           "disabled": true,
@@ -36,7 +42,7 @@
         "caption": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text": "",
             "text_style": "subtitle"
           }
         },
@@ -173,6 +179,7 @@
         "vendor",
         "title",
         "2bfb9bb3-e04e-4d16-9a85-30f6282c0064",
+        "9ab2f008-637c-45dd-a09b-a422d580bc6e",
         "48a38d8a-bfd3-496a-9875-86dcb03e94c0",
         "caption",
         "aafc3b20-7075-4973-9795-48f7a48ff4ed",
