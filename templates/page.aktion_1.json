@@ -145,7 +145,7 @@
     "77bfe488-6df6-419f-b67a-798c335212d8": {
       "type": "featured-collection",
       "settings": {
-        "title": "Unsere {{ section.settings.collection.title }}",
+        "title": "DEAL DES JAHRES",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
