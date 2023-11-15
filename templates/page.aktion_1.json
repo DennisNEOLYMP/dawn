@@ -72,16 +72,6 @@
             "link": "shopify:\/\/collections\/fitnessbaender"
           }
         },
-        "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Yoga_Collection_BW.png",
-            "title": "QUICK SWEAT MIT UNSEREN FITNESSMATTEN",
-            "text": "<p>Entdecke den Unterschied mit unseren Premium-Fitnessmatten! Egal ob Yoga, Pilates, Krafttraining oder Gymnastik – diese Matten bieten dir die ideale Unterlage für ein sicheres und komfortables Workout.<\/p>",
-            "link_label": "ZU DEN DEALS",
-            "link": "shopify:\/\/collections\/sportmatten"
-          }
-        },
         "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-3": {
           "type": "column",
           "settings": {
@@ -91,12 +81,22 @@
             "link_label": "ZU DEN DEALS",
             "link": "shopify:\/\/collections\/fitnessbaender"
           }
+        },
+        "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Yoga_Collection_BW.png",
+            "title": "QUICK SWEAT MIT UNSEREN FITNESSMATTEN",
+            "text": "<p>Entdecke den Unterschied mit unseren Premium-Fitnessmatten! Egal ob Yoga, Pilates, Krafttraining oder Gymnastik – diese Matten bieten dir die ideale Unterlage für ein sicheres und komfortables Workout.<\/p>",
+            "link_label": "ZU DEN DEALS",
+            "link": "shopify:\/\/collections\/sportmatten"
+          }
         }
       },
       "block_order": [
         "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-1",
-        "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-2",
-        "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-3"
+        "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-3",
+        "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-2"
       ],
       "settings": {
         "title": "BESTEN BLACK WEEK DEALS",
