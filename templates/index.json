@@ -5,16 +5,15 @@
       "blocks": {
         "4f7e1143-5ad3-4efb-8f68-32873c7e6c00": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_60dcda3c-407e-45c2-bddc-04fce236cb75.jpg",
-            "heading": "Birthday SALE AKTION",
+            "image": "shopify:\/\/shop_images\/Black_Week_banner.png",
+            "heading": "BLACK WEEK SALE",
             "heading_size": "h1",
-            "subheading": "Feiere 5 aufregende Jahre mit NEOLYMP und entdecke unvergleichliche Angebote in unserem Jubiläums-Sale! Sichere dir bis zu 50% Rabatt auf ausgewählte Fitnessprodukte.",
+            "subheading": "Entdecke atemberaubende Angebote beim NEOLYMP BLACK WEEK SALE! Sichern Dir exklusive Rabatte bis zu 55% auf Premium-Fitnessgeräte und -Zubehör.",
             "button_label": "ZUR AKTION",
             "link": "shopify:\/\/pages\/aktion",
             "button_style_secondary": false,
-            "box_align": "middle-right",
+            "box_align": "bottom-right",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
@@ -24,6 +23,7 @@
         },
         "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/header_matte_portugal.jpg",
             "heading": "Marken Fitnessprodukte",
