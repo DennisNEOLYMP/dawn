@@ -39,7 +39,7 @@
       ],
       "settings": {
         "image": "{{ page.metafields.custom.header_image.value }}",
-        "image_2": "shopify:\/\/shop_images\/Banner_60dcda3c-407e-45c2-bddc-04fce236cb75.jpg",
+        "image_2": "shopify:\/\/shop_images\/Black_Week_banner.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
@@ -59,26 +59,60 @@
         "padding_bottom": 28
       }
     },
-    "b954d8f0-6d7a-457b-82a3-63736a141a4e": {
-      "type": "rich-text",
+    "37527a06-187b-4967-9ee8-c91f7d87c05e": {
+      "type": "multicolumn",
       "blocks": {
-        "template--16203316887820__b954d8f0-6d7a-457b-82a3-63736a141a4e-text-1": {
-          "type": "text",
+        "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-1": {
+          "type": "column",
           "settings": {
-            "text": "<p><strong>Herzlich willkommen zum 5-jährigen Jubiläums-Sale von NEOLYMP –<\/strong> wo Deine Fitness-Träume Wirklichkeit werden! Wir sind überglücklich und dankbar, dass wir diese erstaunliche Reise der letzten fünf Jahre mit Dir teilen durften. Gemeinsam haben wir Meilensteine erreicht, Herausforderungen gemeistert und atemberaubende Fitness-Erfolge gefeiert. <\/p><p>Als Ausdruck unserer Dankbarkeit und um diesen besonderen Anlass gebührend zu feiern, laden wir Dich herzlich ein, Teil unserer grandiosen Geburtstagsverkaufsaktion zu werden.<\/p>"
+            "image": "shopify:\/\/shop_images\/Fitnessander_Collection_BW.png",
+            "title": "BAUCH BEINE PO",
+            "text": "<p>Sichere Dir den umfassenden NEOLYMP Bauch-Beine-Po Fitness-Deal! Die exklusiv rabattierten Produkte bietet alles, was du für ein effektives und zielgerichtetes Training benötigst.<\/p>",
+            "link_label": "ZU DEN DEALS",
+            "link": "shopify:\/\/collections\/fitnessbaender"
+          }
+        },
+        "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Yoga_Collection_BW.png",
+            "title": "QUICK SWEAT MIT UNSEREN FITNESSMATTEN",
+            "text": "<p>Entdecke den Unterschied mit unseren Premium-Fitnessmatten! Egal ob Yoga, Pilates, Krafttraining oder Gymnastik – diese Matten bieten dir die ideale Unterlage für ein sicheres und komfortables Workout.<\/p>",
+            "link_label": "ZU DEN DEALS",
+            "link": "shopify:\/\/collections\/sportmatten"
+          }
+        },
+        "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fitnessbander_lang_BW.png",
+            "title": "FITNESSBÄNDER DEAL",
+            "text": "<p>Erreiche neue Fitnessziele mit unserem Fitnessbänder-Sets! Diese vielseitigen Bänder sind ein unverzichtbares Werkzeug für ein effektives Ganzkörpertraining. Sie eignen sich perfekt für Krafttraining, Stretching, Pilates und vieles mehr.<\/p>",
+            "link_label": "ZU DEN DEALS",
+            "link": "shopify:\/\/collections\/fitnessbaender"
           }
         }
       },
       "block_order": [
-        "template--16203316887820__b954d8f0-6d7a-457b-82a3-63736a141a4e-text-1"
+        "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-1",
+        "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-2",
+        "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-3"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "accent-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "title": "BESTEN BLACK WEEK DEALS",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "ZU ALLEN DEALS",
+        "button_link": "shopify:\/\/collections\/alles",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "77bfe488-6df6-419f-b67a-798c335212d8": {
@@ -184,8 +218,8 @@
         "template--16203316887820__57370455-ae9c-4e49-8680-c9e72648c0a2-row-1": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Neolymp_0330.jpg",
-            "caption": "",
+            "image": "shopify:\/\/shop_images\/Fitnessbander_55_Rabatt.jpg",
+            "caption": "NEOLYMP FITNESSBÄNDER DEAL",
             "heading": "FITNESSBÄNDER",
             "text": "<p>Entdecke die Welt der grenzenlosen Fitness mit unseren erstklassigen Fitnessbändern! In unserem Shop bieten wir Dir eine breite Palette von Widerstandsbändern, die als Deine persönlichen Fitnessassistenten dienen, um Deine Workouts auf das nächste Level zu heben. Unsere Fitnessbänder sind nicht nur äußerst vielseitig und für jede Fitnessstufe geeignet, sondern auch perfekt für effektive Ganzkörper-Workouts, sei es zu Hause, im Freien oder auf Reisen.<\/p>",
             "button_label": "ZU DEN BÄNDERN",
@@ -195,8 +229,8 @@
         "template--16203316887820__57370455-ae9c-4e49-8680-c9e72648c0a2-row-2": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Zeichenflache_1_Kopie_2.jpg",
-            "caption": "",
+            "image": "shopify:\/\/shop_images\/Yogamatte_55_Rabatt.jpg",
+            "caption": "NEOLYMP YOGA DEAL",
             "heading": "YOGABEREICH",
             "text": "<p>Namaste und herzlich willkommen in unserem Yogabereich! Tauche ein in eine Welt, in der Körper und Geist in harmonischen Einklang gebracht werden. Unsere sorgfältig ausgewählten Yoga-Artikel unterstützen Dich dabei, Deine Praxis zu vertiefen und ein vollkommenes Wohlbefinden zu erlangen. Entdecke unsere Premium-Yogamatten, die Dir nicht nur die nötige Rutschfestigkeit, sondern auch optimalen Komfort während Deiner Übungen bieten.<\/p>",
             "button_label": "ZU DEN YOGAMATTEN",
@@ -206,19 +240,19 @@
         "template--16203316887820__57370455-ae9c-4e49-8680-c9e72648c0a2-row-3": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Neolymp_9876.jpg",
-            "caption": "",
-            "heading": "FITNESSMATTE",
+            "image": "shopify:\/\/shop_images\/Sportmatten_55_Rabatt.jpg",
+            "caption": "NEOLYMP SPORTMATTEN DEAL",
+            "heading": "SPORTMATTEN",
             "text": "<p>Entdecke unsere hochwertigen Fitnessmatten, die speziell dafür entwickelt wurden, um Dein Training effektiv und komfortabel zu gestalten. Unsere Matten sind nicht nur rutschfest und langlebig, sondern bieten auch eine hervorragende Unterstützung und Polsterung für alle Arten von Übungen – sei es Yoga, Pilates oder intensive Workouts.<\/p>",
-            "button_label": "ZUM BESTSELLER",
-            "button_link": "shopify:\/\/products\/fitnessmatte"
+            "button_label": "ZU DEN MATTEN",
+            "button_link": "shopify:\/\/collections\/sportmatten"
           }
         },
         "3c0eddcf-b878-4dee-8f1e-bbd44bef9a48": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Klimmzugstange.jpg",
-            "caption": "",
+            "image": "shopify:\/\/shop_images\/Klimmzugstange_55_Rabatt.jpg",
+            "caption": "NEOLYMP SPORTGERÄTE DEAL",
             "heading": "SPORTGERÄTE",
             "text": "<p>Lass Dich von erstklassiger Qualität überzeugen und entdecke, wie unsere Produkte Dir dabei helfen, Deine Performance zu steigern, Deine Ziele zu erreichen und dabei stets sicher und geschützt zu trainieren.<\/p>",
             "button_label": "ZU DEN GERÄTEN",
@@ -265,7 +299,7 @@
   "order": [
     "fdb5ad93-3560-46ed-bc3e-68b38bb16a2b",
     "main",
-    "b954d8f0-6d7a-457b-82a3-63736a141a4e",
+    "37527a06-187b-4967-9ee8-c91f7d87c05e",
     "77bfe488-6df6-419f-b67a-798c335212d8",
     "93ac2eef-e54b-43de-8303-1a4b176a9180",
     "57370455-ae9c-4e49-8680-c9e72648c0a2"
