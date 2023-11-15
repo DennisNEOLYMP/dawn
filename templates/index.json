@@ -107,7 +107,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "adapt_image",
+        "slide_height": "large",
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 5,
@@ -216,7 +216,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "featured",
-        "products_to_show": 6,
+        "products_to_show": 12,
         "columns_desktop": 3,
         "full_width": false,
         "show_view_all": false,
