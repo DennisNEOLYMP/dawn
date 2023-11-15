@@ -99,6 +99,16 @@
             "link": "shopify:\/\/collections\/fitnessbaender"
           }
         },
+        "7c035929-d872-4bbc-b8e8-d74071b0fff4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1png_3841d81b-fab3-4c3a-a4ea-296811acc49f.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-3": {
           "type": "column",
           "settings": {
@@ -122,6 +132,7 @@
       },
       "block_order": [
         "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-1",
+        "7c035929-d872-4bbc-b8e8-d74071b0fff4",
         "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-3",
         "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-2"
       ],
