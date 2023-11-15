@@ -11,70 +11,7 @@
     "1925f2cf-072b-4558-86a5-f52124fee58a": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Gewinnspiel_Header.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "9621becc-5cc1-4092-952e-61f0b916f148": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "5942ed86-ff0b-4ad1-a616-be5921234161": {
-      "type": "newsletter",
-      "blocks": {
-        "template--15568644243647__5942ed86-ff0b-4ad1-a616-be5921234161-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
-          }
-        },
-        "template--15568644243647__5942ed86-ff0b-4ad1-a616-be5921234161-paragraph-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
-          }
-        },
-        "template--15568644243647__5942ed86-ff0b-4ad1-a616-be5921234161-email_form-1": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--15568644243647__5942ed86-ff0b-4ad1-a616-be5921234161-heading-1",
-        "template--15568644243647__5942ed86-ff0b-4ad1-a616-be5921234161-paragraph-1",
-        "template--15568644243647__5942ed86-ff0b-4ad1-a616-be5921234161-email_form-1"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "9374510f-d60a-4f81-98bb-5606700b08ef": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Gewinne.jpg",
+        "image": "shopify:\/\/shop_images\/Black_Week_banner.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -86,45 +23,98 @@
         "show_text_below": true
       }
     },
-    "71bc25d1-d0b4-4354-9f18-9154992f207d": {
-      "type": "image-with-text",
+    "f51ededd-05a1-492e-82be-194963ce82bc": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "DEAL DES JAHRES",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sale",
+        "products_to_show": 16,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "a9f72b44-b90d-499a-b0a5-b6e29a771ec8": {
+      "type": "multirow",
       "blocks": {
-        "template--15568644243647__71bc25d1-d0b4-4354-9f18-9154992f207d-heading-1": {
-          "type": "heading",
+        "template--18413592936716__a9f72b44-b90d-499a-b0a5-b6e29a771ec8-row-1": {
+          "type": "row",
           "settings": {
-            "heading": "TEIHNAHME BEDINGUNGEN",
-            "heading_size": "h1"
+            "image": "shopify:\/\/shop_images\/Fitnessbander_55_Rabatt.jpg",
+            "caption": "NEOLYMP",
+            "heading": "FITNESSBÄNDER DEAL",
+            "text": "<p>Entdecke die Welt der grenzenlosen Fitness mit unseren erstklassigen Fitnessbändern! In unserem Shop bieten wir Dir eine breite Palette von Widerstandsbändern, die als Deine persönlichen Fitnessassistenten dienen, um Deine Workouts auf das nächste Level zu heben. Unsere Fitnessbänder sind nicht nur äußerst vielseitig und für jede Fitnessstufe geeignet, sondern auch perfekt für effektive Ganzkörper-Workouts, sei es zu Hause, im Freien oder auf Reisen.<\/p>",
+            "button_label": "ZU DEN BÄNDERN",
+            "button_link": "shopify:\/\/collections\/fitnessbaender"
           }
         },
-        "template--15568644243647__71bc25d1-d0b4-4354-9f18-9154992f207d-text-1": {
-          "type": "text",
+        "template--18413592936716__a9f72b44-b90d-499a-b0a5-b6e29a771ec8-row-2": {
+          "type": "row",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
+            "image": "shopify:\/\/shop_images\/Yogamatte_55_Rabatt.jpg",
+            "caption": "NEOLYMP",
+            "heading": "YOGA DEAL",
+            "text": "<p>Namaste und herzlich willkommen in unserem Yogabereich! Tauche ein in eine Welt, in der Körper und Geist in harmonischen Einklang gebracht werden. Unsere sorgfältig ausgewählten Yoga-Artikel unterstützen Dich dabei, Deine Praxis zu vertiefen und ein vollkommenes Wohlbefinden zu erlangen. Entdecke unsere Premium-Yogamatten, die Dir nicht nur die nötige Rutschfestigkeit, sondern auch optimalen Komfort während Deiner Übungen bieten.<\/p>",
+            "button_label": "ZUM YOGABEREICH",
+            "button_link": "shopify:\/\/collections\/yoga"
           }
         },
-        "template--15568644243647__71bc25d1-d0b4-4354-9f18-9154992f207d-button-1": {
-          "type": "button",
+        "template--18413592936716__a9f72b44-b90d-499a-b0a5-b6e29a771ec8-row-3": {
+          "type": "row",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/Sportmatten_55_Rabatt_b58dffe3-4b37-4506-8543-712a44cabf9f.jpg",
+            "caption": "NEOLYMP",
+            "heading": "SPORTMATTEN DEAL",
+            "text": "<p>Entdecke unsere hochwertigen Fitnessmatten, die speziell dafür entwickelt wurden, um Dein Training effektiv und komfortabel zu gestalten. Unsere Matten sind nicht nur rutschfest und langlebig, sondern bieten auch eine hervorragende Unterstützung und Polsterung für alle Arten von Übungen – sei es Yoga, Pilates oder intensive Workouts.<\/p>",
+            "button_label": "ZU DEN SPORTMATTEN",
+            "button_link": "shopify:\/\/collections\/sportmatten"
+          }
+        },
+        "7a04d185-0349-4411-bbbe-a9dc7da0ef5b": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Klimmzugstange_55_Rabatt.jpg",
+            "caption": "NEOLYMP",
+            "heading": "SPORTGERÄTE DEAL",
+            "text": "<p>Lass Dich von erstklassiger Qualität überzeugen und entdecke, wie unsere Produkte Dir dabei helfen, Deine Performance zu steigern, Deine Ziele zu erreichen und dabei stets sicher und geschützt zu trainieren.<\/p>",
+            "button_label": "ZU DEN GERÄTEN",
+            "button_link": "shopify:\/\/collections\/sportgeraete"
           }
         }
       },
       "block_order": [
-        "template--15568644243647__71bc25d1-d0b4-4354-9f18-9154992f207d-heading-1",
-        "template--15568644243647__71bc25d1-d0b4-4354-9f18-9154992f207d-text-1",
-        "template--15568644243647__71bc25d1-d0b4-4354-9f18-9154992f207d-button-1"
+        "template--18413592936716__a9f72b44-b90d-499a-b0a5-b6e29a771ec8-row-1",
+        "template--18413592936716__a9f72b44-b90d-499a-b0a5-b6e29a771ec8-row-2",
+        "template--18413592936716__a9f72b44-b90d-499a-b0a5-b6e29a771ec8-row-3",
+        "7a04d185-0349-4411-bbbe-a9dc7da0ef5b"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Teilnahmebedingung.jpg",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
@@ -134,9 +124,7 @@
   "order": [
     "main",
     "1925f2cf-072b-4558-86a5-f52124fee58a",
-    "9621becc-5cc1-4092-952e-61f0b916f148",
-    "5942ed86-ff0b-4ad1-a616-be5921234161",
-    "9374510f-d60a-4f81-98bb-5606700b08ef",
-    "71bc25d1-d0b4-4354-9f18-9154992f207d"
+    "f51ededd-05a1-492e-82be-194963ce82bc",
+    "a9f72b44-b90d-499a-b0a5-b6e29a771ec8"
   ]
 }
