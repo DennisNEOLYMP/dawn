@@ -134,7 +134,7 @@
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "ZU ALLEN DEALS",
-        "button_link": "shopify:\/\/collections\/alles",
+        "button_link": "shopify:\/\/collections\/sale",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
