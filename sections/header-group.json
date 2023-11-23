@@ -7,6 +7,7 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "NEOLYMP – BLACK WEEK SALE mit bis zu 55% Rabatt! 🔥",
             "text_alignment": "center",
