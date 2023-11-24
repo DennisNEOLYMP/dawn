@@ -17,46 +17,45 @@
 </script>
 <script src="https://app.varify.io/varify.js" defer></script>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    // Definieren Sie Ihre Weiterleitungsregeln hier
-    var redirects = {
-      "/fr": "/en",
-      "/fr-eu": "/en",
-      "/en-eu": "/en",
-      "/de-eu": "/",
-      "/fr-fr": "/en",
-      "/en-fr": "/en",
-      "/de-fr": "/",
-      "/fr-at": "/en",
-      "/en-at": "/en",
-      "/de-at": "/",
-      "/fr-ch": "/en-ch"
-    };
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        // Weiterleitungsregeln 
+        var redirects = {
+          "/fr": "/en",
+          "/fr-eu": "/en",
+          "/en-eu": "/en",
+          "/de-eu": "/",
+          "/fr-fr": "/en",
+          "/en-fr": "/en",
+          "/de-fr": "/",
+          "/fr-at": "/en",
+          "/en-at": "/en",
+          "/de-at": "/",
+          "/fr-ch": "/en-ch"
+        };
+      
+        // Basispfad 
+        function getBasePath(path) {
 
-    // Funktion, um den Basispfad zu erhalten
-    function getBasePath(path) {
-      var basePath = path.split('/')[1];
-      if(basePath && basePath.includes('-')) {
-        return '/' + basePath;
-      }
-      return '';
-    }
+          var basePath = path.split('/')[1];
+          if(basePath && basePath.includes('-')) {
+            return '/' + basePath;
+          }
+          return '';
+        }
+      
+        var currentBasePath = getBasePath(window.location.pathname);
+        var newPath = redirects[currentBasePath];
+      
 
-    // Holen Sie den Basispfad der aktuellen URL
-    var currentBasePath = getBasePath(window.location.pathname);
-    var newPath = redirects[currentBasePath];
-
-    // Prüfen Sie, ob für den Basispfad eine Weiterleitung definiert ist
-    if (newPath) {
-      // Bauen Sie die neue URL
-      var pathWithoutBase = window.location.pathname.replace(currentBasePath, '');
-      var newLocation = window.location.protocol + "//" + window.location.host + newPath + (pathWithoutBase.startsWith('/') ? '' : '/') + pathWithoutBase + window.location.search;
-      window.location.href = newLocation; // Führen Sie die Weiterleitung durch
-    }
-  });
-</script>
-
+        if (newPath) {
+          var newLocation = window.location.protocol + "//" + window.location.host + newPath + window.location.pathname.replace(currentBasePath, '') + window.location.search;
+          window.location.href = newLocation;
+        }
+      });
+      
+    
+    </script>
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
