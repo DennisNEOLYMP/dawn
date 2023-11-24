@@ -17,9 +17,9 @@
 </script>
 <script src="https://app.varify.io/varify.js" defer></script>
 
-    <script>
+<script>
   document.addEventListener("DOMContentLoaded", function() {
-    // Weiterleitungsregeln 
+    // Weiterleitungsregeln
     var redirects = {
       "/fr": "/en",
       "/fr-eu": "/en",
@@ -34,25 +34,30 @@
       "/fr-ch": "/en-ch"
     };
 
-    // Basispfad 
+    // Funktion, um den Basispfad zu erhalten
     function getBasePath(path) {
-      var basePath = path.split('/')[1];
-      if(basePath && basePath.includes('-')) {
-        return '/' + basePath;
+      var segments = path.split('/');
+      if(segments.length > 1 && segments[1].includes('-')) {
+        return '/' + segments[1];
       }
       return '';
     }
 
+    // Basispfad der aktuellen URL ermitteln
     var currentBasePath = getBasePath(window.location.pathname);
+
+    // Ziel-URL, falls vorhanden, bestimmen
     var newPath = redirects[currentBasePath];
 
-    if (newPath) {
-      var pathToReplace = currentBasePath ? currentBasePath + '/' : '';
-      var newLocation = window.location.protocol + "//" + window.location.host + newPath + window.location.pathname.replace(pathToReplace, '') + window.location.search;
+    // Weiterleitung durchführen, falls notwendig
+    if (newPath && currentBasePath !== newPath) {
+      var remainingPath = window.location.pathname.substring(currentBasePath.length);
+      var newLocation = window.location.protocol + "//" + window.location.host + newPath + remainingPath + window.location.search;
       window.location.href = newLocation;
     }
   });
 </script>
+
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
