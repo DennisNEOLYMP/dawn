@@ -17,7 +17,7 @@
 </script>
 <script src="https://app.varify.io/varify.js" defer></script>
 
-<script>
+    <script>
   document.addEventListener("DOMContentLoaded", function() {
     // Weiterleitungsregeln 
     var redirects = {
@@ -46,19 +46,13 @@
     var currentBasePath = getBasePath(window.location.pathname);
     var newPath = redirects[currentBasePath];
 
-    if (newPath && currentBasePath !== newPath) {
+    if (newPath) {
       var pathToReplace = currentBasePath ? currentBasePath + '/' : '';
-      var newPathWithSlash = newPath.endsWith('/') ? newPath : newPath + '/';
-      var newPathname = window.location.pathname.replace(pathToReplace, '').replace(/^\/+/, '');
-      if(newPathname.startsWith(newPathWithSlash)) {
-        return; // Avoid redirect loop
-      }
-      var newLocation = window.location.protocol + "//" + window.location.host + newPathWithSlash + newPathname + window.location.search;
+      var newLocation = window.location.protocol + "//" + window.location.host + newPath + window.location.pathname.replace(pathToReplace, '') + window.location.search;
       window.location.href = newLocation;
     }
   });
 </script>
-
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
