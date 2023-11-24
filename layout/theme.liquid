@@ -51,7 +51,7 @@
     if (newPath) {
       // Bauen Sie die neue URL
       var pathWithoutBase = window.location.pathname.replace(currentBasePath, '');
-      var newLocation = window.location.protocol + "/" + window.location.host + newPath + (pathWithoutBase.startsWith('/') ? '' : '/') + pathWithoutBase + window.location.search;
+      var newLocation = window.location.protocol + "//" + window.location.host + newPath + (pathWithoutBase.startsWith('/') ? '' : '/') + pathWithoutBase + window.location.search;
       window.location.href = newLocation; // Führen Sie die Weiterleitung durch
     }
   });
