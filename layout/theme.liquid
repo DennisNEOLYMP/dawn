@@ -17,45 +17,43 @@
 </script>
 <script src="https://app.varify.io/varify.js" defer></script>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        // Weiterleitungsregeln 
-        var redirects = {
-          "/fr": "/en",
-          "/fr-eu": "/en",
-          "/en-eu": "/en",
-          "/de-eu": "/",
-          "/fr-fr": "/en",
-          "/en-fr": "/en",
-          "/de-fr": "/",
-          "/fr-at": "/en",
-          "/en-at": "/en",
-          "/de-at": "/",
-          "/fr-ch": "/en-ch"
-        };
-      
-        // Basispfad 
-        function getBasePath(path) {
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Weiterleitungsregeln 
+    var redirects = {
+      "/fr": "/en",
+      "/fr-eu": "/en",
+      "/en-eu": "/en",
+      "/de-eu": "/",
+      "/fr-fr": "/en",
+      "/en-fr": "/en",
+      "/de-fr": "/",
+      "/fr-at": "/en",
+      "/en-at": "/en",
+      "/de-at": "/",
+      "/fr-ch": "/en-ch"
+    };
 
-          var basePath = path.split('/')[1];
-          if(basePath && basePath.includes('-')) {
-            return '/' + basePath;
-          }
-          return '';
-        }
-      
-        var currentBasePath = getBasePath(window.location.pathname);
-        var newPath = redirects[currentBasePath];
-      
+    // Basispfad 
+    function getBasePath(path) {
+      var basePath = path.split('/')[1];
+      if(basePath && basePath.includes('-')) {
+        return '/' + basePath;
+      }
+      return '';
+    }
 
-        if (newPath) {
-          var newLocation = window.location.protocol + "//" + window.location.host + newPath + window.location.pathname.replace(currentBasePath, '') + window.location.search;
-          window.location.href = newLocation;
-        }
-      });
-      
-    
-    </script>
+    var currentBasePath = getBasePath(window.location.pathname);
+    var newPath = redirects[currentBasePath];
+
+    if (newPath) {
+      var pathToReplace = currentBasePath ? currentBasePath + '/' : '';
+      var newLocation = window.location.protocol + "//" + window.location.host + newPath + window.location.pathname.replace(pathToReplace, '') + window.location.search;
+      window.location.href = newLocation;
+    }
+  });
+</script>
+
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
