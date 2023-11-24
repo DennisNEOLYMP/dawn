@@ -48,11 +48,13 @@
 
     if (newPath) {
       var pathToReplace = currentBasePath ? currentBasePath + '/' : '';
-      var newLocation = window.location.protocol + "//" + window.location.host + newPath + window.location.pathname.replace(pathToReplace, '') + window.location.search;
+      var newPathWithSlash = newPath.endsWith('/') ? newPath : newPath + '/';
+      var newLocation = window.location.protocol + "//" + window.location.host + newPathWithSlash + window.location.pathname.replace(pathToReplace, '').replace(/^\/+/, '') + window.location.search;
       window.location.href = newLocation;
     }
   });
 </script>
+
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
