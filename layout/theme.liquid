@@ -24,39 +24,45 @@
       "/fr": "/en",
       "/fr-eu": "/en",
       "/en-eu": "/en",
-      "/de-eu": "/",
+      "/de-eu": "",
       "/fr-fr": "/en",
       "/en-fr": "/en",
-      "/de-fr": "/",
+      "/de-fr": "",
       "/fr-at": "/en",
       "/en-at": "/en",
-      "/de-at": "/",
+      "/de-at": "",
       "/fr-ch": "/en-ch"
     };
 
-    // Funktion, um den Basispfad zu erhalten
+    // Basispfad der aktuellen URL ermitteln
     function getBasePath(path) {
       var segments = path.split('/');
-      if(segments.length > 1 && segments[1].includes('-')) {
+      if (segments.length > 1 && segments[1].includes('-')) {
         return '/' + segments[1];
       }
       return '';
     }
 
-    // Basispfad der aktuellen URL ermitteln
     var currentBasePath = getBasePath(window.location.pathname);
 
-    // Ziel-URL, falls vorhanden, bestimmen
+    // Ziel-URL ermitteln, falls vorhanden
     var newPath = redirects[currentBasePath];
 
-    // Weiterleitung durchführen, falls notwendig
-    if (newPath && currentBasePath !== newPath) {
+    if (newPath !== undefined && currentBasePath !== newPath) {
+      var newLocation = window.location.protocol + "//" + window.location.host;
+      if (newPath) {
+        newLocation += newPath;
+      }
       var remainingPath = window.location.pathname.substring(currentBasePath.length);
-      var newLocation = window.location.protocol + "//" + window.location.host + newPath + remainingPath + window.location.search;
+      if (!remainingPath.startsWith('/')) {
+        remainingPath = '/' + remainingPath;
+      }
+      newLocation += remainingPath + window.location.search;
       window.location.href = newLocation;
     }
   });
 </script>
+
 
 
     {%- if settings.favicon != blank -%}
