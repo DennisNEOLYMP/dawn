@@ -7,9 +7,8 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "NEOLYMP – BLACK WEEK SALE mit bis zu 55% Rabatt! 🔥",
+            "text": "NEOLYMP – Erreiche Deine Gipfel der Fitness! 🥦",
             "text_alignment": "center",
             "color_scheme": "accent-2",
             "link": ""
