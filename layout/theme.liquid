@@ -19,12 +19,7 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    var currentUrl = window.location.href;
-    if (currentUrl.includes('//')) {
-      var correctedUrl = currentUrl.replace(/\/\/+/g, '/');
-      window.location.href = correctedUrl;
-      return;
-    }
+    
     // Weiterleitungsregeln
     var redirects = {
       "/fr": "/en",
