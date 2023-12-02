@@ -19,7 +19,21 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    
+       // Get the current URL components
+       var protocol = window.location.protocol;
+    var host = window.location.host;
+    var pathname = window.location.pathname;
+    var search = window.location.search;
+
+    // Replace double slashes in the pathname
+    var correctedPathname = pathname.replace(/\/\/+/g, '/');
+    var newUrl = protocol + '//' + host + correctedPathname + search;
+
+    // Redirect if the pathname was corrected
+    if (pathname !== correctedPathname) {
+      window.location.href = newUrl;
+      return;
+    }
     // Weiterleitungsregeln
     var redirects = {
       "/fr": "/en",
