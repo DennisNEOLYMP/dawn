@@ -1,0 +1,335 @@
+{
+  "sections": {
+    "fdb5ad93-3560-46ed-bc3e-68b38bb16a2b": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16203316887820__fdb5ad93-3560-46ed-bc3e-68b38bb16a2b-16679963353381f01e-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16203316887820__fdb5ad93-3560-46ed-bc3e-68b38bb16a2b-16679963353381f01e-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16203316887820__fdb5ad93-3560-46ed-bc3e-68b38bb16a2b-16679963353381f01e-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16203316887820__fdb5ad93-3560-46ed-bc3e-68b38bb16a2b-16679963353381f01e-0",
+        "template--16203316887820__fdb5ad93-3560-46ed-bc3e-68b38bb16a2b-16679963353381f01e-1",
+        "template--16203316887820__fdb5ad93-3560-46ed-bc3e-68b38bb16a2b-16679963353381f01e-2"
+      ],
+      "settings": {
+        "image": "{{ page.metafields.custom.header_image.value }}",
+        "image_2": "shopify:\/\/shop_images\/Neolymp_9916_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "f3cfc380-9537-4a97-9838-5ca8ae500214": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "bestselling",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "37527a06-187b-4967-9ee8-c91f7d87c05e": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fitnessander_Collection_BW.png",
+            "title": "BAUCH BEINE PO",
+            "text": "<p>Sichere Dir den umfassenden NEOLYMP Bauch-Beine-Po Fitness-Deal! Die exklusiv rabattierten Produkte bietet alles, was du für ein effektives und zielgerichtetes Training benötigst.<\/p>",
+            "link_label": "ZU DEN DEALS",
+            "link": "shopify:\/\/collections\/fitnessbaender"
+          }
+        },
+        "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fitnessbander_lang_BW.png",
+            "title": "FITNESSBÄNDER DEAL",
+            "text": "<p>Erreiche neue Fitnessziele mit unserem Fitnessbänder-Sets! Diese vielseitigen Bänder sind ein unverzichtbares Werkzeug für ein effektives Ganzkörpertraining. Sie eignen sich perfekt für Krafttraining, Stretching, Pilates und vieles mehr.<\/p>",
+            "link_label": "ZU DEN DEALS",
+            "link": "shopify:\/\/collections\/fitnessbaender"
+          }
+        },
+        "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Yoga_Collection_BW.png",
+            "title": "QUICK SWEAT MIT UNSEREN FITNESSMATTEN",
+            "text": "<p>Entdecke den Unterschied mit unseren Premium-Fitnessmatten! Egal ob Yoga, Pilates, Krafttraining oder Gymnastik – diese Matten bieten dir die ideale Unterlage für ein sicheres und komfortables Workout.<\/p>",
+            "link_label": "ZU DEN DEALS",
+            "link": "shopify:\/\/collections\/sportmatten"
+          }
+        }
+      },
+      "block_order": [
+        "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-1",
+        "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-3",
+        "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "ZU ALLEN DEALS",
+        "button_link": "shopify:\/\/collections\/sale",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "77bfe488-6df6-419f-b67a-798c335212d8": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "DEAL DES JAHRES",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sale",
+        "products_to_show": 16,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "93ac2eef-e54b-43de-8303-1a4b176a9180": {
+      "type": "featured-product",
+      "blocks": {
+        "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-2": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-4": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-6": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-0",
+        "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-1",
+        "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-2",
+        "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-3",
+        "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-4",
+        "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-5",
+        "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-6"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "neolymp-geschenkgutschein",
+        "color_scheme": "inverse",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": false,
+        "media_fit": "cover",
+        "media_position": "right",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "57370455-ae9c-4e49-8680-c9e72648c0a2": {
+      "type": "multirow",
+      "blocks": {
+        "template--16203316887820__57370455-ae9c-4e49-8680-c9e72648c0a2-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Neolymp_9916_1.jpg",
+            "caption": "NEOLYMP",
+            "heading": "FITNESSBÄNDER DEAL",
+            "text": "<p>Entdecke die Welt der grenzenlosen Fitness mit unseren erstklassigen Fitnessbändern! In unserem Shop bieten wir Dir eine breite Palette von Widerstandsbändern, die als Deine persönlichen Fitnessassistenten dienen, um Deine Workouts auf das nächste Level zu heben. Unsere Fitnessbänder sind nicht nur äußerst vielseitig und für jede Fitnessstufe geeignet, sondern auch perfekt für effektive Ganzkörper-Workouts, sei es zu Hause, im Freien oder auf Reisen.<\/p>",
+            "button_label": "ZU DEN BÄNDERN",
+            "button_link": "shopify:\/\/collections\/fitnessbaender"
+          }
+        },
+        "template--16203316887820__57370455-ae9c-4e49-8680-c9e72648c0a2-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Yogamatte.jpg",
+            "caption": "NEOLYMP",
+            "heading": "YOGA DEAL",
+            "text": "<p>Namaste und herzlich willkommen in unserem Yogabereich! Tauche ein in eine Welt, in der Körper und Geist in harmonischen Einklang gebracht werden. Unsere sorgfältig ausgewählten Yoga-Artikel unterstützen Dich dabei, Deine Praxis zu vertiefen und ein vollkommenes Wohlbefinden zu erlangen. Entdecke unsere Premium-Yogamatten, die Dir nicht nur die nötige Rutschfestigkeit, sondern auch optimalen Komfort während Deiner Übungen bieten.<\/p>",
+            "button_label": "ZU DEN YOGAMATTEN",
+            "button_link": "shopify:\/\/collections\/yoga"
+          }
+        },
+        "template--16203316887820__57370455-ae9c-4e49-8680-c9e72648c0a2-row-3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sportmatten.jpg",
+            "caption": "NEOLYMP",
+            "heading": "SPORTMATTEN DEAL",
+            "text": "<p>Entdecke unsere hochwertigen Fitnessmatten, die speziell dafür entwickelt wurden, um Dein Training effektiv und komfortabel zu gestalten. Unsere Matten sind nicht nur rutschfest und langlebig, sondern bieten auch eine hervorragende Unterstützung und Polsterung für alle Arten von Übungen – sei es Yoga, Pilates oder intensive Workouts.<\/p>",
+            "button_label": "ZU DEN MATTEN",
+            "button_link": "shopify:\/\/collections\/sportmatten"
+          }
+        },
+        "3c0eddcf-b878-4dee-8f1e-bbd44bef9a48": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Klimmzugstange_be097ec7-78c9-4483-ab4f-331e14cb2dbd.jpg",
+            "caption": "NEOLYMP",
+            "heading": "SPORTGERÄTE DEAL",
+            "text": "<p>Lass Dich von erstklassiger Qualität überzeugen und entdecke, wie unsere Produkte Dir dabei helfen, Deine Performance zu steigern, Deine Ziele zu erreichen und dabei stets sicher und geschützt zu trainieren.<\/p>",
+            "button_label": "ZU DEN GERÄTEN",
+            "button_link": "shopify:\/\/collections\/sportgeraete"
+          }
+        },
+        "ff22fb66-4202-4790-8b76-dc97e1ebc668": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gewinnspiel_Header.jpg",
+            "caption": "",
+            "heading": "GEWINNSPIEL",
+            "text": "<p>Tritt ein in eine Welt, in der wir Dir nicht nur Dankeschön sagen, sondern Dich mit fantastischen Preisen belohnen möchten. In unserem Jubiläums-Gewinnspiel warten exklusive Preise und attraktive Gutscheine darauf, von Dir gewonnen zu werden!<\/p>",
+            "button_label": "ZUR TEILNAHME",
+            "button_link": "shopify:\/\/pages\/gewinnspiel"
+          }
+        }
+      },
+      "block_order": [
+        "template--16203316887820__57370455-ae9c-4e49-8680-c9e72648c0a2-row-1",
+        "template--16203316887820__57370455-ae9c-4e49-8680-c9e72648c0a2-row-2",
+        "template--16203316887820__57370455-ae9c-4e49-8680-c9e72648c0a2-row-3",
+        "3c0eddcf-b878-4dee-8f1e-bbd44bef9a48",
+        "ff22fb66-4202-4790-8b76-dc97e1ebc668"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "fdb5ad93-3560-46ed-bc3e-68b38bb16a2b",
+    "main",
+    "f3cfc380-9537-4a97-9838-5ca8ae500214",
+    "37527a06-187b-4967-9ee8-c91f7d87c05e",
+    "77bfe488-6df6-419f-b67a-798c335212d8",
+    "93ac2eef-e54b-43de-8303-1a4b176a9180",
+    "57370455-ae9c-4e49-8680-c9e72648c0a2"
+  ]
+}
