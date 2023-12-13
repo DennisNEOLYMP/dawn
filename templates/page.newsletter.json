@@ -11,7 +11,7 @@
     "1925f2cf-072b-4558-86a5-f52124fee58a": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Gewinnspiel_Header.jpg",
+        "image": "shopify:\/\/shop_images\/Neolymp_9916_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -23,109 +23,58 @@
         "show_text_below": true
       }
     },
-    "9621becc-5cc1-4092-952e-61f0b916f148": {
-      "type": "video",
+    "1702502795500444c0": {
+      "type": "apps",
+      "blocks": {
+        "fe9db158-059f-4b2f-ac2e-e4227206ac17": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "XgKeQn"
+          }
+        }
+      },
+      "block_order": [
+        "fe9db158-059f-4b2f-ac2e-e4227206ac17"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "32612122-1720-4ab2-9897-3c60f1699e00": {
+      "type": "collage",
+      "blocks": {
+        "template--18626753462540__32612122-1720-4ab2-9897-3c60f1699e00-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Yogamatte.jpg"
+          }
+        },
+        "template--18626753462540__32612122-1720-4ab2-9897-3c60f1699e00-product-1": {
+          "type": "product",
+          "settings": {
+            "product": "bodenschutzmatte",
+            "second_image": false
+          }
+        },
+        "template--18626753462540__32612122-1720-4ab2-9897-3c60f1699e00-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "alles"
+          }
+        }
+      },
+      "block_order": [
+        "template--18626753462540__32612122-1720-4ab2-9897-3c60f1699e00-image-1",
+        "template--18626753462540__32612122-1720-4ab2-9897-3c60f1699e00-product-1",
+        "template--18626753462540__32612122-1720-4ab2-9897-3c60f1699e00-collection-1"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "5942ed86-ff0b-4ad1-a616-be5921234161": {
-      "type": "newsletter",
-      "blocks": {
-        "template--15568644243647__5942ed86-ff0b-4ad1-a616-be5921234161-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
-          }
-        },
-        "template--15568644243647__5942ed86-ff0b-4ad1-a616-be5921234161-paragraph-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
-          }
-        },
-        "template--15568644243647__5942ed86-ff0b-4ad1-a616-be5921234161-email_form-1": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--15568644243647__5942ed86-ff0b-4ad1-a616-be5921234161-heading-1",
-        "template--15568644243647__5942ed86-ff0b-4ad1-a616-be5921234161-paragraph-1",
-        "template--15568644243647__5942ed86-ff0b-4ad1-a616-be5921234161-email_form-1"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "9374510f-d60a-4f81-98bb-5606700b08ef": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Gewinne.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "71bc25d1-d0b4-4354-9f18-9154992f207d": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15568644243647__71bc25d1-d0b4-4354-9f18-9154992f207d-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "TEIHNAHME BEDINGUNGEN",
-            "heading_size": "h1"
-          }
-        },
-        "template--15568644243647__71bc25d1-d0b4-4354-9f18-9154992f207d-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--15568644243647__71bc25d1-d0b4-4354-9f18-9154992f207d-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15568644243647__71bc25d1-d0b4-4354-9f18-9154992f207d-heading-1",
-        "template--15568644243647__71bc25d1-d0b4-4354-9f18-9154992f207d-text-1",
-        "template--15568644243647__71bc25d1-d0b4-4354-9f18-9154992f207d-button-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Teilnahmebedingung.jpg",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -134,9 +83,7 @@
   "order": [
     "main",
     "1925f2cf-072b-4558-86a5-f52124fee58a",
-    "9621becc-5cc1-4092-952e-61f0b916f148",
-    "5942ed86-ff0b-4ad1-a616-be5921234161",
-    "9374510f-d60a-4f81-98bb-5606700b08ef",
-    "71bc25d1-d0b4-4354-9f18-9154992f207d"
+    "1702502795500444c0",
+    "32612122-1720-4ab2-9897-3c60f1699e00"
   ]
 }
