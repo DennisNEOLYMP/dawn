@@ -86,15 +86,38 @@
         "padding_bottom": 36
       }
     },
+    "c7647d82-0b25-45c5-9055-f97bd3d39759": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16203316887820__c7647d82-0b25-45c5-9055-f97bd3d39759-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "22% mit \"NEWME2024\"",
+            "heading_size": "hxl"
+          }
+        }
+      },
+      "block_order": [
+        "template--16203316887820__c7647d82-0b25-45c5-9055-f97bd3d39759-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "37527a06-187b-4967-9ee8-c91f7d87c05e": {
       "type": "multicolumn",
       "blocks": {
         "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Fitnessander_Collection_BW.png",
+            "image": "shopify:\/\/shop_images\/Deal_2.0.jpg",
             "title": "BAUCH BEINE PO",
-            "text": "<p>Sichere Dir den umfassenden NEOLYMP Bauch-Beine-Po Fitness-Deal! Die exklusiv rabattierten Produkte bietet alles, was du für ein effektives und zielgerichtetes Training benötigst.<\/p>",
+            "text": "<p>Sichere dir noch heute den umfassenden NEOLYMP Bauch-Beine-Po Fitness-Deal und starte dein neues Jahr mit voller Motivation und Kraft! Unsere exklusiv rabattierten Produkte sind genau das, was du benötigst, um ein effektives und zielgerichtetes Training für Bauch, Beine und Po zu absolvieren.<\/p>",
             "link_label": "ZU DEN DEALS",
             "link": "shopify:\/\/collections\/fitnessbaender"
           }
@@ -102,9 +125,9 @@
         "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Fitnessbander_lang_BW.png",
-            "title": "FITNESSBÄNDER DEAL",
-            "text": "<p>Erreiche neue Fitnessziele mit unserem Fitnessbänder-Sets! Diese vielseitigen Bänder sind ein unverzichtbares Werkzeug für ein effektives Ganzkörpertraining. Sie eignen sich perfekt für Krafttraining, Stretching, Pilates und vieles mehr.<\/p>",
+            "image": "shopify:\/\/shop_images\/Deal3.1.jpg",
+            "title": "FITNESSBÄNDER - \"Dein Fitnesspartner für überall\"",
+            "text": "<p>Starte das neue Jahr mit Schwung und erreiche deine Fitnessziele mit unserem exklusiven Neujahrs-Sale-Angebot für Fitnessbänder-Sets! Diese vielseitigen Bänder sind ein unverzichtbares Werkzeug für dein effektives Ganzkörpertraining. Nutze die Gelegenheit, deine Stärke zu steigern, deine Flexibilität zu verbessern und das Beste aus deinem Workout herauszuholen. Greif jetzt zu und setze deine sportlichen Vorsätze für das neue Jahr in die Tat um!<\/p>",
             "link_label": "ZU DEN DEALS",
             "link": "shopify:\/\/collections\/fitnessbaender"
           }
@@ -112,9 +135,9 @@
         "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Yoga_Collection_BW.png",
-            "title": "QUICK SWEAT MIT UNSEREN FITNESSMATTEN",
-            "text": "<p>Entdecke den Unterschied mit unseren Premium-Fitnessmatten! Egal ob Yoga, Pilates, Krafttraining oder Gymnastik – diese Matten bieten dir die ideale Unterlage für ein sicheres und komfortables Workout.<\/p>",
+            "image": "shopify:\/\/shop_images\/Deal_1.1.jpg",
+            "title": "ENTSPANNUNG MIT AKUPRESSURMATTEN",
+            "text": "<p>Gönn dir Entspannung und Zeit für dich selbst mit unserer Akupressurmatte! Das neue Jahr ist die perfekte Zeit, um sich um deine innere Ruhe und Entspannung zu kümmern. Unsere Akupressurmatte bietet dir eine wohltuende Auszeit vom stressigen Alltag. Die sanften Druckpunkte auf der Matte helfen, Verspannungen zu lösen und Stress abzubauen. Nimm dir die Zeit, die du verdienst, um zur Ruhe zu kommen, dich zu erholen und deine Gesundheit zu fördern.<\/p>",
             "link_label": "ZU DEN DEALS",
             "link": "shopify:\/\/collections\/sportmatten"
           }
@@ -133,7 +156,7 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "ZU ALLEN DEALS",
+        "button_label": "ZU ALLEN PRODUKTEN",
         "button_link": "shopify:\/\/collections\/sale",
         "color_scheme": "background-1",
         "columns_mobile": "1",
@@ -145,7 +168,7 @@
     "77bfe488-6df6-419f-b67a-798c335212d8": {
       "type": "featured-collection",
       "settings": {
-        "title": "DEAL DES JAHRES",
+        "title": "",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -327,6 +350,7 @@
     "fdb5ad93-3560-46ed-bc3e-68b38bb16a2b",
     "main",
     "f3cfc380-9537-4a97-9838-5ca8ae500214",
+    "c7647d82-0b25-45c5-9055-f97bd3d39759",
     "37527a06-187b-4967-9ee8-c91f7d87c05e",
     "77bfe488-6df6-419f-b67a-798c335212d8",
     "93ac2eef-e54b-43de-8303-1a4b176a9180",
