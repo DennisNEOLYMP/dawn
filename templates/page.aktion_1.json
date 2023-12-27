@@ -115,31 +115,31 @@
         "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Deal_2.0.jpg",
-            "title": "BAUCH BEINE PO",
-            "text": "<p>Sichere dir noch heute den umfassenden NEOLYMP Bauch-Beine-Po Fitness-Deal und starte dein neues Jahr mit voller Motivation und Kraft! Unsere exklusiv rabattierten Produkte sind genau das, was du benötigst, um ein effektives und zielgerichtetes Training für Bauch, Beine und Po zu absolvieren.<\/p>",
+            "image": "shopify:\/\/shop_images\/Frau_3.jpg",
+            "title": "SPORTBODEN",
+            "text": "<p>Unser hochwertiger Sportboden bietet die ideale Grundlage für dein Training und unterstützt dich dabei, deine Neujahrsvorsätze in die Tat umzusetzen. Ob du Zuhause trainierst, in einem Fitnessstudio oder einem Sportverein – der Boden spielt eine wichtige Rolle für deine Sicherheit und den Komfort während des Trainings.<\/p>",
             "link_label": "ZU DEN DEALS",
-            "link": "shopify:\/\/collections\/fitnessbaender"
+            "link": "shopify:\/\/collections\/sportmatten"
           }
         },
         "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Deal3.1.jpg",
-            "title": "FITNESSBÄNDER - \"Dein Fitnesspartner für überall\"",
-            "text": "<p>Starte das neue Jahr mit Schwung und erreiche deine Fitnessziele mit unserem exklusiven Neujahrs-Sale-Angebot für Fitnessbänder-Sets! Diese vielseitigen Bänder sind ein unverzichtbares Werkzeug für dein effektives Ganzkörpertraining. Nutze die Gelegenheit, deine Stärke zu steigern, deine Flexibilität zu verbessern und das Beste aus deinem Workout herauszuholen. Greif jetzt zu und setze deine sportlichen Vorsätze für das neue Jahr in die Tat um!<\/p>",
-            "link_label": "ZU DEN DEALS",
-            "link": "shopify:\/\/collections\/fitnessbaender"
+            "image": "shopify:\/\/shop_images\/kostenlose_E-Books.jpg",
+            "title": "E-BOOKS - \"Dein Fitnesspartner für überall\"",
+            "text": "<p>Bei jeder Bestellung bei NEOLYMP erhältst du jetzt ein kostenloses E-Book als Bonus! Wir möchten sicherstellen, dass du schnell und effektiv ins Training einsteigen kannst, deshalb schenken wir dir unser exklusives E-Book.<\/p>",
+            "link_label": "ZU DEN PRODUKTEN",
+            "link": "shopify:\/\/collections\/alles"
           }
         },
         "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Deal_1.1.jpg",
-            "title": "ENTSPANNUNG MIT AKUPRESSURMATTEN",
-            "text": "<p>Gönn dir Entspannung und Zeit für dich selbst mit unserer Akupressurmatte! Das neue Jahr ist die perfekte Zeit, um sich um deine innere Ruhe und Entspannung zu kümmern. Unsere Akupressurmatte bietet dir eine wohltuende Auszeit vom stressigen Alltag. Die sanften Druckpunkte auf der Matte helfen, Verspannungen zu lösen und Stress abzubauen. Nimm dir die Zeit, die du verdienst, um zur Ruhe zu kommen, dich zu erholen und deine Gesundheit zu fördern.<\/p>",
-            "link_label": "ZU DEN DEALS",
-            "link": "shopify:\/\/collections\/sportmatten"
+            "image": "shopify:\/\/shop_images\/5_Jahre_Garantie.jpg",
+            "title": "5 - JAHRE GARANTIE",
+            "text": "<p>Vertrauen und Qualität sind für uns bei NEOLYMP von größter Bedeutung. Daher sind wir stolz darauf, unsere 5-jährige NEOLYMP Garantie anzubieten.<\/p><p>Mit unserer 5-jährigen Garantie zeigen wir unser uneingeschränktes Vertrauen in die Qualität unserer Produkte. Wir sind davon überzeugt, dass unsere Ausrüstung und Fitnessprodukte höchsten Standards entsprechen und den Anforderungen deines Trainings gerecht werden.<\/p>",
+            "link_label": "ZU DEN PRODUKTEN",
+            "link": "shopify:\/\/collections\/alles"
           }
         }
       },
