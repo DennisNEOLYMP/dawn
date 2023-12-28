@@ -406,6 +406,7 @@
       "blocks": {
         "1387738f-a503-47db-a9bc-5f4e3490e48e": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "neolymp-geschenkgutschein",
             "second_image": false
