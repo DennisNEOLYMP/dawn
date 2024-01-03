@@ -415,22 +415,14 @@
         "product": {
           "type": "product",
           "settings": {
-            "product": "fitnessbaender-stoff-kurz-sets",
-            "second_image": false
-          }
-        },
-        "34c6de8d-4edf-4687-9248-64f278a7856c": {
-          "type": "product",
-          "settings": {
-            "product": "resistance-bands-sets",
+            "product": "neolymp-geschenkgutschein",
             "second_image": false
           }
         }
       },
       "block_order": [
         "1387738f-a503-47db-a9bc-5f4e3490e48e",
-        "product",
-        "34c6de8d-4edf-4687-9248-64f278a7856c"
+        "product"
       ],
       "settings": {
         "heading": "",
