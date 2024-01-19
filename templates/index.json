@@ -5,7 +5,6 @@
       "blocks": {
         "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-0": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/header_matte_portugal.jpg",
             "heading": "Marken Fitnessprodukte",
@@ -59,31 +58,12 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "36be13e6-e3ff-48b5-b67a-9a63985a486e": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/GroA_2fc41844-a62a-4e36-95fa-967dfd79dac2.jpg",
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "ZU DEN ANGEBOTEN",
-            "link": "shopify:\/\/pages\/aktion",
-            "button_style_secondary": false,
-            "box_align": "bottom-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-0",
         "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-1",
-        "ca12df02-2599-46fe-b242-68d807347991",
-        "36be13e6-e3ff-48b5-b67a-9a63985a486e"
+        "ca12df02-2599-46fe-b242-68d807347991"
       ],
       "settings": {
         "layout": "full_bleed",
