@@ -284,6 +284,12 @@
           "button_vertical_position": "lowest",
           "greeting_message": "👋 Hallo! Bitte schreibe uns eine Nachricht, falls du Fragen hast, oder gib uns einen Tipp, wonach du suchst. Wir schlagen dir gerne etwas vor."
         }
+      },
+      "11349500561483629931": {
+        "type": "shopify:\/\/apps\/notify-back-in-stock-preorder\/blocks\/app-embed\/b399b727-6c85-44fc-9e21-63114bd72054",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
