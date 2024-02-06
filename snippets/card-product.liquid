@@ -137,7 +137,7 @@
                 class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
               >
 
-                {% if product.tags contains 'B-Ware' %}
+                {% if card_product.tags contains 'B-Ware' %}
                   B-WARE
                 {% else %}
                   {{- 'products.product.on_sale' | t -}}
