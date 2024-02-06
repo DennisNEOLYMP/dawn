@@ -138,8 +138,9 @@
               >
 
                 {% if card_product.tags contains 'B-Ware' %}
-                  B-Ware
+                  {{- 'products.product.alternative_text_badge' | t -}}
                 {% else %}
+                  
                   {{- 'products.product.on_sale' | t -}}
                 {% endif %}
                   
