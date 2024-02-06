@@ -21,37 +21,70 @@
             "text_alignment_mobile": "center"
           }
         },
-        "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-1": {
+        "slide_bnG8ww": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/rm376-a04_988c3125-0e7b-42ea-9f86-312608c55c88.jpg",
-            "heading": "Alles muss raus!",
+            "image": "shopify:\/\/shop_images\/Yogamatte.jpg",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Wir machen Frühjahrsputz - und du sparst dabei!",
-            "button_label": "Zur B-Ware",
-            "link": "shopify:\/\/collections\/b-ware",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
             "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": true,
+            "box_align": "middle-center",
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
         },
-        "ca12df02-2599-46fe-b242-68d807347991": {
+        "slide_7UJeiL": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Weihnachtsgruesse_aus_dem_NEOLYMP-Lager_slide.jpg",
-            "heading": "Marken Fitnessprodukte",
+            "image": "shopify:\/\/shop_images\/Klimmzugstange_be097ec7-78c9-4483-ab4f-331e14cb2dbd.jpg",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Trainiere überall mit unseren qualitativen Fitnessprodukten inkl. E-Book und 5 Jahre Garantie.",
-            "button_label": "JETZT ENTDECKEN!",
-            "link": "shopify:\/\/collections\/all",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-right",
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_N9bwQ7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Neolymp_0330.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_B6pfWH": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
@@ -62,8 +95,10 @@
       },
       "block_order": [
         "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-0",
-        "template--15568644440255__2e4c116c-0725-42fa-ae80-5c02d3742ff2-16788820803159f341-1",
-        "ca12df02-2599-46fe-b242-68d807347991"
+        "slide_bnG8ww",
+        "slide_7UJeiL",
+        "slide_N9bwQ7",
+        "slide_B6pfWH"
       ],
       "settings": {
         "layout": "full_bleed",
