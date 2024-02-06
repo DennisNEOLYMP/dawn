@@ -2858,6 +2858,7 @@ details-disclosure > details {
   border-color: none;
   color: rgb(var(--color-foreground));
   word-break: break-word;
+  border-radius: 100px;
 }
 
 .gradient {
