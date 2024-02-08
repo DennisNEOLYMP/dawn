@@ -75,7 +75,7 @@
         "slide_3ggxdt": {
           "type": "slide",
           "settings": {
-            "image": "{{ collection.image }}",
+            "image": "{{ collection.metafields.custom.alter_shop_teiler_image.value }}",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
