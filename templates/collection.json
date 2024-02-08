@@ -111,20 +111,20 @@
           "type": "row",
           "settings": {
             "image": "{{ collection.metafields.custom.alter_shop_st_rer_1.value }}",
-            "caption": "Caption",
+            "caption": "{{ collection.title }}",
             "heading": "Row",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_pMR7AU": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
+            "caption": "{{ collection.title }}",
             "heading": "Row",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         }
