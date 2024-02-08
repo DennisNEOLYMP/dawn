@@ -156,13 +156,14 @@
         "image_6RaDgT": {
           "type": "image",
           "settings": {
+            "image": "{{ collection.metafields.custom.alter_shop_main_st_rer_image.value }}"
           }
         },
         "product_chwQEy": {
           "type": "product",
           "settings": {
-            "product": "",
-            "second_image": true
+            "product": "fitnessbaender-stoff-lang-sets",
+            "second_image": false
           }
         },
         "collection_WKtk3W": {
