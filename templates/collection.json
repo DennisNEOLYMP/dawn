@@ -159,16 +159,16 @@
             "image": "{{ collection.metafields.custom.alter_shop_main_st_rer_image.value }}"
           }
         },
-        "collection_WKtk3W": {
-          "type": "collection",
+        "image_yXFDtq": {
+          "type": "image",
           "settings": {
-            "collection": "{{ collection }}"
+            "image": "{{ collection.image }}"
           }
         }
       },
       "block_order": [
         "image_6RaDgT",
-        "collection_WKtk3W"
+        "image_yXFDtq"
       ],
       "settings": {
         "heading": "",
