@@ -75,6 +75,7 @@
         "slide_3ggxdt": {
           "type": "slide",
           "settings": {
+            "image": "{{ collection.image }}",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
