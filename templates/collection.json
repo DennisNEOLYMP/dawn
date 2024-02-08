@@ -112,8 +112,8 @@
           "settings": {
             "image": "{{ collection.metafields.custom.alter_shop_st_rer_1.value }}",
             "caption": "{{ collection.title }}",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "heading": "{{ collection.metafields.custom.alter_shop_st_rer_1_heading.value }}",
+            "text": "<p>{{ collection.metafields.custom.alter_shop_st_rer_1_multiline_text | metafield_tag }}<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -121,9 +121,10 @@
         "row_pMR7AU": {
           "type": "row",
           "settings": {
+            "image": "{{ collection.metafields.custom.alter_shop_st_rer_2_image.value }}",
             "caption": "{{ collection.title }}",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "heading": "{{ collection.metafields.custom.alter_shop_st_rer_2_heading.value }}",
+            "text": "<p>{{ collection.metafields.custom.alter_shop_st_rer_2_multiline_text | metafield_tag }}<\/p>",
             "button_label": "",
             "button_link": ""
           }
