@@ -11,6 +11,7 @@
     "image_banner_BbibxJ": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Sale.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
