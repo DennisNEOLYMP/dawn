@@ -181,6 +181,28 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_PLJx7X": {
+      "type": "rich-text",
+      "blocks": {
+        "text_WhBMza": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Bist du ein Fan von Top-Deals? <\/strong><\/h3><p>Wir haben großartige Nachrichten: Ständig gibt es bei NEOLYMP neue Aktionscodes, die dir ermöglichen, deine Lieblingsartikel aus den Bereichen Fitness und Wellness zu unglaublich niedrigen Preisen zu shoppen. Speziell zu Shopping-Events wie dem Black Friday erwarten dich zahlreiche exklusive Angebote. Aber auch zu anderen Zeiten findest du verlockende Schnäppchen, darunter spezielle Rabatte für unsere neuen Kunden oder Gutscheincodes, mit denen du auf das gesamte NEOLYMP Sortiment sparen kannst. Egal ob es um Sportausrüstung, Kleidung oder Accessoires für dein Wohlbefinden geht – löse einfach deinen NEOLYMP Code beim Checkout ein und profitiere von den Rabatten.<\/p><h3><strong>NEOLYMP Partneraktionen<\/strong><\/h3><p><br\/>Unsere Partnerschaften bringen dir zusätzliche Vorteile, also halte die Augen nach exklusiven NEOLYMP Codes auf. Verfolge unsere Updates auch auf Instagram, um keine unserer Aktionen zu verpassen – ein Follow lohnt sich! Und wenn du als Influencer mit NEOLYMP zusammenarbeiten möchtest, kontaktiere uns gerne per E-Mail für einen speziellen Rabattcode.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_WhBMza"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -188,6 +210,7 @@
     "image_banner_BbibxJ",
     "image_with_text_NBw7MB",
     "image_with_text_9Yfgdb",
-    "image_with_text_ca3TWe"
+    "image_with_text_ca3TWe",
+    "rich_text_PLJx7X"
   ]
 }
