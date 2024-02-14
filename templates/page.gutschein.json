@@ -29,7 +29,7 @@
         "caption_BrzFEx": {
           "type": "caption",
           "settings": {
-            "caption": "Add a tagline",
+            "caption": "RABATT CODE",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
@@ -51,7 +51,7 @@
         "button_hHKcHL": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "JETZT EINLÖSEN",
             "button_link": ""
           }
         }
@@ -63,6 +63,7 @@
         "button_hHKcHL"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/5Rabatt.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -78,6 +79,14 @@
     "image_with_text_9Yfgdb": {
       "type": "image-with-text",
       "blocks": {
+        "caption_awXYHk": {
+          "type": "caption",
+          "settings": {
+            "caption": "NEWSLETTER",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading_zYMixA": {
           "type": "heading",
           "settings": {
@@ -95,17 +104,19 @@
         "button_DtwQqV": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "JETZT EINLÖSEN",
             "button_link": ""
           }
         }
       },
       "block_order": [
+        "caption_awXYHk",
         "heading_zYMixA",
         "text_AWgnEh",
         "button_DtwQqV"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Biszu20.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -121,6 +132,14 @@
     "image_with_text_ca3TWe": {
       "type": "image-with-text",
       "blocks": {
+        "caption_q9RihC": {
+          "type": "caption",
+          "settings": {
+            "caption": "GESCHENKGUTSCHEIN",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading_bPJBxq": {
           "type": "heading",
           "settings": {
@@ -138,17 +157,19 @@
         "button_LWcmkg": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "JETZT EINLÖSEN",
             "button_link": ""
           }
         }
       },
       "block_order": [
+        "caption_q9RihC",
         "heading_bPJBxq",
         "text_qYYBRE",
         "button_LWcmkg"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Geschenkgutscheine.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
