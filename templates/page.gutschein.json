@@ -143,7 +143,7 @@
         "heading_bPJBxq": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Geschenkgutscheine",
             "heading_size": "h1"
           }
         },
@@ -169,7 +169,7 @@
         "button_LWcmkg"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Geschenkgutscheine.jpg",
+        "image": "shopify:\/\/shop_images\/visitenkartendiversejpg.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
