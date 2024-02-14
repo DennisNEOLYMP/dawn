@@ -248,7 +248,7 @@
       ],
       "disabled": true,
       "settings": {
-        "product": "neolymp-geschenkgutschein",
+        "product": "geschenkgutschein",
         "color_scheme": "inverse",
         "secondary_background": false,
         "media_size": "medium",

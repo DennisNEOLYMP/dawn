@@ -405,14 +405,14 @@
           "type": "product",
           "disabled": true,
           "settings": {
-            "product": "neolymp-geschenkgutschein",
+            "product": "geschenkgutschein",
             "second_image": false
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "neolymp-geschenkgutschein",
+            "product": "geschenkgutschein",
             "second_image": false
           }
         }
