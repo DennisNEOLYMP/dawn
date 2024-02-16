@@ -44,7 +44,7 @@
         "text_RttPh8": {
           "type": "text",
           "settings": {
-            "text": "<p>Nutze den 5% Gutschein auf deinen nächsten Einkauf im NEOLYMP Shop und optimiere dein Training. Hochwertige Sportbekleidung und Zubehör warten auf dich. Schnapp dir jetzt die besten Deals!<br\/><\/p><p>Sobald du auf \"Jetzt einlösen\" klickst, wird der Rabatt automatisch in deinem Warenkorb hinterlegt. Unser 5% Rabattcode kann  nur einmal pro Person eingelöst werden. <\/p>",
+            "text": "<p>Nutze den 5% Gutschein auf deinen nächsten Einkauf im NEOLYMP Shop und optimiere dein Training. Hochwertige Sportbekleidung und Zubehör warten auf dich. Schnapp dir jetzt die besten Deals!<br\/><\/p><p>Sobald du auf \"Jetzt einlösen\" klickst, wird der Rabatt automatisch in deinem Warenkorb hinterlegt. Dein Ersparnis wird an der Kasse erneut angezeigt. Unser 5% Rabattcode kann  nur einmal pro Person eingelöst werden. <\/p>",
             "text_style": "body"
           }
         },
