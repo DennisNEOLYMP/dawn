@@ -190,6 +190,93 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_w9JKGd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ftXhUP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Anleitung - Klimmzugstange im Türrahmen",
+            "heading_size": "h2"
+          }
+        },
+        "text_bgbPjQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_EVaUQX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_ftXhUP",
+        "text_bgbPjQ",
+        "button_EVaUQX"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_Qke3YQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_e8raG4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Anleitung - Teleskop Klimmzugstange",
+            "heading_size": "h2"
+          }
+        },
+        "text_RdbAhq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_wWdjth": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_e8raG4",
+        "text_RdbAhq",
+        "button_wWdjth"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/brand_ads_primeday_Fitnessmatte_02_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -206,6 +293,8 @@
     "ad44eb10-10f0-4851-8f21-af34476605ac",
     "bfb2c7d8-7d26-4c08-87ed-e40c0ee636a3",
     "004cfca6-8de1-4877-a5dd-07d830321ab9",
+    "image_with_text_w9JKGd",
+    "image_with_text_Qke3YQ",
     "form"
   ]
 }
