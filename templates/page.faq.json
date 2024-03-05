@@ -210,8 +210,8 @@
         "button_EVaUQX": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "ANLEITUNG DOWNLOADEN",
+            "button_link": "https:\/\/drive.google.com\/file\/d\/1cDZbw-NgPsMwVQH0d6BCh-td-dTbLIsh\/view?usp=sharing"
           }
         }
       },
@@ -220,9 +220,8 @@
         "text_bgbPjQ",
         "button_EVaUQX"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Klimmzugstange.jpg",
+        "image": "shopify:\/\/shop_images\/Anleitung_Klimmzugstange_im_Turrahmen.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -255,8 +254,8 @@
         "button_wWdjth": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "ANLEITUNG DOWNLOADEN",
+            "button_link": "https:\/\/drive.google.com\/file\/d\/1ZbUlXCaBhwoGpbvtSneAEeQ3tEaliKLn\/view?usp=sharing"
           }
         }
       },
@@ -265,9 +264,8 @@
         "text_RdbAhq",
         "button_wWdjth"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/klimmzugstangebild01.jpg",
+        "image": "shopify:\/\/shop_images\/Anleitung_klimmzugstange_Teleskop.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
