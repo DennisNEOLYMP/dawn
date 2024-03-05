@@ -190,6 +190,29 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_PAPC9a": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pLy6rj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Anleitungen",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pLy6rj"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_with_text_w9JKGd": {
       "type": "image-with-text",
       "blocks": {
@@ -294,6 +317,7 @@
     "ad44eb10-10f0-4851-8f21-af34476605ac",
     "bfb2c7d8-7d26-4c08-87ed-e40c0ee636a3",
     "004cfca6-8de1-4877-a5dd-07d830321ab9",
+    "rich_text_PAPC9a",
     "image_with_text_w9JKGd",
     "image_with_text_Qke3YQ",
     "form"
