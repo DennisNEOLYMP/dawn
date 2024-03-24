@@ -156,9 +156,9 @@
         "collapsible_row_6jKRx7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "{{ block.settings.page.metafields.custom.q_a_pp_frage_alter_shop.value }}",
+            "heading": "{{ collection.metafields.custom.alter_shop_qa_frage_1.value }}",
             "icon": "check_mark",
-            "row_content": "<p>{{ block.settings.page.metafields.custom.q_a_pp_antwort_alter_shop | metafield_tag }}<\/p>",
+            "row_content": "<p>{{ collection.metafields.custom.collection_qa_antwort_alter_shop | metafield_tag }}<\/p>",
             "page": ""
           }
         },
