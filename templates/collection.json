@@ -156,9 +156,9 @@
         "collapsible_row_6jKRx7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Kann man mit Fitnessbändern Muskeln aufbauen?",
+            "heading": "{{ block.settings.page.metafields.custom.q_a_pp_frage_alter_shop.value }}",
             "icon": "check_mark",
-            "row_content": "<p><strong>JA<\/strong> – es ist möglich, Muskeln mit Fitnessbändern aufzubauen! Das wurde durch eine Metaanalyse von 2019, welche acht verschiedene Studien zusammenfasst, bestätigt.<\/p>",
+            "row_content": "<p>{{ block.settings.page.metafields.custom.q_a_pp_antwort_alter_shop | metafield_tag }}<\/p>",
             "page": ""
           }
         },
