@@ -150,6 +150,70 @@
         "padding_bottom": 36
       }
     },
+    "collapsible_content_icGXDe": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_6jKRx7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kann man mit Fitnessbändern Muskeln aufbauen?",
+            "icon": "check_mark",
+            "row_content": "<p><strong>JA<\/strong> – es ist möglich, Muskeln mit Fitnessbändern aufzubauen! Das wurde durch eine Metaanalyse von 2019, welche acht verschiedene Studien zusammenfasst, bestätigt.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aNjA9C": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_Ya7xCg": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_mLy8cn": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_6jKRx7",
+        "collapsible_row_aNjA9C",
+        "collapsible_row_Ya7xCg",
+        "collapsible_row_mLy8cn"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collage_9B3BkW": {
       "type": "collage",
       "blocks": {
@@ -199,6 +263,7 @@
     "6505ed0b-d1c5-4f68-a2e6-487d94aa8fbd",
     "slideshow_pLfYay",
     "multirow_CrPXaH",
+    "collapsible_content_icGXDe",
     "collage_9B3BkW",
     "8c62f97f-b70f-4b49-a8de-0466b51a4506"
   ]
