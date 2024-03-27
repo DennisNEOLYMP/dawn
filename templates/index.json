@@ -112,6 +112,48 @@
         "accessibility_info": "Markenslideshow"
       }
     },
+    "rich_text_Enq4DL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UyWJgM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Marken Fitnessprodukte",
+            "heading_size": "h1"
+          }
+        },
+        "text_nU7gth": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Trainiere überall mit unseren qualitativen Fitnessprodukten inkl. E-Book und 5 Jahre Garantie.<\/p>"
+          }
+        },
+        "button_HPEG4n": {
+          "type": "button",
+          "settings": {
+            "button_label": "JETZT ENTDECKEN!",
+            "button_link": "shopify:\/\/collections\/alles",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UyWJgM",
+        "text_nU7gth",
+        "button_HPEG4n"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1662381693659ef961": {
       "type": "multicolumn",
       "blocks": {
@@ -502,6 +544,7 @@
   },
   "order": [
     "2e4c116c-0725-42fa-ae80-5c02d3742ff2",
+    "rich_text_Enq4DL",
     "1662381693659ef961",
     "featured_collection",
     "fcd25ea0-c462-44dd-be83-deb8fc6eb194",
