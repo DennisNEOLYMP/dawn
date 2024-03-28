@@ -39,9 +39,9 @@
       ],
       "settings": {
         "image": "{{ page.metafields.custom.header_image.value }}",
-        "image_2": "shopify:\/\/shop_images\/Miniband_Outdoor.jpg",
+        "image_2": "shopify:\/\/shop_images\/Newsletter.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -80,6 +80,7 @@
         "template--18572629868812__c852ed13-e296-46ff-8c98-79ff61f7088b-heading-1",
         "template--18572629868812__c852ed13-e296-46ff-8c98-79ff61f7088b-text-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -94,6 +95,7 @@
       "blocks": {
         "7484d0a0-807d-4d92-8f34-16733266cd49": {
           "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "disabled": true,
           "settings": {
             "formId": "S5eQNM"
           }
