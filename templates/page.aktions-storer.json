@@ -51,6 +51,48 @@
         "show_text_below": true
       }
     },
+    "rich_text_VTRgEb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8VnEQR": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>OBERNICE OSTER PREISE! 🐰<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_JAxkhj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Passend zur Osterzeit hat NEOLYMP speziell für euch einige unwiderstehliche Angebote zusammengestellt, mit denen ihr eure Fitnessziele erreichen und gleichzeitig sparen könnt!<br\/><br\/><strong>Dein exklusiver 17% Rabattcode! <\/strong><\/p>"
+          }
+        },
+        "button_fkwPJa": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8VnEQR",
+        "text_JAxkhj",
+        "button_fkwPJa"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -291,6 +333,7 @@
   },
   "order": [
     "fdb5ad93-3560-46ed-bc3e-68b38bb16a2b",
+    "rich_text_VTRgEb",
     "main",
     "c852ed13-e296-46ff-8c98-79ff61f7088b",
     "1701859758a36d17f1",
