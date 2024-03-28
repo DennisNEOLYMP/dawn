@@ -64,11 +64,12 @@
         "text_JAxkhj": {
           "type": "text",
           "settings": {
-            "text": "<p>Passend zur Osterzeit hat NEOLYMP speziell für euch einige unwiderstehliche Angebote zusammengestellt, mit denen ihr eure Fitnessziele erreichen und gleichzeitig sparen könnt!<br\/><br\/><strong>Dein exklusiver 17% Rabattcode! <\/strong><\/p>"
+            "text": "<h3>Passend zur Osterzeit hat NEOLYMP speziell für euch einige unwiderstehliche Angebote zusammengestellt, mit denen ihr eure Fitnessziele erreichen und gleichzeitig sparen könnt!<br\/><br\/><strong>Dein exklusiver 17% Rabattcode! <\/strong><\/h3><h3><\/h3><h3><strong>\" EASTER 17 \"<\/strong><\/h3>"
           }
         },
         "button_fkwPJa": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Jetzt \" EASTER17 \" einlösen",
             "button_link": "https:\/\/neolymp.com\/discount\/EASTER17?redirect=%2Fcollections%2Falles",
