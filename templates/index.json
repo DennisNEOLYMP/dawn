@@ -5,6 +5,7 @@
       "blocks": {
         "slide_rJdj3e": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/banner_4.jpg",
             "heading": "",
