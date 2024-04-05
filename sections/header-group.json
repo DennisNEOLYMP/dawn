@@ -7,9 +7,8 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "17% Oster-Rabatt mit dem Code: EASTER17",
+            "text": "FITNESS MIT NEOLYMP 🔥",
             "text_alignment": "center",
             "color_scheme": "accent-2",
             "link": ""
