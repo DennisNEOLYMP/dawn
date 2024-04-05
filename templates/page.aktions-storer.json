@@ -39,7 +39,7 @@
       ],
       "settings": {
         "image": "{{ page.metafields.custom.header_image.value }}",
-        "image_2": "shopify:\/\/shop_images\/banner_4.jpg",
+        "image_2": "shopify:\/\/shop_images\/zubehor_2.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -64,7 +64,7 @@
         "text_JAxkhj": {
           "type": "text",
           "settings": {
-            "text": "<h3>Wir haben fantastische Neuigkeiten, die wir gerne mit Dir teilen möchten! Aufgrund der überwältigenden Resonanz haben wir uns entschlossen, Dir ein nachträgliches Ostergeschenk zu machen: <strong>Die NEOLYMP Oster-Aktion wird verlängert!<\/strong><br\/><br\/><strong>Dein exklusiver 17% Rabattcode! <\/strong><\/h3><h3><\/h3><h3><strong>\" EASTER 17 \"<\/strong><\/h3>"
+            "text": "<h3>Wir haben fantastische Neuigkeiten, die wir gerne mit Dir teilen möchten! Aufgrund der überwältigenden Resonanz haben wir uns entschlossen, Dir ein nachträgliches Ostergeschenk zu machen: <strong>Die NEOLYMP Oster-Aktion wird verlängert! ⏰<\/strong><br\/><br\/><strong>Dein exklusiver 17% Rabattcode! <\/strong><\/h3><h3><\/h3><h3><strong>\" EASTER 17 \"<\/strong><\/h3>"
           }
         },
         "button_fkwPJa": {
@@ -85,6 +85,7 @@
         "text_JAxkhj",
         "button_fkwPJa"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -123,7 +124,6 @@
         "template--18572629868812__c852ed13-e296-46ff-8c98-79ff61f7088b-heading-1",
         "template--18572629868812__c852ed13-e296-46ff-8c98-79ff61f7088b-text-1"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -138,7 +138,6 @@
       "blocks": {
         "7484d0a0-807d-4d92-8f34-16733266cd49": {
           "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
-          "disabled": true,
           "settings": {
             "formId": "S5eQNM"
           }
