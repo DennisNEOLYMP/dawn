@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "2e4c116c-0725-42fa-ae80-5c02d3742ff2": {
@@ -6,7 +15,7 @@
         "slide_bnG8ww": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Yogamatte.jpg",
+            "image": "shopify://shop_images/Yogamatte.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -24,7 +33,7 @@
         "slide_7UJeiL": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Klimmzugstange_be097ec7-78c9-4483-ab4f-331e14cb2dbd.jpg",
+            "image": "shopify://shop_images/Klimmzugstange_be097ec7-78c9-4483-ab4f-331e14cb2dbd.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -42,7 +51,7 @@
         "slide_N9bwQ7": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Neolymp_0330.jpg",
+            "image": "shopify://shop_images/Neolymp_0330.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -60,7 +69,7 @@
         "slide_TAf7rB": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SpartSet_1.jpg",
+            "image": "shopify://shop_images/SpartSet_1.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -105,14 +114,14 @@
         "text_nU7gth": {
           "type": "text",
           "settings": {
-            "text": "<p>Trainiere überall mit unseren qualitativen Fitnessprodukten inkl. E-Book und 5 Jahre Garantie.<\/p>"
+            "text": "<p>Trainiere überall mit unseren qualitativen Fitnessprodukten inkl. E-Book und 5 Jahre Garantie.</p>"
           }
         },
         "button_HPEG4n": {
           "type": "button",
           "settings": {
             "button_label": "JETZT ENTDECKEN!",
-            "button_link": "shopify:\/\/collections\/alles",
+            "button_link": "shopify://collections/alles",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -140,9 +149,9 @@
         "1662381692af8f6d27-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Galileo_Logo.png",
+            "image": "shopify://shop_images/Galileo_Logo.png",
             "title": "",
-            "text": "<p><\/p>",
+            "text": "<p></p>",
             "link_label": "",
             "link": ""
           }
@@ -150,9 +159,9 @@
         "6f7041bc-fbca-4d0c-8af2-c0b03b6bb1bd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mens_health_logo_97c4b37d-1e4a-4fb5-8c11-d9de3479cc87.png",
+            "image": "shopify://shop_images/mens_health_logo_97c4b37d-1e4a-4fb5-8c11-d9de3479cc87.png",
             "title": "",
-            "text": "<p><\/p>",
+            "text": "<p></p>",
             "link_label": "",
             "link": ""
           }
@@ -160,7 +169,7 @@
         "1662381692af8f6d27-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tagesspiegel-Logo_c8fe55f2-a3c7-4402-9010-38eb81dd1c51.png",
+            "image": "shopify://shop_images/Tagesspiegel-Logo_c8fe55f2-a3c7-4402-9010-38eb81dd1c51.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -170,9 +179,9 @@
         "1662381692af8f6d27-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/womens_health_logo_b3f44c2f-b2ff-49cc-a2d0-dd25a754f98d.png",
+            "image": "shopify://shop_images/womens_health_logo_b3f44c2f-b2ff-49cc-a2d0-dd25a754f98d.png",
             "title": "",
-            "text": "<p><\/p>",
+            "text": "<p></p>",
             "link_label": "",
             "link": ""
           }
@@ -180,9 +189,9 @@
         "dbdf802c-558c-4c43-9e7c-5de98927af24": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sport_bild_logo_0780e85f-a2cc-4750-815c-e351afc587b4.png",
+            "image": "shopify://shop_images/sport_bild_logo_0780e85f-a2cc-4750-815c-e351afc587b4.png",
             "title": "",
-            "text": "<p><\/p>",
+            "text": "<p></p>",
             "link_label": "",
             "link": ""
           }
@@ -190,9 +199,9 @@
         "cb9814f1-08a6-49c4-bfeb-fc095106539a": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/rtl_de_9c2c3a88-3663-43b5-807c-24098e4a6fba.png",
+            "image": "shopify://shop_images/rtl_de_9c2c3a88-3663-43b5-807c-24098e4a6fba.png",
             "title": "",
-            "text": "<p><\/p>",
+            "text": "<p></p>",
             "link_label": "",
             "link": ""
           }
@@ -281,7 +290,7 @@
       "type": "apps",
       "blocks": {
         "6b79c473-140d-4599-b51d-95bcab60f7de": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1400
           }
@@ -307,7 +316,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Wir machen keine Kompromisse. In jedem unserer Produkte steckt Liebe, Zeit und Recherche. Unsere Mission sind hochwertige Fitnessprodukte für dein tägliches Training zu erschwinglichen Preisen.<\/p><p>Die stetige Optimierung ist unser Bestreben. Wir reagieren auf das erhaltene Kundenfeedback und entwickeln unsere Produkte kontinuierlich weiter. Hast du Anregungen, Wünsche und Vorschläge für uns, schreib uns bitte einfach eine Nachricht. Nichts ist uns wichtiger, als uns mit dir auszutauschen.<\/p><p>Ideen und Produktentwicklungen all unserer Artikel entstehen und erfolgen in Deutschland | Oberkrämer. Viele neue, spannende Projekte befinden sich aktuell für dich in der Entwicklung.<br\/><\/p>"
+            "text": "<p>Wir machen keine Kompromisse. In jedem unserer Produkte steckt Liebe, Zeit und Recherche. Unsere Mission sind hochwertige Fitnessprodukte für dein tägliches Training zu erschwinglichen Preisen.</p><p>Die stetige Optimierung ist unser Bestreben. Wir reagieren auf das erhaltene Kundenfeedback und entwickeln unsere Produkte kontinuierlich weiter. Hast du Anregungen, Wünsche und Vorschläge für uns, schreib uns bitte einfach eine Nachricht. Nichts ist uns wichtiger, als uns mit dir auszutauschen.</p><p>Ideen und Produktentwicklungen all unserer Artikel entstehen und erfolgen in Deutschland | Oberkrämer. Viele neue, spannende Projekte befinden sich aktuell für dich in der Entwicklung.<br/></p>"
           }
         }
       },
@@ -330,9 +339,9 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/truck_1.png",
+            "image": "shopify://shop_images/truck_1.png",
             "title": "Kostenloser Versand ab 30 €",
-            "text": "<p>Wir versenden oft noch am selben Tag und das ab 30 € kostenlos für alle Bestellungen nach Deutschland.<\/p>",
+            "text": "<p>Wir versenden oft noch am selben Tag und das ab 30 € kostenlos für alle Bestellungen nach Deutschland.</p>",
             "link_label": "",
             "link": ""
           }
@@ -340,9 +349,9 @@
         "7f9f5638-0135-4657-a41c-b3be4403eacc": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ico-garantie.png",
+            "image": "shopify://shop_images/ico-garantie.png",
             "title": "5 Jahre Garantie",
-            "text": "<p>Unsere Produkte sollen höchsten Qualitätsansprüchen genügen. Deshalb bieten wir dir eine erweitere Garantie.<\/p>",
+            "text": "<p>Unsere Produkte sollen höchsten Qualitätsansprüchen genügen. Deshalb bieten wir dir eine erweitere Garantie.</p>",
             "link_label": "",
             "link": ""
           }
@@ -350,19 +359,19 @@
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/survey_1_1.png",
+            "image": "shopify://shop_images/survey_1_1.png",
             "title": "E-Book Downloads",
-            "text": "<p>Mit dem Kauf unserer Produkte erhältst du exklusiven Zugang zu unserer stetig wachsenden E-Book-Bibliothek<\/p>",
+            "text": "<p>Mit dem Kauf unserer Produkte erhältst du exklusiven Zugang zu unserer stetig wachsenden E-Book-Bibliothek</p>",
             "link_label": "Zur Code-Eingabe",
-            "link": "shopify:\/\/pages\/ebooks"
+            "link": "shopify://pages/ebooks"
           }
         },
         "724f45a8-8934-46e5-91bc-0eca48df6569": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pay_1.png",
+            "image": "shopify://shop_images/pay_1.png",
             "title": "Schnell und sicher zahlen",
-            "text": "<p>Wir unterstützen alle gängigen Zahlungsanbieter über unser verschlüsseltes Zahlungsportal. Darunter auch Raten- und Rechnungskauf über Klarna.<\/p>",
+            "text": "<p>Wir unterstützen alle gängigen Zahlungsanbieter über unser verschlüsseltes Zahlungsportal. Darunter auch Raten- und Rechnungskauf über Klarna.</p>",
             "link_label": "",
             "link": ""
           }
@@ -397,8 +406,8 @@
         "heading": "",
         "heading_size": "h2",
         "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=sxNesY3BIEo",
-        "cover_image": "shopify:\/\/shop_images\/header_desktop2.jpg",
+        "video_url": "https://www.youtube.com/watch?v=sxNesY3BIEo",
+        "cover_image": "shopify://shop_images/header_desktop2.jpg",
         "description": "Markenvideo NEOLYMP",
         "full_width": true,
         "color_scheme": "background-1",
@@ -410,7 +419,7 @@
       "type": "apps",
       "blocks": {
         "a945d20d-7056-462b-aece-3bd83c5c712f": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
             "formId": "S5eQNM"
           }
@@ -447,14 +456,14 @@
           "type": "product",
           "disabled": true,
           "settings": {
-            "product": "geschenkgutschein",
+            "product": "geschenkgutschein-alt",
             "second_image": false
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "geschenkgutschein",
+            "product": "geschenkgutschein-alt",
             "second_image": false
           }
         }
@@ -495,7 +504,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Kontaktformular",
-            "button_link_1": "shopify:\/\/pages\/kontakt",
+            "button_link_1": "shopify://pages/kontakt",
             "button_style_secondary_1": false,
             "button_label_2": "E-Mail",
             "button_link_2": "mailto:support@neolymp.com",
@@ -509,7 +518,7 @@
         "template--15568644440255__b70dc90a-934a-444e-9b07-dea7f9e309bb-1670936802afe643a9-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/hoodie_desk_97a24670-8a8c-4293-bf02-6cb143823d83.jpg",
+        "image": "shopify://shop_images/hoodie_desk_97a24670-8a8c-4293-bf02-6cb143823d83.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-left",

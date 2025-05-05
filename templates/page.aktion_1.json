@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "fdb5ad93-3560-46ed-bc3e-68b38bb16a2b": {
@@ -39,7 +48,7 @@
       ],
       "settings": {
         "image": "{{ page.metafields.custom.header_image.value }}",
-        "image_2": "shopify:\/\/shop_images\/GroA.jpg",
+        "image_2": "shopify://shop_images/GroA.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -115,31 +124,31 @@
         "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frau_3.jpg",
+            "image": "shopify://shop_images/Frau_3.jpg",
             "title": "SPORTBODEN",
-            "text": "<p>Unser hochwertiger Sportboden bietet die ideale Grundlage für dein Training und unterstützt dich dabei, deine Neujahrsvorsätze in die Tat umzusetzen. Ob du Zuhause trainierst, in einem Fitnessstudio oder einem Sportverein – der Boden spielt eine wichtige Rolle für deine Sicherheit und den Komfort während des Trainings.<\/p>",
+            "text": "<p>Unser hochwertiger Sportboden bietet die ideale Grundlage für dein Training und unterstützt dich dabei, deine Neujahrsvorsätze in die Tat umzusetzen. Ob du Zuhause trainierst, in einem Fitnessstudio oder einem Sportverein – der Boden spielt eine wichtige Rolle für deine Sicherheit und den Komfort während des Trainings.</p>",
             "link_label": "ZU DEN DEALS",
-            "link": "shopify:\/\/collections\/sportmatten"
+            "link": "shopify://collections/sportmatten"
           }
         },
         "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/kostenlose_E-Books.jpg",
+            "image": "shopify://shop_images/kostenlose_E-Books.jpg",
             "title": "E-BOOKS - \"Dein Fitnesspartner für überall\"",
-            "text": "<p>Bei jeder Bestellung bei NEOLYMP erhältst du jetzt ein kostenloses E-Book als Bonus! Wir möchten sicherstellen, dass du schnell und effektiv ins Training einsteigen kannst, deshalb schenken wir dir unser exklusives E-Book.<\/p>",
+            "text": "<p>Bei jeder Bestellung bei NEOLYMP erhältst du jetzt ein kostenloses E-Book als Bonus! Wir möchten sicherstellen, dass du schnell und effektiv ins Training einsteigen kannst, deshalb schenken wir dir unser exklusives E-Book.</p>",
             "link_label": "ZU DEN PRODUKTEN",
-            "link": "shopify:\/\/collections\/alles"
+            "link": "shopify://collections/alles"
           }
         },
         "template--16203316887820__37527a06-187b-4967-9ee8-c91f7d87c05e-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_Jahre_Garantie.jpg",
+            "image": "shopify://shop_images/5_Jahre_Garantie.jpg",
             "title": "5 - JAHRE GARANTIE",
-            "text": "<p>Vertrauen und Qualität sind für uns bei NEOLYMP von größter Bedeutung. Daher sind wir stolz darauf, unsere 5-jährige NEOLYMP Garantie anzubieten.<\/p><p>Mit unserer 5-jährigen Garantie zeigen wir unser uneingeschränktes Vertrauen in die Qualität unserer Produkte. Wir sind davon überzeugt, dass unsere Ausrüstung und Fitnessprodukte höchsten Standards entsprechen und den Anforderungen deines Trainings gerecht werden.<\/p>",
+            "text": "<p>Vertrauen und Qualität sind für uns bei NEOLYMP von größter Bedeutung. Daher sind wir stolz darauf, unsere 5-jährige NEOLYMP Garantie anzubieten.</p><p>Mit unserer 5-jährigen Garantie zeigen wir unser uneingeschränktes Vertrauen in die Qualität unserer Produkte. Wir sind davon überzeugt, dass unsere Ausrüstung und Fitnessprodukte höchsten Standards entsprechen und den Anforderungen deines Trainings gerecht werden.</p>",
             "link_label": "ZU DEN PRODUKTEN",
-            "link": "shopify:\/\/collections\/alles"
+            "link": "shopify://collections/alles"
           }
         }
       },
@@ -157,7 +166,7 @@
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "ZU ALLEN PRODUKTEN",
-        "button_link": "shopify:\/\/collections\/angebote",
+        "button_link": "shopify://collections/angebote",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -210,8 +219,7 @@
         },
         "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-2": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-3": {
           "type": "variant_picker",
@@ -221,8 +229,7 @@
         },
         "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-4": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-5": {
           "type": "buy_buttons",
@@ -248,7 +255,7 @@
       ],
       "disabled": true,
       "settings": {
-        "product": "geschenkgutschein",
+        "product": "geschenkgutschein-alt",
         "color_scheme": "inverse",
         "secondary_background": false,
         "media_size": "medium",
@@ -268,57 +275,57 @@
         "template--16203316887820__57370455-ae9c-4e49-8680-c9e72648c0a2-row-1": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Neolymp_9916_1.jpg",
+            "image": "shopify://shop_images/Neolymp_9916_1.jpg",
             "caption": "NEOLYMP",
             "heading": "FITNESSBÄNDER DEAL",
-            "text": "<p>Entdecke die Welt der grenzenlosen Fitness mit unseren erstklassigen Fitnessbändern! In unserem Shop bieten wir Dir eine breite Palette von Widerstandsbändern, die als Deine persönlichen Fitnessassistenten dienen, um Deine Workouts auf das nächste Level zu heben. Unsere Fitnessbänder sind nicht nur äußerst vielseitig und für jede Fitnessstufe geeignet, sondern auch perfekt für effektive Ganzkörper-Workouts, sei es zu Hause, im Freien oder auf Reisen.<\/p>",
+            "text": "<p>Entdecke die Welt der grenzenlosen Fitness mit unseren erstklassigen Fitnessbändern! In unserem Shop bieten wir Dir eine breite Palette von Widerstandsbändern, die als Deine persönlichen Fitnessassistenten dienen, um Deine Workouts auf das nächste Level zu heben. Unsere Fitnessbänder sind nicht nur äußerst vielseitig und für jede Fitnessstufe geeignet, sondern auch perfekt für effektive Ganzkörper-Workouts, sei es zu Hause, im Freien oder auf Reisen.</p>",
             "button_label": "ZU DEN BÄNDERN",
-            "button_link": "shopify:\/\/collections\/fitnessbaender"
+            "button_link": "shopify://collections/fitnessbaender"
           }
         },
         "template--16203316887820__57370455-ae9c-4e49-8680-c9e72648c0a2-row-2": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Yogamatte.jpg",
+            "image": "shopify://shop_images/Yogamatte.jpg",
             "caption": "NEOLYMP",
             "heading": "YOGA DEAL",
-            "text": "<p>Namaste und herzlich willkommen in unserem Yogabereich! Tauche ein in eine Welt, in der Körper und Geist in harmonischen Einklang gebracht werden. Unsere sorgfältig ausgewählten Yoga-Artikel unterstützen Dich dabei, Deine Praxis zu vertiefen und ein vollkommenes Wohlbefinden zu erlangen. Entdecke unsere Premium-Yogamatten, die Dir nicht nur die nötige Rutschfestigkeit, sondern auch optimalen Komfort während Deiner Übungen bieten.<\/p>",
+            "text": "<p>Namaste und herzlich willkommen in unserem Yogabereich! Tauche ein in eine Welt, in der Körper und Geist in harmonischen Einklang gebracht werden. Unsere sorgfältig ausgewählten Yoga-Artikel unterstützen Dich dabei, Deine Praxis zu vertiefen und ein vollkommenes Wohlbefinden zu erlangen. Entdecke unsere Premium-Yogamatten, die Dir nicht nur die nötige Rutschfestigkeit, sondern auch optimalen Komfort während Deiner Übungen bieten.</p>",
             "button_label": "ZU DEN YOGAMATTEN",
-            "button_link": "shopify:\/\/collections\/yoga"
+            "button_link": "shopify://collections/yoga"
           }
         },
         "template--16203316887820__57370455-ae9c-4e49-8680-c9e72648c0a2-row-3": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sportmatten.jpg",
+            "image": "shopify://shop_images/Sportmatten.jpg",
             "caption": "NEOLYMP",
             "heading": "SPORTMATTEN DEAL",
-            "text": "<p>Entdecke unsere hochwertigen Fitnessmatten, die speziell dafür entwickelt wurden, um Dein Training effektiv und komfortabel zu gestalten. Unsere Matten sind nicht nur rutschfest und langlebig, sondern bieten auch eine hervorragende Unterstützung und Polsterung für alle Arten von Übungen – sei es Yoga, Pilates oder intensive Workouts.<\/p>",
+            "text": "<p>Entdecke unsere hochwertigen Fitnessmatten, die speziell dafür entwickelt wurden, um Dein Training effektiv und komfortabel zu gestalten. Unsere Matten sind nicht nur rutschfest und langlebig, sondern bieten auch eine hervorragende Unterstützung und Polsterung für alle Arten von Übungen – sei es Yoga, Pilates oder intensive Workouts.</p>",
             "button_label": "ZU DEN MATTEN",
-            "button_link": "shopify:\/\/collections\/sportmatten"
+            "button_link": "shopify://collections/sportmatten"
           }
         },
         "3c0eddcf-b878-4dee-8f1e-bbd44bef9a48": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Klimmzugstange_be097ec7-78c9-4483-ab4f-331e14cb2dbd.jpg",
+            "image": "shopify://shop_images/Klimmzugstange_be097ec7-78c9-4483-ab4f-331e14cb2dbd.jpg",
             "caption": "NEOLYMP",
             "heading": "SPORTGERÄTE DEAL",
-            "text": "<p>Lass Dich von erstklassiger Qualität überzeugen und entdecke, wie unsere Produkte Dir dabei helfen, Deine Performance zu steigern, Deine Ziele zu erreichen und dabei stets sicher und geschützt zu trainieren.<\/p>",
+            "text": "<p>Lass Dich von erstklassiger Qualität überzeugen und entdecke, wie unsere Produkte Dir dabei helfen, Deine Performance zu steigern, Deine Ziele zu erreichen und dabei stets sicher und geschützt zu trainieren.</p>",
             "button_label": "ZU DEN GERÄTEN",
-            "button_link": "shopify:\/\/collections\/sportgeraete"
+            "button_link": "shopify://collections/sportgeraete"
           }
         },
         "ff22fb66-4202-4790-8b76-dc97e1ebc668": {
           "type": "row",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Gewinnspiel_Header.jpg",
+            "image": "shopify://shop_images/Gewinnspiel_Header.jpg",
             "caption": "",
             "heading": "GEWINNSPIEL",
-            "text": "<p>Tritt ein in eine Welt, in der wir Dir nicht nur Dankeschön sagen, sondern Dich mit fantastischen Preisen belohnen möchten. In unserem Jubiläums-Gewinnspiel warten exklusive Preise und attraktive Gutscheine darauf, von Dir gewonnen zu werden!<\/p>",
+            "text": "<p>Tritt ein in eine Welt, in der wir Dir nicht nur Dankeschön sagen, sondern Dich mit fantastischen Preisen belohnen möchten. In unserem Jubiläums-Gewinnspiel warten exklusive Preise und attraktive Gutscheine darauf, von Dir gewonnen zu werden!</p>",
             "button_label": "ZUR TEILNAHME",
-            "button_link": "shopify:\/\/pages\/gewinnspiel"
+            "button_link": "shopify://pages/gewinnspiel"
           }
         }
       },

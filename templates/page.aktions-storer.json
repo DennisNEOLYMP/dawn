@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "fdb5ad93-3560-46ed-bc3e-68b38bb16a2b": {
@@ -39,7 +48,7 @@
       ],
       "settings": {
         "image": "{{ page.metafields.custom.header_image.value }}",
-        "image_2": "shopify:\/\/shop_images\/zubehor_2.jpg",
+        "image_2": "shopify://shop_images/zubehor_2.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -57,14 +66,14 @@
         "heading_8VnEQR": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>VERLÄNGERUNG DES OSTER-RABATTS! 🐰<\/strong>",
+            "heading": "<strong>VERLÄNGERUNG DES OSTER-RABATTS! 🐰</strong>",
             "heading_size": "h1"
           }
         },
         "text_JAxkhj": {
           "type": "text",
           "settings": {
-            "text": "<h3>Wir haben fantastische Neuigkeiten, die wir gerne mit Dir teilen möchten! Aufgrund der überwältigenden Resonanz haben wir uns entschlossen, Dir ein nachträgliches Ostergeschenk zu machen: <strong>Die NEOLYMP Oster-Aktion wird verlängert! ⏰<\/strong><br\/><br\/><strong>Dein exklusiver 17% Rabattcode! <\/strong><\/h3><h3><\/h3><h3><strong>\" EASTER 17 \"<\/strong><\/h3>"
+            "text": "<h3>Wir haben fantastische Neuigkeiten, die wir gerne mit Dir teilen möchten! Aufgrund der überwältigenden Resonanz haben wir uns entschlossen, Dir ein nachträgliches Ostergeschenk zu machen: <strong>Die NEOLYMP Oster-Aktion wird verlängert! ⏰</strong><br/><br/><strong>Dein exklusiver 17% Rabattcode! </strong></h3><h3></h3><h3><strong>\" EASTER 17 \"</strong></h3>"
           }
         },
         "button_fkwPJa": {
@@ -72,7 +81,7 @@
           "disabled": true,
           "settings": {
             "button_label": "Jetzt \" EASTER17 \" einlösen",
-            "button_link": "https:\/\/neolymp.com\/discount\/EASTER17?redirect=%2Fcollections%2Falles",
+            "button_link": "https://neolymp.com/discount/EASTER17?redirect=%2Fcollections%2Falles",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -109,14 +118,14 @@
         "template--18572629868812__c852ed13-e296-46ff-8c98-79ff61f7088b-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Schade, die Aktion ist leider vorbei – aber Deine Chancen auf tolle Fitnessdeals sind es noch lange nicht!<\/strong>",
+            "heading": "<strong>Schade, die Aktion ist leider vorbei – aber Deine Chancen auf tolle Fitnessdeals sind es noch lange nicht!</strong>",
             "heading_size": "h1"
           }
         },
         "template--18572629868812__c852ed13-e296-46ff-8c98-79ff61f7088b-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Unsere tolle Sonderaktion ist beendet, aber das ist kein Grund zur Sorge. Bleib mit unserem Newsletter immer auf dem Laufenden und sicher dir:<\/p><ul><li>Exklusive Angebote, die nur für unsere Abonnenten bestimmt sind.<\/li><li>Frühzeitige Infos zu unseren neuesten Aktionen und Events.<\/li><li>Interessante Neuigkeiten und praktische Tipps rund um unsere Produkte und Services.<\/li><\/ul><p>Verpasse keine großartigen Angebote mehr! Dein nächstes Highlight könnte schon in deinem Posteingang auf dich warten.<\/p>"
+            "text": "<p>Unsere tolle Sonderaktion ist beendet, aber das ist kein Grund zur Sorge. Bleib mit unserem Newsletter immer auf dem Laufenden und sicher dir:</p><ul><li>Exklusive Angebote, die nur für unsere Abonnenten bestimmt sind.</li><li>Frühzeitige Infos zu unseren neuesten Aktionen und Events.</li><li>Interessante Neuigkeiten und praktische Tipps rund um unsere Produkte und Services.</li></ul><p>Verpasse keine großartigen Angebote mehr! Dein nächstes Highlight könnte schon in deinem Posteingang auf dich warten.</p>"
           }
         }
       },
@@ -137,7 +146,7 @@
       "type": "apps",
       "blocks": {
         "7484d0a0-807d-4d92-8f34-16733266cd49": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
             "formId": "S5eQNM"
           }
@@ -195,8 +204,7 @@
         },
         "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-2": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-3": {
           "type": "variant_picker",
@@ -206,8 +214,7 @@
         },
         "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-4": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--16203316887820__93ac2eef-e54b-43de-8303-1a4b176a9180-1671202628a4c6f7af-5": {
           "type": "buy_buttons",
@@ -233,7 +240,7 @@
       ],
       "disabled": true,
       "settings": {
-        "product": "geschenkgutschein",
+        "product": "geschenkgutschein-alt",
         "color_scheme": "inverse",
         "secondary_background": false,
         "media_size": "medium",
@@ -253,57 +260,57 @@
         "template--16203316887820__57370455-ae9c-4e49-8680-c9e72648c0a2-row-1": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Neolymp_9916_1.jpg",
+            "image": "shopify://shop_images/Neolymp_9916_1.jpg",
             "caption": "NEOLYMP",
             "heading": "FITNESSBÄNDER",
-            "text": "<p>Entdecke die Welt der grenzenlosen Fitness mit unseren erstklassigen Fitnessbändern! In unserem Shop bieten wir Dir eine breite Palette von Widerstandsbändern, die als Deine persönlichen Fitnessassistenten dienen, um Deine Workouts auf das nächste Level zu heben. Unsere Fitnessbänder sind nicht nur äußerst vielseitig und für jede Fitnessstufe geeignet, sondern auch perfekt für effektive Ganzkörper-Workouts, sei es zu Hause, im Freien oder auf Reisen.<\/p>",
+            "text": "<p>Entdecke die Welt der grenzenlosen Fitness mit unseren erstklassigen Fitnessbändern! In unserem Shop bieten wir Dir eine breite Palette von Widerstandsbändern, die als Deine persönlichen Fitnessassistenten dienen, um Deine Workouts auf das nächste Level zu heben. Unsere Fitnessbänder sind nicht nur äußerst vielseitig und für jede Fitnessstufe geeignet, sondern auch perfekt für effektive Ganzkörper-Workouts, sei es zu Hause, im Freien oder auf Reisen.</p>",
             "button_label": "ZU DEN BÄNDERN",
-            "button_link": "shopify:\/\/collections\/fitnessbaender"
+            "button_link": "shopify://collections/fitnessbaender"
           }
         },
         "template--16203316887820__57370455-ae9c-4e49-8680-c9e72648c0a2-row-2": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Yogamatte.jpg",
+            "image": "shopify://shop_images/Yogamatte.jpg",
             "caption": "NEOLYMP",
             "heading": "YOGA",
-            "text": "<p>Namaste und herzlich willkommen in unserem Yogabereich! Tauche ein in eine Welt, in der Körper und Geist in harmonischen Einklang gebracht werden. Unsere sorgfältig ausgewählten Yoga-Artikel unterstützen Dich dabei, Deine Praxis zu vertiefen und ein vollkommenes Wohlbefinden zu erlangen. Entdecke unsere Premium-Yogamatten, die Dir nicht nur die nötige Rutschfestigkeit, sondern auch optimalen Komfort während Deiner Übungen bieten.<\/p>",
+            "text": "<p>Namaste und herzlich willkommen in unserem Yogabereich! Tauche ein in eine Welt, in der Körper und Geist in harmonischen Einklang gebracht werden. Unsere sorgfältig ausgewählten Yoga-Artikel unterstützen Dich dabei, Deine Praxis zu vertiefen und ein vollkommenes Wohlbefinden zu erlangen. Entdecke unsere Premium-Yogamatten, die Dir nicht nur die nötige Rutschfestigkeit, sondern auch optimalen Komfort während Deiner Übungen bieten.</p>",
             "button_label": "ZU DEN YOGAMATTEN",
-            "button_link": "shopify:\/\/collections\/yoga"
+            "button_link": "shopify://collections/yoga"
           }
         },
         "template--16203316887820__57370455-ae9c-4e49-8680-c9e72648c0a2-row-3": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sportmatten.jpg",
+            "image": "shopify://shop_images/Sportmatten.jpg",
             "caption": "NEOLYMP",
             "heading": "SPORTMATTEN",
-            "text": "<p>Entdecke unsere hochwertigen Fitnessmatten, die speziell dafür entwickelt wurden, um Dein Training effektiv und komfortabel zu gestalten. Unsere Matten sind nicht nur rutschfest und langlebig, sondern bieten auch eine hervorragende Unterstützung und Polsterung für alle Arten von Übungen – sei es Yoga, Pilates oder intensive Workouts.<\/p>",
+            "text": "<p>Entdecke unsere hochwertigen Fitnessmatten, die speziell dafür entwickelt wurden, um Dein Training effektiv und komfortabel zu gestalten. Unsere Matten sind nicht nur rutschfest und langlebig, sondern bieten auch eine hervorragende Unterstützung und Polsterung für alle Arten von Übungen – sei es Yoga, Pilates oder intensive Workouts.</p>",
             "button_label": "ZU DEN MATTEN",
-            "button_link": "shopify:\/\/collections\/sportmatten"
+            "button_link": "shopify://collections/sportmatten"
           }
         },
         "3c0eddcf-b878-4dee-8f1e-bbd44bef9a48": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Klimmzugstange_be097ec7-78c9-4483-ab4f-331e14cb2dbd.jpg",
+            "image": "shopify://shop_images/Klimmzugstange_be097ec7-78c9-4483-ab4f-331e14cb2dbd.jpg",
             "caption": "NEOLYMP",
             "heading": "SPORTGERÄTE",
-            "text": "<p>Lass Dich von erstklassiger Qualität überzeugen und entdecke, wie unsere Produkte Dir dabei helfen, Deine Performance zu steigern, Deine Ziele zu erreichen und dabei stets sicher und geschützt zu trainieren.<\/p>",
+            "text": "<p>Lass Dich von erstklassiger Qualität überzeugen und entdecke, wie unsere Produkte Dir dabei helfen, Deine Performance zu steigern, Deine Ziele zu erreichen und dabei stets sicher und geschützt zu trainieren.</p>",
             "button_label": "ZU DEN GERÄTEN",
-            "button_link": "shopify:\/\/collections\/sportgeraete"
+            "button_link": "shopify://collections/sportgeraete"
           }
         },
         "ff22fb66-4202-4790-8b76-dc97e1ebc668": {
           "type": "row",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Gewinnspiel_Header.jpg",
+            "image": "shopify://shop_images/Gewinnspiel_Header.jpg",
             "caption": "",
             "heading": "GEWINNSPIEL",
-            "text": "<p>Tritt ein in eine Welt, in der wir Dir nicht nur Dankeschön sagen, sondern Dich mit fantastischen Preisen belohnen möchten. In unserem Jubiläums-Gewinnspiel warten exklusive Preise und attraktive Gutscheine darauf, von Dir gewonnen zu werden!<\/p>",
+            "text": "<p>Tritt ein in eine Welt, in der wir Dir nicht nur Dankeschön sagen, sondern Dich mit fantastischen Preisen belohnen möchten. In unserem Jubiläums-Gewinnspiel warten exklusive Preise und attraktive Gutscheine darauf, von Dir gewonnen zu werden!</p>",
             "button_label": "ZUR TEILNAHME",
-            "button_link": "shopify:\/\/pages\/gewinnspiel"
+            "button_link": "shopify://pages/gewinnspiel"
           }
         }
       },
