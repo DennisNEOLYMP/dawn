@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -11,7 +20,7 @@
     "1925f2cf-072b-4558-86a5-f52124fee58a": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yogamatte_und_Fitnessmatte_im_Vergleich.jpg",
+        "image": "shopify://shop_images/Yogamatte_und_Fitnessmatte_im_Vergleich.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -27,7 +36,7 @@
       "type": "apps",
       "blocks": {
         "fe9db158-059f-4b2f-ac2e-e4227206ac17": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
             "formId": "S5eQNM"
           }
@@ -46,13 +55,13 @@
         "template--18626753462540__32612122-1720-4ab2-9897-3c60f1699e00-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Yogamatte.jpg"
+            "image": "shopify://shop_images/Yogamatte.jpg"
           }
         },
         "template--18626753462540__32612122-1720-4ab2-9897-3c60f1699e00-product-1": {
           "type": "product",
           "settings": {
-            "product": "bodenschutzmatte",
+            "product": "bodenschutzmatte-schwarz-orange",
             "second_image": false
           }
         },
